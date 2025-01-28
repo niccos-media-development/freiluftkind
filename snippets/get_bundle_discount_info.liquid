@@ -1,0 +1,39 @@
+{%- comment %} Takes 2 variables (bundle_type & shoe_count){%- endcomment -%}
+{%- liquid
+  if bundle_type == "" or bundle_type == blank
+    if shoe_count == 1 
+      assign bundle_discount = 1 
+      assign discount_code = '' 
+    elsif shoe_count == 2 
+      assign bundle_discount = 0.9000 
+      assign discount_code = 'Schuh10' 
+    elsif shoe_count == 3 
+      assign bundle_discount = 0.8500 
+      assign discount_code = 'Schuh15' 
+    elsif shoe_count >= 4 
+      assign bundle_discount = 0.8000 
+      assign discount_code = 'Schuh20' 
+    else 
+      assign bundle_discount = 1 
+    endif 
+  endif 
+
+  if bundle_type == 'bestseller' 
+    assign discount_code = 'ORIGINALSBUNDLE' 
+    assign bundle_discount = 0.80 
+  elsif bundle_type == 'family' 
+    assign discount_code = 'KIDSBUNDLE' 
+    assign bundle_discount = 1 
+  elsif bundle_type == '4seasons' 
+    assign discount_code = '4SEASONSBUNDLE' 
+    assign bundle_discount = 0.75 
+  elsif bundle_type == 'allround' 
+    assign bundle_discount = 1 
+    assign discount_code = 'bundle0' 
+  elsif bundle_type == 'winter' 
+    assign discount_code = 'WINTERBUNDLE' 
+    assign bundle_discount = 0.85 
+  endif 
+-%}
+
+{{- discount_code }}|{{- bundle_discount -}}

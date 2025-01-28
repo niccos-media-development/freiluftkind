@@ -1,0 +1,53 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "enable_black_friday_special": false,
+        "show_cart_note": false,
+        "show_shipping_text": false,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "progress_title1": "Füge 1x weiteren Schuh hinzu & spare 10%",
+        "progress_title2": "Füge 1x weiteren Schuh hinzu & spare 15%",
+        "progress_title3": "Füge 1x weiteren Schuh hinzu & spare 20%",
+        "progress_title4": "Glückwunsch! Du sparst 20% auf alle Schuhe",
+        "progress_title5": "Der Mengenrabatt gilt nur für Schuhe",
+        "recommendations_title": "Wird oft zusammen gekauft",
+        "products": [
+          "outdoor-impraegnierspray",
+          "schuhbuerste-barfussschuhe",
+          "ergoflex-einlegesohle"
+        ],
+        "product_card_background": "rgba(0,0,0,0)",
+        "product_card_text_color": "",
+        "freiluftkind-show_bundlebar": true
+      }
+    },
+    "search-drawer": {
+      "type": "search-drawer",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "show_article_category": true,
+        "search_menu": "",
+        "search_menu_show_title": true
+      }
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "search-drawer"
+  ]
+}

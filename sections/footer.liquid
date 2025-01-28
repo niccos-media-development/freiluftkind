@@ -1,0 +1,412 @@
+{%- assign newsletter_block = section.blocks | where: 'type', 'newsletter' | first -%}
+
+{%- if section.blocks.size > 3 -%}
+  <style>
+    @media screen and (min-width: 1000px) {
+      #shopify-section-{{ section.id }} {
+        {%- if newsletter_block != blank -%}
+          --footer-block-list-gap: var(--spacing-10);
+        {%- endif -%}
+
+        --footer-block-list-justify-content: space-between;
+      }
+    }
+  </style>
+{%- endif -%}
+
+<div class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      {%- comment -%}
+        ------------------------------------------------------------------------------------------------------------------
+        BLOCK AREA
+        ------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="footer__block-list empty:hidden">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'text' -%}
+                {%- if block.settings.title != blank
+                  or block.settings.content != blank
+                  or shop.features.follow_on_shop?
+                  and block.settings.enable_follow_on_shop
+                -%}
+                  <div class="footer__block footer__block--text" {{ block.shopify_attributes }}>
+                    {%- if block.settings.title != blank -%}
+                      <p class="bold">{{ block.settings.title | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      <div class="prose text-subdued">
+                        {{- block.settings.content -}}
+                      </div>
+                    {%- endif -%}
+
+                    {%- if shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
+                      <div class="follow-on-shop">
+                        {{- shop | login_button: action: 'follow' -}}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+
+              {%- when 'links' -%}
+                {%- if block.settings.menu != blank -%}
+                  <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
+                    {%- if block.settings.show_menu_title -%}
+                      <p class="bold">{{ block.settings.menu_title | default: block.settings.menu.title }}</p>
+                    {%- endif -%}
+
+                    <ul class="v-stack gap-3" role="list">
+                      {%- for link in block.settings.menu.links -%}
+                        <li>
+                          <a href="{{ link.url }}" class="inline-block link-faded break-all">{{ link.title }}</a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                  </div>
+                {%- endif -%}
+
+              {%- when 'newsletter' -%}
+                <div class="footer__block footer__block--newsletter" {{ block.shopify_attributes }}>
+                  {%- if block.settings.image != blank -%}
+                    {%- capture sizes -%}{{ block.settings.image_width }}px{%- endcapture -%}
+                    {%- capture widths -%}{{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
+                    {%- capture style -%}max-width: {{ block.settings.image_width }}px{%- endcapture -%}
+                    {{-
+                      block.settings.image
+                      | image_url: width: block.settings.image.width
+                      | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths
+                    -}}
+                  {%- endif -%}
+
+                  <div class="v-stack gap-6">
+                    {%- if block.settings.title != blank -%}
+                      <p class="{{ block.settings.heading_size }}">{{- block.settings.title | escape -}}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      <div class="prose text-subdued">
+                        {{- block.settings.content -}}
+                      </div>
+                    {%- endif -%}
+
+                    {%- form 'customer', id: 'footer-newsletter', class: 'footer__newsletter-form form' -%}
+                      {%- if form.posted_successfully? -%}
+                        {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+                        {%- render 'banner', content: success_message, status: 'success' -%}
+                      {%- else -%}
+                        {%- if form.errors -%}
+                          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}
+                          {%- render 'banner', content: error_message, status: 'error' -%}
+                        {%- endif -%}
+
+                        <input type="hidden" name="contact[tags]" value="newsletter">
+
+                        {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}
+                        {%- render 'input',
+                          name: 'contact[email]',
+                          label: label,
+                          type: 'email',
+                          required: true,
+                          autocomplete: 'email',
+                          enterkeyhint: 'send',
+                          self_submit: true
+                        -%}
+                      {%- endif -%}
+                    {%- endform -%}
+                  </div>
+                </div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+
+      {%- comment -%}
+        ------------------------------------------------------------------------------------------------------------------
+        SECONDARY AREA
+        ------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      <div class="footer__aside empty:hidden">
+        {%- comment -%}
+          ----------------------------------------------------------------------------------------------------------------
+          SOCIAL MEDIA + LOCALIZATION
+          ----------------------------------------------------------------------------------------------------------------
+        {%- endcomment -%}
+
+        {%- if section.settings.show_social_media -%}
+          {%- capture social_media -%}{%- render 'social-media' -%}{%- endcapture -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+          {%- assign country_selector = true -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+          {%- assign locale_selector = true -%}
+        {%- endif -%}
+
+        {%- if social_media != blank or country_selector or locale_selector -%}
+          <div class="footer__aside-top">
+            {{- social_media -}}
+
+            {%- if country_selector or locale_selector -%}
+              <div class="h-stack gap-6">
+                {%- if social_media == blank -%}
+                  {%- assign popover_horizontal_position = 'start' -%}
+                {%- else -%}
+                  {%- assign popover_horizontal_position = 'end' -%}
+                {%- endif -%}
+
+                {%- if country_selector -%}
+                  {%- render 'localization-selector',
+                    type: 'country',
+                    show_country_name: section.settings.show_country_name,
+                    show_country_flag: section.settings.show_country_flag,
+                    popover_horizontal_position: popover_horizontal_position
+                  -%}
+                {%- endif -%}
+
+                {%- if locale_selector -%}
+                  {%- render 'localization-selector',
+                    type: 'locale',
+                    popover_horizontal_position: popover_horizontal_position
+                  -%}
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        {%- comment -%}
+          ----------------------------------------------------------------------------------------------------------------
+          COPYRIGHT + PAYMENT METHODS
+          ----------------------------------------------------------------------------------------------------------------
+        {%- endcomment -%}
+
+        <div class="footer__aside-bottom">
+          {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+            <ul class="footer__payment-icons h-stack wrap gap-2">
+              <li class="contents">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 38 24"
+                  width="38"
+                  height="24"
+                  aria-labelledby="pi-klarna"
+                >
+                  <title id="pi-klarna">Klarna</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#FFB3C7"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32" fill="#FFB3C7"></path><path d="M34.117 13.184c-.487 0-.882.4-.882.892 0 .493.395.893.882.893.488 0 .883-.4.883-.893a.888.888 0 00-.883-.892zm-2.903-.69c0-.676-.57-1.223-1.274-1.223-.704 0-1.274.547-1.274 1.222 0 .675.57 1.223 1.274 1.223.704 0 1.274-.548 1.274-1.223zm.005-2.376h1.406v4.75h-1.406v-.303a2.446 2.446 0 01-1.394.435c-1.369 0-2.478-1.122-2.478-2.507 0-1.384 1.11-2.506 2.478-2.506.517 0 .996.16 1.394.435v-.304zm-11.253.619v-.619h-1.44v4.75h1.443v-2.217c0-.749.802-1.15 1.359-1.15h.016v-1.382c-.57 0-1.096.247-1.378.618zm-3.586 1.756c0-.675-.57-1.222-1.274-1.222-.703 0-1.274.547-1.274 1.222 0 .675.57 1.223 1.274 1.223.704 0 1.274-.548 1.274-1.223zm.005-2.375h1.406v4.75h-1.406v-.303A2.446 2.446 0 0114.99 15c-1.368 0-2.478-1.122-2.478-2.507 0-1.384 1.11-2.506 2.478-2.506.517 0 .997.16 1.394.435v-.304zm8.463-.128c-.561 0-1.093.177-1.448.663v-.535H22v4.75h1.417v-2.496c0-.722.479-1.076 1.055-1.076.618 0 .973.374.973 1.066v2.507h1.405v-3.021c0-1.106-.87-1.858-2.002-1.858zM10.465 14.87h1.472V8h-1.472v6.868zM4 14.87h1.558V8H4v6.87zM9.45 8a5.497 5.497 0 01-1.593 3.9l2.154 2.97H8.086l-2.341-3.228.604-.458A3.96 3.96 0 007.926 8H9.45z" fill="#0A0B09" fill-rule="nonzero"></path></g>
+                </svg>
+              </li>
+              {%- for type in shop.enabled_payment_types -%}
+                <li class="contents">{{ type | payment_type_svg_tag }}</li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+
+          <div class="footer__copyright v-stack gap-1">
+            <p class="text-sm text-subdued">© {{ shop.name }} - Direkt aus Braunschweig 🇩🇪</p>
+
+            <ul class="footer__policy-links unstyled-list">
+                <li class="contents">
+                  <a href="/pages/tiefstpreisgarantie" class="text-sm link-faded" style="max-width: 1000px;">*Tiefstpreis-Garantie: Wir garantieren unseren Kunden die Erstattung der Preisdifferenz zwischen dem bei uns gekauften Produkt und einem identischen, preisgünstigeren Produkt, das bei einem deutschen Konkurrenzanbieter innerhalb von 14 Tagen ab Kauf günstiger angeboten wird. Mehr Informationen</a>
+                </li>
+            </ul>
+
+            {%- if section.settings.show_policy_links and shop.policies.size > 0 -%}
+              <ul class="footer__policy-links unstyled-list">
+                {%- for policy in shop.policies -%}
+                  <li class="contents">
+                    <a href="{{ policy.url }}" class="text-sm link-faded">{{ policy.title }}</a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Footer",
+  "class": "shopify-section--footer",
+  "tag": "footer",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_social_media",
+      "label": "Show social media",
+      "info": "To configure social media, go to your social media settings.",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_icons",
+      "label": "Show payment icons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_policy_links",
+      "label": "Show policy links",
+      "info": "To add store policies, go to your [policy settings](/admin/settings/legal).",
+    },
+    {
+      "type": "header",
+      "content": "Country/region selector",
+      "info": "To add a country/region, go to your [markets settings.](/admin/settings/markets)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_selector",
+      "label": "Show country/region selector",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_flag",
+      "label": "Show country flag",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_name",
+      "label": "Show country name",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Language selector",
+      "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "Show language selector",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "About our store"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_follow_on_shop",
+          "label": "Show Follow on Shop",
+          "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "name": "Links",
+      "settings": [
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu",
+          "info": "This menu won't show dropdown items.",
+          "default": "footer"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_menu_title",
+          "label": "Show menu title",
+          "default": true
+        },
+        {
+          "type": "inline_richtext",
+          "id": "menu_title",
+          "label": "Menu title",
+          "info": "Replaces the default menu title"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "600 x 600px .png recommended"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 50,
+          "max": 300,
+          "step": 10,
+          "unit": "px",
+          "label": "Image width",
+          "default": 150
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "label": "Title size",
+          "options": [
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Sign up to our newsletter"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

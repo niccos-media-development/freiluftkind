@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "<p><strong>Alles rund um's Thema Barfußschuhe!</strong><br/>Bleib immer auf dem Laufenden und erhalte alle Neuigkeiten ganz einfach in dein Postfach.</p>",
+        "show_newsletter_form": true,
+        "show_tags": true,
+        "banner_background": "#57664d",
+        "banner_text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": false,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_excerpt": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false
+      }
+    },
+    "featured_collection_QyB7pr": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Finde deinen passenden Minimalschuh",
+        "title": "Unsere Bestseller",
+        "content": "",
+        "link_url": "shopify://collections/barfussschuhe",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_QyB7pr"
+  ]
+}

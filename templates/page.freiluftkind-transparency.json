@@ -1,0 +1,409 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_9PBRKY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7kX8AR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_transparenz_dekstop.jpg",
+            "mobile_image": "shopify://shop_images/transparenz_header_fc5fb3b2-15dd-4243-a475-86c7af1cbd06.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Umwelt & Transparenz",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#1a1a1a",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 25,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7kX8AR"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.slideshow--boxed {padding-top: 72px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "impact_text_w3Rbyt": {
+      "type": "impact-text",
+      "blocks": {
+        "item_Q3dcLe": {
+          "type": "item",
+          "settings": {
+            "title": "769.764",
+            "subheading": "Aufgenommenes CO2 in KG",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_QmPFN6": {
+          "type": "item",
+          "settings": {
+            "title": "36.348",
+            "subheading": "Bäume gepflanzt",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_8qNqBp": {
+          "type": "item",
+          "settings": {
+            "title": "51.942",
+            "subheading": "CO2-Neutrale Retouren",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_Q3dcLe",
+        "item_QmPFN6",
+        "item_8qNqBp"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_zngrNK": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_PBnCqG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_about_umwelt.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Gemeinsam für unsere Umwelt...",
+            "content": "<p>Die Natur ist echt unser Ding und wir setzen alles daran, sie zu schützen. Aus diesem Grund gestalten wir unser Unternehmen umweltfreundlich und versenden unsere Produkte in wiederverwendbaren Jutebeuteln. Zudem beteiligen wir uns am Grünen Punkt und pflanzen Bäume, um unsere Retouren komplett CO2-Neutral zu gestalten.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_TaLyAW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_spende_nairobi.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "...und unsere Mitmenschen!",
+            "content": "<p>Jedes Jahr spenden wir einen Teil unserer Barfußschuhe nach Afrika. Unsere Schuhe helfen dabei Fehlstellungen und Fußschmerzen zu lindern sowie die Körperhaltung zu verbessern. Besonders in Nairobi, wo viele Menschen täglich hart arbeiten und lange Wege zurücklegen, sind unsere innovativen Barfußschuhe von unschätzbarem Wert.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_PBnCqG",
+        "item_TaLyAW"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "accordion_content_4gDDAE": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_PnaNzz": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Wo werden die Barfußschuhe hergestellt?",
+            "content": "<p>Für die Herstellung unserer Spritzgussformen und die Serienfertigung unserer Minimalschuhe haben wir uns für den Produktionsstandort China entschieden. Zwar würden wir uns aus Nachhaltigkeitsgründen eine lokalere Produktion wünschen, doch in China liegen zum aktuellen Zeitpunkt die höchsten Kompetenzen, was die Produktion von Barfußschuhen betrifft. Hier können wir sicher sein, dass wir unsere Schuhe unter höchsten Qualitätsstandards herstellen lassen können. Natürlich legen wir dabei ein besonderes Augenmerk auf die Arbeitssicherheit, die faire Entlohnung der Mitarbeitenden sowie die allgemeinen Arbeitsbedingungen vor Ort und prüfen regelmäßig, ob eine näherliegende Produktion irgendwann möglich wäre.</p>",
+            "page": ""
+          }
+        },
+        "item_WHH6nE": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Wie steht ihr zu dieser Entscheidung?",
+            "content": "<p>Wie bereits erwähnt, bietet China aktuell die besten technischen Standards, um unsere Barfußschuhe ohne Qualitätseinbußen produzieren zu lassen. Bei der Suche nach einem geeigneten Hersteller haben wir uns vor allem am Markt und an den Produktionsstätten der führenden Konkurrenz orientiert – auch hier wird die Mehrheit der Barfußschuhe, die in Deutschland erhältlich sind, in China produziert. Nach der Kalkulation aller Faktoren (darunter z. B. Preis, Erfahrung und Arbeitsbedingungen) sind wir ebenfalls zum Entschluss gekommen, dass in unserem aktuellen Stadium China der optimale Produktionsstandort für uns ist. Eine Entscheidung, mit der wir nicht alleine sind, denn auch außerhalb von Barfußschuhen werden viele Gegenstände und Produkte aus unserem täglichen Alltag in Produktionsstätten außerhalb der EU gefertigt – vom Smartphone bis hin zur Kleidung. Unser Anliegen ist es, in allen anderen Bereichen unseres Unternehmens den Nachhaltigkeitsgedanken in den Vordergrund zu stellen und hier so umweltbewusst wie möglich zu agieren.</p>",
+            "page": ""
+          }
+        },
+        "item_ACVfV8": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Aus welchen Materialien bestehen die Schuhe?",
+            "content": "<p>Zum jetzigen Zeitpunkt bestehen unsere Barfußschuhe aus Kunstfasern, genauer gesagt aus 92 % Polyester und 8 % Spandex. Unsere Freiluftkind-Sohlen werden aus thermoplastischen Kunststoff (TPU) hergestellt. Leider erfüllen Naturfasern bisher noch nicht die Anforderungen, die wir an die Passform und sonstige Trageeigenschaften stellen müssen. Dennoch forschen wir unermüdlich weiter und arbeiten an weiteren Lösungen.</p>",
+            "page": ""
+          }
+        },
+        "item_WyThH8": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Sind eure Minimalschuhe vegan?",
+            "content": "<p>Unsere Barfußschuhe sind im engeren Sinne nicht vegan, da ein Bestandteil des Sohlenmaterials auf einem tierischen Rohstoff basiert. Dabei handelt es sich nicht um direkte Tierbestandteile, sondern um Verarbeitungshilfen auf Basis von Fettsäuren, bei denen die Ausgangsstoffe tierischen Ursprungs sein können. Allerdings arbeiten wir stetig an der Optimierung unserer Produkte und der Materialzusammensetzung und sind bestrebt, Alternativen pflanzlichen Ursprungs für unsere Produkte einzusetzen.</p>",
+            "page": ""
+          }
+        },
+        "item_pdrrmg": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Ihr pflanzt Bäume - und das war's dann?",
+            "content": "<p>Für die Herstellung unserer Produkten pflanzen wir über unseren Partner Tree-Nation Bäume, um die Produktion komplett CO2-neutral zu halten. Doch wir gehen noch einen Schritt weiter. Denn durch unser Wald-Programm agieren wir nahezu klimaneutral und versuchen auch in vielen weiteren Bereichen, unser Unternehmen so nachhaltig wie möglich zu gestalten. Das fängt mit der papierlosen Arbeit in unserem Büro an und hört beim Versand noch lange nicht auf. Hierzu arbeiten wir mit DHL zusammen und verpacken unsere Minimalschuhe in wiederverwendbare Jutebeutel. Unsere Website und unsere Retouren sind zudem komplett CO2-neutral.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_PnaNzz",
+        "item_WHH6nE",
+        "item_ACVfV8",
+        "item_WyThH8",
+        "item_pdrrmg"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "5 kritische Fragen beantwortet",
+        "content": "<p>Natürlich könnten wir dir in diesem Bereich im schönsten Marketing-Deutsch das Blaue vom Himmel erzählen – doch das möchten wir nicht! Uns ist es wichtig, insbesondere kritische Fragen ehrlich zu beantworten.</p><p>Denn wir beabsichtigen, dass du Vertrauen in unseren Shop hast und nicht nur von unseren Barfußschuhen, sondern auch von unserem Engagement überzeugt bist. Daher findest du hier die fünf häufigsten und kritischsten Fragen zu unserem Unternehmen.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "media_with_text_TppKMN": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_d4jgtw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Das Projekt",
+            "content": "<p>Die Abholzung von Wäldern in Madagaskar stellt ein großes Problem für unseren Planeten dar. Hier sind viele endemische Arten zu Hause, deren natürliche Lebensräume Tag für Tag zerstört werden. Als Reaktion auf den großflächigen Verlust von Mangroven und Hochlandwäldern hat Eden Reforestation Projects das Madagaskar Reforestation Project ins Leben gerufen. Das Programm begann 2007 – seither hat Eden in diesem abgelegenen Gebiet im Nordwesten Madagaskars erfolgreich über 16 Millionen Mangroven- und trockene Laubbäume gepflanzt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_KbNwdQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t2.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Das Problem",
+            "content": "<p>Bäume bieten Lebensraum für Tiere, sie reinigen Wasserquellen, schützen vor Überschwemmungen und Erosion und tragen dazu bei, den Boden mit den für die Landwirtschaft benötigten Nährstoffen zu versorgen. Wenn Landwirte nichts mehr anbauen können, gehen ihre Höfe zugrunde und sie haben keine andere Wahl, als auf der Suche nach Arbeit in die überfüllten Städte zu ziehen. Oft müssen sie sich selbst oder ihre Familien in die Sklaverei verkaufen, um zu überleben.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_GQQj4e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t3.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Die Lösung",
+            "content": "<p>Diesem Problem können wir nur gemeinsam begegnen, um langfristig Hilfe zu leisten und die Lebensbedingungen für die Einheimischen zu verbessern. Wir beginnen damit, dass wir die Dorfbewohner anstellen, um Bäume zu pflanzen. Das verschafft ihnen ein angemessenes Einkommen, sodass sie wieder für ihre Familien sorgen können. Im Laufe der Wiederaufforstung entstehen so zudem gesunde Wälder und die negativen Auswirkungen der Abholzung verschwinden allmählich.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_d4jgtw",
+        "image_KbNwdQ",
+        "image_GQQj4e"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_fixed_padding": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "multiple_images_with_text_w9WbXr": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_zicQpB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/klimaneutrale_retouren.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Klimaneutrale Retouren",
+            "content": "<p>Sende deine Bestellung klimaneutral an uns zurück! Zusammen mit 8returns und Planetly<strong> </strong>kompensieren wir die CO2-Emissionen, die durch unsere Retouren entstehen.<br/><br/>Hierzu unterstützen wir verschiedene Projekte weltweit, die sich auf unterschiedlichste Art und Weise mit den Herausforderungen des Klimawandels befassen – unter anderem engagieren wir uns in einem Projekt für sauberes Trinkwasser in Ruanda und in einem Windenergieprojekt in Indien.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_9V3KTU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/klimaneutraler_shop.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "CO2-Neutrale Website",
+            "content": "<p>Der Strom, der von Servern und unseren Endgeräten verbraucht wird, ist für 2% der weltweiten Luftverschmutzung verantwortlich – genauso so viel, wie die Flugindustrie verursacht.</p><p>Wir zählen unsere Besucher und berechnen im Anschluss die entstandenen CO2-Emissionen. Unser System berechnet automatisch die Anzahl an Bäumen, die gepflanzt werden muss, um diese Menge auszugleichen. Diese Information wird zusammen mit den für die Pflanzung erforderlichen Mitteln an unseren Pflanz-Partner übermittelt.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_zicQpB",
+        "item_9V3KTU"
+      ],
+      "settings": {
+        "full_width": false,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle",
+        "background": "#ffffff",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "featured_collection_MTmM9y": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Finde deinen passenden Minimalschuh",
+        "title": "Unsere Bestseller",
+        "content": "",
+        "link_url": "shopify://collections/barfussschuhe",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_9PBRKY",
+    "impact_text_w3Rbyt",
+    "multiple_images_with_text_zngrNK",
+    "accordion_content_4gDDAE",
+    "media_with_text_TppKMN",
+    "multiple_images_with_text_w9WbXr",
+    "featured_collection_MTmM9y"
+  ]
+}

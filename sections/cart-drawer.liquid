@@ -1,0 +1,581 @@
+<cart-drawer {% if request.design_mode %} handle-section-events {% endif %} class="cart-drawer drawer drawer--lg" id="cart-drawer">
+  {%- if cart.item_count == 0 -%}
+    <button is="close-button" aria-label="{{ 'general.accessibility.close' | t | escape }}">
+      {%- render 'icon' with 'close' -%}
+    </button>
+
+    <div class="empty-state align-self-center">
+      <div class="empty-state__icon-wrapper">
+        {%- render 'icon' with 'cart', width: 32, height: 32, stroke_width: 1 -%}
+        <span class="count-bubble count-bubble--lg">0</span>
+      </div>
+
+      <div class="prose">
+        <p class="h5">{{ 'cart.general.empty' | t }}</p>
+
+        {%- assign button_content = 'cart.general.continue_shopping' | t -%}
+        {%- render 'button', href: settings.cart_empty_button_link, size: 'xl', content: button_content -%}
+      </div>
+    </div>
+  {%- else -%}
+    <div class="cart-drawer__inner">
+      <div class="cart-drawer__top">
+        <div class="h-stack items-center justify-between">
+          <div class="h-stack grow gap-2 sm:gap-2.5">
+            <p class="h5">{{- 'cart.general.title' | t -}}</p>
+            <cart-count class="count-bubble count-bubble--md">{{ cart.item_count }}</cart-count>
+          </div>
+
+          <button type="button" is="close-button" class="drawer__close-icon">
+            <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
+            {%- render 'icon' with 'close' -%}
+          </button>
+        </div>
+
+        {%- if settings.cart_show_free_shipping_threshold -%}
+          {%- render 'free-shipping-bar' -%}
+        {%- endif -%}
+
+        {%- if section.settings['freiluftkind-show_bundlebar'] and cart.item_count != 0 -%}
+          {% assign bundle_type = '' %}
+          {% assign discount_code = '' %}
+          {% assign should_apply_discount = true %}
+          {% assign shoe_count = 0 %}
+
+          {% for line_item in cart.items %}
+            {% if line_item.original_price != line_item.final_price %}
+              {% assign should_apply_discount = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if should_apply_discount %}
+            {% assign bundle_event = 0 %}
+            {% assign bundle_event_discount = 0 %}
+            {% assign bundle_event_discount_item = 0 %}
+
+            {% for line_item in cart.items %}
+              {% if line_item.product.tags contains "mengenrabatt" and section.settings.enable_black_friday_special == false %}
+                {% assign shoe_count = shoe_count | plus: line_item.quantity %}
+              {% else %}
+                {% if line_item.product.tags contains "schuhe" %}
+                  {% assign shoe_count = shoe_count | plus: line_item.quantity %}
+                {% endif %}
+              {% endif %}
+              {% if line_item.properties._bundleType %}
+                {% assign bundle_type = line_item.properties._bundleType %}
+                {% if line_item.properties._bundleType == "family" %}
+                  {% if bundle_event_discount == 0 %}
+                    {% assign bundle_event_discount_item = line_item.product.id %}
+                    {% assign bundle_event_discount = line_item.product.price %}
+                  {% else %}
+                    {% if line_item.product.price > 0 and line_item.product.price < bundle_event_discount %}
+                      {% assign bundle_event_discount_item = line_item.product.id %}
+                      {% assign bundle_event_discount = line_item.product.price %}
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+
+            {%- capture bundle_discount_info -%}{%- render 'get_bundle_discount_info' -%}{%- endcapture -%}
+
+            {%- assign discount_code = bundle_discount_info | split: '|' | first -%}
+            {%- assign bundle_discount = bundle_discount_info | split: '|' | last | times: 1.0 -%}
+
+          {% else %}
+            {% assign discount_code = '' %}
+            {% assign bundle_discount = 1 %}
+          {% endif %}
+
+          <div class="component-cart-header__info" id="custom_bundle_bar">
+            {% assign shoe_count = 0 %}
+            {% assign bundle_event = 0 %}
+            {% assign bundle_event_discount = 0 %}
+            {% assign bundle_event_discount_item = 0 %}
+
+            {%- capture bundle_bar_content -%}
+              <span>
+                {% for line_item in cart.items %}
+                  {% if line_item.product.tags contains "mengenrabatt" and section.settings.enable_black_friday_special == false %}
+                    {% assign shoe_count = shoe_count | plus: line_item.quantity %}
+                  {% else %}
+                    {% if line_item.product.tags contains "schuhe" %}
+                      {% assign shoe_count = shoe_count | plus: line_item.quantity %}
+                    {% endif %}
+                  {% endif %}
+                  {% if line_item.properties._bundleType %}
+                    {% assign bundle_type = line_item.properties._bundleType %}
+                    {% if line_item.properties._bundleType == "family" %}
+                      {% if bundle_event_discount == 0 %}
+                        {% assign bundle_event_discount_item = line_item.product.id %}
+                        {% assign bundle_event_discount = line_item.product.price %}
+                      {% else %}
+                        {% if line_item.product.price > 0 and line_item.product.price < bundle_event_discount %}
+                          {% assign bundle_event_discount_item = line_item.product.id %}
+                          {% assign bundle_event_discount = line_item.product.price %}
+                        {% endif %}
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if bundle_type == "" and section.settings.enable_black_friday_special == false %}
+                  {% if shoe_count == 1 %}
+                    {% assign bundle_discount = 1 %} 
+                    {% assign discount_code = '' %}
+                    <p>{{ section.settings.progress_title1 }}</p>
+                  {% elsif shoe_count == 2 %}
+                    {% assign bundle_discount = 0.9000 %}
+                    {% assign discount_code = 'Schuh10' %}
+                    <p style="line-height: 1.4rem;margin-bottom: 5px !important;">{{ section.settings.progress_title2 }}</p>
+                  {% elsif shoe_count == 3 %}
+                    {% assign bundle_discount = 0.8500 %}
+                    {% assign discount_code = 'Schuh15' %}
+                    <p style="line-height: 1.4rem;margin-bottom: 5px !important;">{{ section.settings.progress_title3 }}</p>
+                  {% elsif shoe_count >= 4 %}
+                    {% assign bundle_discount = 0.8000 %}
+                    {% assign discount_code = 'Schuh20' %}
+                    <p style="line-height: 1.4rem;margin-bottom: 5px !important;">{{ section.settings.progress_title4 }}</p>
+                  {% else %}
+                    {% assign bundle_discount = 1 %}
+                    <p style="line-height: 1.4rem;margin-bottom: 5px !important;">{{ section.settings.progress_title5 }}</p>
+                    <style>#custom_bundle_bar { display: none;}</style>
+                  {% endif %}
+                {% else %}
+                  {% assign discount_code = 'BLACKMONTH' %}
+                  {% assign number = shoe_count | modulo: 2 %}
+                  {% if shoe_count == 0 %}
+                    Kaufe 2x Schuhe und erhalte 1x Schuh gratis.
+                  {% elsif number == 0 %}
+                    <p style="line-height: 1.4rem;margin-bottom: 5px !important;">Glückwunsch! Du bekommst einen Schuh geschenkt.</p>
+                  {% else %}
+                    <p style="line-height: 1.4rem;margin-bottom: 5px !important;">Füge 1x weiteren Schuh hinzu & erhalte 1x gratis.</p>
+                  {% endif %}
+                {% endif %}
+              </span>
+            {% endcapture %}
+
+            {% if bundle_type == 'bestseller' and section.settings.enable_black_friday_special == false  %}
+              {% assign discount_code = 'ORIGINALSBUNDLE' %}
+              {% assign bundle_discount = 0.80 %}
+            {% elsif bundle_type == 'family' %}
+              {% assign discount_code = 'KIDSBUNDLE' %}
+              {% assign bundle_discount = 1 %}
+            {% elsif bundle_type == '4seasons' %}
+              {% assign discount_code = '4SEASONSBUNDLE' %}
+              {% assign bundle_discount = 0.75 %}
+            {% elsif bundle_type == 'allround' %}
+              {% assign bundle_discount = 1 %}
+              {% assign discount_code = 'bundle0' %}
+            {% elsif bundle_type == 'winter' %}
+              {% assign discount_code = 'WINTERBUNDLE' %}
+              {% assign bundle_discount = 0.85 %}
+            {% endif %}
+
+            {% if shoe_count > 0 and bundle_type == '' %}
+              <div class="main_custom_progress"> <!-- shoecount {{ shoe_count }} -->
+                {%- assign save_percents = '10%|15%|20%' | split: '|' -%}
+                {%- assign shoe_tier = shoe_count | minus: 1 | at_least: 0 -%}
+
+                <div class="freiluftkind-cart-bulkdiscount">
+                  {% render 'bundle-bar-title', bundle_type: bundle_type %}
+
+                  <p>
+                    {%- case shoe_tier -%}
+                      {%- when 0 -%}
+                        {{ section.settings.progress_title1 }}
+                      {%- when 1 -%}
+                        {{ section.settings.progress_title2 }}
+                      {%- when 2 -%}
+                        {{ section.settings.progress_title3 }}
+                      {%- else -%}
+                        {{ section.settings.progress_title4 }}
+                    {%- endcase -%}
+                  </p>
+
+                  <div class="freiluftkind-bulkdiscount-progress-bar" style="--freiluftkind-bulkdiscount-progress: {{ shoe_tier | at_most: save_percents.size | times: 33.33 }}%">
+                    <div class="freiluftkind-bulkdiscount-progress"></div>
+                  </div>
+
+                  <div class="freiluftkind-bulkdiscount-text-row">
+                    {%- assign shoe_tier = shoe_tier | at_most: save_percents.size -%}
+
+                    {%- for save_percent in save_percents -%}
+                      <span {%- if shoe_tier == forloop.index %} style="font-weight: bold;"{% endif %}>
+                        {{ 'cart.bulk_discount.save_percent' | t: percent: save_percent }}
+                      </span>
+                    {%- endfor -%}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="v-stack gap-6 sm:gap-8">
+        <div class="cart-drawer__line-items">
+
+          {%- for line_item in cart.items -%}
+
+            {%- render 'line-item', line_item: line_item, show_desktop_quantity: true, bundle_type: bundle_type, bundle_discount: bundle_discount, discount_code: discount_code, should_apply_discount: should_apply_discount -%}
+            {% assign quantity = line_item.quantity %}
+            {% assign variant_price = line_item.variant.price %}
+            {% assign compare_at_price = line_item.variant.compare_at_price %}
+            {% assign uvp_price = compare_at_price | plus: 0 %}
+            {% if uvp_price == 0 %}
+              {% assign uvp_price = variant_price %}
+            {% endif %}
+            {% if line_item.product.tags contains 'mengenrabatt' and bundle_type == '' or bundle_type == null %}
+              {% assign price = variant_price | times: bundle_discount | ceil %}
+              {% assign price = price | times: quantity %}
+              {% assign singlePrice = variant_price | times: bundle_discount %}
+            {% elsif discount_relevant_product %}
+              {% assign price = variant_price | times: bundle_discount | ceil %}
+              {% assign price = price | times: quantity %}
+              {% assign singlePrice = variant_price | times: bundle_discount %}
+            {% else %}
+              {% if line_item.properties._bundleType != '' and line_item.properties._bundleType != null %}
+                {% assign price = variant_price | times: bundle_discount | ceil %}
+                {% assign price = price | times: quantity %}
+                {% assign singlePrice = variant_price | times: bundle_discount %}
+              {% else %}
+                {% assign price = variant_price | times: quantity %}
+                {% assign singlePrice = variant_price %}
+              {% endif %}
+            {% endif %}
+            {% assign uvp_times_quantity = uvp_price | times: quantity %}
+            {% assign total_uvp = total_uvp | plus: uvp_times_quantity %}
+            {% assign saving = uvp_times_quantity | minus: price %}
+            {% assign singleSaving = uvp_price | minus: singlePrice | ceil %}
+
+            {% assign savings = savings | plus: saving %}
+          {%- endfor -%}
+        </div>
+
+        {%- if section.settings.products.count > 0 -%}
+          <div class="cart-drawer__recommendations">
+            <div class="v-stack gap-2.5 sm:gap-4">
+              {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+              {%- liquid
+                assign horizontal_products_blends = true
+                assign product_card_background = section.settings.product_card_background | default: product.settings.product_card_background
+
+                if product_card_background != 'rgba(0,0,0,0)' and product_card_background != blank and product_card_background != settings.dialog_background
+                  assign horizontal_products_blends = false
+                endif
+
+                assign rendered_recommendations = 0
+
+                capture recommendations
+                  for recommended_product in section.settings.products
+                    assign item_count_in_cart = cart | line_items_for: recommended_product
+
+                    if item_count_in_cart.size == 0
+                      render 'horizontal-product', product: recommended_product, no_upsell: true, show_add_to_cart: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color
+                      assign rendered_recommendations = rendered_recommendations | plus: 1
+                    endif
+                  endfor
+                endcapture
+              -%}
+
+              {%- if rendered_recommendations > 0 -%}
+                <div class="h-stack justify-between gap-4">
+                  {%- if section.settings.recommendations_title != blank -%}
+                    <p>{{ section.settings.recommendations_title | escape }}</p>
+                  {%- endif -%}
+
+                  {%- if rendered_recommendations > 1 -%}
+                    <div class="h-stack gap-2 hidden sm:flex">
+                      <button
+                          is="prev-button"
+                          class="circle-chevron hover:colors"
+                          aria-controls="{{ carousel_id }}"
+                          aria-label="{{ 'general.accessibility.previous' | t | escape }}"
+                          disabled
+                          >
+                          {%- render 'icon' with 'chevron-left-small', direction_aware: true -%}
+                      </button>
+                        <button
+                            is="next-button"
+                            class="circle-chevron hover:colors"
+                            aria-controls="{{ carousel_id }}"
+                            aria-label="{{ 'general.accessibility.next' | t | escape }}"
+                            >
+                            {%- render 'icon' with 'chevron-right-small', direction_aware: true -%}
+                        </button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- if recommendations != blank -%}
+                <scroll-carousel
+                    selector=".horizontal-product"
+                    id="{{ carousel_id }}"
+                    class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed"
+                    >
+                  <div class="horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                    {{- recommendations -}}
+                  </div>
+                </scroll-carousel>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div class="v-stack gap-4 sm:gap-6" slot="footer">
+      <div class="v-stack gap-1">
+        {% for discount_application in cart.cart_level_discount_applications %}
+          <div class="h-stack gap-4 justify-between">
+            <div class="badge">
+              {%- render 'icon' with 'discount' -%}
+              {{- discount_application.title -}}
+            </div>
+
+            <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
+          </div>
+        {% endfor %}
+
+        {% assign checkoutPrice = 0 %}
+        {% assign total_uvp = 0 %}
+
+        {% comment %}Calculate total UVP first{% endcomment %}
+        {% for line_item in cart.items %}
+          {% assign uvp_price = line_item.variant.compare_at_price | default: line_item.variant.price %}
+          {% assign uvp_times_quantity = uvp_price | times: line_item.quantity %}
+
+          {% assign total_uvp = total_uvp | plus: uvp_times_quantity %}
+        {% endfor %}
+
+        {% if section.settings.enable_black_friday_special == true %}
+          {% comment %}Calculate total price without any bundle discounts for black friday special{% endcomment %}
+          {% for line_item in cart.items %}
+            {% assign line_price = line_item.final_line_price %}
+            {% assign checkoutPrice = checkoutPrice | plus: line_price %}
+          {% endfor %}
+        {% else %}
+          {% comment %}Calculate price with bundle discounts{% endcomment %}
+
+          {% assign checkoutPrice = total_uvp | minus: savings %}
+          {% if bundle_type != '' and bundle_type != null %}
+            {% assign checkoutPrice = checkoutPrice | minus: checkoutPrice %}
+          {% endif %}
+        {% endif %}
+        {% assign finalprice = checkoutPrice %}
+
+        <div class="h-stack gap-4 justify-between">
+          <span class="h5">{{ 'cart.general.total' | t }}</span>
+          <div class="total_price_cart_drawer {{ savings }}-{{ total_uvp }}">
+
+            <span class="h5 small_text">{{- finalprice | money_with_currency -}}</span>
+
+            {% if total_uvp > finalprice %}
+              <span class="h5 original_price">{{- total_uvp |  money_with_currency -}}</span>
+            {% else %}
+              <span class="h5 line-through ">{{- total_uvp | money_with_currency -}}</span>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="h-stack gap-4 justify-between">
+          <span class="h5" style="font-size: calc(var(--text-h5) - 2px);">Versand</span>
+          <span class="h5" style="font-size: calc(var(--text-h5) - 2px); color: #008B10">Kostenlos</span>
+        </div>
+
+        {%- if section.settings.show_shipping_text -%}
+          {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">
+            {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+            </p>
+          {%- elsif cart.taxes_included -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}</p>
+          {%- elsif shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">
+            {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+            </p>
+          {%- else -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_cart_note -%}
+          <button type="button" class="justify-self-start" aria-controls="cart-drawer-note">
+            <span class="link text-sm text-subdued">
+              {%- if cart.note == blank -%}
+                {{- 'cart.general.add_order_note' | t -}}
+              {%- else -%}
+                {{- 'cart.general.edit_order_note' | t -}}
+              {%- endif -%}
+            </span>
+          </button>
+
+          <cart-note-dialog id="cart-drawer-note" class="cart-drawer__note">
+            <div class="cart-drawer__note-inner">
+              <div class="v-stack gap-4 sm:gap-6">
+                <p class="h5">{{ 'cart.general.order_note' | t }}</p>
+
+                <cart-note class="v-stack gap-4">
+                  {%- assign order_note = 'cart.general.order_note' | t -%}
+                  {%- assign order_save_label = 'cart.general.save_note' | t -%}
+
+                  {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
+
+                  <div class="justify-self-start">
+                    {%- render 'button',
+                    type: 'button',
+                    content: order_save_label,
+                    size: 'lg',
+                    is: 'close-button',
+                    secondary: true
+                    -%}
+                  </div>
+                </cart-note>
+              </div>
+            </div>
+          </cart-note-dialog>
+        {%- endif -%}
+      </div>
+
+      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
+        {% if discount_code != '' and should_apply_discount %}
+          <input type="hidden" name="discount" value="{{ discount_code }}">
+        {% endif %}
+        {%- assign checkout_label = 'cart.general.checkout' | t -%}
+
+        {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
+          <a
+              href="{{ routes.cart_url }}"
+              onclick="obApi('track', 'Checkout');"
+              class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}"
+              data-no-instant
+              >
+              {{- 'cart.general.view_cart' | t -}}
+          </a>
+          {%- endif -%}
+
+          {%- if section.settings.show_checkout_button -%}
+            {%- render 'button',
+            type: 'submit',
+            content: checkout_label,
+            icon: 'picto-lock',
+            name: 'checkout',
+            size: 'xl'
+            -%}
+          {%- endif -%}
+      </form>
+    </div>
+  {%- endif -%}
+</cart-drawer>
+
+{% schema %}
+{
+  "name": "Cart drawer",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Cart drawer won't appear to your customers if you have set the cart type to Page in the global theme settings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Free shipping bar can be configured in global cart settings."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_black_friday_special",
+      "label": "Enable black friday special",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart_note",
+      "label": "Show cart note",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_text",
+      "label": "Show shipping text",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_cart_button",
+      "label": "Show view cart button",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_checkout_button",
+      "label": "Show checkout button",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Porgress Tittle Product Count Discount"
+    },
+    {
+      "type": "text",
+      "id": "progress_title1",
+      "label": "If There is one Shoe"
+    },
+    {
+      "type": "text",
+      "id": "progress_title2",
+      "label": "If There is Two Shoe"
+    },
+    {
+      "type": "text",
+      "id": "progress_title3",
+      "label": "If There is Three Shoe"
+    },
+    {
+      "type": "text",
+      "id": "progress_title4",
+      "label": "If There is Four Shoe or more"
+    },
+    {
+      "type": "text",
+      "id": "progress_title5",
+      "label": "Else There is no shoe count"
+    },
+    {
+      "type": "header",
+      "content": "Product recommendations"
+    },
+    {
+      "type": "text",
+      "id": "recommendations_title",
+      "label": "Heading",
+      "default": "Trending this month"
+    },
+    {
+      "type": "product_list",
+      "id": "products",
+      "label": "Recommendations",
+      "info": "Suggest additional products to your customers. Recommendations already in the cart are automatically hidden.",
+      "limit": 10
+    },
+    {
+      "type": "color",
+      "id": "product_card_background",
+      "label": "Product card background"
+    },
+    {
+      "type": "color",
+      "id": "product_card_text_color",
+      "label": "Product card text"
+    },
+    {
+      "type": "checkbox",
+      "id": "freiluftkind-show_bundlebar",
+      "label": "Zeige das Bundle Angebot im Checkout-Header",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

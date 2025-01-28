@@ -1,0 +1,175 @@
+      {%- liquid case size
+    when 'lg'
+      assign regular_price_classes = 'text-lg'
+      assign on_sale_price_classes = 'text-lg text-on-sale'
+      assign compare_at_price_classes = 'text-subdued line-through'
+      assign unit_price_classes = 'text-subdued'
+  
+    when 'sm'
+      assign regular_price_classes = 'text-subdued text-sm'
+      assign on_sale_price_classes = 'text-on-sale text-sm'
+      assign compare_at_price_classes = 'text-subdued text-sm line-through'
+      assign unit_price_classes = 'text-subdued text-sm'
+  
+    else
+      assign regular_price_classes = 'text-subdued'
+      assign on_sale_price_classes = 'text-on-sale'
+      assign compare_at_price_classes = 'text-subdued line-through'
+      assign unit_price_classes = 'text-subdued text-sm'
+  endcase
+-%}
+    {%- capture line_price -%}
+                {%- comment -%}
+                IMPLEMENTATION NOTE: The designer wanted to show the "compare at price" on cart. In case an automatic discount is applied
+                to a line item though, the "real" discount takes precedence over the compare at price
+                {%- endcomment -%}
+
+                {% assign price_highlight = ""%}
+
+                {% if line_item.original_line_price > line_item.final_line_price
+                  or line_item.final_line_price == 0
+                  or line_item.variant.compare_at_price > line_item.variant.price
+                  or line_item.product.id == bundle_event_discount_item
+                  or bundle_discount != 1
+                  and line_item.properties._bundleType != ''
+                  and line_item.properties._bundleType != null
+                %}
+                  {% assign price_highlight = 'price--highlight' %}
+                {% endif %}
+
+                {% if line_item.original_line_price > line_item.final_line_price
+                  or line_item.final_line_price == 0
+                  or line_item.variant.compare_at_price > line_item.variant.price
+                  or bundle_discount != 1
+                  and line_item.product.tags contains 'mengenrabatt'
+                %}
+                  {% assign price_highlight = 'price--highlight' %}
+                {% endif %}
+                <sale-price class="{% if line_item.original_line_price > line_item.final_line_price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
+                <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+
+             {%- if line_item.final_line_price == 0 -%}
+  {{- line_item.final_price | divided_by: 10.0 | ceil | times: 10.0 | money -}}
+{%- else -%}
+  {% if bundle_type != ''
+    and bundle_type != null
+    and line_item.properties._bundleType != ''
+    and line_item.properties._bundleType != null
+    and section.settings.enable_black_friday_special == false
+    or discount_relevant_product
+  %}
+    {% if line_item.product.id == bundle_event_discount_item and line_item.quantity == 1 %}
+      {{- line_item.final_price | divided_by: 10.0 | ceil | times: 10.0 | minus: bundle_event_discount | money -}} 1
+    {% else %}
+      {% assign discounted_price = line_item.variant.price | divided_by: 10.0 | ceil | times: 10.0 | times: bundle_discount %}
+      {{- discounted_price | money -}}
+    {% endif %}
+  {% else %}
+    {% if line_item.product.tags contains 'mengenrabatt' and bundle_type == '' and section.settings.enable_black_friday_special == false or bundle_type == null %}
+      {% assign original_price = line_item.variant.price | divided_by: 10.0 | ceil | times: 10.0 %}
+      {% assign discounted_price = original_price | times: bundle_discount %}
+      {{- discounted_price | money -}}
+    {% else %}
+      {{- line_item.final_price | money -}}
+    {% endif %}
+  {% endif %}
+{%- endif -%}
+              
+                </sale-price>
+
+                {% assign mengenrabattIf =  false %}
+                {% if line_item.product.tags contains 'mengenrabatt' and bundle_type != '' and bundle_type != null %}
+                  {% assign mengenrabattIf = true %}
+                {% endif %}              
+
+                {%- if line_item.product.tags contains "mengenrabatt" or line_item.product.tags contains "schuhe" and bundle_discount -%}
+                  <compare-at-price class="{{ compare_at_price_classes }}">
+                    <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+                    {{- line_item.variant.compare_at_price | money -}}
+                  </compare-at-price>
+                {%- elsif line_item.original_price > line_item.final_price
+                  or line_item.variant.compare_at_price > line_item.variant.price
+                  or price_highlight != ''
+                  and line_item.original_price > 0
+                -%}
+                 <compare-at-price class="{{ compare_at_price_classes }}">
+                  <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+                
+                    {%- if line_item.original_price > line_item.final_price -%}
+                      {{- line_item.original_price | money -}}
+                    {% elsif line_item.variant.compare_at_price %}
+                      {{- line_item.variant.compare_at_price | money -}}
+                    {%- else -%}
+                      {{- line_item.variant.price | money -}}
+                    {%- endif -%}
+                  </compare-at-price>
+                {% elsif bundle_discount != 1 and mengenrabattIf == true %}
+                 <compare-at-price class="{{ compare_at_price_classes }}">
+                  <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+                    {{- line_item.final_price | money -}}
+                  </compare-at-price>
+                {%- endif -%}              
+              {%- endcapture -%}
+      <price-list class="price-list {% if size == 'lg' %}price-list--lg{% endif %} {% if text_alignment == 'center' %}justify-center{% endif %}">
+                {% assign quantity = line_item.quantity %}
+                  {% assign variant_price = line_item.variant.price %}
+                  {% assign compare_at_price = line_item.variant.compare_at_price %}
+                  {% assign uvp_price = compare_at_price | plus: 0 %}
+                  {% if uvp_price == 0 %}
+                    {% assign uvp_price = variant_price %}
+                  {% endif %}
+                  {% if line_item.product.tags contains 'mengenrabatt' and bundle_type == '' or bundle_type == null %}
+                    {% assign price = variant_price | times: quantity | times: bundle_discount %}
+                    {% assign singlePrice = variant_price | times: bundle_discount %}
+                  {% elsif discount_relevant_product %}
+                    {% assign price = variant_price | times: quantity | times: bundle_discount %}
+                    {% assign singlePrice = variant_price | times: bundle_discount %}
+                  {% else %}
+                    {% if line_item.properties._bundleType != '' and line_item.properties._bundleType != null %}
+                      {% assign price = variant_price | times: quantity | times: bundle_discount %}
+                      {% assign singlePrice = variant_price | times: bundle_discount %}
+                    {% else %}
+                      {% assign price = variant_price | times: quantity %}
+                      {% assign singlePrice = variant_price %}
+                    {% endif %}
+                  {% endif %}
+                  {% assign uvp_times_quantity = uvp_price | times: quantity %}
+                  {% assign total_uvp = total_uvp | plus: uvp_times_quantity %}
+
+                  {% assign saving = uvp_times_quantity | minus: price %}
+                  {% assign singleSaving = uvp_price | minus: singlePrice %}
+
+                  {% assign savings = savings | plus: saving %}
+
+                  <div class="product-item-meta__price-list-container text--small">
+                    <div class="price-list hidden-tablet-and-up">
+                      {{- line_price -}}
+                      {{- unit_price -}}
+                      <div class="freiluftkind-own-price">
+                        {% if singleSaving > 0
+                          or line_item.product.id == bundle_event_discount_item
+                          or line_item.final_line_price == 0
+                        %}
+                          {% if line_item.product.id == bundle_event_discount_item
+                            and bundle_type != ''
+                            and bundle_type != null
+                            and line_item.quantity == 1
+                          %}
+                            <div class="freiluftkind-saving">KOSTENLOS</div>
+                          {% elsif line_item.product.id == bundle_event_discount_item
+                            and bundle_type != ''
+                            and bundle_type != null
+                            and line_item.quantity > 1
+                          %}
+                            <div class="freiluftkind-saving">{{ singleSaving | money }} Rabatt</div>
+                            <div class="freiluftkind-saving" style="margin-top: 5px;">1x KOSTENLOS</div>
+                          {% elsif line_item.final_line_price == 0 %}
+                            <div class="freiluftkind-saving">KOSTENLOS</div>
+                          {% else %}
+                            <div class="freiluftkind-saving">{{ singleSaving | money }} Rabatt</div>
+                          {% endif %}
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+        </price-list>

@@ -1,0 +1,138 @@
+<dialog is="upsell-popup" id="upsell-popup" class="upsell-popup">
+  <div class="upsell-popup__overlay"></div>
+  <div class="upsell-popup__content">
+    <div class="upsell-popup__header">
+      <h2 class="upsell-popup__title h5">
+        {{ 'product.upsell.popup.title' | t }}
+      </h2>
+      <button type="button" class="upsell-popup__close">
+        <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
+        {%- render 'icon' with 'close' -%}
+      </button>
+    </div>
+
+    <div class="upsell-popup__body">
+      {%- liquid
+        assign upsell_data = product.metafields.freiluftkind['product-upsells'].value
+      -%}
+
+      {%- for upsell in upsell_data -%}
+        {%- assign upsell_product = upsell.product.value -%}
+        {%- if upsell_product.id != product.id -%}
+          <div class="upsell-product ">
+            <div class="upsell-product__main">
+              <img
+                src="{{ upsell_product.featured_image | img_url: '160x160', crop: 'center' }}"
+                alt="{{ upsell_product.title }}"
+                class="upsell-product__image"
+                width="80"
+                height="80"
+                loading="lazy"
+              >
+              <div class="upsell-product__info">
+                <div class="upsell-product__header">
+                  <div class="upsell-product__title-wrap">
+                    <div class="upsell-product__title text-sm bold">
+                      {{ upsell_product.title }}
+                    </div>
+                    <div class="upsell-product__price">
+                      <span class="upsell-product__price-current ">
+                        {{- upsell_product.price | money -}}
+                      </span>
+                      {%- if upsell_product.compare_at_price
+                          > upsell_product.price
+                      -%}
+                        <span class="upsell-product__price-compare text-subdued text-sm line-through">
+                          {{- upsell_product.compare_at_price | money -}}
+                        </span>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="upsell-product__toggle-button button button--sm button--subdued"
+                    data-product-id="{{ upsell_product.id }}"
+                    data-variant-id="{{ upsell_product.selected_or_first_available_variant.id }}"
+                  >
+                    <span class="add-text">
+                      {{- 'product.upsell.popup.add_button' | t -}}
+                    </span>
+                    <span class="added-text">
+                      {{- 'product.upsell.popup.added_button' | t -}}
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            {%- unless upsell_product.has_only_default_variant -%}
+              <upsell-variant-picker
+                class="upsell-product__options"
+                data-section="{{ section.id }}"
+                data-product-handle="{{ upsell_product.handle }}"
+                data-url="{{ upsell_product.url }}"
+                style="display: none;"
+              >
+                {%- for option in upsell_product.options_with_values -%}
+                  {%- if option.values.size > 1 -%}
+                    <div class="upsell-product__option">
+                      <label class="upsell-option__label">
+                        {{ option.name }}:
+                        <span class="option-value" data-selected-value>
+                          {{- option.selected_value -}}
+                        </span>
+                      </label>
+                      <div class="upsell-product__variant-picker">
+                        {%- for value in option.values -%}
+                          <button
+                            type="button"
+                            name="option-{{ forloop.parentloop.index }}"
+                            class="upsell-product__variant-option {% unless upsell_product.variants[forloop.index0].available %}is-disabled{% endunless %}"
+                            data-index="{{ forloop.parentloop.index0 }}"
+                            data-value="{{ value | escape }}"
+                            {% if option.selected_value == value %}
+                              aria-selected="true"
+                            {% endif %}
+                            {% unless upsell_product.variants[forloop.index0].available %}
+                              disabled
+                            {% endunless %}
+                          >
+                            {{ value }}
+                          </button>
+                        {%- endfor -%}
+                      </div>
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+
+                <script type="application/json" data-variants>
+                  {{ upsell_product.variants | json }}
+                </script>
+
+                <script type="application/json" data-current-variant>
+                  {{ upsell_product.selected_or_first_available_variant | json }}
+                </script>
+              </upsell-variant-picker>
+            {%- endunless -%}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <div class="upsell-popup__footer">
+      <div class="upsell-popup__buttons">
+        <button
+          type="button"
+          class="upsell-popup__add-button button"
+          data-submit-button
+          disabled
+        >
+          {{ 'product.upsell.popup.cart_button' | t }}
+        </button>
+        <button type="button" class="upsell-popup__skip-button h5">
+          Nein Danke
+        </button>
+      </div>
+    </div>
+  </div>
+</dialog>
+<script></script>

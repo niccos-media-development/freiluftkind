@@ -1,0 +1,16 @@
+<span class="star-rating">
+  {% for i in (1..5) %}
+    <span class="star">⭐</span>
+  {% endfor %}
+</span>
+
+<style>
+  .star-rating {
+    display: inline-flex;
+    align-items: center;
+  }
+  .star {
+    font-size: 20px;
+    margin: 0 1px;
+  }
+</style>

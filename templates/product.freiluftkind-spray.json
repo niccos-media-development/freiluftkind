@@ -1,0 +1,397 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "freiluftkind_social_proof_QrVt3y": {
+          "type": "freiluftkind-social-proof",
+          "settings": {
+            "freiluftkind-social-proof-text": "<p><strong>Dr. Krüger</strong> und über <strong>350.000+ Kunden</strong> lieben unsere Produkte!</p>",
+            "freiluftkind-social-proof-img-1": "shopify://shop_images/adv11_wolfgang.jpg",
+            "freiluftkind-social-proof-img-2": "shopify://shop_images/adv12_pb.jpg",
+            "freiluftkind-social-proof-img-3": "shopify://shop_images/freiluftkind_lothar_krueger.jpg"
+          }
+        },
+        "freiluftkind_badges_TTKCkq": {
+          "type": "freiluftkind-badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "freiluftkind_usps_fnpPXR": {
+          "type": "freiluftkind-usps",
+          "settings": {
+            "freiluftkind-usp-show-img": true,
+            "freiluftkind-usp-img": "shopify://shop_images/waterproof_spray_pdp.png",
+            "freiluftkind-usp-img-text": "<p>Stößt Regen und Schmutz einfach ab</p>",
+            "freiluftkind-usp-1": "<p>Für Schuhe, Kleidung & mehr</p>",
+            "freiluftkind-usp-2": "<p>Kostenloser Versand & einfache Retouren</p>",
+            "freiluftkind-usp-3": "<p>Kundenservice per Mail & Telefon</p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "dropdown",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": "{{ product.metafields.my_fields.tab_1_content.value }}"
+          }
+        },
+        "freiluftkind_shipping_qwiFWJ": {
+          "type": "freiluftkind-shipping",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "freiluftkind_payment_Lp98tR": {
+          "type": "freiluftkind-payment",
+          "settings": {}
+        },
+        "separator_idQt49": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "freiluftkind_products_3cym4X": {
+          "type": "freiluftkind-products",
+          "disabled": true,
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "freiluftkind_social_proof_QrVt3y",
+        "freiluftkind_badges_TTKCkq",
+        "title",
+        "price",
+        "rating",
+        "freiluftkind_usps_fnpPXR",
+        "separator",
+        "variant_picker",
+        "freiluftkind_shipping_qwiFWJ",
+        "buy_buttons",
+        "freiluftkind_payment_Lp98tR",
+        "separator_idQt49",
+        "freiluftkind_products_3cym4X"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "show_quicK_view": true,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "accordion_content_XRqr8b": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_Aqqg3Q": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "12 Monate Garantie",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": "12-monate-garantie"
+          }
+        },
+        "item_FABnh6": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Warnhinweise",
+            "content": "<p>Gesundheitsschäden durch Einatmen möglich! Nur im Freien und bei einer guten Belüftung verwenden! Nur wenige Sekunden sprühen! Großflächige Leder - und Textilerzeugnisse nur im Freien besprühen und gut auslüften lassen! Personen mit Atemwegserkrankungen (z.B. Asthma) bitten wir um besondere Vorsicht.</p><p>Enthält: n-Butylacetat; Kohlenwasserstoffe, C7, n-Alkane, Isoalkane, cyclische. Extrem entzündbares Aerosol. Behälter steht unter Druck: Kann bei Erwärmung bersten. Verursacht Hautreizungen. Kann Schläfrigkeit und Benommenheit verursachen. Schädlich für Wasserorganismen, mit langfristiger Wirkung.</p><p>Darf nicht in die Hände von Kindern gelangen.</p><p>Von Hitze, heißen Oberflächen, Funken, offene Flammen oder Zündquellen fernhalten. Vor Sonnenbestrahlung schützen. Nicht Temperaturen über 50°C/122°F aussetzen. Nicht rauchen. Nicht gegen offene Flammen oder anderen Zündquellen sprühen. Nicht durchstechen oder verbrennen, auch nicht nach Gebrauch.</p><p>Einatmen von Aerosol vermeiden. Bei Unwohlsein Giftinformationszentrum/Arzt anrufen. Inhalt/Behälter einer anerkannten Abfallentsorgungsanlage zuführen.</p>",
+            "page": ""
+          }
+        },
+        "item_6mLB4r": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Verpackung und Versand",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": "verpackung-versand"
+          }
+        }
+      },
+      "block_order": [
+        "item_Aqqg3Q",
+        "item_FABnh6",
+        "item_6mLB4r"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Beschreibung",
+        "content": "<p>Unser Outdoor-Imprägnierspray für den maximalen Schutz. Schütze deine (Barfuß-)Schuhe, Jacken und mehr vor Wasser und Schmutz, während die Atmungsaktivität erhalten bleibt.<br/><br/><strong>Nach der Entfernung des Hygienesiegels ist das Imprägnierspray nicht mehr retournierbar.</strong></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "rgba(0,0,0,0)",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "media_with_text_QJB6fD": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_rDcEbX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_impraegnierspray_1.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Schutz & Pflege für deine Outdoor-Ausrüstung",
+            "content": "<p><strong>Entdecke das Freiluftkind Outdoor-Imprägnierspray: </strong>Dein zuverlässiger Begleiter, um deine liebsten Barfußschuhe vor Regen und Schmutz zu schützen. Mit unserer innovativen Formel bieten wir dir eine langlebige Lösung, die dich durch jede Wetterlage begleitet und selbst auf atmungsaktiven Membranen angewendet werden kann, ohne deren Funktion zu beeinträchtigen.<br/><br/>Ideal für Leder, Canvas, Mesh, Synthetik und Materialmixes. Unsere Spezialmischung verlängert nicht nur die Atmungsaktivität deiner Schuhe, sondern fördert auch die Lebensdauer deiner gesamten Outdoor-Ausrüstung.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_dWMQmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_impraegnierspray_4.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vielseitig einsetzbar für langanhaltenden Schutz",
+            "content": "<p>Das Besondere an unserem Imprägnierspray ist seine Vielseitigkeit. <strong>Ob Schuhe, Funktionsjacken, Handtaschen oder Rucksäcke </strong>– unser Spray bietet zuverlässigen Schutz für fast alle Textilien und Lederarten.<br/><br/>Die einfache Anwendung ermöglicht es dir, eine breite Palette von Gegenständen effektiv zu schützen und deren Lebensdauer zu verlängern. Rüste dich aus und sei bereit für dein nächstes großes Abenteuer – mit Freiluftkind an deiner Seite.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_gfhYpU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_impraegnierspray_2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Einfache Anwendung, beeindruckende Ergebnisse",
+            "content": "<p><strong>Die Anwendung ist denkbar einfach: </strong>Schüttle das Spray gut, halte es etwa 20 cm vom Schuh entfernt und sprühe die saubere und trockene Oberfläche kurz ein. Nach nur 30 Minuten Trocknungszeit entfaltet das Spray seine volle Wirkung und hinterlässt einen unsichtbaren Schutzfilm, der Regen und Schmutz abweist.<br/><br/>So bleiben deine Schuhe länger sauber und trocken – der erste Schritt in Richtung nachhaltiger Pflege und Schutz deiner Outdoor-Ausrüstung.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_kYD6TC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_impraegnierspray_3.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Sicherheit und Umweltschutz",
+            "content": "<p>Beachte bitte die Sicherheitshinweise auf der Verpackung und nutze das Spray nur im Freien oder in gut belüfteten Räumen. Bei Freiluftkind liegt uns nicht nur die Qualität unserer Produkte am Herzen, sondern auch die Umwelt. Daher ist uns eine umweltgerechte Entsorgung des Behälters nach Gebrauch ein wichtiges Anliegen.<br/><br/>Mit unserem Outdoor-Imprägnierspray machst du den ersten Schritt in Richtung nachhaltiger Pflege und Schutz deiner Outdoor-Ausrüstung.<br/><br/>Bereit für unbeschwerte Tage im Freien? Sichere dir jetzt das Freiluftkind Outdoor-Imprägnierspray und genieße den Schutz deiner Outdoor-Bekleidung.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rDcEbX",
+        "image_dWMQmR",
+        "image_gfhYpU",
+        "image_kYD6TC"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "enable_fixed_padding": true,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "impact_text_geQAdy": {
+      "type": "impact-text",
+      "blocks": {
+        "item_Vd3gkf": {
+          "type": "item",
+          "settings": {
+            "title": "87%",
+            "subheading": "spürten weniger Ermüdungserscheinungen",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_n7pMAE": {
+          "type": "item",
+          "settings": {
+            "title": "73%",
+            "subheading": "bemerkten eine Schmerzlinderung",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_bdbdQz": {
+          "type": "item",
+          "settings": {
+            "title": "64%",
+            "subheading": "stellten mehr Fußmuskulatur fest",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_Vd3gkf",
+        "item_n7pMAE",
+        "item_bdbdQz"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 0.8,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "1729085677858a4902": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_8kngbP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_8kngbP"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "accordion_content_XRqr8b",
+    "media_with_text_QJB6fD",
+    "impact_text_geQAdy",
+    "1729085677858a4902"
+  ]
+}

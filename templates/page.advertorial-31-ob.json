@@ -1,0 +1,396 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "freiluftkind_adv_controls_QDaFVC": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": true,
+        "remove_footer": true,
+        "hide_product_info": false
+      }
+    },
+    "rich_text_cTKqUt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtU6dx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Advertorial | Kategorie: Gesunde Schuhe</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtU6dx"
+      ],
+      "custom_css": [
+        ".section-full {padding: 8px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#242424",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "freiluftkind_adv_text_kytcNe": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "sidebar_hK7Qeb": {
+          "type": "sidebar",
+          "settings": {
+            "title": "<p><strong>⭐️⭐️⭐️⭐️⭐️ 4.8 / 5.0</strong></p>",
+            "bullet_points": "<ul><li>Wasserabweisend und gefüttert</li><li>Komfortabel und bequem</li><li>Mit Orthopäden entwickelt</li><li>Das deutsche Original</li></ul>",
+            "sidebar_image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_schwarz_v2.jpg",
+            "cta_button_text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "cta_button_link": "shopify://products/kepler-winter",
+            "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
+            "bullet_icon": "shopify://shop_images/Icon.svg",
+            "bullet_bg_color": "#242424",
+            "bullet_text_color": "#ffffff"
+          }
+        },
+        "logo_cCfFMm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/gesundheitsmagazin.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 250
+          }
+        },
+        "heading_Pgwxz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Der wasserdichte und rutschfeste Barfußschuh, den Sie den ganzen Winter lang nicht ausziehen möchten!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "author_6PYk8k": {
+          "type": "author",
+          "settings": {
+            "imageadvheadimg": "shopify://shop_images/freiluftkind_adv_18_rev_1.jpg",
+            "imageadvheadtext": "<p>von Robert Oelke (Podologe)</p>"
+          }
+        },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kepler_adv_2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_qydWjQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Jeden Winter das gleiche Problem…</strong> Die kalte Jahreszeit beginnt, und mit ihr die Herausforderung, das richtige Schuhwerk zu finden, das unsere Füße warm, trocken und sicher hält. Ein falscher Schuh kann schnell zu kalten, nassen Füßen und sogar gesundheitlichen Problemen führen – und das kann schmerzhaft werden.</p><p>Die Suche nach einem Schuh, der wasserdicht, rutschfest, warm und bequem ist, gestaltet sich oft schwieriger, als man denkt. Doch die Freiluftkind Barfußschuhe machen damit Schluss. Sie vereinen all diese Eigenschaften und helfen dabei häufige Fußprobleme wie Schmerzen oder Überlastungen zu vermeiden.</p>"
+          }
+        },
+        "heading_GB6aVn": {
+          "type": "heading",
+          "settings": {
+            "text": "Schützen Sie Ihre Gesundheit: Warme Füße dank der richtigen Schuhwahl!",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JztaFz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wussten Sie, dass kalte Füße im Winter nicht nur unangenehm, sondern auch gesundheitsschädlich sein können? Dauerhaft kalte Füße beeinträchtigen die Durchblutung und schwächen das Immunsystem. Das erhöht das Risiko für Erkältungen, Grippe und andere Infektionen erheblich. Wenn der Körper all seine Energie darauf verwenden muss, die Füße warm zu halten, fehlt diese an anderer Stelle, und Sie werden anfälliger für Krankheiten.</p><p>Mit den Freiluftkind Barfußschuhen gehören kalte Füße der Vergangenheit an! Diese Schuhe sind nicht nur wasserdicht und isolierend, sondern fördern durch ihre Barfußtechnologie auch die natürliche Durchblutung. Sie halten Ihre Füße selbst an den kältesten Tagen wohlig warm und unterstützen die Gesundheit Ihres gesamten Körpers.</p><p>Nach über zwei Jahren intensiver Forschung haben Ärzte und Orthopäden den perfekten Schuh geschaffen. <a href=\"https://freiluftkind.de/products/kepler-winter\" title=\"Kepler - wasserabweisende & gefütterte Barfußschuhe\">Der Kepler</a> ist ein ergonomischer, leichter und wasserdichter Schuh, der speziell entwickelt wurde, um Ihre Füße warm und trocken zu halten und gleichzeitig maximalen Komfort zu bieten.</p>"
+          }
+        },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flk-adv-28-v2-3.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_BEkBjE": {
+          "type": "heading",
+          "settings": {
+            "text": "Nie wieder kalte, nasse Füße – Entdecken Sie die gesunden Barfußschuhe!",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XBTJC7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Freiluftkind Barfußschuhe wurden speziell entwickelt, um Ihre Füße auch im Winter gesund, trocken und warm zu halten. Dank seines innovativen Designs, der hochwertigen Innenpolsterung und der positiven Rückmeldungen von <strong>Tausenden zufriedenen Kunden </strong>hat sich dieser Schuh als eine der besten Lösungen für den Winter etabliert. Das minimalistische, innovative Design sorgt für ein natürliches Barfußgefühl, während die hochwertige Verarbeitung für Schutz und Komfort sorgt. Die Schuhe fördern die natürliche Fußbewegung und stärken so die Muskulatur, während sie gleichzeitig durch ihre isolierende Sohle kalte und nasse Füße verhindern.</p>"
+          }
+        },
+        "heading_n3fEBY": {
+          "type": "heading",
+          "settings": {
+            "text": "Wasserdichte und rutschfeste Technologie",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rJ3nh3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vergessen Sie herkömmliche Winterschuhe, die oft schwer und unflexibel sind. Die Freiluftkind Barfußschuhe kombinieren modernste Materialien mit einer speziell entwickelten rutschfesten Sohle, die Ihnen auch auf glatten oder regnerischen Oberflächen sicheren Halt gibt. Dank der wasserdichten Verarbeitung bleiben Ihre Füße trocken, selbst wenn Sie durch Schnee oder Pfützen laufen. Gleichzeitig sorgt das atmungsaktive Innenfutter dafür, dass Ihre Füße nicht überhitzen.</p><p>Die natürliche Flexibilität der Sohle verteilt den Druck gleichmäßig und unterstützt Ihre Gelenke, wodurch häufige Fußprobleme wie Fersenschmerzen oder Überpronation gelindert werden können. Und das Beste: Die Freiluftkind Barfußschuhe sind unglaublich leicht und fördern eine gesunde Haltung – ideal für lange Spaziergänge oder den Alltag.</p>"
+          }
+        },
+        "image_PfnbLD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv14-3.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_kChkyk": {
+          "type": "heading",
+          "settings": {
+            "text": "Die wichtigsten Vorteile der Freiluftkind Barfußschuhe auf einen Blick",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qz3Hkf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Rutschfeste Sohle:</strong> Die spezielle Barfußsohle bietet optimalen Halt auf nassen oder glatten Untergründen.</p><p><strong>Wasserdicht und warm:</strong> Hält Ihre Füße trocken und warm, auch bei Regen oder Schnee.</p><p><strong>Gesundheit und Komfort:</strong> Die Barfußtechnologie stärkt die Fußmuskulatur, verbessert die Durchblutung und verhindert unangenehme Gerüche.</p><p><strong>Freihändiges Anziehen:</strong> Kein lästiges Schnüren – die Schuhe lassen sich bequem und schnell anziehen.</p><p><strong>Leicht und flexibel:</strong> Die Schuhe passen sich Ihrer Fußform an und bleiben auch bei täglichem Gebrauch komfortabel.</p><p><strong>Ergonomisch:</strong> Unterstützt eine gesunde Körperhaltung und reduziert Belastungen auf Knie, Hüfte und Rücken.</p>"
+          }
+        },
+        "image_fF8cB8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-31-v2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_tgTNGL": {
+          "type": "heading",
+          "settings": {
+            "text": "Häufig gestellte Fragen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ycMgUk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>In welchen Farben sind die Freiluftkind Barfußschuhe erhältlich?</strong><br/>Die Schuhe sind unisex und in einer Vielzahl von Farben erhältlich, darunter Schwarz, Grau und Blau.</p><p><strong>Sind die Freiluftkind Barfußschuhe wasserdicht und rutschfest?</strong><br/>Ja, sie sind komplett wasserdicht und verfügen über eine speziell entwickelte rutschfeste Sohle – perfekt für den Winter.</p><p><strong>Verlieren die Schuhe irgendwann ihre Form?</strong><br/>Dank der hochwertigen Materialien bleiben die Schuhe auch bei häufigem Tragen flexibel und langlebig.</p>"
+          }
+        },
+        "heading_eKDiLR": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Sie dieses Problem nicht einfach ignorieren sollten",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bjfQe8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vergessen Sie nicht: Ihre Fußgesundheit ist entscheidend für Ihr Wohlbefinden. Die Freiluftkind Barfußschuhe sind weit mehr als nur ein modischer Begleiter – sie sind eine Investition in Ihre Gesundheit. Mit ihrer einzigartigen Kombination aus Komfort, Funktionalität und Stil können diese Schuhe Ihr Leben nachhaltig verbessern.</p><p><strong>Handeln Sie jetzt und spüren Sie den Unterschied, den die Freiluftkind Barfußschuhe für Ihre Gesundheit und Ihren Komfort machen können.</strong></p>"
+          }
+        },
+        "image_hrdWjY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-31-end.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_6bR4LQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Achtung: Rasender Abverkauf",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XftrzX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Seit der Einführung von Freiluftkind Schuhen im Internet hat das Produkt eine enorme Nachfrage ausgelöst, und inzwischen wurden bereits über 500.000 Paare verkauft. Aufgrund der großen Beliebtheit und des positiven Kundenfeedbacks bietet das Unternehmen nun eine <strong>Geld-Zurück-Garantie</strong> an.</p><p>Außerdem gibt es aktuell <strong>riesige</strong> <strong>Rabatte auf alle Modelle</strong>, solange der Vorrat reicht. Um zu prüfen, ob sie noch verfügbar sind, klicken Sie auf den unten stehenden Button.</p>"
+          }
+        },
+        "button_WCgG78": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "JETZT RABATT PRÜFEN",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_hK7Qeb",
+        "logo_cCfFMm",
+        "heading_Pgwxz9",
+        "author_6PYk8k",
+        "image_AF7UjR",
+        "richtext_qydWjQ",
+        "heading_GB6aVn",
+        "richtext_JztaFz",
+        "image_Fjc3nH",
+        "heading_BEkBjE",
+        "richtext_XBTJC7",
+        "heading_n3fEBY",
+        "richtext_rJ3nh3",
+        "image_PfnbLD",
+        "heading_kChkyk",
+        "richtext_qz3Hkf",
+        "image_fF8cB8",
+        "heading_tgTNGL",
+        "richtext_ycMgUk",
+        "heading_eKDiLR",
+        "richtext_bjfQe8",
+        "image_hrdWjY",
+        "heading_6bR4LQ",
+        "richtext_XftrzX",
+        "button_WCgG78"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "freiluftkind_testimonials_RyQMEJ": {
+      "type": "freiluftkind-testimonials",
+      "blocks": {
+        "testimonial_gcP4XV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/adv_kunde_3_da779b4f-9560-4441-9e31-e23874ce322e.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Helga (63 Jahre)",
+            "content": "<p>Nach Jahren chronischer Fußschmerzen und unzähligen Versuchen mit verschiedenen Schuhmodellen entdeckte ich durch meinen Orthopäden Freiluftkind. Seitdem ich diese Barfußschuhe trage, habe ich eine deutliche Erleichterung meiner Beschwerden festgestellt. Mein Gang ist sicherer und ich genieße wieder lange Spaziergänge ohne Schmerzen.</p>"
+          }
+        },
+        "testimonial_6xrFic": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kepler_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Anna (42 Jahre)",
+            "content": "<p>Als berufstätige Mutter bin ich ständig auf den Beinen. Die Freiluftkind-Barfußschuhe sind für mich der ideale Begleiter im Alltag geworden. Sie sind nicht nur bequem und stilvoll, sondern unterstützen auch meine Fußgesundheit. Ich fühle mich den ganzen Tag über aktiv und energiegeladen. Eine klare Empfehlung von mir!</p>"
+          }
+        },
+        "testimonial_NxXK99": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/adv_kunde_1_52a7f54c-48cb-4b33-af44-1ba5a73c7ca3.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Markus (54 Jahre)",
+            "content": "<p>Ich bin begeisterter Wanderer, aber meine Knieprobleme haben mir fast den Spaß daran genommen. Die Empfehlung meines Orthopäden, Freiluftkind-Schuhe zu probieren, war ein Wendepunkt. Diese Schuhe bieten nicht nur hervorragenden Komfort und Halt auf unebenem Gelände, sondern haben auch meine Kniebeschwerden merklich verringert.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_gcP4XV",
+        "testimonial_6xrFic",
+        "testimonial_NxXK99"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Patienten teilen ihre Erfahrungen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "rich_text_z66jka": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_y6BNWJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://freiluftkind.de/policies/legal-notice\" title=\"https://freiluftkind.de/policies/legal-notice\">Impressum</a> | <a href=\"https://freiluftkind.de/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutz</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y6BNWJ"
+      ],
+      "custom_css": [
+        "p {font-size: 12px;}",
+        ".section-full {padding-top: 32px; padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "freiluftkind_adv_controls_QDaFVC",
+    "rich_text_cTKqUt",
+    "freiluftkind_adv_text_kytcNe",
+    "freiluftkind_testimonials_RyQMEJ",
+    "rich_text_z66jka"
+  ]
+}

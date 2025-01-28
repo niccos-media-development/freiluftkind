@@ -1,0 +1,65 @@
+{% schema %}
+{
+  "name": "Advertorial Product Info",
+  "class": "shopify-section--product-info",
+  "tag": "section",
+  "limit": 1,
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "bullet_points",
+      "label": "Bullet Points",
+       "info": "Select List style for proper text with icon rendering"
+    },
+    {
+      "type": "image_picker",
+      "id": "sidebar_image",
+      "label": "Product Image"
+    },
+    {
+      "type": "text",
+      "id": "cta_button_text",
+      "label": "CTA Button Text"
+    },
+    {
+      "type": "url",
+      "id": "cta_button_link",
+      "label": "CTA Button Link"
+    },
+    {
+      "type": "text",
+      "id": "cta_subtext",
+      "label": "CTA Subtext"
+    },
+    {
+      "type": "image_picker",
+      "id": "bullet_icon",
+      "label": "Custom Bullet Icon",
+      "info": "16x16px SVG or PNG recommended. Leave empty to use default checkmark."
+    },
+    {
+      "type": "color",
+      "id": "bullet_bg_color",
+      "label": "Bullet Section Background Color"
+    },
+    {
+      "type": "color",
+      "id": "bullet_text_color",
+      "label": "Bullet & Text Color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Advertorial Product Info"
+    }
+  ]
+}
+{% endschema %}

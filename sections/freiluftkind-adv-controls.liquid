@@ -1,0 +1,58 @@
+<style>
+  {%- if section.settings.remove_header -%}
+  .shopify-section-group-header-group {
+    display: none !important;
+  }
+  {%- endif -%}
+
+  {%- if section.settings.remove_footer -%}
+  .shopify-section-group-footer-group {
+    display: none !important;
+  }
+  {%- endif -%}
+
+  {%- if section.settings.hide_product_info -%}
+  .product-info-adv {
+    display: none !important;
+  }
+  .rich-text__wrapper.ss-grid{
+    grid-template-columns: 1fr !important;
+  }
+  {%- endif -%}
+</style>
+
+{% schema %}
+{
+  "name": "Advertorial Controls",
+  "class": "shopify-section--controls",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "remove_header",
+      "label": "Remove Header",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_footer",
+      "label": "Remove Footer",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_product_info",
+      "label": "Hide Product Information",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Advertorial Controls"
+    }
+  ]
+}
+{% endschema %}

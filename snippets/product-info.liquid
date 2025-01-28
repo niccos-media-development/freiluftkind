@@ -1,0 +1,648 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PRODUCT INFO
+----------------------------------------------------------------------------------------------------------------------
+
+This snippet renders all the blocks of a given product. It uses the blocks of the section currently in use (there is
+no need to manually pass the section as it is globally available)
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product on which to render the information (if blank, it renders placeholder information)
+* product_form_id: the ID of the product form
+* context: the context of the product info. Can be "main_product", "featured_product" or "quick_buy"
+{%- endcomment -%}
+
+<safe-sticky class="product-info">
+  {%- assign inside_block_group_context = false -%}
+  {%- assign current_block_group_name = '' -%}
+
+  {%- for block in section.blocks -%}
+    {%- liquid
+      assign previous_block_index = forloop.index0 | minus: 1
+      assign next_block_index = forloop.index0 | plus: 1
+      assign previous_block = section.blocks[previous_block_index]
+      assign next_block = section.blocks[next_block_index]
+
+      comment
+      You can use your own condition to create smart grouping. When two or more blocks match the condition, they are
+      automatically grouped by a div that will take the desired class. This can even work for more than 2 elements
+      (for instance if you specify accordion follow by an accordion). The theme takes care of properly opening and
+      closing the group for proper HTML. In order to make it work, you need to create one condition explaining when
+      to enter into the group, and you need to indicate a block_group_class and block_group_name. Most of the time,
+      the two will be identical. However, the block_group_name must be unique. This means that as long as the block_group_name
+      stays the same, then another group will not be created as long as the conditions match.
+      endcomment
+
+      assign allow_block_group = true
+
+      if block.type == 'offer' and next_block.type == 'offer'
+        assign block_group_class = 'product-info__offer-list'
+        assign block_group_name = 'product-info__offer-list'
+      elsif block.type == 'collapsible_text' and next_block.type == 'collapsible_text'
+        assign block_group_class = 'accordion-group'
+        assign block_group_name = 'accordion-group'
+      elsif block.type == 'collapsible_text' and next_block.type == 'description' and product.description != blank and next_block.settings.collapse_content
+        assign block_group_class = 'accordion-group'
+        assign block_group_name = 'accordion-group'
+      elsif block.type == 'description' and product.description != blank and block.settings.collapse_content and next_block.type == 'collapsible_text'
+        assign block_group_class = 'accordion-group'
+        assign block_group_name = 'accordion-group'
+      else
+        assign allow_block_group = false
+        assign block_group_class = ''
+        assign current_block_group_name = ''
+      endif
+
+      if allow_block_group
+        assign new_block_group_name = block_group_name
+
+        if inside_block_group_context == true and new_block_group_name != current_block_group_name
+          assign allow_block_group = false
+        else
+          assign current_block_group_name = new_block_group_name
+        endif
+      endif
+    -%}
+
+    {%- capture block_content -%}
+      {%- case block.type -%}
+        {%- when '@app' -%}
+          {%- render block -%}
+
+        {%- when 'vendor' -%}
+          {%- if product.vendor != blank -%}
+            <div class="product-info__vendor">
+              {%- render 'vendor' with product.vendor -%}
+            </div>
+          {%- endif -%}
+
+        {%- when 'title' -%}
+          {%- if request.page_type == 'product' -%}
+            <h1 class="product-info__title {{ block.settings.heading_tag }}">
+              {{- product.title -}}
+            </h1>
+          {%- else -%}
+            <h2 class="product-info__title {{ block.settings.heading_tag }}">
+              <a href="{{ product.url }}">{{ product.title }}</a>
+            </h2>
+          {%- endif -%}
+
+        {%- when 'badges' -%}
+          {%- render 'product-badges', product: product, context: 'product', types: 'custom', class: 'product-info__badge-list' -%}
+
+        {%- when 'freiluftkind-badges' -%}
+          <span class="badge badge--primary" style="margin-right: var(--spacing-2); display: inline-block; background: #fff; border: solid 1px; color: #1a1a1a">Freiluftkind</span>
+          {%- render 'product-badges', product: product, context: 'product', types: 'custom', class: 'product-info__badge-list freiluftkind-badges' -%}
+
+        {%- when 'freiluftkind-usps' -%}
+          {% if block.settings['freiluftkind-usp-show-img'] %}
+            <div class="freiluftkind-usp-image" style="display: flex; align-items: center; margin-bottom: 2px">
+              <div class="freiluftkind-usp-img">
+              <img class="Image--lazyLoaded"
+              src="{{- block.settings.freiluftkind-usp-img | image_url -}}"
+              alt="Freiluftkind Orthopäde"
+              width="100%" height="100%"
+              style="
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+                background: linear-gradient(to bottom, #000000 33.33%, #FF0000 33.33% 66.66%, #FFCC00 66.66%);
+                padding: 1px;;
+                border-radius: 50%;
+                ">
+              </div>
+              <p class="freiluftkind-usp" style="margin: 0px">{{ block.settings.freiluftkind-usp-img-text }}</p>
+            </div>
+          {% endif %}
+          {% unless block.settings['freiluftkind-usp-1'] == blank %}
+            <div class="freiluftkind-usp" style="display: flex; align-items: center">
+              <svg style="margin-right: 5px" role="presentation" fill="none" focusable="false" stroke-width="2" width="20" height="20" class="icon icon-picto-validation" viewBox="0 0 24 24">
+                <path d="M12 22.714a10.714 10.714 0 1 0 0-21.428 10.714 10.714 0 0 0 0 21.428v0Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="m7.714 13.071 3.116 3.215c1.468-4.214 2.688-6.062 5.455-8.572" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              {{ block.settings.freiluftkind-usp-1 }}
+            </div>
+          {% endunless %}
+          {% unless block.settings['freiluftkind-usp-2'] == blank %}
+            <div class="freiluftkind-usp" style="margin-top: 2px; display: flex; align-items: center">
+              <svg style="margin-right: 5px" role="presentation" fill="none" focusable="false" stroke-width="2" width="20" height="20" class="icon icon-picto-validation" viewBox="0 0 24 24">
+                <path d="M12 22.714a10.714 10.714 0 1 0 0-21.428 10.714 10.714 0 0 0 0 21.428v0Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="m7.714 13.071 3.116 3.215c1.468-4.214 2.688-6.062 5.455-8.572" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              {{ block.settings.freiluftkind-usp-2 }}
+            </div>
+          {% endunless %}
+          {% unless block.settings['freiluftkind-usp-3'] == blank %}
+            <div class="freiluftkind-usp" style="margin-top: 2px; display: flex; align-items: center">
+              <svg style="margin-right: 5px" role="presentation" fill="none" focusable="false" stroke-width="2" width="20" height="20" class="icon icon-picto-validation" viewBox="0 0 24 24">
+                <path d="M12 22.714a10.714 10.714 0 1 0 0-21.428 10.714 10.714 0 0 0 0 21.428v0Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="m7.714 13.071 3.116 3.215c1.468-4.214 2.688-6.062 5.455-8.572" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              {{ block.settings.freiluftkind-usp-3 }}
+            </div>
+          {% endunless %}
+
+        {%- when 'freiluftkind-shipping' -%}
+          <div class="relative">
+            <button type="button" class="select" style="padding-right: 16px">
+              <span>
+                <div class="freiluftkind-shipping-wrapper" style="font-size: 14px;">
+                  {% assign selected_variant_sku = product.selected_or_first_available_variant.sku %}
+                  {% assign product_warning_skus = product.metafields.freiluftkind.shipping_warning | split: ',' %}
+                  {% if product_warning_skus contains selected_variant_sku %}
+                    <div
+                      style="color: #E4A500; background: #E4A500"
+                      id="freiluftkind-shipping-pulse"
+                      class="freiluftkind-shipping-pulse"
+                    ></div>
+                    <span id="freiluftkind-shipping-time" style="color: #E4A500;">Verzögert Verfügbar</span>
+                  {% elsif product.selected_or_first_available_variant.available %}
+                    <div id="freiluftkind-shipping-pulse" class="freiluftkind-shipping-pulse"></div>
+                    <span id="freiluftkind-shipping-time" style="font-weight: 700; font-size: 13px">{{ product.metafields.my_fields.shipping }}</span>
+                    <span id="freiluftkind-shipping-time"> - Morgen verpackt</span>
+                  {% else %}
+                    <div style="color: red; background: red" id="freiluftkind-shipping-pulse" class="freiluftkind-shipping-pulse"></div>
+                    <span id="freiluftkind-shipping-time" style="color: red">Ausverkauft</span>
+                  {% endif %}
+                </div>
+              </span>
+            </button>
+          </div>      
+          <style>
+            .freiluftkind-shipping-pulse {
+              margin-right: 4px;
+              display: inline-block;
+              width: 9px;
+              height: 9px;
+              border-radius: 50%;
+              animation: pulse 2s infinite;
+              background-color: {{ product.metafields.my_fields.shipping_color }};
+            }
+            
+            #freiluftkind-shipping-time {
+              color: {{ product.metafields.my_fields.shipping_color }};
+            }
+          </style>
+            
+        {%- when 'freiluftkind-social-proof' -%}
+          <div class="freiluftkind-social-proof" style="display: flex; flex-direction: row; align-items: center">
+            <div class="freiluftkind-social-proof-images" style="display: flex; margin-right: 24px; max-width: 58px">
+              <img
+                style="width: 24px; height: 24px; border-radius: 50%"
+                src="{{- block.settings.freiluftkind-social-proof-img-1 | image_url -}}"
+                width="100%"
+                height="100%"
+              >
+              <img
+                style="width: 24px; height: 24px; border-radius: 50%; position: relative; left: -5px;"
+                src="{{- block.settings.freiluftkind-social-proof-img-2 | image_url -}}"
+                width="100%"
+                height="100%"
+              >
+              <img
+                style="width: 24px; height: 24px; border-radius: 50%; position: relative; left: -10px;"
+                src="{{- block.settings.freiluftkind-social-proof-img-3 | image_url -}}"
+                width="100%"
+                height="100%"
+              >
+            </div>
+            <div class="text-sm" style="line-height: 1.2; font-size: 12px">{{ block.settings.freiluftkind-social-proof-text }}</div>
+          </div>
+
+        {%- when 'freiluftkind-payment' -%}
+          <span class="freiluftkind-paylater">
+            Kauf auf Rechnung möglich - in 30 Tagen zahlen mit
+          </span>    
+          <div class="freiluftkind-payment-providers">
+            <ul class="footer__payment-icons h-stack wrap gap-2" style="margin-left: auto; margin-right: auto; width: fit-content">
+              <li class="contents">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-klarna"><title id="pi-klarna">Klarna</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#FFB3C7"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32" fill="#FFB3C7"></path><path d="M34.117 13.184c-.487 0-.882.4-.882.892 0 .493.395.893.882.893.488 0 .883-.4.883-.893a.888.888 0 00-.883-.892zm-2.903-.69c0-.676-.57-1.223-1.274-1.223-.704 0-1.274.547-1.274 1.222 0 .675.57 1.223 1.274 1.223.704 0 1.274-.548 1.274-1.223zm.005-2.376h1.406v4.75h-1.406v-.303a2.446 2.446 0 01-1.394.435c-1.369 0-2.478-1.122-2.478-2.507 0-1.384 1.11-2.506 2.478-2.506.517 0 .996.16 1.394.435v-.304zm-11.253.619v-.619h-1.44v4.75h1.443v-2.217c0-.749.802-1.15 1.359-1.15h.016v-1.382c-.57 0-1.096.247-1.378.618zm-3.586 1.756c0-.675-.57-1.222-1.274-1.222-.703 0-1.274.547-1.274 1.222 0 .675.57 1.223 1.274 1.223.704 0 1.274-.548 1.274-1.223zm.005-2.375h1.406v4.75h-1.406v-.303A2.446 2.446 0 0114.99 15c-1.368 0-2.478-1.122-2.478-2.507 0-1.384 1.11-2.506 2.478-2.506.517 0 .997.16 1.394.435v-.304zm8.463-.128c-.561 0-1.093.177-1.448.663v-.535H22v4.75h1.417v-2.496c0-.722.479-1.076 1.055-1.076.618 0 .973.374.973 1.066v2.507h1.405v-3.021c0-1.106-.87-1.858-2.002-1.858zM10.465 14.87h1.472V8h-1.472v6.868zM4 14.87h1.558V8H4v6.87zM9.45 8a5.497 5.497 0 01-1.593 3.9l2.154 2.97H8.086l-2.341-3.228.604-.458A3.96 3.96 0 007.926 8H9.45z" fill="#0A0B09" fill-rule="nonzero"></path></g></svg>
+              </li>
+              <li class="contents">
+                <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"></path><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"></path><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"></path></svg>
+              </li>
+              <li class="contents">
+                <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pi-sofort"><title id="pi-sofort">SOFORT</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z" fill="#000"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z" fill="#fff"></path><path d="M33.555 20H3L5.322 5H36l-2.445 15Z" fill="#393A41"></path><path d="M13.116 10c-1.403 0-2.47 1.243-2.47 2.725 0 1.34.875 2.274 2.066 2.274 1.403 0 2.462-1.278 2.462-2.76.008-1.349-.867-2.239-2.058-2.239Zm-.315 3.738c-.538 0-.912-.423-.912-1.076 0-.723.463-1.41 1.132-1.41.536 0 .911.441.911 1.094.008.731-.462 1.392-1.132 1.392ZM21.56 10c-1.402 0-2.461 1.243-2.461 2.725 0 1.34.875 2.274 2.066 2.274 1.403 0 2.463-1.278 2.463-2.76C23.636 10.89 22.76 10 21.562 10Zm-.307 3.738c-.537 0-.912-.423-.912-1.076 0-.723.463-1.41 1.133-1.41.535 0 .911.441.911 1.094 0 .731-.463 1.392-1.133 1.392Zm6.506-2.16c0-.9-.581-1.472-1.64-1.472h-1.485l-.654 4.787h1.25l.206-1.508h.059l.66 1.508h1.434l-.918-1.676c.684-.282 1.087-.89 1.087-1.638Zm-2 .795h-.183l.139-1.007h.169c.39 0 .595.142.595.45 0 .363-.293.557-.72.557Zm-16.547-.354c-.477-.292-.581-.362-.581-.521 0-.193.19-.29.448-.29.302 0 .758.043 1.206.554.108-.4.287-.777.529-1.11-.63-.431-1.22-.652-1.756-.652-1.066 0-1.683.687-1.683 1.516 0 .715.447 1.085.977 1.412.478.29.595.387.595.564 0 .194-.198.3-.463.3-.456 0-.986-.344-1.301-.697L7 14.426c.417.378.954.582 1.507.574 1.103 0 1.699-.671 1.699-1.527 0-.705-.382-1.084-.993-1.454Zm9.263.184h-1.47l.117-.837h1.572c.2-.491.513-.923.912-1.26h-2.573c-.573 0-1.058.467-1.14 1.102l-.499 3.694h1.25l.206-1.508h1.485l.11-.82c.007-.132.015-.247.03-.37Zm9.312-2.096c.338.308.544.74.588 1.26h1.044l-.477 3.526h1.249l.477-3.527h1.162l.169-1.26h-4.212Z" fill="#EDEDED"></path></svg>
+              </li>
+              <li class="contents">
+                <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-maestro"><title id="pi-maestro">Maestro</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#00A2E5" cx="23" cy="12" r="7"></circle><path fill="#7375CF" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+              </li>
+              <li class="contents">
+                <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+              </li>
+              <li class="contents">
+                <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg>
+              </li>
+            </ul>
+          </div>
+
+        {%- when 'sku' -%}
+          {% if product.selected_or_first_available_variant.sku != blank %}
+            <variant-sku class="product-info__sku text-xs text-subdued">
+              {{- 'product.general.sku' | t }} {{ product.selected_or_first_available_variant.sku -}}
+            </variant-sku>
+          {%- endif -%}
+
+        {%- when 'price' -%}
+          {%- if product.selected_or_first_available_variant != nil -%}
+
+            {% if product.compare_at_price > product.price %}
+              <div class="freiluftkind-savings">
+                Tiefstpreis-Garantie: {{  product.selected_or_first_available_variant.compare_at_price | minus:product.selected_or_first_available_variant.price | money }} sparen!*
+              </div>
+  
+              <style>
+                .freiluftkind-savings {
+                  position: relative;
+                  display: inline-block;
+                  margin-bottom: 8px;
+                  margin-top: 8px;
+                  padding: 6px 8px;
+                  border-radius: 2px;
+                  background: linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(87, 102, 77, 1) 100%);
+                  color: #fff;
+                  font-size: 14px;
+                  line-height: 13px;
+                }
+  
+                .freiluftkind-savings:after {
+                  content: "";
+                  position: absolute;
+                  bottom: -38%;
+                  left: 20px;
+                  width: 0;
+                  height: 0;
+                  transform: rotate(180deg);
+                  border-color: transparent transparent rgba(66, 74, 48, 1);
+                  border-style: solid;
+                  border-width: 0 8.5px 11px;
+                }
+              </style>
+            {%- endif -%}
+
+            <div class="product-info__price">
+              <div class="rating-with-text">
+                {%- render 'price-list', variant: product.selected_or_first_available_variant, size: 'lg' -%}
+                {%- render 'product-badges', types: 'sold_out, discount', product: product, context: 'product', class: 'product-info__badge-list' -%}
+
+                {%- comment -%}If the next block is a rating block, then we add it as part of this one to have it inline{%- endcomment -%}
+                {%- if next_block.type == 'rating' -%}
+                  {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
+                {%- endif -%}
+              </div>
+
+              {%- if block.settings.show_taxes_notice -%}
+                <p class="text-sm text-subdued">
+                  {%- if cart.taxes_included -%}
+                    {{ 'product.general.taxes_included' | t }}
+                  {%- else -%}
+                    {{ 'product.general.taxes_excluded' | t }}
+                  {%- endif -%}
+
+                  {%- if shop.shipping_policy.body != blank -%}
+                    {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+        {%- when 'rating' -%}
+          {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
+
+          {%- if previous_block.type != 'price' -%}
+            <div class="product-info__rating">
+              {%- render 'product-rating', product: product, show_empty: block.settings.show_empty, block: block -%}
+            </div>
+          {%- endif -%}
+
+        {%- when 'payment_terms' -%}
+          <payment-terms class="product-info__payment-terms">
+            {%- capture product_installment_form_id -%}{{ product_form_id }}-product-installment-form{%- endcapture -%}
+
+            {%- form 'product', product, id: product_installment_form_id -%}
+              <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+              {{- form | payment_terms -}}
+            {%- endform -%}
+          </payment-terms>
+
+        {%- when 'separator' -%}
+          <hr class="product-info__separator">
+
+        {%- when 'description' -%}
+          {%- if block.settings.collapse_content -%}
+            {%- if product.description != blank -%}
+              {%- capture accordion_title -%}{{ 'product.general.description' | t }}{%- endcapture -%}
+              {%- capture accordion_content -%}<div class="prose">{{ product.description }}</div>{%- endcapture -%}
+
+              {%- assign icon = block.settings.custom_icon | default: block.settings.icon -%}
+              {%- render 'accordion', title: accordion_title, content: accordion_content, icon: icon, icon_width: block.settings.icon_width, class: 'product-info__accordion', block: block -%}
+            {%- endif -%}
+          {%- else -%}
+            {%- if product.description != blank -%}
+              <div class="product-info__description">
+                <div class="prose">
+                  {{- product.description -}}
+                </div>
+              </div>
+            {%- endif -%}
+          {%- endif -%}
+
+        {%- when 'variant_picker' -%}
+          <div class="product-info__variant-picker">
+            {%- render 'variant-picker', 
+              product: product, 
+              form_id: product_form_id,
+              update_url: update_url, 
+              hide_sold_out_variants: block.settings.hide_sold_out_variants, 
+              block: block 
+            -%}
+          </div>
+
+        {%- when 'product_variations' -%}
+          {%- assign contains_product = false -%}
+
+          {%- for product_variation in block.settings.products -%}
+            {%- if product_variation == product -%}
+              {%- assign contains_product = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- if contains_product -%}
+            {%- comment -%}
+              IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
+              visually similar to a variant picker, although it does not share the functionality
+            {%- endcomment -%}
+
+            <div class="product-info__product-picker">
+              <div class="variant-picker">
+                <fieldset class="variant-picker__option">
+                  {%- assign metafield_parts = block.settings.option_value_metafield | split: '.' -%}
+                  {%- assign metafield_namespace = metafield_parts | first -%}
+                  {%- assign metafield_key = metafield_parts | last -%}
+
+                  {%- if block.settings.option_name != blank -%}
+                    <div class="variant-picker__option-info">
+                      <div class="h-stack gap-2">
+                        <legend class="text-subdued">{{ block.settings.option_name }}:</legend>
+                        <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
+                      </div>
+                    </div>
+                  {%- endif -%}
+
+                  <div class="variant-picker__option-values wrap gap-2">
+                    {%- for product_variation in block.settings.products -%}
+                      {%- assign label = product_variation.metafields[metafield_namespace][metafield_key].value -%}
+
+                      {%- if product_variation == product -%}
+                        {%- assign selected = true -%}
+                      {%- else -%}
+                        {%- assign selected = false -%}
+                      {%- endif -%}
+
+                      {%- case block.settings.selector_style -%}
+                        {%- when 'swatch' -%}
+                          {%- render 'option-value', type: 'swatch', url: product_variation.url, label: label, selected: selected -%}
+
+                        {%- when 'variant_image' -%}
+                          {%- render 'option-value', type: 'thumbnail', url: product_variation.url, label: label, image: product_variation.featured_media, selected: selected, bordered: true -%}
+
+                        {%- when 'block' -%}
+                          {%- render 'option-value', type: 'block', url: product_variation.url, label: label, selected: selected -%}
+
+                        {%- when 'block_swatch' -%}
+                          {%- render 'option-value', type: 'block', url: product_variation.url, label: label, selected: selected, show_swatch: true -%}
+                      {%- endcase -%}
+                    {%- endfor -%}
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          {%- endif -%}
+
+        {%- when 'line_item_property' -%}
+          {%- if block.settings.label != blank -%}
+            {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
+
+            <div class="product-info__property">
+              {%- if block.settings.type == 'text' -%}
+                {%- if block.settings.allow_long_text -%}
+                  {%- render 'input', label: block.settings.label, name: name, form: product_form_id, multiline: 4, required: block.settings.required, maxlength: block.settings.max_length -%}
+                {%- else -%}
+                  {%- render 'input', type: 'text', label: block.settings.label, name: name, form: product_form_id, required: block.settings.required, maxlength: block.settings.max_length -%}
+                {%- endif -%}
+              {%- else -%}
+                {%- render 'checkbox', label: block.settings.label, name: name, required: block.settings.required, form: product_form_id -%}
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+        {%- when 'quantity_selector' -%}
+          {%- if product.available -%}
+            {%- assign variant = product.selected_or_first_available_variant -%}
+
+            <div class="product-info__quantity-selector">
+              <div class="form-control">
+                <label for="{{ product_form_id }}-quantity" class="block-label text-subdued">{{- 'product.quantity.label' | t -}}:</label>
+
+                <quantity-selector class="quantity-selector">
+                  <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.decrease_quantity' | t }}">{% render 'icon' with 'minus', width: 10, height: 2 %}</button>
+                  <input id="{{ product_form_id }}-quantity" type="number" is="quantity-input" inputmode="numeric" class="quantity-selector__input" name="quantity" form="{{ product_form_id }}" value="{{ variant.quantity_rule.min | default: 1 }}" step="{{ variant.quantity_rule.increment }}" min="{{ variant.quantity_rule.min }}" {% if variant.quantity_rule.max != nil %}max="{{ variant.quantity_rule.max }}"{% endif %} autocomplete="off">
+                  <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.increase_quantity' | t }}">{% render 'icon' with 'plus', width: 10, height: 10 %}</button>
+                </quantity-selector>
+              </div>
+
+              {%- liquid
+                assign quantity_rules = ''
+
+                if variant.quantity_rule.min > 1
+                  assign rule = 'product.quantity.minimum_of' | t: min: variant.quantity_rule.min
+                  assign quantity_rules = quantity_rules | append: ' / ' | append: rule
+                endif
+
+                if variant.quantity_rule.max != nil
+                  assign rule = 'product.quantity.maximum_of' | t: max: variant.quantity_rule.max
+                  assign quantity_rules = quantity_rules | append: ' / ' | append: rule
+                endif
+
+                if variant.quantity_rule.increment > 1
+                  assign rule = 'product.quantity.increment_of' | t: step: variant.quantity_rule.increment
+                  assign quantity_rules = quantity_rules | append: ' / ' | append: rule
+                endif
+              -%}
+
+              {%- if quantity_rules != blank -%}
+                <p class="text-subdued text-sm">{{ quantity_rules | remove_first: ' / ' | capitalize }}</p>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+        {%- when 'volume_pricing' -%}
+          {%- render 'volume-pricing-table', variant: product.selected_or_first_available_variant -%}
+
+        {%- when 'inventory' -%}
+          <div class="product-info__inventory">
+            {%- render 'inventory', variant: product.selected_or_first_available_variant, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
+          </div>
+
+        {%- when 'buy_buttons' -%}
+          {%- assign main_form_exists = true -%}
+
+          {%- if request.page_type != 'password' -%}
+            <div class="product-info__buy-buttons">
+              {%- render 'buy-buttons', page: 'main-product', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, show_gift_card_recipient: block.settings.show_gift_card_recipient, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
+            </div>
+          {%- endif -%}
+
+        {%- when 'pickup_availability' -%}
+          <div class="product-info__pickup-availability">
+            {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant -%}
+          </div>
+
+        {%- when 'text' -%}
+          {%- if block.settings.text != blank -%}
+            <div class="product-info__text">
+              <div class="prose">
+                {{- block.settings.text -}}
+              </div>
+            </div>
+          {%- endif -%}
+
+        {%- when 'collapsible_text' -%}
+          {%- if block.settings.title != blank and block.settings.content != blank or block.settings.page.content != blank -%}
+            {%- capture accordion_content -%}<div class="prose">{{ block.settings.page.content | default: block.settings.content }}</div>{%- endcapture -%}
+
+            {%- assign icon = block.settings.custom_icon | default: block.settings.icon -%}
+            {%- render 'accordion', title: block.settings.title, content: accordion_content, icon: icon, icon_width: block.settings.icon_width, class: 'product-info__accordion', block: block -%}
+          {%- endif -%}
+
+        {%- when 'image' -%}
+          {%- if block.settings.image != blank -%}
+            <div class="product-info__image">
+              {%- capture sizes -%}{{ block.settings.max_width }}px{%- endcapture -%}
+              {%- capture widths -%}{{ block.settings.max_width }}, {{ block.settings.max_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
+              {%- capture style -%}width: {{ block.settings.max_width }}px; {% if block.settings.alignment == 'center' %}margin-inline: auto{% elsif block.settings.alignment == 'end' %}margin-inline-start: auto;{% endif %}{%- endcapture -%}
+              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: style: style, sizes: sizes, widths: widths -}}
+            </div>
+          {%- endif -%}
+
+        {%- when 'button' -%}
+          {%- if block.settings.text != blank -%}
+            <div class="product-info__button">
+              {%- render 'button', content: block.settings.text, href: block.settings.link, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
+            </div>
+          {%- endif -%}
+
+        {%- when 'liquid' -%}
+          {%- if block.settings.liquid != blank -%}
+            <div class="product-info__liquid">
+              {{ block.settings.liquid }}
+            </div>
+          {%- endif -%}
+
+        {%- when 'associated_products' -%}
+          <product-recommendations class="block" product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="complementary">
+            {%- if recommendations.performed and recommendations.products_count > 0 -%}
+              <div class="product-info__complementary-products v-stack gap-3 sm:gap-4">
+                {%- assign carousel_id = 'carousel-' | append: block.id -%}
+
+                {%- if block.settings.title != blank or block.settings.stack_products == false and recommendations.products_count > 1 -%}
+                  <div class="h-stack justify-between gap-4">
+                    {%- if block.settings.title != blank -%}
+                      <p>{{ block.settings.title | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.stack_products == false and recommendations.products_count > 1 -%}
+                      <div class="h-stack gap-2 hidden sm:flex">
+                        <button is="prev-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.previous' | t | escape }}" disabled>{%- render 'icon' with 'chevron-left-small', direction_aware: true -%}</button>
+                        <button is="next-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.next' | t | escape }}">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</button>
+                      </div>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+
+                {%- capture horizontal_products -%}
+                  {%- for associated_product in recommendations.products -%}
+                    {%- render 'horizontal-product', product: associated_product, show_add_to_cart: true, background: block.settings.background, text_color: block.settings.text_color -%}
+                  {%- endfor -%}
+                {%- endcapture -%}
+
+                {%- assign horizontal_products_blends = true -%}
+                {%- assign section_background = section.settings.background_gradient | default: section.settings.background | default: settings.background -%}
+
+                {%- if block.settings.background != 'rgba(0,0,0,0)' and block.settings.background != blank and block.settings.background != section_background -%}
+                  {%- assign horizontal_products_blends = false -%}
+                {%- endif -%}
+
+                {%- if block.settings.stack_products -%}
+                  <div class="horizontal-product-list {% if horizontal_products_blends %}border divide-y rounded-xs{% else %}separate{% endif %}">
+                    {{- horizontal_products -}}
+                  </div>
+                {%- else -%}
+                  <scroll-carousel selector=".horizontal-product" id="{{ carousel_id }}" class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed sm:unbleed">
+                    <div class="horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                      {{- horizontal_products -}}
+                    </div>
+                  </scroll-carousel>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </product-recommendations>
+
+        {%- when 'offer' -%}
+          {%- if block.settings.title != blank or block.settings.content != blank -%}
+            {%- render 'offer', block: block -%}
+          {%- endif -%}
+
+        {%- when 'share_buttons' -%}
+          <div class="product-form__share justify-items-{{ block.settings.alignment | replace: 'left', 'start' | replace: 'right', 'end' }}">
+            <div class="product-info__share-buttons">
+              <div class="share-buttons">
+                <span class="text-subdued">{{- 'general.social.share' | t -}}</span>
+
+                <ul class="h-stack" role="list">
+                  <li><a href="{% render 'share-link', host: 'facebook', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Facebook' }}">{%- render 'icon' with 'facebook', width: 20, height: 20 -%}</a></li>
+                  <li><a href="{% render 'share-link', host: 'twitter', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Twitter' }}">{%- render 'icon' with 'twitter', width: 20, height: 20 -%}</a></li>
+                  <li><a href="{% render 'share-link', host: 'pinterest', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Pinterest' }}">{%- render 'icon' with 'pinterest', width: 20, height: 20 -%}</a></li>
+                  <li><a href="{% render 'share-link', host: 'email', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_email' | t }}">{%- render 'icon' with 'email' -%}</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <button is="share-button" class="product-info__native-share">
+              {%- render 'icon' with 'share' -%} {{- 'general.social.share' | t -}}
+            </button>
+          </div>
+      {%- endcase -%}
+    {%- endcapture -%}
+
+    {%- if allow_block_group and inside_block_group_context == false -%}
+      {%- assign inside_block_group_context = true -%}
+      <div class="product-info__block-group {{ block_group_class }}" data-group-type="{{ block_group_name }}">
+    {%- endif -%}
+
+    <div class="product-info__block-item" data-block-id="{{ block.id }}" data-block-type="{{ block.type | replace: '_', '-' }}" {% unless block.type == '@app' or block.type == 'accordion' %}{{ block.shopify_attributes }}{% endunless %}>
+      {{- block_content -}}
+    </div>
+
+    {%- if inside_block_group_context and allow_block_group == false -%}
+      {%- assign inside_block_group_context = false -%}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%}
+    IMPLEMENTATION NOTE: under rare circumstances, merchant may want to show selectors to allow variant selection, but hide
+    the add to cart button. This is however problematic as product info is changed based on the form, so we create a default
+    one if no buy buttons exists
+  {%- endcomment -%}
+
+  {%- unless main_form_exists -%}
+    {%- form 'product', product, id: product_form_id, hidden: true -%}
+      <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
+    {%- endform -%}
+  {%- endunless -%}
+</safe-sticky>

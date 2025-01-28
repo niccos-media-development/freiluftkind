@@ -1,0 +1,207 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "faq_4x7nwE": {
+      "type": "faq",
+      "blocks": {
+        "item_G9qVXp": {
+          "type": "item",
+          "settings": {
+            "title": "Warum sollte ich Barfußschuhe tragen?",
+            "content": "<p>Barfußschuhe verbinden die Vorteile des Barfußlaufens mit dem Schutz, den herkömmliche Schuhe bieten. Sie fördern die natürliche Fußbewegung, stärken die Muskulatur und verbessern die Körperhaltung – alles, ohne deine Füße den Gefahren von harten oder unebenen Untergründen auszusetzen. Sie sind die perfekte Kombination aus Freiheit und Schutz für deine Füße.</p>"
+          }
+        },
+        "item_yU3VwW": {
+          "type": "item",
+          "settings": {
+            "title": "Wie finde ich die richtige Schuhgröße?",
+            "content": "<p>Die passende Größe ist entscheidend für den Komfort und die Vorteile von Barfußschuhen. Auf jeder unserer Produktseiten findest du eine detaillierte Größentabelle, die dir hilft, die perfekte Größe zu ermitteln. Wir empfehlen, vor dem Kauf deinen Fuß genau zu messen und die Tabelle zur Orientierung zu nutzen. Wenn du Socken in deinen Schuhen tragen möchtest, empfehlen wir, eine Größe größer zu wählen.</p>"
+          }
+        },
+        "item_gHeRCr": {
+          "type": "item",
+          "settings": {
+            "title": "Welche gesundheitlichen Vorteile bieten Barfußschuhe?",
+            "content": "<p>Barfußschuhe fördern eine natürliche Fußstellung und helfen, die Fuß- und Beinmuskulatur zu stärken. Sie können dazu beitragen, Fehlstellungen wie Plattfüße zu reduzieren, die Durchblutung zu verbessern und Rücken- sowie Gelenkschmerzen vorzubeugen. Durch das Barfußgefühl unterstützt du deinen Körper dabei, sich wieder natürlicher zu bewegen und deine Haltung zu optimieren.</p>"
+          }
+        },
+        "item_nXVJPf": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich Barfußschuhe auch bei Regen oder Kälte tragen?",
+            "content": "<p>Ja, das kannst du! Wir bieten spezielle <a href=\"/collections/barfussschuhe-allwetter\" title=\"Allwetter Barfußschuhe\">Allwetter-Modelle</a> an, die wasserabweisend sind und deine Füße auch bei Regen oder niedrigen Temperaturen warm und trocken halten. So bist du das ganze Jahr über gut geschützt und kannst das Barfußgefühl bei jedem Wetter genießen.</p>"
+          }
+        },
+        "item_4UjiKx": {
+          "type": "item",
+          "settings": {
+            "title": "Weitere Fragen?",
+            "content": "<p>In <a href=\"/pages/faq\" title=\"Häufige Fragen & Antworten\">unserem FAQ</a> findest du Antworten auf die am häufigsten gestellten Fragen zu unseren Produkten und unserem Unternehmen.</p><p><strong>Außerdem stehen wir dir jederzeit per Mail und Telefon zur Seite!</strong><br/>E-Mail: <a href=\"mailto:support@freiluftkind.de\" title=\"mailto:support@freiluftkind.de\">support@freiluftkind.de</a><br/>Telefon: <a href=\"tel:+4953138763032\" title=\"tel:+4953138763032\">+49 531 38763032</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_G9qVXp",
+        "item_yU3VwW",
+        "item_gHeRCr",
+        "item_nXVJPf",
+        "item_4UjiKx"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.section-stack__intro {text-align: center; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Deutscher Kundenservice 🇩🇪",
+        "content": "<p>Kontaktiere uns jederzeit per Mail unter <a href=\"mailto:support@freiluftkind.de\" title=\"mailto:support@freiluftkind.de\">support@freiluftkind.de</a></p>",
+        "team_avatar": "shopify://shop_images/freiluftkind_support_team_small_da342e99-ee93-46cd-af68-792fefb7eed4.png",
+        "team_avatar_width": 200,
+        "support_hours": "Telefonnummer: +49 531 38763032",
+        "answer_time": "Mo. - Fr. | 09:00 bis 16:00 Uhr",
+        "button_text": "Kontakt aufnehmen",
+        "button_url": "shopify://pages/kontakt",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "12 Monate Garantie",
+            "content": ""
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-happy",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "350.000+ glückliche Kunden",
+            "content": ""
+          }
+        },
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "none",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Kostenloser Versand",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "payment",
+        "customer-support",
+        "free-shipping"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "select_dot_or_arrow": "dots"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_mail_signup_logo.png",
+            "image_width": 300,
+            "heading_size": "h4",
+            "title": "Abonniere unseren Newsletter",
+            "content": "<p>Profitiere von tollen Rabattaktionen und erhalte alle Neuigkeiten zu unseren Produkten ganz einfach in dein Postfach.</p>"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Schuhe mit Herz ❤️",
+            "content": "<p>Du hast genug von Massenware und langen Lieferzeiten bei Barfußschuhen? Dann bist du bei uns genau richtig! Wir sind der frische Wind in der Welt der gesunden Schuhe.</p><p>In der lebendigen Stadt Braunschweig, im Herzen Deutschlands, sind unser Lager und unser Firmensitz angesiedelt. Das ermöglicht uns, die Zügel in der Hand zu behalten und unseren Kunden ein unvergleichliches Einkaufserlebnis zu bieten.</p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "navigation",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_eT76nC": {
+          "type": "links",
+          "settings": {
+            "menu": "rechtliches",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "text",
+        "links",
+        "links_eT76nC"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_policy_links": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "faq_4x7nwE",
+    "text-with-icons",
+    "footer"
+  ]
+}

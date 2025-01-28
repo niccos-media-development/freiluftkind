@@ -1,0 +1,269 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_j4Jakk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zVh7DD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_contact_desktop_color_v2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Freiluftkind Rabatt",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zVh7DD"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "custom_html_VDgKGC": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"klaviyo-form-U573Ta discount_form\"></div>",
+        "background": "#f9ca4f",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_XtD8k9": {
+      "type": "faq",
+      "blocks": {
+        "item_UKDCUg": {
+          "type": "item",
+          "settings": {
+            "title": "Ist ein Freiluftkind Gutschein für alle Produkte gültig?",
+            "content": "<p>Ja, einen Freiluftkind Gutschein kannst du für alle Produkte in unserem Onlineshop einlösen.</p>"
+          }
+        },
+        "item_gQWCDH": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange ist ein Freiluftkind Rabattcode gültig?",
+            "content": "<p>Ein Rabattcode für unseren Onlineshop verliert erst seine Gültigkeit, wenn du ihn eingelöst hast.</p>"
+          }
+        },
+        "item_XjTTby": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es auch einen Amazon Rabattcode von Freiluftkind?",
+            "content": "<p>Gibt es auch einen Amazon Rabattcode von Freiluftkind Rabattcodes von unserer Website oder unseren E-Mails gelten für unseren Onlineshop, es handelt sich nicht um Amazon Rabattcodes.</p>"
+          }
+        },
+        "item_hVRwKQ": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich einen Freiluftkind Gutscheincode einlösen?",
+            "content": "<p>Du kannst einen Freiluftkind Gutscheincode ganz bequem beim Bezahlen deiner Bestellung angeben und erhältst sofort einen Rabatt.</p>"
+          }
+        },
+        "item_bAME8k": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist der Unterschied zwischen Freiluftkind Gutschein und Freiluftkind Rabattcode?",
+            "content": "<p>Das ist ganz einfach: Es gibt keinen! In jedem Fall sparst du damit beim Kauf unserer Produkte Geld.</p>"
+          }
+        },
+        "item_9BYky7": {
+          "type": "item",
+          "settings": {
+            "title": "Wie bekomme ich einen Rabattcode bei Freiluftkind?",
+            "content": "<p>Wir sind in der Regel sehr spendabel mit unsereren Rabattcodes. Sowohl direkt im Onlineshop, aber auch per E-Mail oder auf Instagram kannst du Rabattcodes für Freiluftkind Produkte bekommen.</p>"
+          }
+        },
+        "item_A9ahXG": {
+          "type": "item",
+          "settings": {
+            "title": "Was tun, wenn mein Freiluftkind Gutscheincode nicht per Mail geschickt wird?",
+            "content": "<p>Schaue in diesem Fall bitte in deinem Spam Ordner nach, ob der Freiluftkind Gutscheincode dort gelandet ist. Falls nicht, kontaktiere einfach unseren Support.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_UKDCUg",
+        "item_gQWCDH",
+        "item_XjTTby",
+        "item_hVRwKQ",
+        "item_bAME8k",
+        "item_9BYky7",
+        "item_A9ahXG"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Noch etwas unklar?",
+        "title": "Häufige Fragen zu unserem Rabatt",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "text_with_icons_wEVEba": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_9eqJdK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_nullabsatz_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Nullabsatz",
+            "content": "<p>Die flache Sohle unserer Minimalschuhe bildet die Grundlage für eine aufrechte Haltung und kann dir dabei helfen, Knie-, Hüft- und Rückenschmerzen langfristig zu vermeiden und zu lindern.</p>"
+          }
+        },
+        "item_eJBQcg": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_breite_zehenbox_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Breite Zehenbox",
+            "content": "<p>Gönn deinen Zehen ihre dringend benötigte Freiheit. Dank der breiten Zehenbox unserer Barfußschuhe entfalten sie sich in ihrer natürlichen Position – für echten Komfort bei all deinen Aktivitäten.</p>"
+          }
+        },
+        "item_nP4DaQ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_duenne_sohle_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Dünne Sohle",
+            "content": "<p>Verbinde dich neu mit deiner Umwelt und deiner Umgebung: Durch die ultradünne Sohle unserer Minimalschuhe spürst du den Boden wie nie zuvor – schenke deinen Füßen das echte Barfußgefühl.</p>"
+          }
+        },
+        "item_B69wwE": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_flexible_sohle_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Flexibel",
+            "content": "<p>Die weiche und flexible dünne Sohle schenkt deinen Füßen einen uneingeschränkten Bewegungsradius und sorgt dafür, dass dein Gang natürlich und fußgesund bleibt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_9eqJdK",
+        "item_eJBQcg",
+        "item_nP4DaQ",
+        "item_B69wwE"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_Pb967g": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Finde deinen passenden Minimalschuh",
+        "title": "Unsere Bestseller",
+        "content": "",
+        "link_url": "shopify://collections/barfussschuhe",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_j4Jakk",
+    "custom_html_VDgKGC",
+    "faq_XtD8k9",
+    "text_with_icons_wEVEba",
+    "featured_collection_Pb967g"
+  ]
+}

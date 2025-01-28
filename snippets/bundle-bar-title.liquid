@@ -1,0 +1,37 @@
+{% case bundle_type %}
+  {% when 'bestseller' %}
+    <h3 class="heading h2 bundle-heading">🎁 ORIGINALS BUNDLE</h3>
+    <span style=" margin-bottom:10px;margin-bottom: 10px; padding: 0 20px; text-align: center;">
+      Alle deine Schuhe weerden <b>kostenlos</b> in <b>wiederverwendbaren Jutebeuteln</b> versendet.
+    </span>
+  {% when 'family' %}
+    <h3 class="heading h2 bundle-heading">🎁 FAMILY BUNDLE</h3>
+    <span style=" margin-bottom:10px;margin-bottom: 10px; padding: 0 20px; text-align: center; ">
+      Alle deine Schuhe werden <b>kostenlos</b> in <b>wiederverwendbaren Jutebeuteln</b> versendet.
+    </span>
+  {% when '4seasons' %}
+    <h3 class="heading h2 bundle-heading">🎁 VIER JAHRESZEITEN BUNDLE</h3>
+    <span style=" margin-bottom:10px;margin-bottom: 10px; padding: 0 20px; text-align: center; ">
+      Alle deine Schuhe werden <b>kostenlos</b> in <b>wiederverwendbaren Jutebeuteln</b> versendet.
+    </span>
+  {% when 'allround' %}
+    <h3 class="heading h2 bundle-heading">🎁 ALLROUND BUNDLE</h3>
+    <span style=" margin-bottom:10px;margin-bottom: 10px; padding: 0 20px; text-align: center; ">
+      Alle deine Schuhe werden <b>kostenlos</b> in <b>wiederverwendbaren Jutebeuteln</b> versendet.
+    </span>
+  {% when 'winter' %}
+    <h3 class="heading h2 bundle-heading">🎁 WINTER BUNDLE</h3>
+    <span style=" margin-bottom:10px;margin-bottom: 10px; padding: 0 20px; text-align: center; ">
+      Alle deine Schuhe werden <b>kostenlos</b> in <b>wiederverwendbaren Jutebeuteln</b> versendet.
+    </span>
+  {% else %}
+    <span style="font-weight: bold">Mengenrabatt</span>
+    {% comment %}
+    <span class="flkab_wording_cart1"><b>🎅🏼 Weihnachts-Aktion</b></span>
+
+    <span class="flkab_wording_cart1">
+    {%  if section.settings.enable_black_friday_special == true %}<b>BLACK FRIDAY - 2 FÜR 1</b>{% else %}<b>Mengenrabatt</b>{% endif %}</span>
+    <span class="flkab_wording_cart2" style="display: none;"><b>Angebot des Tages</b></span>
+    {% endcomment %}
+{% endcase %}
+

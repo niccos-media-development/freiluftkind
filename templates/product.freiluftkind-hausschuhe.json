@@ -1,0 +1,415 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "freiluftkind_social_proof_QrVt3y": {
+          "type": "freiluftkind-social-proof",
+          "settings": {
+            "freiluftkind-social-proof-text": "<p><strong>Dr. Krüger</strong> und über <strong>350.000+ Kunden</strong> lieben unsere Produkte!</p>",
+            "freiluftkind-social-proof-img-1": "shopify://shop_images/adv11_wolfgang.jpg",
+            "freiluftkind-social-proof-img-2": "shopify://shop_images/adv12_pb.jpg",
+            "freiluftkind-social-proof-img-3": "shopify://shop_images/freiluftkind_lothar_krueger.jpg"
+          }
+        },
+        "freiluftkind_badges_TTKCkq": {
+          "type": "freiluftkind-badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "freiluftkind_usps_fnpPXR": {
+          "type": "freiluftkind-usps",
+          "settings": {
+            "freiluftkind-usp-show-img": true,
+            "freiluftkind-usp-img": "shopify://shop_images/freiluftkind_de_orthopaede_lothar.png",
+            "freiluftkind-usp-img-text": "<p>Mit deutschen Orthopäden entwickelt</p>",
+            "freiluftkind-usp-1": "<p>Entlasten Füße, Gelenke & Körper</p>",
+            "freiluftkind-usp-2": "<p>Kostenloser Versand & einfache Retouren</p>",
+            "freiluftkind-usp-3": "<p>Kundenservice per Mail & Telefon</p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_LDfN88": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Hinweis: Bitte ein Größe größer wählen</strong></p>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "dropdown",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": "{{ product.metafields.my_fields.tab_1_content.value }}"
+          }
+        },
+        "freiluftkind_shipping_qwiFWJ": {
+          "type": "freiluftkind-shipping",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "freiluftkind_payment_Lp98tR": {
+          "type": "freiluftkind-payment",
+          "settings": {}
+        },
+        "separator_idQt49": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "freiluftkind_products_3cym4X": {
+          "type": "freiluftkind-products",
+          "disabled": true,
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "freiluftkind_social_proof_QrVt3y",
+        "freiluftkind_badges_TTKCkq",
+        "title",
+        "price",
+        "rating",
+        "freiluftkind_usps_fnpPXR",
+        "separator",
+        "text_LDfN88",
+        "variant_picker",
+        "freiluftkind_shipping_qwiFWJ",
+        "buy_buttons",
+        "freiluftkind_payment_Lp98tR",
+        "separator_idQt49",
+        "freiluftkind_products_3cym4X"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "show_quicK_view": true,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "accordion_content_XRqr8b": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_Aqqg3Q": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "12 Monate Garantie",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": "12-monate-garantie"
+          }
+        },
+        "item_T8CBTr": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Materialinformationen",
+            "content": "<p>Der Materialmix sorgt für die kuschlige und angenehme Wärme für die unsere Hausschuhe bekannt sind. Die Fasern sind sehr weich und hautfreundlich und sorgen so für einen tollen Komfort. Das Polyester sorgt für die nötige Atmungsaktivität, damit du nicht in deinem neuen Freiluftkind Hausschuh schwitzt.</p><p><strong>Obermaterial: </strong>100% Polyester<br/><strong>Sohle: </strong>85% PVC und 15% Latex</p>",
+            "page": ""
+          }
+        },
+        "item_FABnh6": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Pflege und Reinigung",
+            "content": "<p>Wir empfehlen verschmutzte Stellen mit einem feuchten Tuch (ohne die Verwendung von Reinigungsmitteln) sanft zu säubern.</p>",
+            "page": ""
+          }
+        },
+        "item_6mLB4r": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Verpackung und Versand",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": "verpackung-versand"
+          }
+        }
+      },
+      "block_order": [
+        "item_Aqqg3Q",
+        "item_T8CBTr",
+        "item_FABnh6",
+        "item_6mLB4r"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Beschreibung",
+        "content": "<p>{{ product.metafields.freiluftkind.short_description | metafield_tag }}</p><p><strong>🦶 Für mehr Fußentspannung<br/>☁️ Leicht und bequem<br/>🌡️ Gefüttert</strong></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "rgba(0,0,0,0)",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "media_with_text_QJB6fD": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_rDcEbX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hausschuhe_desc_freiluftkind_2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Orthopädische Hausschuhe - Der perfekte Partner für deine Barfußschuhe",
+            "content": "<p>Der Freiluftkind Homie ist die ideale Ergänzung und dein Ruhepol nach einem Tag in Barfußschuhen. Unsere orthopädischen Hausschuhe bieten deinem Körper die <strong>wohlverdiente Entlastung, um sich optimal zu regenerieren.</strong></p><p>Obendrein <strong>stärken und unterstützen sie deine Fußgesundheit </strong>nachhaltig. Die rutschfeste Sohle sorgt für Sicherheit auf jedem Untergrund und ist so leise, dass du fast vergisst, dass du sie trägst. Schnapp dir dieses Duo für langfristig starke Ergebnisse und erlebe, wie sich echte Erholung anfühlt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_dWMQmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hausschuhe_desc_freiluftkind_4.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Ein einzigartiges Wohlfühl-Erlebnis für jeden Tag",
+            "content": "<p>Das garantieren unsere orthopädischen Hausschuhe mit unvergleichlichem Komfort. Himmlisch weich und optimal geeignet für zu Hause, beim Entspannen, gemütliches Beisammensein auf der Terrasse oder für die kleinen alltäglichen Wege.<br/><br/>Gleite in die kuschligen Fasern und genieße das <strong>samtweiche Fußbett, das deine Füße umschmeichelt. </strong>Der Freiluftkind Homie begeistert durchweg alle Generationen und sorgt für ein angenehmes Fußklima.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_gfhYpU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hausschuhe_desc_freiluftkind_3.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Perfekt temperiert - ob Sommer oder Winter!",
+            "content": "<p>Dank unserer hochwertig ausgewählten Materialien werden deine Füße mit einem angenehmen Fußklima verwöhnt.<br/><br/><strong>Egal ob Sommer oder Winter </strong>– Der Homie sorgt stets dafür, dass deine Füße perfekt temperiert sind! Kein Schwitzen oder Frieren - für das Gefühl auf Wolken zu laufen und die Extraportion Komfort, die sich unser Körper wünscht.<br/><br/>Orthopädische Hausschuhe von Freiluftkind - dein treuer Begleiter für entspannte Momente zu Hause.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_kYD6TC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hausschuhe_desc_freiluftkind_6.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Frische Farben für gute Laune im Schuhschrank",
+            "content": "<p>Die Farbvielfalt des Homies bringt den Gute-Laune-Schwung in deinen Alltag. Schlicht und in strukturierter Optik bringen sie mit ihrer Leichtigkeit und Flexibilität Wohlfühlmomente in dein Leben.<br/><br/>Nicht nur ein orthopädischer Hausschuh, sondern auch ein <strong>modisches Highlight. </strong>Ob für Damen oder Herren – unsere Hausschuhe bereichern jeden Stil mit ihrer bunten Pracht.<br/><br/>Mit jedem Schritt ein Stück Freude im Alltag!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rDcEbX",
+        "image_dWMQmR",
+        "image_gfhYpU",
+        "image_kYD6TC"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "enable_fixed_padding": true,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "impact_text_geQAdy": {
+      "type": "impact-text",
+      "blocks": {
+        "item_Vd3gkf": {
+          "type": "item",
+          "settings": {
+            "title": "87%",
+            "subheading": "spürten weniger Ermüdungserscheinungen",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_n7pMAE": {
+          "type": "item",
+          "settings": {
+            "title": "73%",
+            "subheading": "bemerkten eine Schmerzlinderung",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_bdbdQz": {
+          "type": "item",
+          "settings": {
+            "title": "64%",
+            "subheading": "stellten mehr Fußmuskulatur fest",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_Vd3gkf",
+        "item_n7pMAE",
+        "item_bdbdQz"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 0.8,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "1729085677858a4902": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_8kngbP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_8kngbP"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "accordion_content_XRqr8b",
+    "media_with_text_QJB6fD",
+    "impact_text_geQAdy",
+    "1729085677858a4902"
+  ]
+}

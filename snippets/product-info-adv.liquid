@@ -1,0 +1,101 @@
+<div class="product-info-adv">
+  <div class="product-info-adv__content">
+    {% if block.settings.title != blank %}
+      <div class="product-info-adv__title">
+        {% assign title_content = block.settings.title %}
+        {% if title_content contains '<h1' %}
+          <div class="h1">{{ title_content }}</div>
+        {% elsif title_content contains '<h2' %}
+          <div class="h2">{{ title_content }}</div>
+        {% elsif title_content contains '<h3' %}
+          <div class="h3">{{ title_content }}</div>
+        {% elsif title_content contains '<h4' %}
+          <div class="h4">{{ title_content }}</div>
+        {% elsif title_content contains '<h5' %}
+          <div class="h5">{{ title_content }}</div>
+        {% elsif title_content contains '<h6' %}
+          <div class="h6">{{ title_content }}</div>
+        {% else %}
+          {{ title_content }}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if block.settings.bullet_points != blank %}
+      <div class="product-info-adv__bullets {% if block.settings.bullet_icon != blank %}has-custom-bullets{% endif %}">
+        {% if block.settings.bullet_icon != blank %}
+          <style>
+            .product-info-adv__bullets.has-custom-bullets li:before {
+              content: '';
+              background-image: url({{ block.settings.bullet_icon | img_url: 'master' }});
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+              width: 20px;
+              height: 20px;
+              {% if block.settings.bullet_bg_color != blank %}
+              border-radius: 50%;
+              {% endif %}
+            }
+          </style>
+        {% endif %}
+        {{ block.settings.bullet_points }}
+      </div>
+    {% endif %}
+
+    {% if block.settings.sidebar_image != blank %}
+      <div class="product-info-adv__image">
+        {{
+          block.settings.sidebar_image
+          | image_url: width: 600
+          | image_tag:
+            loading: 'lazy',
+            sizes: '(max-width: 699px) 100vw, 600px',
+            widths: '200,300,400,500,600'
+        }}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="product-info-adv__cta-wrapper">
+    {% if block.settings.cta_button_text != blank
+      and block.settings.cta_button_link != blank
+    %}
+      <a
+        href="{{ block.settings.cta_button_link }}"
+        class="product-info-adv__cta-button button"
+      >
+        {{ block.settings.cta_button_text }}
+      </a>
+    {% endif %}
+
+    {% if block.settings.cta_subtext != blank %}
+      <p class="product-info-adv__cta-subtext">
+        {{ block.settings.cta_subtext }}
+      </p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  .product-info-adv__bullets {
+    background-color: {{ block.settings.bullet_bg_color }};
+  }
+
+  .product-info-adv__bullets li {
+    {% if block.settings.bullet_text_color != blank %}
+    color: {{ block.settings.bullet_text_color }};
+    {% endif %}
+  }
+
+  .product-info-adv__bullets li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    transform: none;
+    {% if block.settings.bullet_text_color != blank %}
+    color: {{ block.settings.bullet_text_color }};
+    {% endif %}
+  }
+</style>

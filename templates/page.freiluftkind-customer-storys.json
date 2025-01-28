@@ -1,0 +1,404 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_AftptK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RaFdGC": {
+          "type": "heading",
+          "settings": {
+            "text": "Kundenstorys",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_UmwAbe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir erhalten sehr viel Feedback und liebe Nachrichten von euch, in denen ihr uns von euren Abenteuern mit unseren Barfußschuhen berichtet. An diesem Ort möchten wir einige davon ausstellen.<\/p>"
+          }
+        },
+        "button_i4UQcL": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Eigenes Foto einsenden",
+            "url": "shopify:\/\/pages\/dein-foto",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RaFdGC",
+        "richtext_UmwAbe",
+        "button_i4UQcL"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "#ffffff"
+      }
+    },
+    "media_with_text_iBLwzi": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_j4iXmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/freiluftkind_kundenstory_hochzeit.png",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Unsere Lieblingsstory",
+            "title": "Nataschas Hochzeit & ihre Barfußschuhe",
+            "content": "<p>Vor einigen Tagen erhielten wir eine E-Mail von Natascha, die wir gerne mit euch teilen würden. Natascha hat am 28. Mai 2022 den schönsten Tag ihres Lebens erlebt und unsere Freiluftkind Barfußschuhe hatten die große Ehre auch auf der Gästeliste zu stehen.<\/p><p><strong>Natascha schrieb uns:<\/strong><\/p><p>\"Liebes Freiluftkind-Team, den schönsten Tag habe ich \"barfuß\" verbracht. Man hat sie nicht sehen können, jedenfalls nicht oft. Ich hatte die Schuhe bei meiner Hochzeit an und war begeistert. Durchgetanzt bis 3 Uhr keine Blasen.. dafür bin ich sehr dankbar. Leider ist der tolle Tag so schnell vorbei .. aber die Schuhe sind so toll - jetzt trage ich sie jeden Tag. Bester Altagsbegleiter auf der Arbeit - der Schuh fällt nicht auf und ist schön luftig. Ich muss mir umbedingt ein zweites paar Paar bestellen.. oder 3.. mal sehen.<br\/><br\/>Die Hochzeit war am 28.05.2022. &lt;3 Trotzdem wollte ich eine Rückmeldung geben - die Schuhe sind echt toll!\"<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_j4iXmw"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.text-custom {padding-left: 0px; padding-right: 0px; }}",
+        ".text-custom {padding-top: 20px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "freiluftkind_testimonials_XWUtLT": {
+      "type": "freiluftkind-testimonials",
+      "blocks": {
+        "testimonial_nRpDJQ": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roman_heibling2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Roman Heibling",
+            "content": "<p>Als ein leidenschaftlicher Abenteurer habe ich schon viele Schuhe ausprobiert, aber keine haben mich so beeindruckt wie die Kepler Barfußschuhe von Freiluftkind. Sie bieten mir genau die richtige Balance zwischen Schutz und dem Gefühl von Freiheit.<\/p>"
+          }
+        },
+        "testimonial_wigfY8": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Horst_Riedel1_1_fc37161d-cf57-435f-8cd1-fcc151d32d86.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Petra und Horst R.",
+            "content": "<p>Die Schuhe haben meinen Mann und mich auf einer wunderbaren Reise nach New York begleitet. Wir sind von unzähligen Menschen bestaunt worden, was wir doch für tolle Schuhe tragen. In der Tat haben wir bisher sehr viele Schritte und Kilometer komfortabel zurückgelegt.<\/p>"
+          }
+        },
+        "testimonial_Heh3Bt": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/selina_schneider.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Selina S.",
+            "content": "<p>Ich genieße meine täglichen Spaziergänge mit meinen Hunden jetzt noch mehr, seitdem ich die Barfußschuhe von Freiluftkind trage. Die Schuhe geben mir das Gefühl, barfuß zu laufen und trotzdem geschützt zu sein. Meine Füße sind einfach weniger müde.<\/p>"
+          }
+        },
+        "testimonial_KJhnPa": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kepler.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Monika Streber",
+            "content": "<p>Auf meinen Reisen suche ich stets das Abenteuer und erkunde gerne die Natur, besonders Wasserfälle. Die Barfußschuhe von Freiluftkind sind meine ständigen Begleiter geworden. Sie bieten mir die nötige Stabilität auf rutschigen Oberflächen. Gerne wieder!<\/p>"
+          }
+        },
+        "testimonial_7bVJ9d": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/volker_bauer.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Volker Bauer",
+            "content": "<p>Als professioneller Strongman und stärkster Mann Deutschlands war ich schon immer auf der Suche nach dem perfekten Schuh. Durch den wirklich guten Grip der Freiluftkind Schuhe, kann ich meine Muskulatur besser ansteuern und technisch effizienter arbeiten.<\/p>"
+          }
+        },
+        "testimonial_6FURFY": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fallschirm.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Andreas Korb",
+            "content": "<p>Ich trage selten andere Schuhe seit ich diese Schuhe entdeckt habe. Sie sind so vielseitig, dass ich sie sowohl im Büro als auch beim Fallschirmspringen tragen kann! Ja, ich bin mit diesen Schuhen aus einem Flugzeug gesprungen, und sie haben mir ein Gefühl von Freiheit gegeben.<\/p>"
+          }
+        },
+        "testimonial_BLXXyY": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/desire_celik.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Desire C.",
+            "content": "<p>Mein Mann und ich waren kürzlich im Urlaub, und ich muss sagen, dass seine Barfußschuhe von Freiluftkind ständig im Einsatz waren. Er hat sie am Strand, beim Wandern und sogar beim Ausgehen getragen. Er schwärmt von dem Komfort und der Bewegungsfreiheit.<\/p>"
+          }
+        },
+        "testimonial_TGPiXb": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hannes_schwandt.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Hannes S.",
+            "content": "<p>Ich nutze meine Barfußschuhe von Freiluftkind sowohl im Wasser als auch beim Wandern. Die Vielseitigkeit dieser Schuhe hat mich überzeugt. Ob ich durch Bäche wate oder bergige Pfade erklimme, meine Füße fühlen sich stets gut unterstützt und frei.<\/p>"
+          }
+        },
+        "testimonial_JfFt9Q": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/torsten_richter.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Torsten Richter",
+            "content": "<p>Ich bin ein aktiver Mensch, liebe es, Sport zu treiben und bin leidenschaftlicher Longboarder. Die Flexibilität und das Bodengefühl, das diese Schuhe bieten, sind unvergleichlich und lassen mich meine Bewegungen viel präziser ausführen. Hammer Schuhe!<\/p>"
+          }
+        },
+        "testimonial_pYjdMe": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/florian_schlipkoeter.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Florian S.",
+            "content": "<p>Kürzlich habe ich eine mehrtägige Wanderung unternommen und dabei meine Barfußschuhe von Freiluftkind getragen. Sie haben mich kein einziges Mal im Stich gelassen. Keine Blasen, keine schmerzenden Füße – nur das reine Vergnügen. Kann ich nur empfehlen!<\/p>"
+          }
+        },
+        "testimonial_mURPqn": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kundenstorys_foto_motorrad_freiluftkind.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Guido B.",
+            "content": "<p>Schuhe kaufen war für mich immer der Horror, da ich seit Ewigkeiten Einlagen trage. Bei Freiluftkind habe ich das erste mal Schuhe Online bestellt und bin total begeistert. Die Schuhe sind so unglaublich leicht und bequem, so dass ich diese nach wenigen Tagen fast nur trage.<\/p>"
+          }
+        },
+        "testimonial_4kiBw9": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jan_goern.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Jan G.",
+            "content": "<p>Die Philosophie, die hinter den Produkten steht, die Qualität und der Tragekomfort haben mich überzeugt. Diese Schuhe sind nicht einfach nur Schuhe, sie sind ein Statement für einen natürlichen und gesunden Lebensstil. Freiluftkind hat für mich alles richtig gemacht!<\/p>"
+          }
+        },
+        "testimonial_GtVQbY": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kepler_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Vanessa T.",
+            "content": "<p>Selbst im Winter möchte ich meine Barfußschuhe nicht missen. Sie bieten mir die Freiheit, die meine Füße brauchen, und gleichzeitig genügend Schutz vor Kälte. Mit den richtigen Socken kombiniert, sind sie auch bei niedrigeren Temperaturen meine erste Wahl.<\/p>"
+          }
+        },
+        "testimonial_MtfJKY": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marion_bohleander.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Marion B.",
+            "content": "<p>Als jemand, der jedes Wochenende draußen Abenteuer erlebt, habe ich in den Barfußschuhen von Freiluftkind meinen idealen Partner gefunden. Sie geben mir die nötige Bodenhaftung und gleichzeitig das Gefühl, mit der Natur verbunden zu sein. Super Schuhe die ich nicht misse möchte.<\/p>"
+          }
+        },
+        "testimonial_3zckaE": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overland.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Silvia U.",
+            "content": "<p>Ich freue mich riesig über meine neuen Barfußschuhe, in denen ich trotz niedriger Gradzahlen und Wind am Meer keine kalten Füße bekomme. Selbst nach einer Fuß-Kneipp-Kur in der 3°C kalten Ostsee konnte ich meine \"Eisbeine\" in euren Schuhe sofort wieder warmlaufen.<\/p>"
+          }
+        },
+        "testimonial_gYNLMc": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/petra_geissler.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Petra G.",
+            "content": "<p>Ich habe lange unter Haltungsschmerzen gelitten, aber seit ich die Barfußschuhe von Freiluftkind trage, haben sich meine Beschwerden spürbar verbessert. Selbst an kälteren Tagen geben sie mir die Freiheit und Unterstützung, die meine Füße benötigen.<\/p>"
+          }
+        },
+        "testimonial_p3zEr3": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vanessa_mueller.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Vanessa M.",
+            "content": "<p>Mein Hund und ich sind täglich auf langen Spaziergängen unterwegs, und seit ich die Barfußschuhe von Freiluftkind trage, sind diese Ausflüge noch schöner geworden. Die Schuhe geben mir ein naturnahes Laufgefühl und gleichzeitig den nötigen Schutz. Wir lieben die Schuhe!<\/p>"
+          }
+        },
+        "testimonial_jqd4NP": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ronny_helling.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Ronny H.",
+            "content": "<p>In unserer Familie tragen wir alle Barfußschuhe von Freiluftkind, und wir sind begeistert. Sie unterstützen nicht nur die gesunde Entwicklung der Füße meiner Kinder, sondern bieten auch mir und meiner Frau den Komfort und die Natürlichkeit, die wir uns wünschen.<\/p>"
+          }
+        },
+        "testimonial_xfzcYL": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20230413154424_IMG_0081.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Karolina W.",
+            "content": "<p>Ich habe den Kepler direkt nach Erhalt im Wald nach dem Regen ausprobiert und bin super zufrieden! Ich hatte noch nie so gemütliche Schuhe und kann es nur weiterempfehlen! Die Qualität ist wirklich gut, vor allem wenn man den günstigen Preis beachtet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_nRpDJQ",
+        "testimonial_wigfY8",
+        "testimonial_Heh3Bt",
+        "testimonial_KJhnPa",
+        "testimonial_7bVJ9d",
+        "testimonial_6FURFY",
+        "testimonial_BLXXyY",
+        "testimonial_TGPiXb",
+        "testimonial_JfFt9Q",
+        "testimonial_pYjdMe",
+        "testimonial_mURPqn",
+        "testimonial_4kiBw9",
+        "testimonial_GtVQbY",
+        "testimonial_MtfJKY",
+        "testimonial_3zckaE",
+        "testimonial_gYNLMc",
+        "testimonial_p3zEr3",
+        "testimonial_jqd4NP",
+        "testimonial_xfzcYL"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Weitere Kundenstorys",
+        "content": "",
+        "link_url": "shopify:\/\/pages\/dein-foto",
+        "link_text": "Eigenes Bild einsenden",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "featured_collection_8LHJjE": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Finde deinen passenden Minimalschuh",
+        "title": "Unsere Bestseller",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/barfussschuhe",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_AftptK",
+    "media_with_text_iBLwzi",
+    "freiluftkind_testimonials_XWUtLT",
+    "featured_collection_8LHJjE"
+  ]
+}

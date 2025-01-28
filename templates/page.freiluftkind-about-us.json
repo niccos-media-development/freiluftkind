@@ -1,0 +1,412 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_nm3imf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tmAfjc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_about_us_desktop_hero_v2.jpg",
+            "mobile_image": "shopify://shop_images/freiluftkind_about_us_mobile_hero.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Freiluftkind - Natürlich Barfuß",
+            "title": "Über uns",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tmAfjc"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "media_with_text_hkdkX3": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_fkHQHz": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Freiluftkind_Lager_Video.mp4",
+            "external_video_url": "",
+            "poster_image": "shopify://shop_images/freiluftkind_video_preview_standort.jpg",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Dein deutsches Barfußschuh-Startup 🇩🇪",
+            "content": "<p>Du hast genug von Massenware und langen Lieferzeiten bei Barfußschuhen? Dann bist du bei uns genau richtig! Wir sind der frische Wind in der Welt der gesunden Schuhe.</p><p>In der lebendigen Stadt Braunschweig, im Herzen Deutschlands, sind unser Lager und unser Firmensitz angesiedelt. Das ermöglicht uns, die Zügel in der Hand zu behalten und unseren Kunden ein unvergleichliches Einkaufserlebnis zu bieten. Dank unseres Braunschweiger Lagers können wir schnelle Lieferzeiten und eine erstklassige Qualität sicherstellen. Wir sind persönlich für dich da!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_PanDQb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_about_lothar.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Qualität. Nachhaltigkeit. Design. Gesundheit.",
+            "content": "<p>Freiluftkind steht für Barfußschuhe, die einfach mehr können, als dich nur in deinem Alltag zu begleiten. Mit speziellen Modellen für Freizeit, Sport oder den Wanderspaß in der Natur bieten wir dir stylische und qualitativ hochwertige Barfußschuhe für alle Zwecke an, die nicht nur gut aussehen, sondern dir zudem viele gesundheitliche Vorteile bieten.</p><p>Bei der Entwicklung unserer Minimalschuhe überlassen wir nichts dem Zufall! Sie sind nicht nur ein Produkt - sie sind das Ergebnis einer engen Zusammenarbeit zwischen unserem Team und qualifizierten Orthopäden wie Lothar Krüger.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_8rTwkk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_lager_thumbnail_video.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Denn aus eigener Erfahrung wissen wir...",
+            "content": "<p>...wie unsere Barfußschuhe dein Leben verändern und dir wieder zu mehr Spaß an der Bewegung verhelfen können – selbst, wenn dich ein Bandscheibenvorfall oder ein Hallux Valgus begleiten. Wir, das sind die Gründer von Freiluftkind, Lukas und Christian – gemeinsam mit unserem Team geben wir Tag für Tag alles für deine Zufriedenheit!</p><p>Lerne uns kennen und erfahre mehr über unsere Geschichte und unsere Ideen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_qp4NpV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_aboutus_strand.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wie alles begann",
+            "content": "<p>Lukas liebt das Reisen. In unserem Gründungsjahr 2021 unternahm er gemeinsam mit seinem Vater eine Reise ans Meer, der durch eine operative Therapie an den Füßen Probleme mit dem Gehen auf Steinstränden hat.</p><p>Und so schön ein Steinstrand auch sein kann – auch für gesunde Füße gibt es Schöneres, als die spitzen Kiesel die sich bei jedem Schritt in die Fußsohle bohren. Um dennoch den Strand und das Meer genießen zu können, begab sich Lukas auf die Suche nach einer Lösung und stieß bei seiner Recherche im Internet das erste Mal auf Barfußschuhe.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_HKpDAh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_aboutus_christian.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Das Problem",
+            "content": "<p>Die bis dato bekannten Marken boten Barfußschuhe bzw. Minimalschuhe vor allem als Wanderschuhe an – Modelle, die sich auch für den Strand und das Wasser eigneten, waren nirgends aufzufinden.</p><p>Als Lukas einige Zeit später mit Freunden auf dem Via Romea, einem traumhaften Wanderpfad in Braunschweig, unterwegs war, fielen ihm jedoch auf den ersten Blick die Schuhe eines Fremden ins Auge. Es war Christian, unser zweiter Gründer, der den gleichen Weg mit seinen Barfußschuhen beschritt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_dq3UgA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_aboutus_everst_2.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Aus Fremden wurden Freunde, dann Gründer",
+            "content": "<p>Kurzentschlossen sprach Lukas Christian auf seine Schuhwahl an – es entwickelte sich eine Unterhaltung. Christian erzählte Lukas unter anderem von seinen Rückenbeschwerden und wie das Tragen von Barfußschuhen ihm bei seinen Problemen half.</p><p>Ihre Idee: die Entwicklung von Barfußschuhen, die nicht nur beim Wandern getragen werden können, sondern sich ebenso für den Alltag, den Sport sowie für besagte Urlaube an Steinstränden eignen. Auch Christian gefiel dieser Ansatz – die Idee für Freiluftkind war geboren.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_hdt8H8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_aboutus_team.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Die Idee: Barfußschuhe für Jung und Alt",
+            "content": "<p>Der Markt für Barfußschuhe war festgefahren. Die großen Hersteller bedachten bisher keinerlei andere Einsatzgebiete für die gesundheitsfördernden Minimalschuhe.</p><p>Für die beiden neuen Freunde jedoch kein Grund, nicht an ihrer Idee festzuhalten – ganz im Gegenteil, denn mit der Gründung von Freiluftkind gingen die beiden einen wichtigen Schritt in Richtung ihres großen Ziels – das Thema „Barfuß laufen“ in einer zeitgemäßen und neuen Richtung aufzuarbeiten und die Schuhe für alle Altersgruppen – vom Kleinkind, das gerade erst laufen lernt, bis hin zum Senior – zugänglich zu machen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_mHkWwV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_aboutus_everest.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Barfußschuhe ohne Kompromisse",
+            "content": "<p>Bei der Herstellung unserer Barfußschuhe achten wir im Besonderen auf die Verwendung hochwertiger Materialien und eine gute Verarbeitung. Denn nur so können wir dir einen Minimalschuh anbieten, der dich langfristig im Alltag und bei deinen Abenteuern begleitet und unserem Nachhaltigkeitsanspruch gerecht wird.</p><p>Schließlich haben wir nur einen Planeten, den es zu schützen und zu bewahren gilt! Auch beim Versand legen wir diesen Maßstab an und verpacken unsere Pakete ökologisch-wertvoll, bevor sie sich mit zuverlässigen Partnern wie DHL auf den Weg zu dir machen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_fkHQHz",
+        "image_PanDQb",
+        "image_8rTwkk",
+        "image_qp4NpV",
+        "image_HKpDAh",
+        "image_dq3UgA",
+        "image_hdt8H8",
+        "image_mHkWwV"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "enable_fixed_padding": true,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_WgHdmW": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_Dqtyxr": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-leaf",
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#56664c",
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_HA9ifD": {
+          "type": "heading",
+          "settings": {
+            "text": "Für unsere Umwelt",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_hDkUQ9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Natur ist echt unser Ding, und wir setzen alles daran, sie zu schützen. Aus diesem Grund gestalten wir unser Unternehmen umweltfreundlich. Wir wollen offen und ehrlich mit dir sein. Deshalb findest du auf unserer Transparenz-Seite alles über unsere Philosophie und Umweltschutzmaßnahmen.</p>"
+          }
+        },
+        "button_nhTdyn": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zur Transparenz-Seite",
+            "url": "shopify://pages/transparenz",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_Dqtyxr",
+        "heading_HA9ifD",
+        "richtext_hDkUQ9",
+        "button_nhTdyn"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "impact_text_fdt3pF": {
+      "type": "impact-text",
+      "blocks": {
+        "item_UEwYaH": {
+          "type": "item",
+          "settings": {
+            "title": "769.764",
+            "subheading": "Neutralisiertes CO2 in KG",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_n76Gg9": {
+          "type": "item",
+          "settings": {
+            "title": "36.348",
+            "subheading": "Bäume gepflanzt",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_PjfY8y": {
+          "type": "item",
+          "settings": {
+            "title": "51.942",
+            "subheading": "CO2-Neutrale Retouren",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_UEwYaH",
+        "item_n76Gg9",
+        "item_PjfY8y"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 1,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "featured_collection_pPTTDd": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Finde deinen passenden Minimalschuh",
+        "title": "Unsere Bestseller",
+        "content": "",
+        "link_url": "shopify://collections/barfussschuhe",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_nm3imf",
+    "media_with_text_hkdkX3",
+    "rich_text_WgHdmW",
+    "impact_text_fdt3pF",
+    "featured_collection_pPTTDd"
+  ]
+}

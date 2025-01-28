@@ -1,0 +1,488 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "freiluftkind_social_proof_QrVt3y": {
+          "type": "freiluftkind-social-proof",
+          "settings": {
+            "freiluftkind-social-proof-text": "<p><strong>Dr. Krüger</strong> und über <strong>350.000+ Kunden</strong> lieben unsere Produkte!</p>",
+            "freiluftkind-social-proof-img-1": "shopify://shop_images/adv11_wolfgang.jpg",
+            "freiluftkind-social-proof-img-2": "shopify://shop_images/adv12_pb.jpg",
+            "freiluftkind-social-proof-img-3": "shopify://shop_images/freiluftkind_lothar_krueger.jpg"
+          }
+        },
+        "freiluftkind_badges_TTKCkq": {
+          "type": "freiluftkind-badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "freiluftkind_usps_fnpPXR": {
+          "type": "freiluftkind-usps",
+          "settings": {
+            "freiluftkind-usp-show-img": true,
+            "freiluftkind-usp-img": "shopify://shop_images/emptypng.png",
+            "freiluftkind-usp-img-text": "<p>Deutsche Thermo-Technologie</p>",
+            "freiluftkind-usp-1": "<p>Warmes Fleece-Innenfutter</p>",
+            "freiluftkind-usp-2": "<p>100% Blickdichtes Material</p>",
+            "freiluftkind-usp-3": "<p>Perfekte Passform für jede Figur</p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "dropdown",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": "{{ product.metafields.my_fields.tab_1_content.value }}"
+          }
+        },
+        "freiluftkind_shipping_qwiFWJ": {
+          "type": "freiluftkind-shipping",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "freiluftkind_payment_Lp98tR": {
+          "type": "freiluftkind-payment",
+          "settings": {}
+        },
+        "separator_idQt49": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "freiluftkind_products_3cym4X": {
+          "type": "freiluftkind-products",
+          "disabled": true,
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "freiluftkind_social_proof_QrVt3y",
+        "freiluftkind_badges_TTKCkq",
+        "title",
+        "price",
+        "rating",
+        "freiluftkind_usps_fnpPXR",
+        "separator",
+        "variant_picker",
+        "freiluftkind_shipping_qwiFWJ",
+        "buy_buttons",
+        "freiluftkind_payment_Lp98tR",
+        "separator_idQt49",
+        "freiluftkind_products_3cym4X"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "show_quicK_view": true,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "accordion_content_XRqr8b": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_Aqqg3Q": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "12 Monate Garantie",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": "12-monate-garantie"
+          }
+        },
+        "item_BREMHw": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Materialinformationen",
+            "content": "<ul><li>80% Polyester</li><li>20% Polyacryl</li></ul><p><strong>Warum diese Materialien?</strong></p><p>Der Polyacryl-Anteil sorgt für die kuschlige und angenehme Wärme für die unsere Leggings bekannt sind. Die Fasern sind sehr weich und hautfreundlich und sorgen so für einen tollen Komfort. Das Polyester sorgt für die nötige Atmungsaktivität, damit du nicht in deinen neuen Freiluftkind Leggings schwitzt. Es gewährleistet zusätzlich die Haltbarkeit und Elastizität unserer Leggings. Außerdem kann Polyester Energie besser absorbieren als andere Textilien, was zu einer längeren Lebensdauer führt. Der Materialmix sorgt dafür, dass alle Leggings fast knitterfrei und formbeständig aber trotzdem reißfest sind.</p>",
+            "page": ""
+          }
+        },
+        "item_FABnh6": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Pflege und Reinigung",
+            "content": "<p>Unsere Leggings sind bei 30 Grad im Schonwaschgang waschbar. Wir empfehlen verschmutzte Stellen mit einem feuchten Tuch (ohne die Verwendung von Reinigungsmitteln) sanft zu säubern.</p>",
+            "page": ""
+          }
+        },
+        "item_6mLB4r": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Verpackung und Versand",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": "verpackung-versand"
+          }
+        }
+      },
+      "block_order": [
+        "item_Aqqg3Q",
+        "item_BREMHw",
+        "item_FABnh6",
+        "item_6mLB4r"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Beschreibung",
+        "content": "<p>Wir präsentieren: Deine neue Lieblings-Winterhose – die <strong>wärmenden, atmungsaktiven, bequem geschnittenen und pflegeleichten Thermoleggings</strong> von Freiluftkind. Wird es draußen ungemütlich und kalt oder suchst du noch die perfekte Hose für deine Outdoor-Aktivitäten? Unsere warmen, gefütterten Winterleggings für Damen sind die perfekte Wahl!</p><p><strong>❄️ Bequem und kuschelig<br/>☁️ Atmungsaktiv<br/>🌡️ Gefüttert<br/></strong></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "rgba(0,0,0,0)",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "text_with_icons_UUBLeU": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_bjrb9f": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_thermo_benefit_2.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Outdoor-Marke",
+            "content": "<p>Freiluftkind ist eine Outdoor-Marke und für uns steht die Funktionalität und der Komfort unsere Produkte immer an oberster Stelle. Deshalb kannst du sicher sein, dass unsere Thermo-Bekleidung nicht nur schön aussieht sondern auch warmhält.</p>"
+          }
+        },
+        "item_F4iedc": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_thermo_benefit_1.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Für deine Figur",
+            "content": "<p>Die Kollektion kombiniert Wärme und Stil, ohne aufzutragen. Das Design betont elegant die feminine Seite, flacht den Bauch ab und hebt das Gesäß, während die Push-Vernähung für eine sportliche Note sorgt.</p>"
+          }
+        },
+        "item_V6eUpH": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_thermo_benefit_3.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Kuschelig warm",
+            "content": "<p>Wärme und Komfort gehen Hand in Hand mit unserer Thermo-Kleidung. Das weiche Innenfutter sorgt für kuschelige Wärme, während das atmungsaktive Material stets für eine angenehme Temperatur sorgt – perfekt für kühle Tage.</p>"
+          }
+        },
+        "item_EtKTJQ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_thermo_benefit_4.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "100% Blickdicht",
+            "content": "<p>Vertrauen und Sicherheit sind mit unseren Freiluftkind Produkten garantiert. Das dichte, aber flexible Material gewährleistet vollständige Blickdichte, sodass du dich in jeder Situation wohl und selbstbewusst fühlen kannst.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_bjrb9f",
+        "item_F4iedc",
+        "item_V6eUpH",
+        "item_EtKTJQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "select_dot_or_arrow": "arrow"
+      }
+    },
+    "media_with_text_QJB6fD": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_r3FbwQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_thermo_desc_1-min.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wärme und Komfort vereint",
+            "content": "<p><strong>Entdecke ein neues Niveau von Behaglichkeit und Stil </strong>mit unserer Thermo-Bekleidung. Unsere Freiluftkind Strumpfhosen und Leggings sind konzipiert, um dich nicht nur warmzuhalten, sondern auch das Vertrauen zu geben, dass du in jeder Situation fantastisch aussiehst.<br/><br/>Erlebe eine nahtlose Verschmelzung von innovativem Design und luxuriösem Komfort, in Produkten, die so konzipiert sind, dass sie dich auf jedem Schritt deiner Reise begleiten. Dein Wohlbefinden ist unsere Priorität – steige jetzt ein in eine Welt, in der Wärme, Eleganz und Stil aufeinander treffen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_dWMQmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_thermo_desc_2-min.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Expertise und Qualität",
+            "content": "<p>Vertraue auf eine Marke, die ihre Hausaufgaben gemacht hat. Bei Freiluftkind schöpfen wir aus der <strong>Weisheit und Erfahrung renommierter Outdoor-Experten</strong>, um dir Bekleidung anzubieten, die nicht nur deinem Körper, sondern auch deiner Seele schmeichelt.<br/><br/>Deine Zufriedenheit ist in der Handschlagqualität jedes Stichs und der Exzellenz jedes Fadens eingewebt. Wenn Qualität keine Option, sondern eine Notwendigkeit ist, such nicht weiter – Freiluftkind ist die Antwort.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_348LwE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_thermo_desc_3-min.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Die Winter-Kleidung für DICH!",
+            "content": "<p>Weil du es wert bist. Unsere Produkte sind darauf abgestimmt, dein Wohlbefinden und Selbstvertrauen zu steigern.<br/><br/>Die sorgfältige Auswahl von hautschmeichelnden Materialien und die maßgeschneiderte Passform garantieren, dass du dich <strong>bei jeder Bewegung frei und wohl fühlst</strong>.<br/><br/>Dank Komfort-Schnitt mit angenehm hoher Taille und dehnbarem Bund machen sie deine Bewegungen locker mit und überzeugen durch ausgezeichneten Halt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_kYD6TC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_thermo_desc_4-min.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Sag \"NEIN\" zu unbequemer Kleidung",
+            "content": "<p>Wir sagen \"Ja\" zu unbegrenztem Komfort und selbstbewusstem Stil. In jeder Faser, jedem Stich steckt unser Versprechen, dass du nicht nur großartig aussiehst, sondern dich auch so fühlst.<br/><br/>Freiluftkind bringt eine Revolution in die Welt der Bekleidung - eine, in der <strong>dein Komfort und dein Selbstausdruck an erster Stelle steht</strong>. Ein Einkaufserlebnis, bei dem jedes Produkt ein Versprechen von außergewöhnlichem Komfort und unvergleichlichem Stil ist.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_r3FbwQ",
+        "image_dWMQmR",
+        "image_348LwE",
+        "image_kYD6TC"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "enable_fixed_padding": true,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "impact_text_geQAdy": {
+      "type": "impact-text",
+      "blocks": {
+        "item_Vd3gkf": {
+          "type": "item",
+          "settings": {
+            "title": "87%",
+            "subheading": "spürten weniger Ermüdungserscheinungen",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_n7pMAE": {
+          "type": "item",
+          "settings": {
+            "title": "73%",
+            "subheading": "bemerkten eine Schmerzlinderung",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_bdbdQz": {
+          "type": "item",
+          "settings": {
+            "title": "64%",
+            "subheading": "stellten mehr Fußmuskulatur fest",
+            "content": "<p>Daten aus unseren Kundenumfragen</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_Vd3gkf",
+        "item_n7pMAE",
+        "item_bdbdQz"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 0.8,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "1729085677858a4902": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_8kngbP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_8kngbP"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "accordion_content_XRqr8b",
+    "text_with_icons_UUBLeU",
+    "media_with_text_QJB6fD",
+    "impact_text_geQAdy",
+    "1729085677858a4902"
+  ]
+}

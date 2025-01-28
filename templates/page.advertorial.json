@@ -1,0 +1,174 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "freiluftkind_adv_controls_QDaFVC": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": true,
+        "remove_footer": true,
+        "hide_product_info": false
+      }
+    },
+    "freiluftkind_adv_text_jfNDjk": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "heading_AzLYbA": {
+          "type": "heading",
+          "settings": {
+            "text": "Vergessen Sie kalte, klamme Füße und unbequeme Stiefel - Diese Schuhe verändern Ihren Frühling!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "author_tzdJYX": {
+          "type": "author",
+          "settings": {
+            "imageadvheadimg": "shopify://shop_images/freiluftkind_lothar_krueger.jpg",
+            "imageadvheadtext": "<p>verfasst von<strong> Lothar Krüger</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AzLYbA",
+        "author_tzdJYX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "freiluftkind_adv_text_kytcNe": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "sidebar_hK7Qeb": {
+          "type": "sidebar",
+          "settings": {
+            "title": "<p><strong>Empfohlen: ⭐️⭐️⭐️⭐️⭐️ 4.9 | 10469 Bewertungen</strong></p>",
+            "bullet_points": "<ul><li>Schmerzlinderung bei Fußkrankheiten</li><li>Perfekter Schutz vor Winterkälte und Nässe</li><li>Steigerung der Mobilität und Aktivität</li><li>Prävention von Fußdeformationen und Gelenkproblemen</li></ul>",
+            "sidebar_image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_schwarz_5.jpg",
+            "cta_button_text": "Verfügbarkeit prüfen",
+            "cta_button_link": "shopify://products/baker-sneaker-barfussschuhe",
+            "cta_subtext": "✔️ 14-Tage Geld-Zurück-Garantie",
+            "bullet_icon": "shopify://shop_images/Icon.svg",
+            "bullet_bg_color": "#242424",
+            "bullet_text_color": "#ffffff"
+          }
+        },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ad5_-_kepler.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 400
+          }
+        },
+        "subheading_hcAdHU": {
+          "type": "subheading",
+          "settings": {
+            "text": "Die wasserabweisenden Schuhe, die Sie nicht mehr ausziehen wollen"
+          }
+        },
+        "heading_Pgwxz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Frühlings-Barfußschuhe",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JztaFz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Diese Schuhe sind ein echtes Meisterwerk – eine perfekte Symbiose aus der natürlichen Bewegungsfreiheit des Barfußgehens und dem Schutz moderner Schuhtechnologie. Das Ergebnis ist ein Schuh, der Ihre Füße vor den Unbilden des wechselhaften Wetters bewahrt, Komfort und Schutz bietet und gleichzeitig Ihre Gesundheit unterstützt.</p><p><strong>Entwickelt in Zusammenarbeit mit Orthopäden direkt in Braunschweig</strong> hat Freiluftkind es sich zur Aufgabe gemacht, Schuhe zu kreieren, die mehr als nur ein modisches Accessoire sind. Sie sind ein integraler Bestandteil eines gesunden Lebensstils und eines nachhaltigen Bewusstseins. Mit einem Fokus auf Qualität und Funktionalität bietet Freiluftkind eine Schuhkollektion, die in jeder Hinsicht überzeugt – von der warmen, komfortablen Bequemlichkeit bis hin zum stilvollen Design.</p><p>Stellen Sie sich ein Frühjahr mit <strong>warmen und kuschelig eingepackten Füßen</strong> vor, die zusätzlich konstant gefördert werden, so dass sie langfristig ihre <strong>körperliche Gesundheit enorm verbessern</strong> und eine ganz neue Lebensfreude entdecken. Erleben Sie, wie es ist, auf Wolken zu gehen, und bereiten Sie sich auf einen Frühling vor, in dem Kälte und Nässe keine Rolle mehr spielen.</p>"
+          }
+        },
+        "button_MtETUQ": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Den Frühlings-Schuh ansehen",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_DhV6fB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><br/><br/><br/><br/></p>"
+          }
+        },
+        "subheading_aWjnFg": {
+          "type": "subheading",
+          "settings": {
+            "text": "Die wasserabweisenden Schuhe, die Sie nicht mehr ausziehen wollen"
+          }
+        },
+        "heading_n3fEBY": {
+          "type": "heading",
+          "settings": {
+            "text": "Frühlings-Barfußschuhe",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rJ3nh3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Diese Schuhe sind ein echtes Meisterwerk – eine perfekte Symbiose aus der natürlichen Bewegungsfreiheit des Barfußgehens und dem Schutz moderner Schuhtechnologie. Das Ergebnis ist ein Schuh, der Ihre Füße vor den Unbilden des wechselhaften Wetters bewahrt, Komfort und Schutz bietet und gleichzeitig Ihre Gesundheit unterstützt.</p><p><strong>Entwickelt in Zusammenarbeit mit Orthopäden direkt in Braunschweig</strong> hat Freiluftkind es sich zur Aufgabe gemacht, Schuhe zu kreieren, die mehr als nur ein modisches Accessoire sind. Sie sind ein integraler Bestandteil eines gesunden Lebensstils und eines nachhaltigen Bewusstseins. Mit einem Fokus auf Qualität und Funktionalität bietet Freiluftkind eine Schuhkollektion, die in jeder Hinsicht überzeugt – von der warmen, komfortablen Bequemlichkeit bis hin zum stilvollen Design.</p><p>Stellen Sie sich ein Frühjahr mit <strong>warmen und kuschelig eingepackten Füßen</strong> vor, die zusätzlich konstant gefördert werden, so dass sie langfristig ihre <strong>körperliche Gesundheit enorm verbessern</strong> und eine ganz neue Lebensfreude entdecken. Erleben Sie, wie es ist, auf Wolken zu gehen, und bereiten Sie sich auf einen Frühling vor, in dem Kälte und Nässe keine Rolle mehr spielen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_hK7Qeb",
+        "image_AF7UjR",
+        "subheading_hcAdHU",
+        "heading_Pgwxz9",
+        "richtext_JztaFz",
+        "button_MtETUQ",
+        "richtext_DhV6fB",
+        "subheading_aWjnFg",
+        "heading_n3fEBY",
+        "richtext_rJ3nh3"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "freiluftkind_adv_controls_QDaFVC",
+    "freiluftkind_adv_text_jfNDjk",
+    "freiluftkind_adv_text_kytcNe"
+  ]
+}

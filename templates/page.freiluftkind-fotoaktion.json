@@ -1,0 +1,68 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_HmDnKK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cDBU49": {
+          "type": "heading",
+          "settings": {
+            "text": "Schnappschuss einsenden und mit etwas Glück Geld zurück erhalten",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "button_rDhCJ3": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zurück zu den Kundenstorys",
+            "url": "shopify://pages/kundenstorys",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_WRABdH": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cDBU49",
+        "button_rDhCJ3",
+        "richtext_WRABdH"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "100ch"
+      }
+    }
+  },
+  "order": [
+    "rich_text_HmDnKK",
+    "main"
+  ]
+}

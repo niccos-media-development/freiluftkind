@@ -1,0 +1,667 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NEj3PD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_hero_desktop_herbst_kepler.jpg",
+            "mobile_image": "shopify://shop_images/freiluftkind_hero_herbst_kepler_v2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "Perfekt für kalte Tage",
+            "title": "Der Kepler",
+            "heading_tag": "h1",
+            "button_text": "Jetzt ansehen",
+            "button_link": "shopify://products/kepler-winter",
+            "text_color": "#ffffff",
+            "button_background": "#f9ca4f",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_zdWmMH": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_herohead_everest_desktop.jpg",
+            "mobile_image": "shopify://shop_images/freiluftkind_hero_everest_mobile_new.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "Über 12 Monate Entwicklung",
+            "title": "Everest",
+            "heading_tag": "h0",
+            "button_text": "Jetzt entdecken",
+            "button_link": "shopify://products/everest-wasserabweisende-sneaker-barfussschuhe",
+            "text_color": "#ffffff",
+            "button_background": "#f9ca4f",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_HwtqNB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_hero_lothar_desktop_v2.jpg",
+            "mobile_image": "shopify://shop_images/freiluftkind_hero_lothar_mobile.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Mit Orthopäden entwickelt",
+            "heading_tag": "h2",
+            "button_text": "Mehr erfahren",
+            "button_link": "",
+            "text_color": "#1a1a1a",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_NEj3PD",
+        "image_zdWmMH",
+        "image_HwtqNB"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.slideshow--boxed {padding-top: 72px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "image-link-blocks": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "1664424046b00c932c-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_alle.jpg",
+            "stretch_image": false,
+            "link_text": "Alle Modelle",
+            "link_url": "shopify://collections/barfussschuhe",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_sneaker_v2.jpg",
+            "stretch_image": false,
+            "link_text": "Sneaker",
+            "link_url": "shopify://collections/barfussschuhe-sneaker",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_allwetterjpg.jpg",
+            "stretch_image": false,
+            "link_text": "Allwetter",
+            "link_url": "shopify://collections/barfussschuhe-allwetter",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_sport.jpg",
+            "stretch_image": false,
+            "link_text": "Sport",
+            "link_url": "shopify://collections/barfussschuhe-sport-freizeit",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_zubehoer.jpg",
+            "stretch_image": false,
+            "link_text": "Zubehör",
+            "link_url": "shopify://collections/zubehoer-pflege",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1664424046b00c932c-1",
+        "1664424046b00c932c-0",
+        "1664424046b00c932c-3",
+        "1664424046b00c932c-2",
+        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text": "Gesund & Komfortabel",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 8,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "freiluftkind_scrolling_text_zNkU7x": {
+      "type": "freiluftkind-scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Gesund & Komfortabel",
+        "text_2": "Mit Orthopäden entwickelt",
+        "text_3": "Das deutsche Original",
+        "text_4": "",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 8,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "text_with_icons_93hJRC": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_BJxqqL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_nullabsatz_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Nullabsatz",
+            "content": "<p>Die flache Sohle unserer Minimalschuhe bildet die Grundlage für eine aufrechte Haltung und kann dir dabei helfen, Knie-, Hüft- und Rückenschmerzen langfristig zu vermeiden und zu lindern.</p>"
+          }
+        },
+        "item_TAxWA7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_breite_zehenbox_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Breite Zehenbox",
+            "content": "<p>Gönn deinen Zehen ihre dringend benötigte Freiheit. Dank der breiten Zehenbox unserer Barfußschuhe entfalten sie sich in ihrer natürlichen Position – für echten Komfort bei all deinen Aktivitäten.</p>"
+          }
+        },
+        "item_nbU9Th": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_duenne_sohle_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Dünne Sohle",
+            "content": "<p>Verbinde dich neu mit deiner Umwelt und deiner Umgebung: Durch die ultradünne Sohle unserer Minimalschuhe spürst du den Boden wie nie zuvor – schenke deinen Füßen das echte Barfußgefühl.</p>"
+          }
+        },
+        "item_9azmiK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_flexible_sohle_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Flexibel",
+            "content": "<p>Die weiche und flexible dünne Sohle schenkt deinen Füßen einen uneingeschränkten Bewegungsradius und sorgt dafür, dass dein Gang natürlich und fußgesund bleibt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_BJxqqL",
+        "item_TAxWA7",
+        "item_nbU9Th",
+        "item_9azmiK"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "select_dot_or_arrow": "arrow"
+      }
+    },
+    "before-after-image": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "1 Jahr mit unseren Barfußschuhen",
+        "content": "<p>Heike litt jahrelang unter Wassereinlagerungen und Fußschmerzen – bis sie unsere Barfußschuhe entdeckte. Diese beeindruckenden Vorher-Nachher-Fotos zeigen ihre Veränderung innerhalb eines Jahres, in dem sie unsere Schuhe nur zweimal pro Woche im Alltag getragen hat.</p>",
+        "before_image": "shopify://shop_images/freiluftkind_vergleich_vorher_v2.jpg",
+        "after_image": "shopify://shop_images/freiluftkind_vergleich_nachher_v2.jpg",
+        "expand_image": false,
+        "content_below": "<p>Verschiebe den Regler, um die Vorher-Nachher-Bilder direkt zu vergleichen.</p>",
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Vorher",
+        "after_text": "Nachher",
+        "drag_initial_position": 50,
+        "background": "#e5e5e5",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "#ffffff",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Finde deinen passenden Minimalschuh",
+        "title": "Unsere Bestseller",
+        "content": "",
+        "link_url": "shopify://collections/barfussschuhe",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "impact-text": {
+      "type": "impact-text",
+      "blocks": {
+        "1664424181b38582d5-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Natürlich Barfuß",
+            "content": "<p>Kein Drücken, kein Schwitzen, sondern maximalen Komfort und eine gesunde Haltung. Ideal für jede Lebenslage und jeden Fußtypen – <strong>gesund, ergonomisch, einfach natürlich.</strong></p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "1664424181b38582d5-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.8,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple-images-with-text": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "1664424486a2b084ab-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_about_lothar.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Mit Orthopäden entwickelt",
+            "content": "<p>Deine Barfußschuhe sind nicht nur ein Produkt - sie sind das Ergebnis einer engen Zusammenarbeit zwischen unserem Team und qualifizierten Orthopäden wie Lothar Krüger. Mit über 30 Jahren Berufserfahrung fließt sein umfangreiches Wissen in die Entwicklung unserer Barfußschuhe mit ein.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "1664424486a2b084ab-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_founders_ueber_uns.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Für alle Freiluftkinder",
+            "content": "<p>Du hast genug von Massenware und langen Lieferzeiten bei Barfußschuhen? Dann bist du bei uns genau richtig! Wir sind der frische Wind in der Welt der gesunden Schuhe. Entstanden aus der Idee zweier Fremder, die sich auf einer Wanderung kennenlernten – die Geschichte von Freiluftkind ist einzigartig!</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_DHFeAx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_about_umwelt.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Gemeinsam für unsere Umwelt",
+            "content": "<p>Die Natur ist echt unser Ding und wir setzen alles daran, sie zu schützen. Aus diesem Grund gestalten wir unser Unternehmen umweltfreundlich und versenden unsere Produkte in wiederverwendbaren Jutebeuteln. Zudem beteiligen wir uns am Grünen Punkt und pflanzen Bäume, um unsere Retouren komplett CO2-Neutral zu gestalten.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664424486a2b084ab-1",
+        "1664424486a2b084ab-0",
+        "item_DHFeAx"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": ""
+      }
+    },
+    "media_with_text_VzBRip": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_Hi6Qb6": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Euer Loft Film - FWG E-Commerce (Freiluftkind Barfußschuhe).mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "poster_image": "shopify://shop_images/video_cover.png",
+            "autoplay": false,
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Warum Freiluftkind tragen?",
+            "content": "<p>Kein Drücken, kein Schwitzen, sondern maximalen Komfort und eine gesunde Haltung. Ideal für jede Lebenslage und jeden Fußtypen – <strong>gesund, ergonomisch, einfach natürlich.</strong></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#e5e5e5",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_ggNrab": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Freiluftkind_Lager_Video.mp4",
+            "external_video_url": "",
+            "poster_image": "shopify://shop_images/freiluftkind_lager_thumbnail_video.jpg",
+            "autoplay": false,
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Direkt aus Braunschweig 🇩🇪",
+            "content": "<p>In der lebendigen Stadt Braunschweig, im Herzen Deutschlands, sind unser Lager und unser Firmensitz angesiedelt. Das ermöglicht uns, die Zügel in der Hand zu behalten.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#e5e5e5",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_Hi6Qb6",
+        "video_ggNrab"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_fixed_padding": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "freiluftkind_testimonials_yKRaqG": {
+      "type": "freiluftkind-testimonials",
+      "blocks": {
+        "testimonial_dCiazG": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/roman_heibling2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Roman Heibling",
+            "content": "<p>Als ein leidenschaftlicher Abenteurer habe ich schon viele Schuhe ausprobiert, aber keine haben mich so beeindruckt wie die Kepler Barfußschuhe von Freiluftkind. Sie bieten mir genau die richtige Balance zwischen Schutz und dem Gefühl von Freiheit.</p>"
+          }
+        },
+        "testimonial_BQ3pzD": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kepler.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Monika Streber",
+            "content": "<p>Auf meinen Reisen suche ich stets das Abenteuer und erkunde gerne die Natur, besonders Wasserfälle. Die Barfußschuhe von Freiluftkind sind meine ständigen Begleiter geworden. Sie bieten mir die nötige Stabilität auf rutschigen Oberflächen. Gerne wieder!</p>"
+          }
+        },
+        "testimonial_eDiLgC": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/volker_bauer.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Volker Bauer",
+            "content": "<p>Als professioneller Strongman und stärkster Mann Deutschlands war ich schon immer auf der Suche nach dem perfekten Schuh. Durch den wirklich guten Grip der Freiluftkind Schuhe, kann ich meine Muskulatur besser ansteuern und technisch effizienter arbeiten.</p>"
+          }
+        },
+        "testimonial_Cp7RbW": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/marion_bohleander.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Marion B.",
+            "content": "<p>Als jemand, der jedes Wochenende draußen Abenteuer erlebt, habe ich in den Barfußschuhen von Freiluftkind meinen idealen Partner gefunden. Sie geben mir die nötige Bodenhaftung und gleichzeitig das Gefühl, mit der Natur verbunden zu sein. Ein ganz neues Laufgefühl.</p>"
+          }
+        },
+        "testimonial_7tN4iN": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/torsten_richter.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Torsten Richter",
+            "content": "<p>Ich bin ein aktiver Mensch, liebe es, Sport zu treiben und bin leidenschaftlicher Longboarder. Die Flexibilität und das Bodengefühl, das diese Schuhe bieten, sind unvergleichlich und lassen mich meine Bewegungen viel präziser ausführen. Hammer Schuhe!</p>"
+          }
+        },
+        "testimonial_czXDhC": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/fallschirm.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Andreas Korb",
+            "content": "<p>Ich trage selten andere Schuhe seit ich diese Schuhe entdeckt habe. Sie sind so vielseitig, dass ich sie sowohl im Büro als auch beim Fallschirmspringen tragen kann! Ja, ich bin mit diesen Schuhen aus einem Flugzeug gesprungen, und sie haben mir ein Gefühl von Freiheit gegeben.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_dCiazG",
+        "testimonial_BQ3pzD",
+        "testimonial_eDiLgC",
+        "testimonial_Cp7RbW",
+        "testimonial_7tN4iN",
+        "testimonial_czXDhC"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "Unsere Kunden haben eine klare Meinung",
+        "title": "Bewertungen",
+        "content": "",
+        "link_url": "shopify://pages/kundenstorys",
+        "link_text": "Mehr Kundenstorys ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "blog_posts_jeacn6": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_mBbJCy": {
+          "type": "blog",
+          "settings": {
+            "blog": "barfussschuhe-gesundheit",
+            "posts_count": 3,
+            "stack_items": true
+          }
+        }
+      },
+      "block_order": [
+        "blog_mBbJCy"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "Unser Blog",
+        "content": "",
+        "link_url": "shopify://blogs/ubersicht",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "image-link-blocks",
+    "scrolling-text",
+    "freiluftkind_scrolling_text_zNkU7x",
+    "text_with_icons_93hJRC",
+    "before-after-image",
+    "featured-collection",
+    "impact-text",
+    "multiple-images-with-text",
+    "media_with_text_VzBRip",
+    "freiluftkind_testimonials_yKRaqG",
+    "blog_posts_jeacn6"
+  ]
+}
