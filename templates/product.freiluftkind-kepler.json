@@ -209,6 +209,68 @@
         "accordion_text_color": ""
       }
     },
+    "multi_column_f8rn7a": {
+      "type": "multi-column",
+      "blocks": {
+        "item_YJneKn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_blau_v2_b1af8b6c-4590-4d52-898c-4e9c2662ac59.jpg",
+            "column_size": "3",
+            "title": "Leidest du unter Schmerzen und Einschränkungen?",
+            "heading_tag": "h4",
+            "content": "<p>Schmerzen in den Füßen, dem Rücken oder den Gelenken können den Alltag zur Herausforderung machen. Wenn jede Bewegung schwerfällt, wird selbst das Schönste zur Belastung. Doch das muss nicht sein.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_76PxCY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_blau_v2_b1af8b6c-4590-4d52-898c-4e9c2662ac59.jpg",
+            "column_size": "3",
+            "title": "Probiere Barfußschuhe noch heute risikofrei aus",
+            "heading_tag": "h4",
+            "content": "<p>Unsere Barfußschuhe unterstützen deine natürliche Fußbewegung und können dir helfen, Beschwerden spürbar zu lindern. Teste Freiluftkind Barfußschuhe jetzt und erlebe am eigenen Körper, wie sie dein Leben verändern.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_AHgAer": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_blau_v2_b1af8b6c-4590-4d52-898c-4e9c2662ac59.jpg",
+            "column_size": "3",
+            "title": "Endlich ein Leben ohne Schmerzen genießen",
+            "heading_tag": "h4",
+            "content": "<p>Stell dir vor, du gehst ohne Schmerzen, mit jedem Schritt ein Gefühl von Leichtigkeit und Freiheit. Barfußschuhe können dir helfen, deine Beschwerden zu lindern und deine Lebensqualität spürbar zu steigern. Fang heute an und spüre den Unterschied!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_YJneKn",
+        "item_76PxCY",
+        "item_AHgAer"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Schuhe für weniger Schmerz",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "#ffffff"
+      }
+    },
     "text_with_icons_UUBLeU": {
       "type": "text-with-icons",
       "blocks": {
@@ -508,6 +570,7 @@
   "order": [
     "main",
     "accordion_content_XRqr8b",
+    "multi_column_f8rn7a",
     "text_with_icons_UUBLeU",
     "media_with_text_QJB6fD",
     "impact_text_geQAdy",
