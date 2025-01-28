@@ -241,7 +241,7 @@
         "item_AHgAer": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_blau_v2_b1af8b6c-4590-4d52-898c-4e9c2662ac59.jpg",
+            "image": "shopify://shop_images/freiluftkind_pdp_pain_3.jpg",
             "column_size": "3",
             "title": "Endlich ein Leben ohne Schmerzen genießen",
             "heading_tag": "h4",
@@ -257,7 +257,6 @@
         "item_76PxCY",
         "item_AHgAer"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_on_mobile": true,
