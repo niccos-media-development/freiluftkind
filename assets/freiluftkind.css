@@ -1104,7 +1104,7 @@ ul.contents li.badge {
 }
 
 /*! Freiluftkind Image Gallery PDP USPs */
-.product-gallery__usp .product-gallery__zoom svg {
+.product-gallery__usp svg {
   width: 24px;
   height: 24px;
 }
