@@ -89,6 +89,14 @@
           "type": "freiluftkind-payment",
           "settings": {}
         },
+        "freiluftkind_atc_usps_RnG8nK": {
+          "type": "freiluftkind-atc-usps",
+          "disabled": true,
+          "settings": {
+            "freiluftkind-atc-usp-1": "<p>Share some content to your customers about your products.</p>",
+            "freiluftkind-atc-usp-2": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
         "separator_idQt49": {
           "type": "separator",
           "disabled": true,
@@ -118,6 +126,7 @@
         "freiluftkind_shipping_qwiFWJ",
         "buy_buttons",
         "freiluftkind_payment_Lp98tR",
+        "freiluftkind_atc_usps_RnG8nK",
         "separator_idQt49",
         "freiluftkind_products_3cym4X"
       ],
