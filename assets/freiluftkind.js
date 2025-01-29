@@ -82,3 +82,40 @@ var CartCount = class extends HTMLElement {
 if (!window.customElements.get("cart-count")) {
   window.customElements.define("cart-count", CartCount);
 }
+
+// Freiluftkind USP Gallery
+document.addEventListener("DOMContentLoaded", function () {
+  const uspButton = document.querySelector(".product-gallery__usp button");
+  const uspText = uspButton?.querySelector(".gallery-usp-text");
+
+  if (!uspButton || !uspText) return;
+
+  // USP Werte aus Liquid über JSON übertragen
+  const uspValues = [
+    {{ section.settings.freiluftkind-image-usp-1 | json }},
+    {{ section.settings.freiluftkind-image-usp-2 | json }},
+    {{ section.settings.freiluftkind-image-usp-3 | json }},
+    {{ section.settings.freiluftkind-image-usp-4 | json }}
+  ];
+
+  function updateUSP(index) {
+    if (uspValues[index]) {
+      uspText.innerHTML = uspValues[index];
+      uspButton.setAttribute("data-usp-index", index + 1);
+    }
+  }
+
+  // Beobachtet die Änderung des aktiven Bildes
+  const observer = new MutationObserver(() => {
+    const activeImage = document.querySelector(".product-gallery__media:not([hidden]) img");
+    if (activeImage) {
+      const newIndex = [...document.querySelectorAll(".product-gallery__media img")].indexOf(activeImage);
+      updateUSP(newIndex);
+    }
+  });
+
+  observer.observe(document.querySelector(".product-gallery"), {
+    childList: true,
+    subtree: true,
+  });
+});
