@@ -103,15 +103,6 @@ only way to do it on Shopify right now.
 
             {%- render 'media', media: media, sizes: sizes, preload: preload, autoplay: section.settings.enable_video_autoplay, loop: section.settings.enable_video_looping, group: 'product' -%}
 
-            {%- if section.settings.enable_image_usp and section.settings.desktop_media_layout contains 'grid' and media.media_type == 'image' -%}
-              <div class="product-gallery__zoom hidden md:block">
-                <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
-                  <span class="sr-only">{{ 'product.gallery.zoom' | t }}</span>
-                  {%- render 'icon' with 'image-zoom' -%}
-                </button>
-              </div>
-            {%- endif -%}
-
             {%- if section.settings.enable_image_zoom and section.settings.desktop_media_layout contains 'grid' and media.media_type == 'image' -%}
               <div class="product-gallery__zoom hidden md:block">
                 <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
