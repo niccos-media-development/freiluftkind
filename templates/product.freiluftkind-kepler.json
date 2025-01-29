@@ -51,8 +51,8 @@
             "freiluftkind-usp-img": "shopify://shop_images/freiluftkind_de_orthopaede_lothar.png",
             "freiluftkind-usp-img-text": "<p>Mit deutschen Orthopäden entwickelt</p>",
             "freiluftkind-usp-1": "<p>Entlasten Füße, Gelenke & Körper</p>",
-            "freiluftkind-usp-2": "<p>Kostenloser Versand & einfache Retouren</p>",
-            "freiluftkind-usp-3": "<p>Kundenservice per Mail & Telefon</p>"
+            "freiluftkind-usp-2": "<p>Ideal zur Schmerzlinderung</p>",
+            "freiluftkind-usp-3": "<p>Wasserabweisend & bequem</p>"
           }
         },
         "separator": {
@@ -91,10 +91,9 @@
         },
         "freiluftkind_atc_usps_RnG8nK": {
           "type": "freiluftkind-atc-usps",
-          "disabled": true,
           "settings": {
             "freiluftkind-atc-usp-1": "<p>Kostenloser Versand</p>",
-            "freiluftkind-atc-usp-2": "<p>Service per Mail & Telefon</p>"
+            "freiluftkind-atc-usp-2": "<p>Service per <a href=\"mailto:support@freiluftkind.de\" title=\"mailto:support@freiluftkind.de\">Mail</a> & <a href=\"tel:+4953138763032\" title=\"tel:+4953138763032\">Telefon</a></p>"
           }
         },
         "separator_idQt49": {
