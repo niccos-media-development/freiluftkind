@@ -116,7 +116,7 @@ only way to do it on Shopify right now.
       </media-carousel>
 
       {%- if section.settings.enable_image_usp -%}
-        <div class="product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
+        <div class="product-gallery__usp product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
           <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring" style="width: fit-content; display: inline-flex; padding: 0 20px; gap: 6px; font-size: 12px;">
             <span class="sr-only">Mehr Informationen</span>
             {{ section.settings.freiluftkind-image-usp-1 }}
