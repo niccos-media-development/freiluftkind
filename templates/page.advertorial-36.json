@@ -220,7 +220,7 @@
         "image_GRiUQN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/adv_36_6.jpg",
+            "image": "shopify://shop_images/adv_36_7.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -247,7 +247,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Heute 50% Rabatt sichern!",
-            "url": "shopify://products/kepler-winter",
+            "url": "shopify://products/everest-kids-wasserabweisende-kinder-barfussschuhe",
             "background": "",
             "text_color": ""
           }
