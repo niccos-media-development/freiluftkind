@@ -85,37 +85,38 @@ if (!window.customElements.get("cart-count")) {
 
 // Freiluftkind USP Gallery
 document.addEventListener("DOMContentLoaded", function () {
-  const uspButton = document.querySelector(".product-gallery__usp button");
-  const uspText = uspButton?.querySelector(".gallery-usp-text");
+    const uspButton = document.querySelector(".product-gallery__usp button");
+    const uspText = uspButton?.querySelector(".usp-text");
+  
+    if (!uspButton || !uspText) return;
+  
+    // USP Werte aus Liquid einlesen
+    const uspValues = [
+        {{ section.settings.freiluftkind-image-usp-1 | json }},
+        {{ section.settings.freiluftkind-image-usp-2 | json }},
+        {{ section.settings.freiluftkind-image-usp-3 | json }},
+        {{ section.settings.freiluftkind-image-usp-4 | json }}
+    ];
 
-  if (!uspButton || !uspText) return;
+    function updateUSP() {
+        const activeMedia = document.querySelector(".product-gallery__media:not([hidden]) img");
+        if (!activeMedia) return;
 
-  // USP Werte aus Liquid über JSON übertragen
-  const uspValues = [
-    {{ section.settings.freiluftkind-image-usp-1 | json }},
-    {{ section.settings.freiluftkind-image-usp-2 | json }},
-    {{ section.settings.freiluftkind-image-usp-3 | json }},
-    {{ section.settings.freiluftkind-image-usp-4 | json }}
-  ];
+        // Alle Bilder abrufen und den Index des aktuellen ermitteln
+        const allImages = [...document.querySelectorAll(".product-gallery__media img")];
+        const newIndex = allImages.findIndex(img => img.src === activeMedia.src);
 
-  function updateUSP(index) {
-    if (uspValues[index]) {
-      uspText.innerHTML = uspValues[index];
-      uspButton.setAttribute("data-usp-index", index + 1);
+        // Update nur, wenn der Index gültig ist
+        if (newIndex !== -1 && uspValues[newIndex]) {
+            uspText.innerHTML = uspValues[newIndex];
+            uspButton.setAttribute("data-usp-index", newIndex + 1);
+        }
     }
-  }
 
-  // Beobachtet die Änderung des aktiven Bildes
-  const observer = new MutationObserver(() => {
-    const activeImage = document.querySelector(".product-gallery__media:not([hidden]) img");
-    if (activeImage) {
-      const newIndex = [...document.querySelectorAll(".product-gallery__media img")].indexOf(activeImage);
-      updateUSP(newIndex);
-    }
-  });
+    // Event-Listener für Bildwechsel (durch Shopify Theme ausgelöst)
+    document.addEventListener("carousel:change", updateUSP);
+    document.addEventListener("variant:change", updateUSP);
 
-  observer.observe(document.querySelector(".product-gallery"), {
-    childList: true,
-    subtree: true,
-  });
+    // Falls direkt nach dem Laden schon ein Bild aktiv ist
+    updateUSP();
 });
