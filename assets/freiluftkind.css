@@ -1116,7 +1116,6 @@ ul.contents li.badge {
   padding: 0 18px;
   gap: 6px;
   font-size: 16px;
-  height: 30px;
 }
 
 .product-gallery__usp .circle-button svg {
@@ -1128,6 +1127,7 @@ ul.contents li.badge {
   .product-gallery__usp .circle-button {
     padding: 0 12px;
     font-size: 12px;
+    height: 30px;
   }
 
   .product-gallery__usp .circle-button svg {
