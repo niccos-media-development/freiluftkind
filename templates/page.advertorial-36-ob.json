@@ -1,0 +1,484 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "freiluftkind_adv_controls_QDaFVC": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": true,
+        "remove_footer": true,
+        "hide_product_info": false
+      }
+    },
+    "rich_text_cTKqUt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtU6dx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kategorie: Gesunde Schuhe</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtU6dx"
+      ],
+      "custom_css": [
+        ".section-full {padding: 8px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#242424",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "freiluftkind_adv_text_kytcNe": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "sidebar_hK7Qeb": {
+          "type": "sidebar",
+          "settings": {
+            "title": "<p><strong>Die neuen Everest Kids</strong></p>",
+            "bullet_points": "<ul><li>Für gesunde Kinder-Füße</li><li>Vermeiden Fehlstellungen im Wachstum</li><li>Wasserabweisend und gefüttert</li><li>Komfortabel und bequem</li><li>Mit Orthopäden entwickelt</li></ul>",
+            "sidebar_image": "shopify://shop_images/freiluftkind_everest_kids_grau.jpg",
+            "cta_button_text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "cta_button_link": "shopify://products/everest-kids-wasserabweisende-kinder-barfussschuhe",
+            "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
+            "bullet_icon": "shopify://shop_images/Icon.svg",
+            "bullet_bg_color": "#242424",
+            "bullet_text_color": "#ffffff"
+          }
+        },
+        "logo_cCfFMm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/gesundheitsmagazin.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 250
+          }
+        },
+        "heading_Pgwxz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Kinderfüße brauchen Freiheit: Warum herkömmliche Schuhe schaden und Barfußschuhe die beste Wahl sind!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "author_6PYk8k": {
+          "type": "author",
+          "settings": {
+            "imageadvheadimg": "shopify://shop_images/aerztin_adv.jpg",
+            "imageadvheadtext": "<p>Beitrag von Dr. Susanne Hilde</p>"
+          }
+        },
+        "richtext_dhyW8e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kinderfüße sind der Grundstein für ein gesundes Leben. Doch wussten Sie, dass herkömmliche Kinderschuhe oft die natürliche <strong>Entwicklung der Füße behindern</strong> können? Viele Eltern denken, es sei normal, dass Kinderschuhe „ein bisschen drücken“. Doch das Gegenteil ist der Fall – enge Schuhe können die Fußgesundheit ernsthaft beeinträchtigen.</p><p>Gleichzeitig gibt es auch Eltern, die aus Sorge vor zu engen Schuhen dazu neigen, Schuhe zwei Nummern größer zu kaufen, um sicherzugehen, dass sie nicht drücken oder die Zehenbox breit genug ist. Doch auch das kann problematisch sein: Zu große Schuhe bieten keinen optimalen Halt und können die Laufentwicklung des Kindes negativ beeinflussen. Barfußschuhe bieten hier eine revolutionäre Lösung, die speziell für die Bedürfnisse von Kinderfüßen entwickelt wurde – sie fördern die natürliche Fußbewegung und unterstützen eine <strong>gesunde Entwicklung</strong>.</p><p>Hier sind 5 entscheidende Gründe, warum Sie sich für Barfußschuhe wie die Everest Kids von Freiluftkind entscheiden sollten:</p>"
+          }
+        },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_36_1.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_GB6aVn": {
+          "type": "heading",
+          "settings": {
+            "text": "1. Entwicklung der Kinderfüße fördern",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JztaFz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kinderfüße befinden sich in einer sensiblen Wachstumsphase. Die Knochen sind noch weich und formbar – und gerade in dieser Phase brauchen sie Platz, um sich natürlich entwickeln zu können.</p><p><strong>Das Problem:</strong> Herkömmliche Schuhe sind oft mit engen Zehenboxen ausgestattet, die die Zehen unnatürlich zusammenquetschen. Dies wird häufig mit der Annahme begründet, dass eine engere Passform die Standstabilität des Kindes verbessert. Tatsächlich ist jedoch das Gegenteil der Fall: Eingeschränkte Bewegungsfreiheit der Zehen kann die natürliche Entwicklung und Stabilität der Füße beeinträchtigen, da die Zehen eine entscheidende Rolle für den Gleichgewichtssinn und die Standfestigkeit spielen.</p><p><strong>Die Lösung:</strong> Barfußschuhe wie die Everest Kids bieten eine extrabreite Zehenbox, damit die kleinen Zehen sich natürlich spreizen können. Dieses Spreizen der Zehen ist ein natürlicher und wichtiger Reflex bei Kindern, der auftritt, wenn sie anfangen zu laufen. Es hilft ihnen, sich besser zu balancieren und ihr Gleichgewicht zu halten, da die Zehen dabei aktiv in die Stabilisierung eingebunden werden. So entsteht die optimale Grundlage für starke, gesunde Füße – völlig ohne Einschränkungen.</p>"
+          }
+        },
+        "image_WxWMWj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_36_4.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_BEkBjE": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Fehlstellungen und Haltungsschäden vorbeugen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XBTJC7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fußschmerzen, Fehlstellungen wie Plattfüße oder Hallux Valgus und Haltungsschäden können oft auf falsches Schuhwerk zurückgeführt werden. Herkömmliche Schuhe können zudem krallende Zehen oder Scheuerstellen verursachen, was Kindern den Spaß am Laufenlernen nimmt. Barfußschuhe mit flexiblen Sohlen und Nullabsatz fördern die natürliche Bewegung, <strong>verhindern Druckstellen</strong> und unterstützen eine <strong>schmerzfreie, gesunde Fußentwicklung</strong>.</p><p>Barfußschuhe mit ihren flexiblen Sohlen und einer Nullabsatz-Konstruktion fördern die natürliche Bewegung der Füße. Dadurch arbeiten die Muskeln aktiv und Fehlbelastungen werden von Anfang an vermieden.</p>"
+          }
+        },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_36_5.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_n3fEBY": {
+          "type": "heading",
+          "settings": {
+            "text": "3. Mehr Komfort und Bewegungsfreiheit",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rJ3nh3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kinder bewegen sich den ganzen Tag: Sie rennen, springen und klettern. Schuhe, die drücken oder die Beweglichkeit einschränken, verhindern nicht nur die Freude am Toben – sie verursachen oft auch Blasen und Beschwerden. Barfußschuhe wie die Everest Kids haben eine superflexible Sohle, die sich jedem Schritt und jeder <strong>Bewegung Ihres Kindes anpasst</strong>. Dadurch bleibt der Fuß entspannt – egal, wie aktiv der Alltag ist.</p><p>„Seit mein Kleiner die Everest Kids trägt, jammert er beim Laufen viel weniger. Er fühlt sich einfach wohler und hat Spaß am Laufen – selbst nach einem ganzen Tag voller Abenteuer!</p>"
+          }
+        },
+        "image_fnDJHx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_36_2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_kChkyk": {
+          "type": "heading",
+          "settings": {
+            "text": "4. Perfekt für jedes Wetter",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qz3Hkf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kinder lieben es, draußen zu spielen – ob im Sommer oder im Winter. Aber schlechte Schuhe können bei Regen oder Kälte schnell zu nassen oder frierenden Füßen führen - die besten Bedingungen für Erkältungen und Fieber.</p><p>Die Everest Kids wurden speziell für alle Wetterbedingungen entwickelt:</p><p><strong>Wasserabweisendes Material:</strong> Schützt die Füße vor Nässe, auch wenn durch Pfützen gesprungen wird.</p><p><strong>Kuscheliges Innenfutter: </strong>Hält die Füße selbst im Winter angenehm warm.</p><p>Egal, ob beim Spielen im Schnee oder beim Toben durch Schlammpfützen – die Everest Kids lassen keine Wünsche offen.</p>"
+          }
+        },
+        "image_9btQ6y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_36_3.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_tgTNGL": {
+          "type": "heading",
+          "settings": {
+            "text": "5. Gesunde Füße = gesunde Kinder",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ycMgUk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Füße, die sich frei bewegen können, sorgen nicht nur für <strong>weniger Beschwerden</strong> – sie fördern auch die allgemeine Begeisterung für Bewegung. Kinder, die sich in ihren Schuhen wohlfühlen, sind aktiver und erleben die Welt mit mehr Energie.</p><p>„Ich sehe, wie mein Sohn jetzt mit viel mehr Freude herumrennt – ohne Schmerzen und ohne Ausreden. Es fühlt sich gut an zu wissen, dass seine Füße gesund wachsen.“</p><p>Barfußschuhe sorgen nicht nur für gesunde Füße, sondern fördern durch die bessere Körperhaltung auch den gesamten Bewegungsapparat durch die Nullabsatzsohle. So legen sie den Grundstein für ein <strong>aktives, gesundes Leben</strong>.</p>"
+          }
+        },
+        "image_GRiUQN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_36_7.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_6bR4LQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Machen Sie den ersten Schritt zu gesunden Kinderfüßen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XftrzX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Everest Kids von Freiluftkind wurden gemeinsam <strong>mit Orthopäden entwickelt</strong> und speziell dafür entwickelt, um die gesunde Entwicklung von Kinderfüßen zu fördern.</p><p>Die Everest Kids sind in mehreren Farben erhältlich – von Mint über Rosé bis hin zu Klassikern wie Schwarz oder Grau. Ob für Jungen oder Mädchen – hier findet jedes Kind seinen Lieblingsschuh!</p>"
+          }
+        },
+        "button_WCgG78": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Heute 20€ Rabatt sichern!",
+            "url": "shopify://products/everest-kids-wasserabweisende-kinder-barfussschuhe",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_hK7Qeb",
+        "logo_cCfFMm",
+        "heading_Pgwxz9",
+        "author_6PYk8k",
+        "richtext_dhyW8e",
+        "image_AF7UjR",
+        "heading_GB6aVn",
+        "richtext_JztaFz",
+        "image_WxWMWj",
+        "heading_BEkBjE",
+        "richtext_XBTJC7",
+        "image_Fjc3nH",
+        "heading_n3fEBY",
+        "richtext_rJ3nh3",
+        "image_fnDJHx",
+        "heading_kChkyk",
+        "richtext_qz3Hkf",
+        "image_9btQ6y",
+        "heading_tgTNGL",
+        "richtext_ycMgUk",
+        "image_GRiUQN",
+        "heading_6bR4LQ",
+        "richtext_XftrzX",
+        "button_WCgG78"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "freiluftkind_testimonials_RyQMEJ": {
+      "type": "freiluftkind-testimonials",
+      "blocks": {
+        "testimonial_gcP4XV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/roman_heibling2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Klaus H.",
+            "content": "<p>Die rutschfeste Grip-Sohle der Freiluftkind-Schuhe hat mich wirklich überzeugt. Ich wohne in einer bergigen Gegend, und bei Schnee und Eis bin ich jetzt sicher unterwegs, ohne Angst vor Stürzen. Die Passform ist fantastisch, und meine Zehen haben endlich genug Platz – keine Druckstellen mehr! Diese Schuhe sind jeden Cent wert.</p>"
+          }
+        },
+        "testimonial_6xrFic": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kepler_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Petra M.",
+            "content": "<p>Ich habe die Winterschuhe bestellt, weil ich im Winter ständig mit kalten Füßen kämpfe. Die isolierende Sohle und das kuschelige Innenfutter sind ein Gamechanger! Meine Füße bleiben angenehm warm, selbst bei langen Spaziergängen. Ich liebe, wie leicht sie sich anfühlen – ich vergesse manchmal, dass ich Schuhe trage. Absolute Kaufempfehlung!</p>"
+          }
+        },
+        "testimonial_NxXK99": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ronny_helling.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Jürgen G.",
+            "content": "<p>Ich war skeptisch, ob die Schuhe wirklich wasserabweisend sind, aber sie haben mich bei Regen und Schneematsch komplett überzeugt. Kein Nässegefühl mehr, und meine Füße bleiben den ganzen Tag trocken. Dazu kommen der unglaubliche Komfort und das leichte An- und Ausziehen – ich bin begeistert! Freiluftkind hat meine Erwartungen übertroffen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_gcP4XV",
+        "testimonial_6xrFic",
+        "testimonial_NxXK99"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Über 350.000 zufriedene Kunden",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "rich_text_8XY4wJ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3QDdEC": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3QDdEC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-full {padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_4r6XYQ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_d94FJz": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Kostenloser Versand",
+            "content": ""
+          }
+        },
+        "item_HDwz9T": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Geld-Zurück-Garantie",
+            "content": ""
+          }
+        },
+        "item_JfEbiM": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "350.000+ Kunden",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_d94FJz",
+        "item_HDwz9T",
+        "item_JfEbiM"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "select_dot_or_arrow": "arrow"
+      }
+    },
+    "rich_text_z66jka": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_y6BNWJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://freiluftkind.de/policies/legal-notice\" title=\"https://freiluftkind.de/policies/legal-notice\">Impressum</a> | <a href=\"https://freiluftkind.de/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutz</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y6BNWJ"
+      ],
+      "custom_css": [
+        "p {font-size: 12px;}",
+        ".section-full {padding-top: 32px; padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "freiluftkind_adv_controls_QDaFVC",
+    "rich_text_cTKqUt",
+    "freiluftkind_adv_text_kytcNe",
+    "freiluftkind_testimonials_RyQMEJ",
+    "rich_text_8XY4wJ",
+    "text_with_icons_4r6XYQ",
+    "rich_text_z66jka"
+  ]
+}
