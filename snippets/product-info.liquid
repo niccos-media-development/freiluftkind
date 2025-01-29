@@ -146,49 +146,23 @@ Supported variables
           {% endunless %}
 
         {%- when 'freiluftkind-atc-usps' -%}
-          {% if block.settings['freiluftkind-usp-show-img'] %}
-            <div class="freiluftkind-usp-image" style="display: flex; align-items: center; margin-bottom: 2px">
-              <div class="freiluftkind-usp-img">
-              <img class="Image--lazyLoaded"
-              src="{{- block.settings.freiluftkind-usp-img | image_url -}}"
-              alt="Freiluftkind Orthopäde"
-              width="100%" height="100%"
-              style="
-                width: 20px;
-                height: 20px;
-                margin-right: 5px;
-                background: linear-gradient(to bottom, #000000 33.33%, #FF0000 33.33% 66.66%, #FFCC00 66.66%);
-                padding: 1px;;
-                border-radius: 50%;
-                ">
-              </div>
-              <p class="freiluftkind-usp" style="margin: 0px">{{ block.settings.freiluftkind-usp-img-text }}</p>
-            </div>
-          {% endif %}
-          {% unless block.settings['freiluftkind-usp-1'] == blank %}
+          {% unless block.settings['freiluftkind-atc-usp-1'] == blank %}
             <div class="freiluftkind-usp" style="display: flex; align-items: center">
-              <svg style="margin-right: 5px" role="presentation" fill="none" focusable="false" stroke-width="2" width="20" height="20" class="icon icon-picto-validation" viewBox="0 0 24 24">
-                <path d="M12 22.714a10.714 10.714 0 1 0 0-21.428 10.714 10.714 0 0 0 0 21.428v0Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="m7.714 13.071 3.116 3.215c1.468-4.214 2.688-6.062 5.455-8.572" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
               {{ block.settings.freiluftkind-usp-1 }}
             </div>
           {% endunless %}
-          {% unless block.settings['freiluftkind-usp-2'] == blank %}
+          {% unless block.settings['freiluftkind-atc-usp-2'] == blank %}
             <div class="freiluftkind-usp" style="margin-top: 2px; display: flex; align-items: center">
-              <svg style="margin-right: 5px" role="presentation" fill="none" focusable="false" stroke-width="2" width="20" height="20" class="icon icon-picto-validation" viewBox="0 0 24 24">
-                <path d="M12 22.714a10.714 10.714 0 1 0 0-21.428 10.714 10.714 0 0 0 0 21.428v0Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="m7.714 13.071 3.116 3.215c1.468-4.214 2.688-6.062 5.455-8.572" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
               {{ block.settings.freiluftkind-usp-2 }}
             </div>
           {% endunless %}
-          {% unless block.settings['freiluftkind-usp-3'] == blank %}
+          {% unless block.settings['freiluftkind-atc-usp-3'] == blank %}
             <div class="freiluftkind-usp" style="margin-top: 2px; display: flex; align-items: center">
-              <svg style="margin-right: 5px" role="presentation" fill="none" focusable="false" stroke-width="2" width="20" height="20" class="icon icon-picto-validation" viewBox="0 0 24 24">
-                <path d="M12 22.714a10.714 10.714 0 1 0 0-21.428 10.714 10.714 0 0 0 0 21.428v0Z" fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="m7.714 13.071 3.116 3.215c1.468-4.214 2.688-6.062 5.455-8.572" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
+              {{ block.settings.freiluftkind-usp-3 }}
+            </div>
+          {% endunless %}
+          {% unless block.settings['freiluftkind-atc-usp-4'] == blank %}
+            <div class="freiluftkind-usp" style="margin-top: 2px; display: flex; align-items: center">
               {{ block.settings.freiluftkind-usp-3 }}
             </div>
           {% endunless %}
