@@ -217,6 +217,14 @@
             "content": "<p>Füße, die sich frei bewegen können, sorgen nicht nur für <strong>weniger Beschwerden</strong> – sie fördern auch die allgemeine Begeisterung für Bewegung. Kinder, die sich in ihren Schuhen wohlfühlen, sind aktiver und erleben die Welt mit mehr Energie.</p><p>„Ich sehe, wie mein Sohn jetzt mit viel mehr Freude herumrennt – ohne Schmerzen und ohne Ausreden. Es fühlt sich gut an zu wissen, dass seine Füße gesund wachsen.“</p><p>Barfußschuhe sorgen nicht nur für gesunde Füße, sondern fördern durch die bessere Körperhaltung auch den gesamten Bewegungsapparat durch die Nullabsatzsohle. So legen sie den Grundstein für ein <strong>aktives, gesundes Leben</strong>.</p>"
           }
         },
+        "image_GRiUQN": {
+          "type": "image",
+          "settings": {
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_6bR4LQ": {
           "type": "heading",
           "settings": {
@@ -265,6 +273,7 @@
         "image_9btQ6y",
         "heading_tgTNGL",
         "richtext_ycMgUk",
+        "image_GRiUQN",
         "heading_6bR4LQ",
         "richtext_XftrzX",
         "button_WCgG78"
