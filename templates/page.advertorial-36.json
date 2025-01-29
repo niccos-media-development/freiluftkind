@@ -121,6 +121,14 @@
             "content": "<p>Kinderfüße befinden sich in einer sensiblen Wachstumsphase. Die Knochen sind noch weich und formbar – und gerade in dieser Phase brauchen sie Platz, um sich natürlich entwickeln zu können.</p><p><strong>Das Problem:</strong> Herkömmliche Schuhe sind oft mit engen Zehenboxen ausgestattet, die die Zehen unnatürlich zusammenquetschen. Dies wird häufig mit der Annahme begründet, dass eine engere Passform die Standstabilität des Kindes verbessert. Tatsächlich ist jedoch das Gegenteil der Fall: Eingeschränkte Bewegungsfreiheit der Zehen kann die natürliche Entwicklung und Stabilität der Füße beeinträchtigen, da die Zehen eine entscheidende Rolle für den Gleichgewichtssinn und die Standfestigkeit spielen.</p><p><strong>Die Lösung:</strong> Barfußschuhe wie die <a href=\"/products/everest-kids-wasserabweisende-kinder-barfussschuhe\" title=\"Everest Kids - wasserabweisende Sneaker Barfußschuhe\">Everest Kids</a> bieten eine extrabreite Zehenbox, damit die kleinen Zehen sich natürlich spreizen können. Dieses Spreizen der Zehen ist ein natürlicher und wichtiger Reflex bei Kindern, der auftritt, wenn sie anfangen zu laufen. Es hilft ihnen, sich besser zu balancieren und ihr Gleichgewicht zu halten, da die Zehen dabei aktiv in die Stabilisierung eingebunden werden. So entsteht die optimale Grundlage für starke, gesunde Füße – völlig ohne Einschränkungen.</p>"
           }
         },
+        "image_WxWMWj": {
+          "type": "image",
+          "settings": {
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_BEkBjE": {
           "type": "heading",
           "settings": {
@@ -235,6 +243,7 @@
         "image_AF7UjR",
         "heading_GB6aVn",
         "richtext_JztaFz",
+        "image_WxWMWj",
         "heading_BEkBjE",
         "richtext_XBTJC7",
         "image_Fjc3nH",
