@@ -1104,15 +1104,15 @@ ul.contents li.badge {
 }
 
 /*! Freiluftkind Image Gallery PDP USPs */
-.product-gallery__usp svg {
-  width: 24px !important;
-  height: 24px !important;
-}
-
 .product-gallery__usp .circle-button {
   width: fit-content;
   display: inline-flex;
   padding: 0 20px;
   gap: 6px;
   font-size: 12px;
+}
+
+.product-gallery__usp .circle-button svg {
+  width: 24px !important;
+  height: 24px !important;
 }
