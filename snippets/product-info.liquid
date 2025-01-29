@@ -149,12 +149,12 @@ Supported variables
           {% if block.settings['freiluftkind-atc-usp-1'] != blank or block.settings['freiluftkind-atc-usp-2'] != blank %}
             <div style="display: flex; width: 100%; gap: 10px;">
               {% unless block.settings['freiluftkind-atc-usp-1'] == blank %}
-                <div class="freiluftkind-usp" style="flex: 1; display: flex; align-items: center; justify-content: center; background: #f0f0f0; border-radius: 50px; padding: 4px 12px; font-size: 12px; font-weight: bold">
+                <div class="freiluftkind-usp" style="flex: 1; display: flex; align-items: center; justify-content: center; background: #f0f0f0; border-radius: 50px; padding: 6px 12px; font-size: 12px; font-weight: bold">
                   {{ block.settings.freiluftkind-atc-usp-1 }}
                 </div>
               {% endunless %}
               {% unless block.settings['freiluftkind-atc-usp-2'] == blank %}
-                <div class="freiluftkind-usp" style="flex: 1; display: flex; align-items: center; justify-content: center; background: #f0f0f0; border-radius: 50px; padding: 4px 12px; font-size: 12px; font-weight: bold">
+                <div class="freiluftkind-usp" style="flex: 1; display: flex; align-items: center; justify-content: center; background: #f0f0f0; border-radius: 50px; padding: 6px 12px; font-size: 12px; font-weight: bold">
                   {{ block.settings.freiluftkind-atc-usp-2 }}
                 </div>
               {% endunless %}
