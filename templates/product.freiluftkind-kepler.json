@@ -93,8 +93,8 @@
           "type": "freiluftkind-atc-usps",
           "disabled": true,
           "settings": {
-            "freiluftkind-atc-usp-1": "<p>Share some content to your customers about your products.</p>",
-            "freiluftkind-atc-usp-2": "<p>Share some content to your customers about your products.</p>"
+            "freiluftkind-atc-usp-1": "<p>Kostenloser Versand & einfache Retouren</p>",
+            "freiluftkind-atc-usp-2": "<p>Kundenservice per Mail & Telefon</p>"
           }
         },
         "separator_idQt49": {
