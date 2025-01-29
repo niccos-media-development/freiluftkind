@@ -124,7 +124,7 @@
         "image_WxWMWj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/adv_36_2.jpg",
+            "image": "shopify://shop_images/adv_36_4.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -172,7 +172,7 @@
         "image_fnDJHx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/adv_36_4.jpg",
+            "image": "shopify://shop_images/adv_36_2.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -181,7 +181,7 @@
         "heading_kChkyk": {
           "type": "heading",
           "settings": {
-            "text": "4. Unglaubliche Flexibilität",
+            "text": "4. Perfekt für jedes Wetter",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -190,7 +190,7 @@
         "richtext_qz3Hkf": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Das innovative Obermaterial und die speziell konzipierte Barfußsohle sorgen für unvergleichliche Flexibilität. Die Schuhe passen sich individuell Ihrem Fuß und Ihrer natürlichen Gehbewegung an. Das Ergebnis: Ein dynamisches Laufgefühl, das nicht nur bequem ist, sondern auch Ihre Fußmuskulatur stärkt und die Blutzirkulation verbessert.</p>"
+            "content": "<p>Kinder lieben es, draußen zu spielen – ob im Sommer oder im Winter. Aber schlechte Schuhe können bei Regen oder Kälte schnell zu nassen oder frierenden Füßen führen - die besten Bedingungen für Erkältungen und Fieber.</p><p>Die Everest Kids wurden speziell für alle Wetterbedingungen entwickelt:</p><p><strong>Wasserabweisendes Material:</strong> Schützt die Füße vor Nässe, auch wenn durch Pfützen gesprungen wird.</p><p><strong>Kuscheliges Innenfutter: </strong>Hält die Füße selbst im Winter angenehm warm.</p><p>Egal, ob beim Spielen im Schnee oder beim Toben durch Schlammpfützen – die Everest Kids lassen keine Wünsche offen.</p>"
           }
         },
         "image_9btQ6y": {
