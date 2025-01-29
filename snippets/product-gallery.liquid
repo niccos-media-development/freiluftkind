@@ -124,6 +124,15 @@ only way to do it on Shopify right now.
         {%- endfor -%}
       </media-carousel>
 
+      {%- if section.settings.enable_image_usp -%}
+        <div class="product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
+          <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
+            <span class="sr-only">{{ 'product.gallery.zoom' | t }}</span>
+            {%- render 'icon' with 'image-zoom' -%}
+          </button>
+        </div>
+      {%- endif -%}
+      
       {%- if section.settings.enable_image_zoom -%}
         <div class="product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
           <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
