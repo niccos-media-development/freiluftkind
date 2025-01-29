@@ -5087,27 +5087,6 @@ var ProductGallery = class extends HTMLElement {
       this._carousels.forEach((carousel) =>
         carousel.select(newMediaPosition, { animate: false })
       );
-
-      // Freiluftkind Gallery USP-Update
-      const uspButton = document.querySelector(".product-gallery__usp button");
-      const uspText = uspButton?.querySelector(".gallery-usp-text");
-      
-      if (uspButton && uspText) {
-        const uspIndex = newMediaPosition + 1; // USP beginnt bei 1
-        uspButton.setAttribute("data-usp-index", uspIndex);
-      
-        // Neue USP-Werte setzen
-        const uspValues = [
-          {{ section.settings.freiluftkind-image-usp-1 | json }},
-          {{ section.settings.freiluftkind-image-usp-2 | json }},
-          {{ section.settings.freiluftkind-image-usp-3 | json }},
-          {{ section.settings.freiluftkind-image-usp-4 | json }}
-        ];
-      
-        if (uspValues[uspIndex - 1]) {
-          uspText.innerHTML = uspValues[uspIndex - 1];
-        }
-      }
     }
   }
   _onSectionRerender(event) {
