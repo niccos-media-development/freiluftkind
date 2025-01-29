@@ -117,11 +117,9 @@ only way to do it on Shopify right now.
 
       {%- if section.settings.enable_image_usp -%}
         <div class="product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
-          <div class="image_usp_teaser">
-            {{ section.settings.freiluftkind-image-usp-1 }}
-          </div>
           <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
             <span class="sr-only">Mehr Informationen</span>
+            {{ section.settings.freiluftkind-image-usp-1 }}
             {%- render 'icon' with 'picto-question' -%}
           </button>
         </div>
