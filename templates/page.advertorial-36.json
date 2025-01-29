@@ -303,6 +303,7 @@
         "testimonial_6xrFic",
         "testimonial_NxXK99"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_testimonials": true,
