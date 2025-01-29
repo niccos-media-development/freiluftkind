@@ -172,6 +172,7 @@
         "image_fnDJHx": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/adv_36_4.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
