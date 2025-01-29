@@ -1112,14 +1112,19 @@ ul.contents li.badge {
   font-size: 16px;
 }
 
+.product-gallery__usp .circle-button svg {
+  width: 24px;
+  height: 24px;
+}
+
 @media screen and (max-width: 699px) {
   .product-gallery__usp .circle-button {
     padding: 0 12px;
     font-size: 12px;
   }
-}
 
-.product-gallery__usp .circle-button svg {
-  width: 24px;
-  height: 24px;
+  .product-gallery__usp .circle-button svg {
+    width: 18px;
+    height: 18px;
+  }
 }
