@@ -157,7 +157,7 @@
         "heading_n3fEBY": {
           "type": "heading",
           "settings": {
-            "text": "3. Kuschelig komfortabel und leicht",
+            "text": "3. Mehr Komfort und Bewegungsfreiheit",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -166,7 +166,15 @@
         "richtext_rJ3nh3": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Mit ihrer extra-breiten Zehenbox schaffen diese Barfuß-Winterschuhe ausreichend Platz für Ihre Zehen und ermöglichen eine natürliche Fußstellung. Keine einengenden Druckstellen, keine Blasen – einfach purer Komfort. Das Barfußgefühl bleibt auch in der kalten Jahreszeit erhalten, während Ihre Füße optimal geschützt werden.</p>"
+            "content": "<p>Kinder bewegen sich den ganzen Tag: Sie rennen, springen und klettern. Schuhe, die drücken oder die Beweglichkeit einschränken, verhindern nicht nur die Freude am Toben – sie verursachen oft auch Blasen und Beschwerden. Barfußschuhe wie die <a href=\"/products/everest-kids-wasserabweisende-kinder-barfussschuhe\" title=\"Everest Kids - wasserabweisende Sneaker Barfußschuhe\">Everest Kids</a> haben eine superflexible Sohle, die sich jedem Schritt und jeder <strong>Bewegung Ihres Kindes anpasst</strong>. Dadurch bleibt der Fuß entspannt – egal, wie aktiv der Alltag ist.</p><p>„Seit mein Kleiner die Everest Kids trägt, jammert er beim Laufen viel weniger. Er fühlt sich einfach wohler und hat Spaß am Laufen – selbst nach einem ganzen Tag voller Abenteuer!</p>"
+          }
+        },
+        "image_fnDJHx": {
+          "type": "image",
+          "settings": {
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
           }
         },
         "heading_kChkyk": {
@@ -250,6 +258,7 @@
         "image_Fjc3nH",
         "heading_n3fEBY",
         "richtext_rJ3nh3",
+        "image_fnDJHx",
         "heading_kChkyk",
         "richtext_qz3Hkf",
         "image_9btQ6y",
