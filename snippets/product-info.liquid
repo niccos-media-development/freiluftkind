@@ -156,16 +156,6 @@ Supported variables
               {{ block.settings.freiluftkind-atc-usp-2 }}
             </div>
           {% endunless %}
-          {% unless block.settings['freiluftkind-atc-usp-3'] == blank %}
-            <div class="freiluftkind-usp" style="margin-top: 2px; display: flex; align-items: center">
-              {{ block.settings.freiluftkind-atc-usp-3 }}
-            </div>
-          {% endunless %}
-          {% unless block.settings['freiluftkind-atc-usp-4'] == blank %}
-            <div class="freiluftkind-usp" style="margin-top: 2px; display: flex; align-items: center">
-              {{ block.settings.freiluftkind-atc-usp-4 }}
-            </div>
-          {% endunless %}
 
         {%- when 'freiluftkind-shipping' -%}
           <div class="relative">
