@@ -84,7 +84,7 @@
       },
       "6757137876795001004": {
         "type": "shopify://apps/pixoo-outbrain-pixel/blocks/star_rating/7eb7f1da-dc3d-4f59-af0d-5d4efc849789",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     }
