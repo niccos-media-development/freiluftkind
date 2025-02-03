@@ -216,6 +216,7 @@ Supported variables
         {%- if social_media != blank or country_selector or locale_selector or shop.customer_accounts_enabled -%}
           <div class="panel-footer v-stack gap-5">
 
+            {%- comment -%}
             <div class="freiluftkind_drawer_menu_support" style="display: none; font-size: 14px; margin-bottom: -12px;">
               Du hast Fragen? Unser deutscher Kundenservice hilft dir bei allen Anliegen gerne weiter! 🇩🇪
 
@@ -229,6 +230,7 @@ Supported variables
                 </div>
               </div>
             </div>
+            {%- endcomment -%}
             
             {{- social_media -}}
 
