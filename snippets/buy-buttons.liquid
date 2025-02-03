@@ -101,6 +101,7 @@
       class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}"
       template="{{ product.template_suffix | escape }}"
       form="{{ form_id }}"
+      onclick="obApi('track', 'Add to cart');"
     >
       {%- render 'button',
         content: button_content,
