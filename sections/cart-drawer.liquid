@@ -450,7 +450,6 @@
         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
           <a
               href="{{ routes.cart_url }}"
-              onclick="obApi('track', 'Checkout');"
               class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}"
               data-no-instant
               >
