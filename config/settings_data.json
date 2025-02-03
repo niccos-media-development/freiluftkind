@@ -81,11 +81,6 @@
         "type": "shopify://apps/criteo-sales-growth-ads/blocks/theme-extension/b74e0e19-7ecc-4a61-b469-888ea2cdf8f5",
         "disabled": false,
         "settings": {}
-      },
-      "6757137876795001004": {
-        "type": "shopify://apps/pixoo-outbrain-pixel/blocks/star_rating/7eb7f1da-dc3d-4f59-af0d-5d4efc849789",
-        "disabled": true,
-        "settings": {}
       }
     }
   },
