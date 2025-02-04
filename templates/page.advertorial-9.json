@@ -91,16 +91,10 @@
             "imageadvheadtext": "<p>vom <strong>Orthopäden Lothar Krüger</strong></p>"
           }
         },
-        "richtext_dhyW8e": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Sind Sie auch auf das Versprechen von „gesunden Barfußschuhen“ für unglaublich niedrige Preise hereingefallen oder fragen Sie sich, wie das möglich ist? Sie dachten, Sie tun Ihrem Körper etwas Gutes, sparen sogar noch Geld – und am Ende zahlen Sie doppelt.</p><p><strong>Vielleicht kennen Sie dieses Szenario: </strong>Ihre Schuhe fallen schon nach wenigen Wochen auseinander; die Schuhe brauchen Monate, bis sie ankommen; statt Linderung spüren Sie noch mehr Schmerzen und wenn es um eine Rückgabe geht, hängen Sie in endlosen Prozessen fest.</p><p>Genau diese Probleme höre ich täglich von Menschen aus meinem Bekanntenkreis, die mir davon berichten, nachdem sie enttäuscht wurden. Sie merken oft gar nicht, dass Sie auf einen Anbieter hereingefallen sind, der sich hinter einer Marke im Ausland versteckt, billig produzierte Ware aus China verkauft und bei Problemen oder Fragen keinen erreichbaren Kundensupport anbietet.</p>"
-          }
-        },
         "image_AF7UjR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/adv-17-3.jpg",
+            "image": "shopify://shop_images/lothar_adv.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -109,7 +103,7 @@
         "heading_GB6aVn": {
           "type": "heading",
           "settings": {
-            "text": "Ein persönlicher Erfahrungsbericht",
+            "text": "Revolution für Ihre Füße: Warum Barfußschuhe mehr als ein Trend sind",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -118,7 +112,7 @@
         "richtext_JztaFz": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Mein Name ist Sabine und ich komme aus Stuttgart. Ich dachte, ich hätte das perfekte Schnäppchen gefunden: Angebliche Barfußschuhe für nur 40 Euro, die online so professionell präsentiert wurden, dass es zunächst keinen Grund gab, zu zweifeln.</p><p>Ich war neugierig. Barfußschuhe schienen mir ideal für meine Rückenschmerzen und meine Knie. Also habe ich die bestellt – schließlich sahen sie gut aus, hatten gute Bewertungen und waren <strong>unschlagbar günstig</strong>.</p><p>Doch was ich erhielt, war alles andere als das, was ich erwartet hatte:</p><p>Schon beim Auspacken hatte ich Zweifel. Die Schuhe fühlten sich billig an, die Sohle war entgegen meiner Erwartungen hart, und sie rochen stark nach Chemikalien. Ich dachte mir: Gut, vielleicht wirken sie beim Tragen besser. Aber nach einer Woche barfuß Laufen hatte ich <strong>mehr Schmerzen als je zuvor</strong>.</p>"
+            "content": "<p>Mein Name ist Dr. Lothar Krüger und als Orthopäde mit über drei Jahrzehnten Erfahrung habe ich die Entwicklung im Schuhmarkt stets genau beobachtet. Es ist eine alarmierende Tatsache, dass ein großer Teil der Bevölkerung bereits seit frühester Kindheit Schuhe trägt, die mehr schaden als  nutzen.</p><p>Ein Trend folgt dem nächsten und keiner hinterfragt die Ursache hinter all den körperlichen Leiden der Gesellschaft. <strong>Diverse Studien zeigen, dass unangepasstes Schuhwerk zu einer Vielzahl von Fußproblemen führen kann, die oft das ganze Leben lang anhalten.</strong></p><p>Als lang praktizierender Orthopäde sehe ich täglich die Folgen dieser Fehlentwicklungen bei meinen Patienten: Von Plattfüßen bis hin zu Haltungsschäden, schweren Rücken- und Nackenprobleme als auch körperliche Unruhe. Extreme Folgen, die weit über unsere Füße hinausgehen.</p>"
           }
         },
         "image_FxQWfC": {
@@ -258,7 +252,6 @@
         "logo_cCfFMm",
         "heading_Pgwxz9",
         "author_6PYk8k",
-        "richtext_dhyW8e",
         "image_AF7UjR",
         "heading_GB6aVn",
         "richtext_JztaFz",
