@@ -245,6 +245,21 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "liquid_TLQPjq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"height: 20px\"></div>"
+          }
+        },
+        "heading_aeGBBM": {
+          "type": "heading",
+          "settings": {
+            "text": "Beeilen Sie sich, denn das Angebot gilt nur solange der Vorrat reicht!",
+            "heading_tag": "h6",
+            "text_color": "#d6403d",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
@@ -270,7 +285,9 @@
         "image_P9wiEk",
         "heading_6bR4LQ",
         "richtext_XftrzX",
-        "button_WCgG78"
+        "button_WCgG78",
+        "liquid_TLQPjq",
+        "heading_aeGBBM"
       ],
       "settings": {
         "full_width": true,
