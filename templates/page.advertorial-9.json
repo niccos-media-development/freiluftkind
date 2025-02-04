@@ -214,7 +214,7 @@
         "image_P9wiEk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/taboola3.1png.png",
+            "image": "shopify://shop_images/kepler_adv_2.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -223,7 +223,7 @@
         "heading_6bR4LQ": {
           "type": "heading",
           "settings": {
-            "text": "Jetzt risikofrei Testen oder Geld zurück!",
+            "text": "Exklusives Angebot für meine Patienten",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -232,7 +232,7 @@
         "richtext_XftrzX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Der Hersteller ist so überzeugt von der Qualität dieser Winterschuhe und möchte, dass Sie es auch sind! Testen Sie Ihre neuen Schuhe ganz ohne Risiko. Sollten Sie aus irgendeinem Grund nicht zufrieden sein, erhalten Sie Ihr Geld zurück – unkompliziert und ohne Fragen. So gehen Sie sicher, dass Sie die perfekte Wahl für Ihre Füße getroffen haben.</p><p><strong>Aktuell erhalten Sie die Winterschuhe sogar mit einem exklusiven Rabatt von 50%, aber nur solange der Vorrat reicht!</strong></p>"
+            "content": "<p>Meine abschließende Empfehlung ist ganz klar: Wenn Sie unter Fuß- und körperlichen Beschwerden leiden oder einfach nur die bestmögliche Unterstützung für Ihren Körper suchen, vertrauen Sie auf die Expertise und Qualität von Freiluftkind.</p><p>Der Hersteller ist so überzeugt von der Qualität dieser Winterschuhe und möchte, dass Sie es auch sind! Testen Sie Ihre neuen Schuhe ganz ohne Risiko. Sollten Sie aus irgendeinem Grund nicht zufrieden sein, erhalten Sie Ihr Geld zurück – unkompliziert und ohne Fragen. So gehen Sie sicher, dass Sie die perfekte Wahl für Ihre Füße getroffen haben.</p><p><strong>Aktuell erhalten Sie die Winterschuhe sogar mit einem exklusiven Rabatt von 50%, aber nur solange der Vorrat reicht!</strong></p>"
           }
         },
         "button_WCgG78": {
