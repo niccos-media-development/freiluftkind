@@ -250,7 +250,7 @@
         ".subheading {font-size: 20px;}"
       ],
       "settings": {
-        "collection": "bestseller",
+        "collection": "sale",
         "products": [],
         "full_width": true,
         "stack_products": true,
