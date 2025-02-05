@@ -56,6 +56,7 @@
     },
     "custom_html_hQGmAm": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
