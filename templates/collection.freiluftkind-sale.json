@@ -241,37 +241,6 @@
         "open_first_filter_group": false
       }
     },
-    "featured_collection_D6CHVM": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}",
-        "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
-        ".subheading {font-size: 20px;}"
-      ],
-      "settings": {
-        "collection": "kinder-barfussschuhe",
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 50,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "Rabattcode: KIDS50",
-        "title": "50% Rabatt auf alle Kinder-Modelle",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "featured_collection_hRctb6": {
       "type": "featured-collection",
       "custom_css": [
@@ -291,6 +260,36 @@
         "products_per_row_desktop": 4,
         "subheading": "Das perfekte Valentinstagsgeschenk",
         "title": "Verschenke gesunde Füße",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_D6CHVM": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}",
+        "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
+        ".subheading {font-size: 20px;}"
+      ],
+      "settings": {
+        "collection": "zubehoer-pflege",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Rabattcode LIEBE für 20%",
+        "title": "Die zugehörigen Accessoires",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -481,8 +480,8 @@
     "banner",
     "freiluftkind_collection_selector_VNDNTm",
     "main",
-    "featured_collection_D6CHVM",
     "featured_collection_hRctb6",
+    "featured_collection_D6CHVM",
     "media_with_text_ifLGUc",
     "press_dam4Bt",
     "text_with_icons_ndbitQ"
