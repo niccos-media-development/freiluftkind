@@ -1,1 +1,489 @@
-{"sections":{"rich_text_FWmBRV":{"type":"rich-text","blocks":{"image_RVw6eP":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_collection_sale.png","width_mode":"custom","max_width":500,"mobile_max_width":400}},"heading_fmcUUX":{"type":"heading","settings":{"text":"Zusätzlich bis zu 50% Rabatt sichern!","heading_tag":"h2","text_color":"","gradient":""}},"richtext_FXRTbj":{"type":"richtext","settings":{"content":"<p>Wir brauchen Platz für unsere neue Kollektion!<strong> <\/strong>Nutze jetzt die einmalige Chance und sichere dir unsere aktuellen Barfußschuhe zum besten Preis.<\/p><p>Für kurze Zeit gibt es <strong>50% Rabatt <\/strong>auf alle Kinder-Modelle (Code: KIDS50) und 20% auf alle Erwachsenen-Modelle (Code: SALE20). Beide Rabattcodes sind kombinierbar und einfach an der Kasse einzugeben – also greif schnell zu, bevor dein Lieblingsmodell ausverkauft ist!<\/p><p><strong>Nur noch wenige Stunden!<\/strong><\/p>"}}},"block_order":["image_RVw6eP","heading_fmcUUX","richtext_FXRTbj"],"custom_css":["img {margin-bottom: 0px;}"],"settings":{"full_width":true,"content_width":"medium","text_position":"center","background":"","background_gradient":"linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)","text_color":"#ffffff"}},"custom_html_hQGmAm":{"type":"custom-html","settings":{"full_width":true,"remove_vertical_spacing":true,"remove_horizontal_spacing":false,"html":"<img src=\"https:\/\/emailcountdowntimer.com\/i\/wNxbVqqZPn\" border=\"0\" style=\"display: block; margin: auto; padding: 10px;\">","background":"#333828","background_gradient":"","text_color":""}},"banner":{"type":"collection-banner","disabled":true,"settings":{"full_width":false,"allow_transparent_header":false,"enable_parallax":true,"show_collection_title":true,"show_collection_description":true,"show_collection_image":true,"collection_title_size":"h0","image_size":"auto","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","featured_product":"","featured_product_heading":"Featured product","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"freiluftkind_collection_selector_VNDNTm":{"type":"freiluftkind-collection-selector","blocks":{"item_cztNzt":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_linkblock_alle.jpg","stretch_image":false,"freiluftkind-colsel-highlight":true,"link_text":"Alle Modelle","link_url":"","background":"#ffffff","text_color":"#1a1a1a","overlay_color":"#000000","overlay_opacity":0}},"item_pVFxyh":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_linkblock_sneaker_v2.jpg","stretch_image":false,"freiluftkind-colsel-highlight":false,"link_text":"Sneaker","link_url":"shopify:\/\/collections\/barfussschuhe-sneaker","background":"#ffffff","text_color":"#1a1a1a","overlay_color":"#000000","overlay_opacity":0}},"item_6xAWBV":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_linkblock_allwetterjpg.jpg","stretch_image":false,"freiluftkind-colsel-highlight":false,"link_text":"Allwetter","link_url":"shopify:\/\/collections\/barfussschuhe-allwetter","background":"#ffffff","text_color":"#1a1a1a","overlay_color":"#000000","overlay_opacity":0}},"item_bpyHxk":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_linkblock_sport.jpg","stretch_image":false,"freiluftkind-colsel-highlight":false,"link_text":"Sport","link_url":"shopify:\/\/collections\/barfussschuhe-sport-freizeit","background":"#ffffff","text_color":"#1a1a1a","overlay_color":"#000000","overlay_opacity":0}},"item_QrpUfm":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_linkblock_kids.jpg","stretch_image":false,"freiluftkind-colsel-highlight":false,"link_text":"Kinder","link_url":"shopify:\/\/collections\/kinder-barfussschuhe","background":"#ffffff","text_color":"#1a1a1a","overlay_color":"#000000","overlay_opacity":0}},"item_tjJ4Ly":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_linkblock_zubehoer.jpg","stretch_image":false,"freiluftkind-colsel-highlight":false,"link_text":"Zubehör","link_url":"shopify:\/\/collections\/zubehoer-pflege","background":"#ffffff","text_color":"#1a1a1a","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["item_cztNzt","item_pVFxyh","item_6xAWBV","item_bpyHxk","item_QrpUfm","item_tjJ4Ly"],"disabled":true,"settings":{"full_width":true,"block_size":"medium","subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)","text_color":"","heading_color":"","heading_gradient":""}},"main":{"type":"main-collection","blocks":{"promotion_image_wLYbUt":{"type":"promotion_image","disabled":true,"settings":{"position":4,"column_span":"1","image":"shopify:\/\/shop_images\/freiluftkind_collection_promo_kepler_v3.jpg","mobile_image":"shopify:\/\/shop_images\/freiluftkind_collection_promo_kepler_mobile.jpg","title":"Winter-Sale!","content":"","link_url":"shopify:\/\/products\/kepler-winter","link_text":"Angebot ansehen","heading_tag":"h4","text_position":"place-self-end-center text-center","text_color":"#1a1a1a","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["promotion_image_wLYbUt"],"disabled":true,"custom_css":[],"settings":{"products_per_page":24,"products_per_row_mobile":"2","products_per_row_desktop":4,"filter_layout":"horizontal","freiluftkind_min_margin_mobile":true,"show_sort_by":false,"show_filters":false,"show_filter_group_name":false,"show_filter_values_count":true,"open_first_filter_group":false}},"featured_collection_D6CHVM":{"type":"featured-collection","custom_css":["@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}","@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",".subheading {font-size: 20px;}"],"settings":{"collection":"kinder-barfussschuhe","products":[],"full_width":true,"stack_products":true,"show_progress_bar":false,"products_count":50,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"Rabattcode: KIDS50","title":"50% Rabatt auf alle Kinder-Modelle","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)","product_card_background":"","product_card_text_color":""}},"featured_collection_hRctb6":{"type":"featured-collection","custom_css":["@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; }}",".product-list .product-card__badge-list .badge:not(:first-child) {display: none;}","@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",".subheading {font-size: 20px;}"],"settings":{"collection":"bestseller","products":[],"full_width":true,"stack_products":true,"show_progress_bar":false,"products_count":50,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"Rabattcode: SALE20","title":"20% Rabatt auf alle Barfußschuhe","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)","product_card_background":"","product_card_text_color":""}},"media_with_text_ifLGUc":{"type":"media-with-text","blocks":{"image_7VDFxd":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_about_lothar.jpg","media_width":40,"media_position":"start","text_position":"place-self-center text-center","icon":"none","icon_width":48,"subheading":"","title":"Mit Orthopäden entwickelt","content":"<p>Unsere Barfußschuhe sind nicht nur ein Produkt - sie sind das Ergebnis einer engen Zusammenarbeit zwischen unserem Team und qualifizierten Orthopäden wie Lothar Krüger. Mit über 30 Jahren Berufserfahrung fließt sein umfangreiches Wissen in die Entwicklung unserer Freiluftkind Barfußschuhe mit ein.<\/p>","link_text":"","link_url":"","background":"#ffffff","background_gradient":"","text_color":"#1a1a1a","text_gradient":"","button_background":"","button_text_color":""}},"video_UA7eY4":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/Freiluftkind_Lager_Video.mp4","external_video_url":"","poster_image":"shopify:\/\/shop_images\/freiluftkind_lager_thumbnail_video.jpg","autoplay":false,"media_width":40,"media_position":"end","text_position":"place-self-center text-center","icon":"none","icon_width":48,"subheading":"","title":"Direkt aus Braunschweig 🇩🇪","content":"<p>In der lebendigen Stadt Braunschweig, im Herzen Deutschlands, sind unser Lager und unser Firmensitz angesiedelt. Das ermöglicht uns, die Zügel in der Hand zu behalten.<\/p>","link_text":"","link_url":"","background":"#ffffff","background_gradient":"","text_color":"#1a1a1a","text_gradient":"","button_background":"","button_text_color":""}}},"block_order":["image_7VDFxd","video_UA7eY4"],"settings":{"full_width":false,"enable_fixed_padding":false,"alternate_media_position":false,"spacing":"small"}},"press_dam4Bt":{"type":"press","blocks":{"quote_YkXGpA":{"type":"quote","settings":{"logo":"shopify:\/\/shop_images\/freiluftkind_sylvia_feedback.png","logo_width":75,"author":"Sylvia H.","content":"Ich bin begeistert! Die Barfußschuhe haben meine Haltungsschmerzen deutlich gemindert!","show_rating":true,"rating":5}}},"block_order":["quote_YkXGpA"],"settings":{"full_width":false,"content_size":"medium","background":"rgba(0,0,0,0)","background_gradient":"linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)","text_color":"#ffffff","heading_color":"","heading_gradient":"","logo_item_background":"","logo_item_border":""}},"text_with_icons_ndbitQ":{"type":"text-with-icons","blocks":{"item_ErPYyq":{"type":"item","settings":{"icon":"picto-coupon","custom_icon":"shopify:\/\/shop_images\/freiluftkind_icon_nullabsatz_dunkel.png","mobile_icon_width":120,"icon_width":120,"icon_background_type":"none","icon_background":"","icon_color":"","title":"Nullabsatz","content":"<p>Die flache Sohle unserer Minimalschuhe bildet die Grundlage für eine aufrechte Haltung und kann dir dabei helfen, Knie-, Hüft- und Rückenschmerzen langfristig zu vermeiden und zu lindern.<\/p>"}},"item_mzy8WE":{"type":"item","settings":{"icon":"picto-coupon","custom_icon":"shopify:\/\/shop_images\/freiluftkind_icon_breite_zehenbox_dunkel.png","mobile_icon_width":120,"icon_width":120,"icon_background_type":"none","icon_background":"","icon_color":"","title":"Breite Zehenbox","content":"<p>Gönn deinen Zehen ihre dringend benötigte Freiheit. Dank der breiten Zehenbox unserer Barfußschuhe entfalten sie sich in ihrer natürlichen Position – für echten Komfort bei all deinen Aktivitäten.<\/p>"}},"item_cke9xa":{"type":"item","settings":{"icon":"picto-coupon","custom_icon":"shopify:\/\/shop_images\/freiluftkind_icon_duenne_sohle_dunkel.png","mobile_icon_width":120,"icon_width":120,"icon_background_type":"none","icon_background":"","icon_color":"","title":"Dünne Sohle","content":"<p>Verbinde dich neu mit deiner Umwelt und deiner Umgebung: Durch die ultradünne Sohle unserer Minimalschuhe spürst du den Boden wie nie zuvor – schenke deinen Füßen das echte Barfußgefühl.<\/p>"}},"item_mGYegF":{"type":"item","settings":{"icon":"picto-coupon","custom_icon":"shopify:\/\/shop_images\/freiluftkind_icon_flexible_sohle_dunkel.png","mobile_icon_width":120,"icon_width":120,"icon_background_type":"none","icon_background":"","icon_color":"","title":"Flexibel","content":"<p>Die weiche und flexible dünne Sohle schenkt deinen Füßen einen uneingeschränkten Bewegungsradius und sorgt dafür, dass dein Gang natürlich und fußgesund bleibt.<\/p>"}}},"block_order":["item_ErPYyq","item_mzy8WE","item_cke9xa","item_mGYegF"],"settings":{"full_width":true,"stack_on_mobile":false,"title":"","heading_tag":"h5","text_alignment":"center","icon_spacing":"small","background":"","background_gradient":"","text_color":"","select_dot_or_arrow":"arrow"}}},"order":["rich_text_FWmBRV","custom_html_hQGmAm","banner","freiluftkind_collection_selector_VNDNTm","main","featured_collection_D6CHVM","featured_collection_hRctb6","media_with_text_ifLGUc","press_dam4Bt","text_with_icons_ndbitQ"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_FWmBRV": {
+      "type": "rich-text",
+      "blocks": {
+        "image_RVw6eP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_collection_sale.png",
+            "width_mode": "custom",
+            "max_width": 500,
+            "mobile_max_width": 400
+          }
+        },
+        "heading_fmcUUX": {
+          "type": "heading",
+          "settings": {
+            "text": "Zusätzlich bis zu 50% Rabatt sichern!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_FXRTbj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir brauchen Platz für unsere neue Kollektion!<strong> </strong>Nutze jetzt die einmalige Chance und sichere dir unsere aktuellen Barfußschuhe zum besten Preis.</p><p>Für kurze Zeit gibt es <strong>50% Rabatt </strong>auf alle Kinder-Modelle (Code: KIDS50) und 20% auf alle Erwachsenen-Modelle (Code: SALE20). Beide Rabattcodes sind kombinierbar und einfach an der Kasse einzugeben – also greif schnell zu, bevor dein Lieblingsmodell ausverkauft ist!</p><p><strong>Nur noch wenige Stunden!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_RVw6eP",
+        "heading_fmcUUX",
+        "richtext_FXRTbj"
+      ],
+      "custom_css": [
+        "img {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "#ffffff"
+      }
+    },
+    "custom_html_hQGmAm": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<img src=\"https://emailcountdowntimer.com/i/wNxbVqqZPn\" border=\"0\" style=\"display: block; margin: auto; padding: 10px;\">",
+        "background": "#333828",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "freiluftkind_collection_selector_VNDNTm": {
+      "type": "freiluftkind-collection-selector",
+      "blocks": {
+        "item_cztNzt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_alle.jpg",
+            "stretch_image": false,
+            "freiluftkind-colsel-highlight": true,
+            "link_text": "Alle Modelle",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_pVFxyh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_sneaker_v2.jpg",
+            "stretch_image": false,
+            "freiluftkind-colsel-highlight": false,
+            "link_text": "Sneaker",
+            "link_url": "shopify://collections/barfussschuhe-sneaker",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_6xAWBV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_allwetterjpg.jpg",
+            "stretch_image": false,
+            "freiluftkind-colsel-highlight": false,
+            "link_text": "Allwetter",
+            "link_url": "shopify://collections/barfussschuhe-allwetter",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_bpyHxk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_sport.jpg",
+            "stretch_image": false,
+            "freiluftkind-colsel-highlight": false,
+            "link_text": "Sport",
+            "link_url": "shopify://collections/barfussschuhe-sport-freizeit",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_QrpUfm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_kids.jpg",
+            "stretch_image": false,
+            "freiluftkind-colsel-highlight": false,
+            "link_text": "Kinder",
+            "link_url": "shopify://collections/kinder-barfussschuhe",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_tjJ4Ly": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_linkblock_zubehoer.jpg",
+            "stretch_image": false,
+            "freiluftkind-colsel-highlight": false,
+            "link_text": "Zubehör",
+            "link_url": "shopify://collections/zubehoer-pflege",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_cztNzt",
+        "item_pVFxyh",
+        "item_6xAWBV",
+        "item_bpyHxk",
+        "item_QrpUfm",
+        "item_tjJ4Ly"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "promotion_image_wLYbUt": {
+          "type": "promotion_image",
+          "disabled": true,
+          "settings": {
+            "position": 4,
+            "column_span": "1",
+            "image": "shopify://shop_images/freiluftkind_collection_promo_kepler_v3.jpg",
+            "mobile_image": "shopify://shop_images/freiluftkind_collection_promo_kepler_mobile.jpg",
+            "title": "Winter-Sale!",
+            "content": "",
+            "link_url": "shopify://products/kepler-winter",
+            "link_text": "Angebot ansehen",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "promotion_image_wLYbUt"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "freiluftkind_min_margin_mobile": true,
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "featured_collection_D6CHVM": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}",
+        "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
+        ".subheading {font-size: 20px;}"
+      ],
+      "settings": {
+        "collection": "kinder-barfussschuhe",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Rabattcode: KIDS50",
+        "title": "50% Rabatt auf alle Kinder-Modelle",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_hRctb6": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; }}",
+        ".product-list .product-card__badge-list .badge:not(:first-child) {display: none;}",
+        "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
+        ".subheading {font-size: 20px;}"
+      ],
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Das perfekte Valentinstagsgeschenk",
+        "title": "Schenke Gesundheit",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_with_text_ifLGUc": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_7VDFxd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_about_lothar.jpg",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Mit Orthopäden entwickelt",
+            "content": "<p>Unsere Barfußschuhe sind nicht nur ein Produkt - sie sind das Ergebnis einer engen Zusammenarbeit zwischen unserem Team und qualifizierten Orthopäden wie Lothar Krüger. Mit über 30 Jahren Berufserfahrung fließt sein umfangreiches Wissen in die Entwicklung unserer Freiluftkind Barfußschuhe mit ein.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_UA7eY4": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Freiluftkind_Lager_Video.mp4",
+            "external_video_url": "",
+            "poster_image": "shopify://shop_images/freiluftkind_lager_thumbnail_video.jpg",
+            "autoplay": false,
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Direkt aus Braunschweig 🇩🇪",
+            "content": "<p>In der lebendigen Stadt Braunschweig, im Herzen Deutschlands, sind unser Lager und unser Firmensitz angesiedelt. Das ermöglicht uns, die Zügel in der Hand zu behalten.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7VDFxd",
+        "video_UA7eY4"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_fixed_padding": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "press_dam4Bt": {
+      "type": "press",
+      "blocks": {
+        "quote_YkXGpA": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/freiluftkind_sylvia_feedback.png",
+            "logo_width": 75,
+            "author": "Sylvia H.",
+            "content": "Ich bin begeistert! Die Barfußschuhe haben meine Haltungsschmerzen deutlich gemindert!",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_YkXGpA"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_size": "medium",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "text_with_icons_ndbitQ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_ErPYyq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_nullabsatz_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Nullabsatz",
+            "content": "<p>Die flache Sohle unserer Minimalschuhe bildet die Grundlage für eine aufrechte Haltung und kann dir dabei helfen, Knie-, Hüft- und Rückenschmerzen langfristig zu vermeiden und zu lindern.</p>"
+          }
+        },
+        "item_mzy8WE": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_breite_zehenbox_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Breite Zehenbox",
+            "content": "<p>Gönn deinen Zehen ihre dringend benötigte Freiheit. Dank der breiten Zehenbox unserer Barfußschuhe entfalten sie sich in ihrer natürlichen Position – für echten Komfort bei all deinen Aktivitäten.</p>"
+          }
+        },
+        "item_cke9xa": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_duenne_sohle_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Dünne Sohle",
+            "content": "<p>Verbinde dich neu mit deiner Umwelt und deiner Umgebung: Durch die ultradünne Sohle unserer Minimalschuhe spürst du den Boden wie nie zuvor – schenke deinen Füßen das echte Barfußgefühl.</p>"
+          }
+        },
+        "item_mGYegF": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/freiluftkind_icon_flexible_sohle_dunkel.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Flexibel",
+            "content": "<p>Die weiche und flexible dünne Sohle schenkt deinen Füßen einen uneingeschränkten Bewegungsradius und sorgt dafür, dass dein Gang natürlich und fußgesund bleibt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ErPYyq",
+        "item_mzy8WE",
+        "item_cke9xa",
+        "item_mGYegF"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "select_dot_or_arrow": "arrow"
+      }
+    }
+  },
+  "order": [
+    "rich_text_FWmBRV",
+    "custom_html_hQGmAm",
+    "banner",
+    "freiluftkind_collection_selector_VNDNTm",
+    "main",
+    "featured_collection_D6CHVM",
+    "featured_collection_hRctb6",
+    "media_with_text_ifLGUc",
+    "press_dam4Bt",
+    "text_with_icons_ndbitQ"
+  ]
+}
