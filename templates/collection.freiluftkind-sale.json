@@ -9,64 +9,6 @@
  */
 {
   "sections": {
-    "rich_text_FWmBRV": {
-      "type": "rich-text",
-      "blocks": {
-        "image_RVw6eP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/freiluftkind_collection_sale.png",
-            "width_mode": "custom",
-            "max_width": 500,
-            "mobile_max_width": 400
-          }
-        },
-        "heading_fmcUUX": {
-          "type": "heading",
-          "settings": {
-            "text": "Schönen Valentinstag",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_FXRTbj": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Wir brauchen Platz für unsere neue Kollektion!<strong> </strong>Nutze jetzt die einmalige Chance und sichere dir unsere aktuellen Barfußschuhe zum besten Preis.</p><p>Für kurze Zeit gibt es <strong>50% Rabatt </strong>auf alle Kinder-Modelle (Code: KIDS50) und 20% auf alle Erwachsenen-Modelle (Code: SALE20). Beide Rabattcodes sind kombinierbar und einfach an der Kasse einzugeben – also greif schnell zu, bevor dein Lieblingsmodell ausverkauft ist!</p><p><strong>Nur noch wenige Stunden!</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "image_RVw6eP",
-        "heading_fmcUUX",
-        "richtext_FXRTbj"
-      ],
-      "custom_css": [
-        "img {margin-bottom: 0px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
-        "text_color": "#ffffff"
-      }
-    },
-    "custom_html_hQGmAm": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "html": "<img src=\"https://emailcountdowntimer.com/i/wNxbVqqZPn\" border=\"0\" style=\"display: block; margin: auto; padding: 10px;\">",
-        "background": "#333828",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "banner": {
       "type": "collection-banner",
       "disabled": true,
@@ -200,6 +142,19 @@
         "heading_gradient": ""
       }
     },
+    "custom_html_hQGmAm": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<img src=\"https://emailcountdowntimer.com/i/wNxbVqqZPn\" border=\"0\" style=\"display: block; margin: auto; padding: 10px;\">",
+        "background": "#333828",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -239,6 +194,51 @@
         "show_filter_group_name": false,
         "show_filter_values_count": true,
         "open_first_filter_group": false
+      }
+    },
+    "rich_text_FWmBRV": {
+      "type": "rich-text",
+      "blocks": {
+        "image_RVw6eP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_collection_sale.png",
+            "width_mode": "custom",
+            "max_width": 500,
+            "mobile_max_width": 400
+          }
+        },
+        "heading_fmcUUX": {
+          "type": "heading",
+          "settings": {
+            "text": "Schönen Valentinstag",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_FXRTbj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir brauchen Platz für unsere neue Kollektion!<strong> </strong>Nutze jetzt die einmalige Chance und sichere dir unsere aktuellen Barfußschuhe zum besten Preis.</p><p>Für kurze Zeit gibt es <strong>50% Rabatt </strong>auf alle Kinder-Modelle (Code: KIDS50) und 20% auf alle Erwachsenen-Modelle (Code: SALE20). Beide Rabattcodes sind kombinierbar und einfach an der Kasse einzugeben – also greif schnell zu, bevor dein Lieblingsmodell ausverkauft ist!</p><p><strong>Nur noch wenige Stunden!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_RVw6eP",
+        "heading_fmcUUX",
+        "richtext_FXRTbj"
+      ],
+      "custom_css": [
+        "img {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "linear-gradient(89deg, rgba(115, 11, 28, 1) 7%, rgba(170, 31, 46, 1) 94%)",
+        "text_color": "#ffffff"
       }
     },
     "featured_collection_hRctb6": {
@@ -497,11 +497,11 @@
     }
   },
   "order": [
-    "rich_text_FWmBRV",
-    "custom_html_hQGmAm",
     "banner",
     "freiluftkind_collection_selector_VNDNTm",
+    "custom_html_hQGmAm",
     "main",
+    "rich_text_FWmBRV",
     "featured_collection_hRctb6",
     "featured_collection_D6CHVM",
     "media_with_text_ifLGUc",
