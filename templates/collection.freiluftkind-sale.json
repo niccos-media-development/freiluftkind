@@ -305,6 +305,27 @@
     "media_with_text_ifLGUc": {
       "type": "media-with-text",
       "blocks": {
+        "image_8k6i9E": {
+          "type": "image",
+          "settings": {
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "KRAFT DER LIEBE",
+            "title": "Schönen Valentinstag",
+            "content": "<p>Liebe ist der Kern aller guten Dinge. Es gibt sie in den unterschiedlichsten Formen und Arten, unabhängig von Alter, Geschlecht und Beziehung – Liebe ist überall. Feiern Sie ihre unendliche Kraft und teilen Sie sie mit der Welt. Wir sollten die Liebe jeden Tag leben und mit einem Geschenk ehren.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "image_7VDFxd": {
           "type": "image",
           "settings": {
@@ -354,6 +375,7 @@
         }
       },
       "block_order": [
+        "image_8k6i9E",
         "image_7VDFxd",
         "video_UA7eY4"
       ],
