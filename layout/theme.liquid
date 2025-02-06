@@ -159,7 +159,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'freiluftkind.css' | asset_url | stylesheet_tag: preload: true -}}
-  </head>
+  {% include "omega_twitter_multi_pixel" %}</head>
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
     {%- render 'shadow-dom-templates' -%}
