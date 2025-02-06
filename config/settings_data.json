@@ -81,6 +81,11 @@
         "type": "shopify://apps/criteo-sales-growth-ads/blocks/theme-extension/b74e0e19-7ecc-4a61-b469-888ea2cdf8f5",
         "disabled": false,
         "settings": {}
+      },
+      "18362670158283609394": {
+        "type": "shopify://apps/omega-multi-twitter-pixels/blocks/app-embed-block/babebd41-cc77-42a4-9431-59acdd6bc8c3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
