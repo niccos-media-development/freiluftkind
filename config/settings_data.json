@@ -86,6 +86,11 @@
         "type": "shopify://apps/omega-multi-twitter-pixels/blocks/app-embed-block/babebd41-cc77-42a4-9431-59acdd6bc8c3",
         "disabled": false,
         "settings": {}
+      },
+      "16156609502398088594": {
+        "type": "shopify://apps/omega-facebook-pixel/blocks/app-embed-block/ecdcc423-3dbd-480c-85e8-fdb9789cf058",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
