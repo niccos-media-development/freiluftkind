@@ -211,7 +211,7 @@
         "heading_fmcUUX": {
           "type": "heading",
           "settings": {
-            "text": "Schönen Valentinstag",
+            "text": "Bis zu 70% Rabatt zum Valentinstag",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -220,7 +220,7 @@
         "richtext_FXRTbj": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Zeige deinen Liebsten, wie sehr du sie schätzt – mit einem Geschenk, das wirklich zählt: <strong>mehr Wohlbefinden bei jedem Schritt!</strong> Barfußschuhe fördern eine natürliche Fußbewegung, entlasten Gelenke und sorgen für ein unvergleichliches Tragegefühl.</p><p><strong>Nur für kurze Zeit: 20% auf alles!<br/></strong>Nutze den Code <strong>LIEBE</strong> an der Kasse und sichere dir 20% Rabatt auf alle Artikel!</p>"
+            "content": "<p>Zeige deinen Liebsten, wie sehr du sie schätzt – mit einem Geschenk, das wirklich zählt: <strong>mehr Wohlbefinden bei jedem Schritt!</strong> Barfußschuhe fördern eine natürliche Fußbewegung, entlasten Gelenke und sorgen für ein unvergleichliches Tragegefühl.</p><p><strong>Nur für kurze Zeit: Bis zu 70% auf alles!<br/></strong>Nutze den Code <strong>LIEBE</strong> an der Kasse und sichere dir 20% Rabatt auf alle bereits reduzierten Artikel!</p>"
           }
         }
       },
