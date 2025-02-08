@@ -142,19 +142,6 @@
         "heading_gradient": ""
       }
     },
-    "custom_html_hQGmAm": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "html": "<img src=\"https://emailcountdowntimer.com/i/wNxbVqqZPn\" border=\"0\" style=\"display: block; margin: auto; padding: 10px;\">",
-        "background": "#333828",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -239,6 +226,18 @@
         "background": "",
         "background_gradient": "linear-gradient(89deg, rgba(115, 11, 28, 1) 7%, rgba(170, 31, 46, 1) 94%)",
         "text_color": "#ffffff"
+      }
+    },
+    "custom_html_hQGmAm": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<img src=\"https://emailcountdowntimer.com/i/XGC7QSrGL2\" border=\"0\" style=\"display: block; margin: auto\">",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "featured_collection_hRctb6": {
@@ -530,9 +529,9 @@
   "order": [
     "banner",
     "freiluftkind_collection_selector_VNDNTm",
-    "custom_html_hQGmAm",
     "main",
     "rich_text_FWmBRV",
+    "custom_html_hQGmAm",
     "featured_collection_hRctb6",
     "featured_collection_D6CHVM",
     "featured_collection_pKiXAR",
