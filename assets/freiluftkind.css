@@ -1148,8 +1148,9 @@ ul.contents li.badge {
   }
 }
 
+.product-gallery,
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .product-gallery__usp {
