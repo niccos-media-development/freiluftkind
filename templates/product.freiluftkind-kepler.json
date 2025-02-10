@@ -221,7 +221,7 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "usp_max_width": 600,
+        "usp_max_width": 500,
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
