@@ -1148,6 +1148,10 @@ ul.contents li.badge {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .product-gallery__usp {
   border-radius: 10px;
   -webkit-transition: width 0.2s ease-out, height 0.2s ease-out, border-radius 0.2s ease-out;
