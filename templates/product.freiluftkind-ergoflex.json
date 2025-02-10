@@ -14,6 +14,7 @@
       "blocks": {
         "usp_qiMYQT": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "heading": "Lorem ipsum odor amet",
             "content": "consectetuer adipiscing elit. Congue quis felis feugiat maximus augue nisi. Habitasse venenatis aliquet eget phasellus turpis ultrices dui imperdiet potenti"
@@ -21,6 +22,7 @@
         },
         "usp_CQitPG": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "heading": "Vel condimentum risus",
             "content": "odio adipiscing dis platea. Aliquet ante duis aenean felis magnis varius."
@@ -28,6 +30,7 @@
         },
         "usp_nyrVW6": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "heading": "Egestas netus",
             "content": "praesent adipiscing nunc mattis maecenas luctus. Fusce tortor malesuada aliquam neque pretium nisl dolor. Nam magnis luctus justo curae et nisi."
