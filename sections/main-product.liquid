@@ -186,6 +186,24 @@
   "tag": "section",
   "blocks": [
     {
+      "type": "usp",
+      "name": "Single USP",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "More information"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Content",
+          "default": "Share some content to your customers about your products. Share some content to your customers about your products. Share some content to your customers about your products."
+        }
+      ]
+    },
+    {
       "type": "@app"
     },
     {
@@ -1524,6 +1542,16 @@
       "id": "freiluftkind-image-usp-4-more",
       "label": "Image USP 4 - More Info",
       "default": "<p>Share some content to your customers about your products.</p>"
+    },
+    {
+      "type": "range",
+      "id": "usp_max_width",
+      "label": "USP Max Width (Desktop)",
+      "info": "Choose an optimal width for UPS cards",
+      "min": 100,
+      "max": 600,
+      "step": 5,
+      "default": 100
     },
     {
       "type": "header",

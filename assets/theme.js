@@ -5059,6 +5059,24 @@ var ProductGallery = class extends HTMLElement {
     }
   }
   _onCarouselChanged(event) {
+    const uspData = document.querySelector("#usp-data");
+
+    if(uspData !== null) {
+      document.querySelector('.product-gallery__usp').classList.remove('hidden', 'expanded', 'rectified');
+
+      let { usps } = JSON.parse(uspData.innerText);
+
+      const currMediaId = event.detail.slide.getAttribute("data-media-id") || "";
+
+      if(currMediaId.length > 0 && usps.hasOwnProperty(currMediaId)) {
+        document.querySelector(".gallery-usp-text > .heading").innerText = usps[currMediaId].heading;
+        document.querySelector(".gallery-usp-text.content > .body").innerText = usps[currMediaId].content;
+      } else {
+        document.querySelector('.product-gallery__usp').classList.add('hidden');
+      }
+    }
+
+
     if (this._customCursor) {
       this._customCursor.toggleAttribute(
         "hidden",

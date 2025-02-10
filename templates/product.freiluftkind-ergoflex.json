@@ -12,6 +12,27 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "usp_qiMYQT": {
+          "type": "usp",
+          "settings": {
+            "heading": "Lorem ipsum odor amet",
+            "content": "consectetuer adipiscing elit. Congue quis felis feugiat maximus augue nisi. Habitasse venenatis aliquet eget phasellus turpis ultrices dui imperdiet potenti"
+          }
+        },
+        "usp_CQitPG": {
+          "type": "usp",
+          "settings": {
+            "heading": "Vel condimentum risus",
+            "content": "odio adipiscing dis platea. Aliquet ante duis aenean felis magnis varius."
+          }
+        },
+        "usp_nyrVW6": {
+          "type": "usp",
+          "settings": {
+            "heading": "Egestas netus",
+            "content": "praesent adipiscing nunc mattis maecenas luctus. Fusce tortor malesuada aliquam neque pretium nisl dolor. Nam magnis luctus justo curae et nisi."
+          }
+        },
         "freiluftkind_social_proof_QrVt3y": {
           "type": "freiluftkind-social-proof",
           "settings": {
@@ -107,6 +128,9 @@
         }
       },
       "block_order": [
+        "usp_qiMYQT",
+        "usp_CQitPG",
+        "usp_nyrVW6",
         "freiluftkind_social_proof_QrVt3y",
         "freiluftkind_badges_TTKCkq",
         "title",
@@ -133,6 +157,16 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
+        "enable_image_usp": false,
+        "freiluftkind-image-usp-1": "<p>Share some content to your customers about your products.</p>",
+        "freiluftkind-image-usp-1-more": "<p>Share some content to your customers about your products.</p>",
+        "freiluftkind-image-usp-2": "<p>Share some content to your customers about your products.</p>",
+        "freiluftkind-image-usp-2-more": "<p>Share some content to your customers about your products.</p>",
+        "freiluftkind-image-usp-3": "<p>Share some content to your customers about your products.</p>",
+        "freiluftkind-image-usp-3-more": "<p>Share some content to your customers about your products.</p>",
+        "freiluftkind-image-usp-4": "<p>Share some content to your customers about your products.</p>",
+        "freiluftkind-image-usp-4-more": "<p>Share some content to your customers about your products. </p>",
+        "usp_max_width": 400,
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",

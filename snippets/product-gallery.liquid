@@ -47,6 +47,8 @@ only way to do it on Shopify right now.
   endif
 -%}
 
+{%- assign usps = section.blocks | where: 'type', 'usp' -%}
+
 <product-gallery form="{{ product_form_id }}" filtered-indexes="{{ filtered_indexes | json }}" {%- if section.settings.enable_image_zoom -%}allow-zoom="{{ section.settings.max_image_zoom_level }}"{% endif %} class="product-gallery {% if section.settings.mobile_carousel_control contains 'dots' %}product-gallery--mobile-dots{% endif %} {% if section.settings.desktop_media_layout contains 'grid' %}product-gallery--desktop-grid{% else %}product-gallery--desktop-carousel{% endif %} {% if section.settings.desktop_media_layout == 'carousel_thumbnails_left' %}product-gallery--desktop-thumbnails-left{% endif %} {% if section.settings.mobile_media_size == 'expanded' %}product-gallery--mobile-expanded{% endif %}">
   {%- capture page_dots -%}
     <page-dots class="page-dots {% if section.settings.mobile_carousel_control == 'floating_dots' %}page-dots--blurred{% endif %} md:hidden" aria-controls="{{ product_gallery_id }}">
@@ -94,6 +96,16 @@ only way to do it on Shopify right now.
               {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first or media_attached_to_variant contains media.src %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
           {%- endcase -%}
 
+          {%- if usps[forloop.index0] -%}
+            {%- capture usp_data -%}
+              {{ usp_data }}
+              {{ media.id | append: '' | json }}: {
+              "heading": {{ usps[forloop.index0].settings.heading | json }},
+              "content": {{ usps[forloop.index0].settings.content | json }}
+              },
+            {%- endcapture -%}
+          {%- endif -%}
+
           <div class="product-gallery__media {% if media.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" {% if filtered_indexes contains media.position %}hidden{% endif %}>
             {%- if default_media == media -%}
               {%- assign preload = true -%}
@@ -113,19 +125,69 @@ only way to do it on Shopify right now.
             {%- endif -%}
           </div>
         {%- endfor -%}
+        {%- if usp_data.size > 0 -%}
+          <script type="application/json" id="usp-data">
+            {
+              "usps": {
+                {{ usp_data | remove_last: ',' }}
+              }
+            }
+          </script>
+        {%- endif -%}
       </media-carousel>
 
-      {%- if section.settings.enable_image_usp -%}
-        <div class="product-gallery__usp product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
-          <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring" data-usp-index="1">
-            <span class="sr-only">Mehr Informationen</span>
-            <span class="gallery-usp-text">{{ section.settings.freiluftkind-image-usp-1 }}</span>
-            <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M8 12H12M16 12H12M12 12V8M12 12V16" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      {%- if usps.size > 0 -%}
+        <div style="--set-width: {{ section.settings.usp_max_width }}px;" data-set-width="{{ section.settings.usp_max_width }}" class="ring product-gallery__usp product-gallery__zoom circle-button--fill">
+          <button type="button" class="circle-button circle-button--fill" data-usp-index="1">
+            <span class="sr-only">{{ usps[0].settings.heading | escape }}</span>
+
+            <span class="gallery-usp-text">
+              <span class="heading">{{ usps[0].settings.heading | escape }}</span>
+            </span>
+
+            <span class="svg"><svg class="svg-close" width="19.2px" height="19.2px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M8 12H12M16 12H12M12" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <svg class="svg-open" width="19.2px" height="19.2px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M8 12H12M16 12H12M12 12V8M12 12V16" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+
           </button>
+
+          <span class="gallery-usp-text content">
+            <span class="body">{{ usps[0].settings.content | escape }}</span>
+          </span>
         </div>
+
+        <script>
+          document.querySelector('.product-gallery__usp').addEventListener('click', e => {
+            e.preventDefault();
+
+            //if(window.usp_expanded === true) return;
+
+            //window.usp_expanded = true;
+            //setTimeout(() => window.usp_expanded = false, [450])
+
+            const wrapper = e.target.closest('.product-gallery__usp');
+            const contentContainer = wrapper.querySelector('.gallery-usp-text.content');
+
+            if(wrapper.classList.contains('expanded')) {
+              wrapper.style.removeProperty('--new-height');
+              wrapper.style.removeProperty('--new-width');
+
+              wrapper.classList.remove('rectified')
+
+              wrapper.classList.remove('expanded');
+            } else {
+              wrapper.style.setProperty('--new-height', (contentContainer.clientHeight + 30) + "px");
+              wrapper.style.setProperty('--new-width', wrapper.getAttribute('data-set-width') + "px");
+
+              wrapper.classList.add('expanded', 'rectified');
+
+              //setTimeout(() => wrapper.classList.toggle('rectified'), [450])
+            }
+          })
+        </script>
       {%- endif -%}
       
-      {%- if section.settings.enable_image_zoom -%}
+      {%- if usps.size < 1 and section.settings.enable_image_zoom -%}
         <div class="product-gallery__zoom {% if section.settings.desktop_media_layout contains 'grid' %}md:hidden{% endif %}">
           <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
             <span class="sr-only">{{ 'product.gallery.zoom' | t }}</span>

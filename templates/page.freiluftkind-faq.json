@@ -1,1 +1,341 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"content_width":"80ch"}},"slideshow_iw7mhi":{"type":"slideshow","blocks":{"image_6XFQJa":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/freiluftkind_contact_desktop_color_v2.jpg","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"","title":"Häufige Fragen","heading_tag":"h2","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":25,"background":"","background_gradient":""}}},"block_order":["image_6XFQJa"],"custom_css":["@media screen and (max-width: 699px) {.slideshow--boxed {padding-top: 72px; }}"],"settings":{"full_width":false,"allow_transparent_header":true,"show_initial_transition":false,"image_size":"auto","controls_type":"dots","transition_type":"fade_with_text","autoplay":false,"cycle_speed":6,"background":"#f2f2f2","background_gradient":"linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"}},"faq_g89qaf":{"type":"faq","blocks":{"item_pRxR7q":{"type":"item","settings":{"title":"Wie finde ich die richtige Schuhgröße?","content":"<p>Die passende Größe ist entscheidend für den Komfort und die Vorteile von Barfußschuhen. Auf jeder unserer Produktseiten findest du eine detaillierte Größentabelle, die dir hilft, die perfekte Größe zu ermitteln. Wir empfehlen, vor dem Kauf deinen Fuß genau zu messen und die Tabelle zur Orientierung zu nutzen. Wenn du Socken in deinen Schuhen tragen möchtest, empfehlen wir, eine Größe größer zu wählen.<\/p>"}},"item_caLQwC":{"type":"item","settings":{"title":"Kann ich Barfußschuhe auch bei Regen oder Kälte tragen?","content":"<p>Ja, das kannst du! Wir bieten spezielle <a href=\"https:\/\/freiluftkind.myshopify.com\/collections\/barfussschuhe-allwetter\" title=\"Allwetter Barfußschuhe\">Allwetter-Modelle <\/a>an, die wasserabweisend sind und deine Füße auch bei Regen oder niedrigen Temperaturen warm und trocken halten. So bist du das ganze Jahr über gut geschützt und kannst das Barfußgefühl bei jedem Wetter genießen.<\/p>"}},"item_RbDqiJ":{"type":"item","settings":{"title":"Sind die Barfußschuhe bei Diabetes geeignet?","content":"<p>Barfußschuhe werden von vielen Diabetikern empfohlen, da sie eine bessere Wahrnehmung des Bodens ermöglichen und das Gangbild verbessern können. Dies kann hilfreich sein, um Druckstellen und Fehlbelastungen zu vermeiden, was besonders für Menschen mit Diabetes wichtig ist, da sie oft ein erhöhtes Risiko für Fußverletzungen haben. Dennoch ist es wichtig, vor der Nutzung von Barfußschuhen Rücksprache mit einem Arzt oder Podologen zu halten, da es auf die individuellen Bedürfnisse und den Zustand der Füße ankommt.<\/p>"}},"item_y6KDRp":{"type":"item","settings":{"title":"Darf ich in den Schuhen auch orthopädische Einlagen nutzen?","content":"<p>Selbstverständlich kannst du in unseren Schuhen deine orthopädischen Einlagen tragen. Das Wort „Barfußschuh“ schließt diesen Sachverhalt nicht aus. Anzumerken ist allerdings, dass je nach Sohle das Gefühl im Schuh ein anderes ist als zum Beispiel mit den mitgelieferten Sohlen.<\/p>"}},"item_bJQFYg":{"type":"item","settings":{"title":"Gibt es die Schuhe auch in Größen jenseits der 47?","content":"<p>Alle unsere Freiluftkind Originals Modelle sind bis und inklusive der Größe EU50 erhältlich. In unserem <a href=\"\/collections\/barfussschuhe\" title=\"Alle Barfußschuhe\">Online-Shop<\/a> kannst du ganz einfach nach der benötigten Größe filtern.<\/p>"}},"item_7wGTfT":{"type":"item","settings":{"title":"Kann ich in euren Barfußschuhen Socken tragen?","content":"<p>Diese Entscheidung überlassen wir dir. Die meisten Kunden tragen unsere Schuhe, genau wie von uns angedacht, ohne Socken. Das Wort „Barfußschuh“ schließt das Tragen von Socken allerdings nicht grundsätzlich aus. Gesundheitlich ist es irrelevant, ob du in deinen Barfußschuhen Socken trägst. Lediglich das Tragegefühl wird dadurch beeinträchtigt.<\/p>"}},"item_wdU9pW":{"type":"item","settings":{"title":"Warum sollte ich überhaupt Barfußschuhe tragen?","content":"<p>Barfußschuhe verbinden die Vorteile des Barfußlaufens mit dem Schutz, den herkömmliche Schuhe bieten. Sie fördern die natürliche Fußbewegung, stärken die Muskulatur und verbessern die Körperhaltung – alles, ohne deine Füße den Gefahren von harten oder unebenen Untergründen auszusetzen. Sie sind die perfekte Kombination aus Freiheit und Schutz für deine Füße.<\/p>"}},"item_Na9fmb":{"type":"item","settings":{"title":"Kann ich die Einlegesohlen einzeln kaufen?","content":"<p>Gemeinsam mit unseren Barfußschuhen überzeugen unsere Einlegesohlen mit physischen und biomechanischen Vorteilen. Selbstverständlich können die Sohlen einzeln erworben werden: <a href=\"\/collections\/einlegesohlen\" title=\"Einlegesohlen\">Hier zu den Einlegesohlen<\/a><\/p>"}},"item_JC9y3A":{"type":"item","settings":{"title":"Habe ich in Barfußschuhen genug Halt?","content":"<p>Beim Barfußlaufen werden die Fußmuskulatur und -bänder trainiert. Dies stärkt den Fuß auf Dauer. Stolpern und Umknicken kommen nun wesentlich seltener vor, der Fuß kann selbst für die nötige Stabilität sorgen. Barfußschuhe haben dabei nur eine Funktion: Sie schützen vor gefährlichen Umwelteinflüssen, wie z. B. Steinen, Scherben oder Schmutz, ohne den Fuß einzuschränken.<\/p>"}},"item_QtzGHw":{"type":"item","settings":{"title":"Warum schwitzen meine Füße in Barfußschuhen?","content":"<p>Beim Gehen und Laufen in Barfußschuhen wird die Fußmuskulatur wieder richtig gefordert und der Fuß muss sich ordentlich bewegen. Bewegung erzeugt Wärme. Wird es den Füßen zu warm, dann schwitzen sie. Oftmals aber nicht stärker als üblich. Tritt dies dennoch ein, so gewöhnen sich die Füße an die neue Bewegungsfreiheit. Nach der Gewöhnungsphase nimmt das übermäßige Fußschwitzen wieder ab.<\/p>"}}},"block_order":["item_pRxR7q","item_caLQwC","item_RbDqiJ","item_y6KDRp","item_bJQFYg","item_7wGTfT","item_wdU9pW","item_Na9fmb","item_JC9y3A","item_QtzGHw"],"settings":{"full_width":true,"subheading":"","title":"Produktfragen","content":"","team_avatar_width":160,"support_hours":"","answer_time":"","button_text":"","button_url":"","text_position":"center","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}},"faq_MypCnU":{"type":"faq","blocks":{"item_RPERUA":{"type":"item","settings":{"title":"Kann ich eure Schuhe auch in lokalen Läden kaufen?","content":"<p>Nein, aktuell ist dies leider nicht möglich. Wir können unsere Freiluftkind Barfußschuhe zu einem vergleichsweise sehr günstigen Preis anbieten, da wir auf die notwendige Logistik für den Einzelhandel und weitere anfallende Kosten für die Platzierung verzichten. Die handelsüblichen Marken für Barfußschuhen rufen meist Preis von weit über 150€ auf. Da wir gesunde Schuhe für Jedermann zu erschwinglichen Preisen anbieten wollen, verzichten wir als kleines Start-up aktuell auf den Vertrieb in lokalen Läden.<\/p>"}},"item_pfWbWp":{"type":"item","settings":{"title":"Wie sind eure Lieferzeiten und was kostet der Versand?","content":"<p>Geht deine Zahlung bei uns ein, wird die Bestellung umgehend an unser Lager in Braunschweig weitergeleitet und dort weiterverarbeitet. Unsere exakten Lieferzeiten sind auf den jeweiligen Produktseiten ausgewiesen. Wir versenden alle Pakete komplett kostenlos.<\/p>"}},"item_GtXKjw":{"type":"item","settings":{"title":"Ich habe euch per E-Mail kontaktiert aber keine Antwort erhalten?","content":"<p>Durch ein hohes Aufkommen an Anfragen kann es passieren, dass wir als kleines Start-up in seltenen Fällen an die Grenzen unserer Kapazitäten stoßen. Aus diesem Anlass müssen wir um ein wenig Geduld bei der Bearbeitung eurer Nachrichten bitten - wir vergessen euch nicht! Prüfe bitte auch regelmäßig deinen Spamordner, eventuell haben wir dir bereits geantwortet. In der Regel wird jede Anfrage binnen 72 Stunden beanwortet.<\/p>"}},"item_6frdY8":{"type":"item","settings":{"title":"Wo werden die Freiluftkind Schuhe hergestellt?","content":"<p>Für die Herstellung unserer Spritzgussformen und die Serienfertigung unserer Minimalschuhe haben wir uns für den Produktionsstandort China entschieden. Zwar würden wir uns aus Nachhaltigkeitsgründen eine lokalere Produktion wünschen, doch in China liegen zum aktuellen Zeitpunkt die höchsten Kompetenzen, was die Produktion von Barfußschuhen betrifft. Hier können wir sicher sein, dass wir unsere Schuhe unter höchsten Qualitätsstandards herstellen lassen können. Natürlich legen wir dabei ein besonderes Augenmerk auf die Arbeitssicherheit, die faire Entlohnung der Mitarbeitenden sowie die allgemeinen Arbeitsbedingungen vor Ort und prüfen regelmäßig, ob eine näherliegende Produktion irgendwann möglich wäre.<\/p>"}},"item_tLAEtF":{"type":"item","settings":{"title":"Wie steht ihr zu dieser Entscheidung?","content":"<p>Wie bereits erwähnt, bietet China aktuell die besten technischen Standards, um unsere Barfußschuhe ohne Qualitätseinbußen produzieren zu lassen. Bei der Suche nach einem geeigneten Hersteller haben wir uns vor allem am Markt und an den Produktionsstätten der führenden Konkurrenz orientiert – auch hier wird die Mehrheit der Barfußschuhe, die in Deutschland erhältlich sind, in China produziert. Nach der Kalkulation aller Faktoren (darunter z. B. Preis, Erfahrung und Arbeitsbedingungen) sind wir ebenfalls zum Entschluss gekommen, dass in unserem aktuellen Stadium China der optimale Produktionsstandort für uns ist. Eine Entscheidung, mit der wir nicht alleine sind, denn auch außerhalb von Barfußschuhen werden viele Gegenstände und Produkte aus unserem täglichen Alltag in Produktionsstätten außerhalb der EU gefertigt – vom Smartphone bis hin zur Kleidung. Unser Anliegen ist es, in allen anderen Bereichen unseres Unternehmens den Nachhaltigkeitsgedanken in den Vordergrund zu stellen und hier so umweltbewusst wie möglich zu agieren.<\/p>"}}},"block_order":["item_RPERUA","item_pfWbWp","item_GtXKjw","item_6frdY8","item_tLAEtF"],"settings":{"full_width":true,"subheading":"","title":"Fragen zum Unternehmen","content":"","team_avatar_width":160,"support_hours":"","answer_time":"","button_text":"","button_url":"","text_position":"center","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}},"faq_6VEJXT":{"type":"faq","blocks":{"item_Ta49LM":{"type":"item","settings":{"title":"Wo ist meine Bestellung?","content":"<p>Die Versandzeiten sind auf jeder Produktseite angegeben. Sobald deine Bestellung versandt wurde, erhältst du eine Bestätigungsmail mit einem Link zur Sendungsverfolgung. Alternativ kannst du den Status deiner Bestellung jederzeit direkt <a href=\"\/a\/sendungsverfolgung\" title=\"\/a\/sendungsverfolgung\">hier verfolgen<\/a>. So weißt du immer genau, wo sich dein Paket gerade befindet.<\/p>"}},"item_TKqxFD":{"type":"item","settings":{"title":"In welche Länder liefert ihr?","content":"<p>Da wir ein kleines deutsches Start-up sind, beliefern wir aktuell leider nur die DACH-Region, bestehend aus Deutschland, Österreich und der Schweiz.<\/p>"}},"item_bXA9h3":{"type":"item","settings":{"title":"Ist ein Umtausch möglich, falls mir die Schuhe nicht passen?","content":"<p>Ein Umtausch ist problemlos möglich. Für einen schnellen und unkomplizierten Umtausch empfehlen wir dir, unser Retourenportal zu nutzen. Dort kannst du deinen Umtausch selber problemlos anmelden und dein Austauschprodukt wählen. <a href=\"https:\/\/freiluftkind.returnsportal.online\/\">Hier zum Retourenportal<\/a><\/p>"}},"item_xKwAHR":{"type":"item","settings":{"title":"Wie läuft eine Rücksendung ab?","content":"<p>Solltest du mit einem unserer Produkte unzufrieden sein, kannst du dieses gerne an uns zurückschicken. Nach Eingang deiner Retoure erstatten wir dir den Rechnungsbetrag auf die von dir genutzte Zahlungsart.<\/p><p>Deine Retoure kannst du ganz einfach in unserem <a href=\"https:\/\/freiluftkind.returnsportal.online\/\" title=\"Retourenportal\">Retourenportal hier anmelden<\/a>. Die Nutzung dieses Portals ist keine Pflicht, vereinfacht die Abwicklung aber für beide Seiten. Wir bitten darum, dass die Produkte nur innerhalb des Wohnraums in einem üblichen Umfang getestet werden und nicht außerhalb des Hauses, da die Ware sonst als benutzt gilt und nicht mehr retourniert werden kann.<\/p><p>Bitte sende deine Bestellung anschließend an folgende Adresse:<\/p><p>FWG E-Commerce GmbH<br\/>Im Steinkampe 17<br\/>38110 Braunschweig<\/p>"}},"item_J7CPx3":{"type":"item","settings":{"title":"Ist die Rücksendung kostenlos?","content":"<p>Bitte beachte, dass wir derzeit neben unserem kostenlosen Standardversand keine kostenlosen Rücksendungen anbieten. Bei Defekten und Garantiefällen lassen wir dir selbstverständlich ein kostenloses Rücksendelabel zukommen.<\/p><p>Für eine schnelle und unkomplizierten Retoure empfehlen wir dir, unser Retourenportal zu nutzen. Dort kannst du die Retoure selber problemlos anmelden. <a href=\"https:\/\/freiluftkind.returnsportal.online\/\">Hier zum Retourenportal<\/a><\/p>"}}},"block_order":["item_Ta49LM","item_TKqxFD","item_bXA9h3","item_xKwAHR","item_J7CPx3"],"settings":{"full_width":true,"subheading":"","title":"Fragen zu Bestellungen","content":"","team_avatar_width":160,"support_hours":"","answer_time":"","button_text":"","button_url":"","text_position":"center","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}},"featured_collection_wztWXM":{"type":"featured-collection","settings":{"collection":"bestseller","products":[],"full_width":true,"stack_products":false,"show_progress_bar":true,"products_count":4,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"Finde deinen passenden Minimalschuh","title":"Unsere Bestseller","content":"","link_url":"shopify:\/\/collections\/barfussschuhe","link_text":"Alle ansehen","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","product_card_background":"","product_card_text_color":""}}},"order":["main","slideshow_iw7mhi","faq_g89qaf","faq_MypCnU","faq_6VEJXT","featured_collection_wztWXM"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_iw7mhi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6XFQJa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/freiluftkind_contact_desktop_color_v2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Häufige Fragen",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6XFQJa"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.slideshow--boxed {padding-top: 72px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)"
+      }
+    },
+    "faq_g89qaf": {
+      "type": "faq",
+      "blocks": {
+        "item_pRxR7q": {
+          "type": "item",
+          "settings": {
+            "title": "Wie finde ich die richtige Schuhgröße?",
+            "content": "<p>Die passende Größe ist entscheidend für den Komfort und die Vorteile von Barfußschuhen. Auf jeder unserer Produktseiten findest du eine detaillierte Größentabelle, die dir hilft, die perfekte Größe zu ermitteln. Wir empfehlen, vor dem Kauf deinen Fuß genau zu messen und die Tabelle zur Orientierung zu nutzen. Wenn du Socken in deinen Schuhen tragen möchtest, empfehlen wir, eine Größe größer zu wählen.</p>"
+          }
+        },
+        "item_caLQwC": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich Barfußschuhe auch bei Regen oder Kälte tragen?",
+            "content": "<p>Ja, das kannst du! Wir bieten spezielle <a href=\"https://freiluftkind.myshopify.com/collections/barfussschuhe-allwetter\" title=\"Allwetter Barfußschuhe\">Allwetter-Modelle </a>an, die wasserabweisend sind und deine Füße auch bei Regen oder niedrigen Temperaturen warm und trocken halten. So bist du das ganze Jahr über gut geschützt und kannst das Barfußgefühl bei jedem Wetter genießen.</p>"
+          }
+        },
+        "item_RbDqiJ": {
+          "type": "item",
+          "settings": {
+            "title": "Sind die Barfußschuhe bei Diabetes geeignet?",
+            "content": "<p>Barfußschuhe werden von vielen Diabetikern empfohlen, da sie eine bessere Wahrnehmung des Bodens ermöglichen und das Gangbild verbessern können. Dies kann hilfreich sein, um Druckstellen und Fehlbelastungen zu vermeiden, was besonders für Menschen mit Diabetes wichtig ist, da sie oft ein erhöhtes Risiko für Fußverletzungen haben. Dennoch ist es wichtig, vor der Nutzung von Barfußschuhen Rücksprache mit einem Arzt oder Podologen zu halten, da es auf die individuellen Bedürfnisse und den Zustand der Füße ankommt.</p>"
+          }
+        },
+        "item_y6KDRp": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich in den Schuhen auch orthopädische Einlagen nutzen?",
+            "content": "<p>Selbstverständlich kannst du in unseren Schuhen deine orthopädischen Einlagen tragen. Das Wort „Barfußschuh“ schließt diesen Sachverhalt nicht aus. Anzumerken ist allerdings, dass je nach Sohle das Gefühl im Schuh ein anderes ist als zum Beispiel mit den mitgelieferten Sohlen.</p>"
+          }
+        },
+        "item_bJQFYg": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es die Schuhe auch in Größen jenseits der 47?",
+            "content": "<p>Alle unsere Freiluftkind Originals Modelle sind bis und inklusive der Größe EU50 erhältlich. In unserem <a href=\"/collections/barfussschuhe\" title=\"Alle Barfußschuhe\">Online-Shop</a> kannst du ganz einfach nach der benötigten Größe filtern.</p>"
+          }
+        },
+        "item_7wGTfT": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich in euren Barfußschuhen Socken tragen?",
+            "content": "<p>Diese Entscheidung überlassen wir dir. Die meisten Kunden tragen unsere Schuhe, genau wie von uns angedacht, ohne Socken. Das Wort „Barfußschuh“ schließt das Tragen von Socken allerdings nicht grundsätzlich aus. Gesundheitlich ist es irrelevant, ob du in deinen Barfußschuhen Socken trägst. Lediglich das Tragegefühl wird dadurch beeinträchtigt.</p>"
+          }
+        },
+        "item_wdU9pW": {
+          "type": "item",
+          "settings": {
+            "title": "Warum sollte ich überhaupt Barfußschuhe tragen?",
+            "content": "<p>Barfußschuhe verbinden die Vorteile des Barfußlaufens mit dem Schutz, den herkömmliche Schuhe bieten. Sie fördern die natürliche Fußbewegung, stärken die Muskulatur und verbessern die Körperhaltung – alles, ohne deine Füße den Gefahren von harten oder unebenen Untergründen auszusetzen. Sie sind die perfekte Kombination aus Freiheit und Schutz für deine Füße.</p>"
+          }
+        },
+        "item_Na9fmb": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich die Einlegesohlen einzeln kaufen?",
+            "content": "<p>Gemeinsam mit unseren Barfußschuhen überzeugen unsere Einlegesohlen mit physischen und biomechanischen Vorteilen. Selbstverständlich können die Sohlen einzeln erworben werden: <a href=\"/collections/einlegesohlen\" title=\"Einlegesohlen\">Hier zu den Einlegesohlen</a></p>"
+          }
+        },
+        "item_JC9y3A": {
+          "type": "item",
+          "settings": {
+            "title": "Habe ich in Barfußschuhen genug Halt?",
+            "content": "<p>Beim Barfußlaufen werden die Fußmuskulatur und -bänder trainiert. Dies stärkt den Fuß auf Dauer. Stolpern und Umknicken kommen nun wesentlich seltener vor, der Fuß kann selbst für die nötige Stabilität sorgen. Barfußschuhe haben dabei nur eine Funktion: Sie schützen vor gefährlichen Umwelteinflüssen, wie z. B. Steinen, Scherben oder Schmutz, ohne den Fuß einzuschränken.</p>"
+          }
+        },
+        "item_QtzGHw": {
+          "type": "item",
+          "settings": {
+            "title": "Warum schwitzen meine Füße in Barfußschuhen?",
+            "content": "<p>Beim Gehen und Laufen in Barfußschuhen wird die Fußmuskulatur wieder richtig gefordert und der Fuß muss sich ordentlich bewegen. Bewegung erzeugt Wärme. Wird es den Füßen zu warm, dann schwitzen sie. Oftmals aber nicht stärker als üblich. Tritt dies dennoch ein, so gewöhnen sich die Füße an die neue Bewegungsfreiheit. Nach der Gewöhnungsphase nimmt das übermäßige Fußschwitzen wieder ab.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_pRxR7q",
+        "item_caLQwC",
+        "item_RbDqiJ",
+        "item_y6KDRp",
+        "item_bJQFYg",
+        "item_7wGTfT",
+        "item_wdU9pW",
+        "item_Na9fmb",
+        "item_JC9y3A",
+        "item_QtzGHw"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Produktfragen",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "faq_MypCnU": {
+      "type": "faq",
+      "blocks": {
+        "item_RPERUA": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich eure Schuhe auch in lokalen Läden kaufen?",
+            "content": "<p>Nein, aktuell ist dies leider nicht möglich. Wir können unsere Freiluftkind Barfußschuhe zu einem vergleichsweise sehr günstigen Preis anbieten, da wir auf die notwendige Logistik für den Einzelhandel und weitere anfallende Kosten für die Platzierung verzichten. Die handelsüblichen Marken für Barfußschuhen rufen meist Preis von weit über 150€ auf. Da wir gesunde Schuhe für Jedermann zu erschwinglichen Preisen anbieten wollen, verzichten wir als kleines Start-up aktuell auf den Vertrieb in lokalen Läden.</p>"
+          }
+        },
+        "item_pfWbWp": {
+          "type": "item",
+          "settings": {
+            "title": "Wie sind eure Lieferzeiten und was kostet der Versand?",
+            "content": "<p>Geht deine Zahlung bei uns ein, wird die Bestellung umgehend an unser Lager in Braunschweig weitergeleitet und dort weiterverarbeitet. Unsere exakten Lieferzeiten sind auf den jeweiligen Produktseiten ausgewiesen. Wir versenden alle Pakete komplett kostenlos.</p>"
+          }
+        },
+        "item_GtXKjw": {
+          "type": "item",
+          "settings": {
+            "title": "Ich habe euch per E-Mail kontaktiert aber keine Antwort erhalten?",
+            "content": "<p>Durch ein hohes Aufkommen an Anfragen kann es passieren, dass wir als kleines Start-up in seltenen Fällen an die Grenzen unserer Kapazitäten stoßen. Aus diesem Anlass müssen wir um ein wenig Geduld bei der Bearbeitung eurer Nachrichten bitten - wir vergessen euch nicht! Prüfe bitte auch regelmäßig deinen Spamordner, eventuell haben wir dir bereits geantwortet. In der Regel wird jede Anfrage binnen 72 Stunden beanwortet.</p>"
+          }
+        },
+        "item_6frdY8": {
+          "type": "item",
+          "settings": {
+            "title": "Wo werden die Freiluftkind Schuhe hergestellt?",
+            "content": "<p>Für die Herstellung unserer Spritzgussformen und die Serienfertigung unserer Minimalschuhe haben wir uns für den Produktionsstandort China entschieden. Zwar würden wir uns aus Nachhaltigkeitsgründen eine lokalere Produktion wünschen, doch in China liegen zum aktuellen Zeitpunkt die höchsten Kompetenzen, was die Produktion von Barfußschuhen betrifft. Hier können wir sicher sein, dass wir unsere Schuhe unter höchsten Qualitätsstandards herstellen lassen können. Natürlich legen wir dabei ein besonderes Augenmerk auf die Arbeitssicherheit, die faire Entlohnung der Mitarbeitenden sowie die allgemeinen Arbeitsbedingungen vor Ort und prüfen regelmäßig, ob eine näherliegende Produktion irgendwann möglich wäre.</p>"
+          }
+        },
+        "item_tLAEtF": {
+          "type": "item",
+          "settings": {
+            "title": "Wie steht ihr zu dieser Entscheidung?",
+            "content": "<p>Wie bereits erwähnt, bietet China aktuell die besten technischen Standards, um unsere Barfußschuhe ohne Qualitätseinbußen produzieren zu lassen. Bei der Suche nach einem geeigneten Hersteller haben wir uns vor allem am Markt und an den Produktionsstätten der führenden Konkurrenz orientiert – auch hier wird die Mehrheit der Barfußschuhe, die in Deutschland erhältlich sind, in China produziert. Nach der Kalkulation aller Faktoren (darunter z. B. Preis, Erfahrung und Arbeitsbedingungen) sind wir ebenfalls zum Entschluss gekommen, dass in unserem aktuellen Stadium China der optimale Produktionsstandort für uns ist. Eine Entscheidung, mit der wir nicht alleine sind, denn auch außerhalb von Barfußschuhen werden viele Gegenstände und Produkte aus unserem täglichen Alltag in Produktionsstätten außerhalb der EU gefertigt – vom Smartphone bis hin zur Kleidung. Unser Anliegen ist es, in allen anderen Bereichen unseres Unternehmens den Nachhaltigkeitsgedanken in den Vordergrund zu stellen und hier so umweltbewusst wie möglich zu agieren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_RPERUA",
+        "item_pfWbWp",
+        "item_GtXKjw",
+        "item_6frdY8",
+        "item_tLAEtF"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Fragen zum Unternehmen",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "faq_6VEJXT": {
+      "type": "faq",
+      "blocks": {
+        "item_Ta49LM": {
+          "type": "item",
+          "settings": {
+            "title": "Wo ist meine Bestellung?",
+            "content": "<p>Die Versandzeiten sind auf jeder Produktseite angegeben. Sobald deine Bestellung versandt wurde, erhältst du eine Bestätigungsmail mit einem Link zur Sendungsverfolgung. Alternativ kannst du den Status deiner Bestellung jederzeit direkt <a href=\"/a/sendungsverfolgung\" title=\"/a/sendungsverfolgung\">hier verfolgen</a>. So weißt du immer genau, wo sich dein Paket gerade befindet.</p>"
+          }
+        },
+        "item_TKqxFD": {
+          "type": "item",
+          "settings": {
+            "title": "In welche Länder liefert ihr?",
+            "content": "<p>Da wir ein kleines deutsches Start-up sind, beliefern wir aktuell leider nur die DACH-Region, bestehend aus Deutschland, Österreich und der Schweiz.</p>"
+          }
+        },
+        "item_bXA9h3": {
+          "type": "item",
+          "settings": {
+            "title": "Ist ein Umtausch möglich, falls mir die Schuhe nicht passen?",
+            "content": "<p>Ein Umtausch ist problemlos möglich. Für einen schnellen und unkomplizierten Umtausch empfehlen wir dir, unser Retourenportal zu nutzen. Dort kannst du deinen Umtausch selber problemlos anmelden und dein Austauschprodukt wählen. <a href=\"https://freiluftkind.returnsportal.online/\">Hier zum Retourenportal</a></p>"
+          }
+        },
+        "item_xKwAHR": {
+          "type": "item",
+          "settings": {
+            "title": "Wie läuft eine Rücksendung ab?",
+            "content": "<p>Solltest du mit einem unserer Produkte unzufrieden sein, kannst du dieses gerne an uns zurückschicken. Nach Eingang deiner Retoure erstatten wir dir den Rechnungsbetrag auf die von dir genutzte Zahlungsart.</p><p>Deine Retoure kannst du ganz einfach in unserem <a href=\"https://freiluftkind.returnsportal.online/\" title=\"Retourenportal\">Retourenportal hier anmelden</a>. Die Nutzung dieses Portals ist keine Pflicht, vereinfacht die Abwicklung aber für beide Seiten. Wir bitten darum, dass die Produkte nur innerhalb des Wohnraums in einem üblichen Umfang getestet werden und nicht außerhalb des Hauses, da die Ware sonst als benutzt gilt und nicht mehr retourniert werden kann.</p><p>Bitte sende deine Bestellung anschließend an folgende Adresse:</p><p>FWG E-Commerce GmbH<br/>Im Steinkampe 17<br/>38110 Braunschweig</p>"
+          }
+        },
+        "item_J7CPx3": {
+          "type": "item",
+          "settings": {
+            "title": "Ist die Rücksendung kostenlos?",
+            "content": "<p>Bitte beachte, dass wir derzeit neben unserem kostenlosen Standardversand keine kostenlosen Rücksendungen anbieten. Bei Defekten und Garantiefällen lassen wir dir selbstverständlich ein kostenloses Rücksendelabel zukommen.</p><p>Für eine schnelle und unkomplizierten Retoure empfehlen wir dir, unser Retourenportal zu nutzen. Dort kannst du die Retoure selber problemlos anmelden. <a href=\"https://freiluftkind.returnsportal.online/\">Hier zum Retourenportal</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ta49LM",
+        "item_TKqxFD",
+        "item_bXA9h3",
+        "item_xKwAHR",
+        "item_J7CPx3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Fragen zu Bestellungen",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "featured_collection_wztWXM": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Finde deinen passenden Minimalschuh",
+        "title": "Unsere Bestseller",
+        "content": "",
+        "link_url": "shopify://collections/barfussschuhe",
+        "link_text": "Alle ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_iw7mhi",
+    "faq_g89qaf",
+    "faq_MypCnU",
+    "faq_6VEJXT",
+    "featured_collection_wztWXM"
+  ]
+}
