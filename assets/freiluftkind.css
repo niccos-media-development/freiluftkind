@@ -1144,7 +1144,7 @@ ul.contents li.badge {
 @media(min-width: 1000px) {
   .product-gallery__usp.product-gallery__zoom {
     transform: none !important;
-    right: 20px !important;
+    right: 10px !important;
   }
 }
 
