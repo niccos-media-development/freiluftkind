@@ -1214,7 +1214,7 @@ body {
   padding: 15px;
 }
 
-.product-gallery__usp {
+.product-gallery__usp.expanded {
   z-index: 999;
   cursor: pointer;
 }
