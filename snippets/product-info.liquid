@@ -640,9 +640,11 @@ Supported variables
       <div class="product-info__block-group {{ block_group_class }}" data-group-type="{{ block_group_name }}">
     {%- endif -%}
 
+    {%- if block.type != 'usp' %}
     <div class="product-info__block-item" data-block-id="{{ block.id }}" data-block-type="{{ block.type | replace: '_', '-' }}" {% unless block.type == '@app' or block.type == 'accordion' %}{{ block.shopify_attributes }}{% endunless %}>
       {{- block_content -}}
     </div>
+    {%- endif %}
 
     {%- if inside_block_group_context and allow_block_group == false -%}
       {%- assign inside_block_group_context = false -%}
