@@ -12,6 +12,76 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "usp_m4VRxq": {
+          "type": "usp",
+          "settings": {
+            "heading": "Schmerzfrei bewegen",
+            "content": "Unsere Barfußschuhe helfen dir, endlich ohne Schmerzen zu gehen. Durch das natürliche Laufgefühl und die Förderung einer gesunden Körperhaltung können Knie-, Hüft- und Rückenschmerzen spürbar gelindert werden. Statt auf teure Einlagen oder orthopädische Schuhe zu setzen, nutzt du die Kraft deiner Füße, um Beschwerden langfristig zu reduzieren."
+          }
+        },
+        "usp_H3EGPB": {
+          "type": "usp",
+          "settings": {
+            "heading": "Gelenke Entlasten",
+            "content": "Durch die flache und flexible Sohle werden deine Füße wieder richtig eingesetzt. Das entlastet deine Knie, Hüften und deinen Rücken, sodass sich dein Körper in eine natürliche Haltung begibt. Du bewegst dich sanfter, reduzierst Fehlbelastungen und beugst so zukünftigen Schmerzen effektiv vor."
+          }
+        },
+        "usp_CRLNFP": {
+          "type": "usp",
+          "settings": {
+            "heading": "Natürliche Haltung",
+            "content": "Die Nullabsatz-Sohle bringt dich zurück in deine natürliche Körperhaltung, ohne dass du es bewusst steuern musst. Dein Körper richtet sich automatisch auf, deine Wirbelsäule kommt in Balance und dein Gang wird geschmeidiger. So kannst du langfristig Fehlhaltungen korrigieren und Haltungsschäden vorbeugen."
+          }
+        },
+        "usp_TAjz9R": {
+          "type": "usp",
+          "settings": {
+            "heading": "Mehr Fußkraft",
+            "content": "Enge, steife Schuhe schwächen deine Fußmuskulatur – unsere Barfußschuhe tun das Gegenteil! Dank der breiten Zehenbox können sich deine Zehen in ihrer natürlichen Position ausbreiten, was deine gesamte Fußmuskulatur aktiviert und stärkt. Mit jedem Schritt trainierst du deine Füße und beugst Fußfehlstellungen wie Hallux Valgus oder Plattfüßen vor."
+          }
+        },
+        "usp_HgCUCQ": {
+          "type": "usp",
+          "settings": {
+            "heading": "Barfußgefühl erleben",
+            "content": "Unsere ultradünne, flexible Sohle gibt dir ein unvergleichliches Bodengefühl. Du spürst jeden Untergrund, wodurch deine Füße sensibler werden und deine Balance sich verbessert. So lernst du wieder, dich natürlich und intuitiv zu bewegen – fast so, als würdest du barfuß gehen, nur mit dem nötigen Schutz."
+          }
+        },
+        "usp_jjHPcB": {
+          "type": "usp",
+          "settings": {
+            "heading": "Weniger Druck, mehr Komfort",
+            "content": "In normalen Schuhen werden deine Füße oft eingeengt und in eine unnatürliche Position gezwungen. Unsere Barfußschuhe geben dir hingegen die Freiheit, die du brauchst. Die Zehenbox ist so gestaltet, dass deine Füße Platz haben, sich auszubreiten und entspannt abzurollen – für spürbar mehr Komfort den ganzen Tag."
+          }
+        },
+        "usp_iU8Xmh": {
+          "type": "usp",
+          "settings": {
+            "heading": "Aktiv ohne Einschränkung",
+            "content": "Du willst dich bewegen, ohne durch Schmerzen oder unflexible Schuhe eingeschränkt zu werden? Unsere Barfußschuhe sind federleicht, flexibel und passen sich deinen natürlichen Bewegungen an. So bleibst du aktiv und mobil – egal ob beim Spaziergang, im Alltag oder auf Reisen."
+          }
+        },
+        "usp_PmatDG": {
+          "type": "usp",
+          "settings": {
+            "heading": "Schutz ohne Stütze",
+            "content": "Viele denken, dass sie starke Dämpfung oder Stützen brauchen – doch das Gegenteil ist der Fall. Unsere Barfußschuhe schützen dich vor schädlichen Einflüssen, ohne deine Füße künstlich zu stützen. Dadurch wird deine natürliche Fußmuskulatur gestärkt und deine Gelenke werden entlastet, statt in eine unnatürliche Position gezwungen zu werden."
+          }
+        },
+        "usp_LbKNWF": {
+          "type": "usp",
+          "settings": {
+            "heading": "Einfache Umstellung",
+            "content": "Falls du bisher nur stützende Schuhe getragen hast, musst du dir keine Sorgen machen. Unsere Barfußschuhe sind so konzipiert, dass dein Körper sich sanft an die neue Bewegungsweise gewöhnen kann. Schritt für Schritt stärkst du deine Muskulatur, ohne deine Füße zu überfordern – für eine nachhaltige Veränderung ohne Frust."
+          }
+        },
+        "usp_Tbfrh8": {
+          "type": "usp",
+          "settings": {
+            "heading": "Gesund & Stilvoll",
+            "content": "Du musst dich nicht zwischen Gesundheit und gutem Aussehen entscheiden. Unsere Barfußschuhe bieten ein modernes, alltagstaugliches Design, das du problemlos mit jedem Outfit kombinieren kannst. Keine klobigen Schuhe mehr – sondern minimalistische, stilvolle Schuhe, die sich natürlich an deinen Lebensstil anpassen."
+          }
+        },
         "freiluftkind_social_proof_QrVt3y": {
           "type": "freiluftkind-social-proof",
           "settings": {
@@ -114,6 +184,16 @@
         }
       },
       "block_order": [
+        "usp_m4VRxq",
+        "usp_H3EGPB",
+        "usp_CRLNFP",
+        "usp_TAjz9R",
+        "usp_HgCUCQ",
+        "usp_jjHPcB",
+        "usp_iU8Xmh",
+        "usp_PmatDG",
+        "usp_LbKNWF",
+        "usp_Tbfrh8",
         "freiluftkind_social_proof_QrVt3y",
         "freiluftkind_badges_TTKCkq",
         "title",
@@ -141,15 +221,7 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "enable_image_usp": false,
-        "freiluftkind-image-usp-1": "<p>Effektiv gegen Schmerzen</p>",
-        "freiluftkind-image-usp-1-more": "<p>Share some content to your customers about your products.</p>",
-        "freiluftkind-image-usp-2": "<p>Share some content to your customers about your products.</p>",
-        "freiluftkind-image-usp-2-more": "<p>Share some content to your customers about your products.</p>",
-        "freiluftkind-image-usp-3": "<p>Share some content to your customers about your products.</p>",
-        "freiluftkind-image-usp-3-more": "<p>Share some content to your customers about your products.</p>",
-        "freiluftkind-image-usp-4": "<p>Share some content to your customers about your products.</p>",
-        "freiluftkind-image-usp-4-more": "<p>Share some content to your customers about your products.</p>",
+        "usp_max_width": 600,
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
