@@ -1219,7 +1219,7 @@ body {
   cursor: pointer;
 }
 
-.gallery-usp-text content {
+.gallery-usp-text.content {
   pointer-events: none;
 }
 
