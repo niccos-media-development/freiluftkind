@@ -1148,7 +1148,7 @@ ul.contents li.badge {
   }
 }
 
-.product-gallery,
+.shopify-section--main-product,
 body {
   overflow-x: hidden !important;
 }
