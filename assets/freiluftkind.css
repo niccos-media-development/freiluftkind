@@ -1214,6 +1214,10 @@ body {
   padding: 15px;
 }
 
+.product-gallery__usp {
+  z-index:999;
+}
+
 @media(max-width: 750px) {
   .product-gallery__usp .gallery-usp-text.content {
     width: 95vw;
