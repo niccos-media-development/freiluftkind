@@ -1215,7 +1215,8 @@ body {
 }
 
 .product-gallery__usp {
-  z-index:999;
+  z-index: 999;
+  cursor: pointer;
 }
 
 @media(max-width: 750px) {
