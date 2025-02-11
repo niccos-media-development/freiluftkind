@@ -82,6 +82,34 @@
             "content": "Du musst dich nicht zwischen Gesundheit und gutem Aussehen entscheiden. Unsere Barfußschuhe bieten ein modernes, alltagstaugliches Design, das du problemlos mit jedem Outfit kombinieren kannst. Keine klobigen Schuhe mehr – sondern minimalistische, stilvolle Schuhe, die sich natürlich an deinen Lebensstil anpassen."
           }
         },
+        "usp_cV7QUM": {
+          "type": "usp",
+          "settings": {
+            "heading": "Wasserabweisend",
+            "content": "Regen, Schnee oder Pfützen? Kein Problem! Die Kepler Barfußschuhe bestehen aus wasserabweisendem Obermaterial, das deine Füße trocken hält, ohne die Atmungsaktivität zu beeinträchtigen. So genießt du das natürliche Laufgefühl – bei jedem Wetter."
+          }
+        },
+        "usp_nChxGe": {
+          "type": "usp",
+          "settings": {
+            "heading": "Mit Orthopäden entwickelt",
+            "content": "Unsere Barfußschuhe wurden in enger Zusammenarbeit mit Orthopäden entwickelt. Das Ergebnis? Ein Schuh, der deine natürliche Fußfunktion unterstützt, Fehlhaltungen vorbeugt und dir ein gesundes Laufgefühl ermöglicht."
+          }
+        },
+        "usp_hfUCiz": {
+          "type": "usp",
+          "settings": {
+            "heading": "Qualität aus Deutschland",
+            "content": "Wir sind ein deutsches Unternehmen aus Braunschweig und legen großen Wert auf Qualität, Nachhaltigkeit und faire Produktion. Mit jedem Schritt in unseren Barfußschuhen unterstützt du also nicht nur deine Gesundheit, sondern auch regionale Wertschöpfung."
+          }
+        },
+        "usp_Pexpct": {
+          "type": "usp",
+          "settings": {
+            "heading": "Kein normaler Schuh",
+            "content": "Normale Schuhe engen deine Zehen ein, haben starre Sohlen und erhöhen oft die Ferse – das beeinträchtigt deine natürliche Fußfunktion und kann langfristig zu Beschwerden führen. Unsere Barfußschuhe sind anders: Sie bieten dir eine flexible, dünne Sohle, eine breite Zehenbox und null Sprengung. So bewegst du dich natürlicher, kräftigst deine Füße und beugst Schmerzen effektiv vor."
+          }
+        },
         "freiluftkind_social_proof_QrVt3y": {
           "type": "freiluftkind-social-proof",
           "settings": {
@@ -194,6 +222,10 @@
         "usp_PmatDG",
         "usp_LbKNWF",
         "usp_Tbfrh8",
+        "usp_cV7QUM",
+        "usp_nChxGe",
+        "usp_hfUCiz",
+        "usp_Pexpct",
         "freiluftkind_social_proof_QrVt3y",
         "freiluftkind_badges_TTKCkq",
         "title",
