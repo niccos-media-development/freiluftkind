@@ -69,10 +69,10 @@
         "logo_cCfFMm": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/gesundheitsmagazin.png",
+            "image": "shopify://shop_images/logo_barfuss_ratgeber_v2.png",
             "width_mode": "custom",
-            "max_width": 300,
-            "mobile_max_width": 250
+            "max_width": 400,
+            "mobile_max_width": 280
           }
         },
         "heading_Pgwxz9": {
