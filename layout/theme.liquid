@@ -39,6 +39,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     -%}
       <meta name="robots" content="noindex">
     {%- endif %}
+    {% if request.host contains 'barfuss-ratgeber.de' %}
+      <meta name="robots" content="noindex, nofollow">
+    {% endif %}
 
     {%- render 'funny-code' -%}
 
