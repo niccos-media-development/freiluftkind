@@ -532,8 +532,8 @@
             "size": "xl",
             "text": "Jetzt sichern – bevor das Angebot endet!",
             "url": "https://freiluftkind.de/collections/barfussschuhe",
-            "background": "",
-            "text_color": ""
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
           }
         }
       },
@@ -543,12 +543,12 @@
         "button_TAizMM"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#242424",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#ffffff"
       }
     },
     "rich_text_z66jka": {
