@@ -271,6 +271,12 @@
             "mobile_max_width": 600
           }
         },
+        "richtext_e6DXf6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein Barfußschuh muss sich anfühlen, als würde man gar keinen Schuh tragen.</p><p>Dazu gehört auch ein angenehmes Fußklima.</p><p>Ein guter Barfußschuh besteht aus <strong>atmungsaktiven Naturmaterialien</strong> oder High-Tech-Stoffen, die Feuchtigkeit regulieren, Schweiß vorbeugen und geruchsneutral bleiben.</p><p>Gleichzeitig sollte er <strong>wasserabweisend</strong> sein, um die Füße bei Regen und Kälte zu schützen.</p><p>Billige Modelle setzen auf Kunstleder oder synthetische Materialien, die kaum Luft durchlassen.  Dadurch staut sich Feuchtigkeit, die Füße beginnen zu schwitzen, und unangenehme Gerüche können sich schnell entwickeln.</p>"
+          }
+        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
@@ -311,6 +317,7 @@
         "richtext_pEUmGQ",
         "heading_PFkaeD",
         "image_XjA7aE",
+        "richtext_e6DXf6",
         "button_WCgG78"
       ],
       "settings": {
