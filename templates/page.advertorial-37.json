@@ -428,6 +428,12 @@
             "mobile_max_width": 400
           }
         },
+        "richtext_AcYb8w": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Podomax ist die größte Enttäuschung im Test und zeigt, dass ein niedriger Preis oft auf Kosten der Qualität geht.</p><p>Die <strong>Sohle ist viel zu steif</strong> und verhindert jegliches Barfußgefühl, während die <strong>künstlichen Materialien</strong> kaum Atmungsaktivität bieten – die Füße schwitzen stark, und unangenehme Gerüche sind vorprogrammiert.</p><p>Hinzu kommt die <strong>miserable Verarbeitung</strong>: Bereits nach wenigen Wochen zeigen sich Risse und Abnutzungserscheinungen.</p><p>Podomax verkauft <strong>billige Massenware</strong> mit einem Barfuß-Label, doch mit echtem Barfußlaufen hat das nichts zu tun.</p><p>Definitiv keine Empfehlung!</p>"
+          }
+        },
         "image_VC6fUi": {
           "type": "image",
           "settings": {
@@ -492,6 +498,7 @@
         "richtext_TfAhEy",
         "heading_4Gke3L",
         "image_xmyg8p",
+        "richtext_AcYb8w",
         "image_VC6fUi",
         "richtext_XzhWbV"
       ],
