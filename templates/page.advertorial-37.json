@@ -348,12 +348,35 @@
             "mobile_max_width": 400
           }
         },
+        "heading_fLFFaz": {
+          "type": "heading",
+          "settings": {
+            "text": "1. Platz & Testsieger: Freiluftkind",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_3eJUcd": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "richtext_BpJ8UM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Freiluftkind setzt neue Maßstäbe in Sachen Barfußschuhe.</p><p>Während viele Marken nur optisch nachziehen, steckt bei Freiluftkind echte <strong>orthopädische Expertise</strong> dahinter. Gemeinsam mit <strong>Dr. Lothar Krüger</strong> entwickelt, sorgt die <strong>ergonomische Passform</strong> für eine natürliche Fußstellung und maximale Bewegungsfreiheit.</p><p>Dank der <strong>extra-breiten Zehenbox</strong> haben deine Füße endlich den Platz, den sie brauchen – statt eingequetscht zu werden wie bei vielen anderen „Barfußschuhen“.</p><p>Die <strong>flexible TPU-Sohle</strong> ermöglicht echtes Barfußgefühl, ohne die Schutzfunktion zu vernachlässigen.</p><p><strong>Atmungsaktive Materialien</strong> verhindern Schwitzen und Gerüche – ein häufiges Problem bei günstigen Modellen.</p><p>Und während andere Schuhe nach Monaten auseinanderfallen, überzeugt Freiluftkind mit <strong>robuster Verarbeitung, die jahrelang hält</strong> – das bestätigen auch viele NutzerInnen in meiner Praxis.</p><p>Modelle wie der Everest ähneln optisch klassischen Sneakern, bieten aber alle Vorteile eines echten Barfußschuhs.</p><p>Pluspunkt: Dank des Lagers in Braunschweig erfolgt der Versand besonders schnell – und auch Retouren sind unkompliziert.</p><p>Aktuell gibt es ein exklusives Angebot, bei dem man sogar bis zu <strong>50%</strong> sparen kann.</p>"
+          }
+        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "Heute 50% Rabatt sichern!",
+            "text": "Zur Website von Freiluftkind",
             "url": "shopify://products/kepler-winter",
             "background": "",
             "text_color": ""
@@ -398,6 +421,9 @@
         "heading_tpUfCM",
         "richtext_Nk8MJk",
         "image_8EhWBV",
+        "heading_fLFFaz",
+        "image_3eJUcd",
+        "richtext_BpJ8UM",
         "button_WCgG78"
       ],
       "settings": {
