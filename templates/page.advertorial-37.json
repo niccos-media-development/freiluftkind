@@ -431,6 +431,14 @@
             "content": "<p>Feldluft bewirbt seine Schuhe als „perfekte Barfußerfahrung“, doch aus orthopädischer Sicht erfüllt das Modell diese Versprechen nur bedingt.</p><p>Die Sohle ist <strong>zu dick und unflexibel</strong>, sodass das Barfußgefühl fast komplett verloren geht. Am Ende fühlt es sich eher wie ein normaler Sneaker an – <strong>und dann kann man es auch gleich lassen.</strong></p><p>Außerdem fällt die <strong>Passform schmal</strong> aus, was seitlich drückt und die natürliche Zehenspreizung einschränkt.</p><p>Auch das Material ist nicht optimal gewählt: Viele Modelle sind <strong>wenig atmungsaktiv</strong>, was zu starkem Schwitzen führen kann. Ein häufiger Auslöser für Hautreizungen und Fußpilz.</p><p>Insgesamt fehlt es Feldluft-Schuhen an Flexibilität, Ergonomie und Komfort – wer ein echtes Barfußgefühl sucht, wird enttäuscht.</p>"
           }
         },
+        "image_VC6fUi": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
         "heading_ckDpMk": {
           "type": "heading",
           "settings": {
@@ -495,6 +503,7 @@
         "heading_WHGnJD",
         "image_tPGRgd",
         "richtext_Tk4yXR",
+        "image_VC6fUi",
         "heading_ckDpMk",
         "richtext_XzhWbV"
       ],
