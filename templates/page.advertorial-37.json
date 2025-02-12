@@ -413,12 +413,6 @@
             "content": "<p>Outdoorheld positioniert sich als Hersteller hochwertiger Barfußschuhe und wirbt mit exzellenten Materialien und einer angenehmen Passform.</p><p>Doch in der Praxis zeigt sich, dass die Qualität nicht mit den Erwartungen mithalten kann.</p><p>Besonders die <strong>Sohle nutzt sich schnell ab</strong>, was nicht nur die Haltbarkeit, sondern auch den Laufkomfort beeinträchtigt. Außerdem berichten einige Nutzer von Problemen mit den Nähten, die nach wenigen Monaten <strong>erste Risse</strong> zeigen.</p><p>Ein weiteres Problem: Die Schuhe sind nicht optimal imprägniert, sodass <strong>Feuchtigkeit schnell eindringt</strong> – und die Füße nass und kalt werden.</p><p>Besonders im Herbst und Winter kann das unangenehm werden, da <strong>nasse Füße</strong> die Muskeln auskühlen, die natürliche Fußfunktion stören und das Risiko für Fehlbelastungen erhöhen.</p><p>Preislich liegt es fast auf dem Niveau von Freiluftkind, bietet aber deutlich weniger Haltbarkeit.</p>"
           }
         },
-        "liquid_6mKqfD": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin: 10px\"></div>"
-          }
-        },
         "heading_WHGnJD": {
           "type": "heading",
           "settings": {
@@ -441,12 +435,6 @@
           "type": "richtext",
           "settings": {
             "content": "<p>Feldluft bewirbt seine Schuhe als „perfekte Barfußerfahrung“, doch aus orthopädischer Sicht erfüllt das Modell diese Versprechen nur bedingt.</p><p>Die Sohle ist <strong>zu dick und unflexibel</strong>, sodass das Barfußgefühl fast komplett verloren geht. Am Ende fühlt es sich eher wie ein normaler Sneaker an – <strong>und dann kann man es auch gleich lassen.</strong></p><p>Außerdem fällt die <strong>Passform schmal</strong> aus, was seitlich drückt und die natürliche Zehenspreizung einschränkt.</p><p>Auch das Material ist nicht optimal gewählt: Viele Modelle sind <strong>wenig atmungsaktiv</strong>, was zu starkem Schwitzen führen kann. Ein häufiger Auslöser für Hautreizungen und Fußpilz.</p><p>Insgesamt fehlt es Feldluft-Schuhen an Flexibilität, Ergonomie und Komfort – wer ein echtes Barfußgefühl sucht, wird enttäuscht.</p>"
-          }
-        },
-        "liquid_VhD3kC": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin: 10px\"></div>"
           }
         }
       },
@@ -496,63 +484,9 @@
         "heading_9Y6Afi",
         "image_rU9RLf",
         "richtext_myqUJA",
-        "liquid_6mKqfD",
         "heading_WHGnJD",
         "image_tPGRgd",
-        "richtext_Tk4yXR",
-        "liquid_VhD3kC"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#000000"
-      }
-    },
-    "freiluftkind_adv_text_VHGAGG": {
-      "type": "freiluftkind-adv-text",
-      "blocks": {
-        "sidebar_KzbggL": {
-          "type": "sidebar",
-          "settings": {
-            "title": "<p><strong>🏆 Der Testsieger</strong></p>",
-            "bullet_points": "<ul><li>Wasserabweisend und gefüttert</li><li>Komfortabel und bequem</li><li>Mit Orthopäden entwickelt</li><li>Das deutsche Original</li></ul>",
-            "cta_button_text": "Zur Website des Testsiegers 2",
-            "cta_button_link": "https://freiluftkind.de/collections/barfussschuhe",
-            "cta_subtext": "Test",
-            "bullet_bg_color": "",
-            "bullet_text_color": ""
-          }
-        },
-        "subheading_8WHnwg": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_KtL4B7": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_49BdLw": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "sidebar_KzbggL",
-        "subheading_8WHnwg",
-        "heading_KtL4B7",
-        "richtext_49BdLw"
+        "richtext_Tk4yXR"
       ],
       "settings": {
         "full_width": true,
@@ -595,7 +529,6 @@
     "freiluftkind_adv_controls_QDaFVC",
     "rich_text_cTKqUt",
     "freiluftkind_adv_text_kytcNe",
-    "freiluftkind_adv_text_VHGAGG",
     "rich_text_z66jka"
   ]
 }
