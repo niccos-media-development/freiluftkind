@@ -175,19 +175,10 @@
             "mobile_max_width": 600
           }
         },
-        "heading_tgTNGL": {
-          "type": "heading",
-          "settings": {
-            "text": "5. Perfekter Halt auf jedem Untergrund",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_ycMgUk": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Die speziell entwickelte Sohle wurde unter Extrembedingungen in den Alpen getestet und bietet erstklassigen Halt auf glatten Oberflächen wie Schnee und Eis. Egal, ob Sie einen Winterspaziergang genießen oder auf vereisten Wegen unterwegs sind – mit diesen Winterschuhen sind Sie stets sicher und komfortabel unterwegs.</p>"
+            "content": "<p>Viele dieser Beschwerden sind <strong>direkte Folgen ungeeigneten Schuhwerks.</strong></p><p>Dennoch tragen die meisten Menschen weiterhin Modelle, die ihre Fußgesundheit Tag für Tag belasten.</p><p><strong>Hier setzen Barfußschuhe an.</strong> Sie bieten eine natürliche Alternative, indem sie den Fuß so arbeiten lassen, wie es die Natur vorgesehen hat.</p><p>Ganz ohne enge Zehenboxen, starre Sohlen oder erhöhte Absätze, die die Haltung verändern.</p><p>Statt die Füße in unnatürliche Positionen zu zwängen, ermöglichen Barfußschuhe volle Bewegungsfreiheit.</p><p>Das trainiert die Muskulatur, verbessert die Balance und entlastet Gelenke sowie Rücken – und fühlt sich dabei überraschend leicht und angenehm an.</p><p>Ein hochwertiger Barfußschuh gibt deinen Füßen den nötigen Freiraum für entspanntes, natürliches Gehen – ohne Kompromisse bei Komfort oder Qualität.</p>"
           }
         },
         "heading_6bR4LQ": {
@@ -233,7 +224,6 @@
         "image_VTr3gb",
         "richtext_qz3Hkf",
         "image_E3qVLC",
-        "heading_tgTNGL",
         "richtext_ycMgUk",
         "heading_6bR4LQ",
         "richtext_XftrzX",
