@@ -217,7 +217,7 @@
         "image_ghNRfi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/adv_37_7.jpg",
+            "image": "shopify://shop_images/adv_37_7_upscale.png",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
