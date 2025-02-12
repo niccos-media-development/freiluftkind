@@ -399,9 +399,10 @@
         "image_whyDXX": {
           "type": "image",
           "settings": {
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
+            "image": "shopify://shop_images/adv_37_16.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
           }
         },
         "richtext_TfAhEy": {
