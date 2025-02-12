@@ -411,6 +411,23 @@
             "content": "<p>Röck Performance vermarktet sich als Premium-Marke, doch das Preis-Leistungs-Verhältnis überzeugt nicht.</p><p>Aus orthopädischer Sicht sind die Schuhe zwar optisch ansprechend und bieten eine gewisse Bewegungsfreiheit, doch es gibt einige Schwachstellen.</p><p>Besonders die Haltbarkeit sorgt für Kritik: Die Sohle zeigt bereits nach wenigen Monaten <strong>Abnutzungserscheinungen</strong>, vor allem im Fersenbereich.</p><p>Das ist problematisch, denn eine <strong>abgenutzte Sohle</strong> kann den Fuß in eine unnatürliche Stellung zwingen und <strong>Fehlbelastungen</strong> hervorrufen.</p><p>Zudem fühlen sich viele Nutzer von der Materialqualität enttäuscht.</p><p>Gerade bei einem hochpreisigen Modell sollte die Verarbeitung hochwertig sein, doch hier berichten einige von frühzeitig reißenden Nähten und Druckstellen durch mangelnde Polsterung.</p><p>Wer Wert auf Langlebigkeit legt, ist mit Freiluftkind deutlich besser beraten.</p>"
           }
         },
+        "heading_4Gke3L": {
+          "type": "heading",
+          "settings": {
+            "text": "5. Platz: Podomax",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_xmyg8p": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
         "image_VC6fUi": {
           "type": "image",
           "settings": {
@@ -482,6 +499,8 @@
         "heading_6bFdKp",
         "image_whyDXX",
         "richtext_TfAhEy",
+        "heading_4Gke3L",
+        "image_xmyg8p",
         "image_VC6fUi",
         "heading_ckDpMk",
         "richtext_XzhWbV"
