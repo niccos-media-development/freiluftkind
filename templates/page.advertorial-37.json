@@ -238,6 +238,15 @@
             "gradient": ""
           }
         },
+        "image_htkihh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_8.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
@@ -274,6 +283,7 @@
         "image_ghNRfi",
         "richtext_r4kJgR",
         "heading_NC9xrp",
+        "image_htkihh",
         "button_WCgG78"
       ],
       "settings": {
