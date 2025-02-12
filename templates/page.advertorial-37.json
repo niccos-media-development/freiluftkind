@@ -181,19 +181,10 @@
             "mobile_max_width": 600
           }
         },
-        "heading_6bR4LQ": {
-          "type": "heading",
-          "settings": {
-            "text": "Die Kriterien: Darauf kommt es bei Barfußschuhen wirklich an",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_XftrzX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Als Orthopäde weiß ich: Nicht jeder Barfußschuh ist eine echte Alternative zu herkömmlichem Schuhwerk.</p><p>Viele Modelle bieten nicht die notwendige Flexibilität, sind aus minderwertigen Materialien gefertigt oder haben eine Form, die die natürliche Fußbewegung einschränkt – mit den gleichen negativen Folgen wie normale Schuhe.</p><p><strong>Meine 5 Kriterien für einen wirklich guten Barfußschuh:</strong></p>"
+            "content": "<h4>Die Kriterien: Darauf kommt es bei Barfußschuhen wirklich an</h4><p>Als Orthopäde weiß ich: Nicht jeder Barfußschuh ist eine echte Alternative zu herkömmlichem Schuhwerk.</p><p>Viele Modelle bieten nicht die notwendige Flexibilität, sind aus minderwertigen Materialien gefertigt oder haben eine Form, die die natürliche Fußbewegung einschränkt – mit den gleichen negativen Folgen wie normale Schuhe.</p><p><strong>Meine 5 Kriterien für einen wirklich guten Barfußschuh:</strong></p>"
           }
         },
         "heading_xDadNi": {
@@ -432,7 +423,6 @@
         "image_E3qVLC",
         "richtext_ycMgUk",
         "image_XhXRYq",
-        "heading_6bR4LQ",
         "richtext_XftrzX",
         "heading_xDadNi",
         "image_ghNRfi",
