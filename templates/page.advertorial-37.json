@@ -193,7 +193,7 @@
         "heading_6bR4LQ": {
           "type": "heading",
           "settings": {
-            "text": "Jetzt risikofrei Testen oder Geld zurück!",
+            "text": "Die Kriterien: Darauf kommt es bei Barfußschuhen wirklich an",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -202,7 +202,16 @@
         "richtext_XftrzX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Der Hersteller ist so überzeugt von der Qualität dieser Winterschuhe und möchte, dass Sie es auch sind! Testen Sie Ihre neuen Schuhe ganz ohne Risiko. Sollten Sie aus irgendeinem Grund nicht zufrieden sein, erhalten Sie Ihr Geld zurück – unkompliziert und ohne Fragen. So gehen Sie sicher, dass Sie die perfekte Wahl für Ihre Füße getroffen haben.</p><p><strong>Aktuell erhalten Sie die Winterschuhe sogar mit einem exklusiven Rabatt von 50%, aber nur solange der Vorrat reicht!</strong></p>"
+            "content": "<p>Als Orthopäde weiß ich: Nicht jeder Barfußschuh ist eine echte Alternative zu herkömmlichem Schuhwerk.</p><p>Viele Modelle bieten nicht die notwendige Flexibilität, sind aus minderwertigen Materialien gefertigt oder haben eine Form, die die natürliche Fußbewegung einschränkt – mit den gleichen negativen Folgen wie normale Schuhe. <strong>Meine 5 Kriterien für einen wirklich guten Barfußschuh:</strong></p>"
+          }
+        },
+        "heading_xDadNi": {
+          "type": "heading",
+          "settings": {
+            "text": "1. Kriterium: Anatomisch korrekte Passform – Zehenfreiheit statt Einengung",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
           }
         },
         "button_WCgG78": {
@@ -237,6 +246,7 @@
         "image_XhXRYq",
         "heading_6bR4LQ",
         "richtext_XftrzX",
+        "heading_xDadNi",
         "button_WCgG78"
       ],
       "settings": {
