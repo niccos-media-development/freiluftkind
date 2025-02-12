@@ -127,6 +127,15 @@
             "content": "<p>Mein Name ist Dr. Markus Weber. Als Orthopäde mit über 20 Jahren Erfahrung habe ich bereits tausenden Menschen geholfen, wieder schmerzfreier zu gehen.</p><p>Doch viele meiner PatientInnen klagen über müde, verspannte Füße am Morgen oder Schmerzen in Knien und Rücken nach einem langen Tag oder Spaziergang.</p><p>Ein häufiger Grund? Die <strong>falschen Schuhe</strong>.</p><p>Viele hoffen, mit Barfußschuhen eine Lösung zu finden – doch stattdessen erleben sie Druckstellen, schwitzende Füße oder schnell abgenutzte Modelle.</p><p><strong>Denn nicht jeder Barfußschuh ist wirklich gesund für die Füße.</strong></p><p>Warum? Weil viele Hersteller den Trend nutzen, aber minderwertige Produkte verkaufen, die mit echtem Barfußlaufen nichts zu tun haben.</p><p>Deshalb habe ich als Orthopäde die fünf bekanntesten Barfußschuh-Marken genauer unter die Lupe genommen:</p><p><strong>Welche Barfußschuhe fördern wirklich die Fußgesundheit? Welche halten, was sie versprechen – und welcher ist 2025 der beste?</strong></p>"
           }
         },
+        "image_9btQ6y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_3.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_n3fEBY": {
           "type": "heading",
           "settings": {
@@ -155,15 +164,6 @@
           "type": "richtext",
           "settings": {
             "content": "<p>Das innovative Obermaterial und die speziell konzipierte Barfußsohle sorgen für unvergleichliche Flexibilität. Die Schuhe passen sich individuell Ihrem Fuß und Ihrer natürlichen Gehbewegung an. Das Ergebnis: Ein dynamisches Laufgefühl, das nicht nur bequem ist, sondern auch Ihre Fußmuskulatur stärkt und die Blutzirkulation verbessert.</p>"
-          }
-        },
-        "image_9btQ6y": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/kepler_schuh_adv.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
           }
         },
         "heading_tgTNGL": {
@@ -218,11 +218,11 @@
         "richtext_JztaFz",
         "image_Fjc3nH",
         "richtext_XBTJC7",
+        "image_9btQ6y",
         "heading_n3fEBY",
         "richtext_rJ3nh3",
         "heading_kChkyk",
         "richtext_qz3Hkf",
-        "image_9btQ6y",
         "heading_tgTNGL",
         "richtext_ycMgUk",
         "heading_6bR4LQ",
