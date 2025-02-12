@@ -510,17 +510,11 @@
     "rich_text_pz64Qa": {
       "type": "rich-text",
       "blocks": {
-        "subheading_6xgmRh": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_fWi6Ni": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
+            "text": "Exklusives Angebot",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -528,14 +522,25 @@
         "richtext_NMytck": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Freiluftkind bietet ein exklusives Angebot, das keine Wünsche offen lässt:</p><p><strong>1 Paar Freiluftkind Barfußschuhe</strong> – maximaler Komfort & Fußgesundheit</p><p><strong>12 Monate Garantie</strong> – risikofrei testen und selbst überzeugen</p><p><strong>Bis zu 50 % sparen</strong> – aber nur für kurze Zeit verfügbar!</p><p><strong>Gratis Versand & einfache Retouren</strong></p>"
+          }
+        },
+        "button_TAizMM": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Jetzt sichern – bevor das Angebot endet!",
+            "url": "https://freiluftkind.de/collections/barfussschuhe",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "subheading_6xgmRh",
         "heading_fWi6Ni",
-        "richtext_NMytck"
+        "richtext_NMytck",
+        "button_TAizMM"
       ],
       "settings": {
         "full_width": false,
