@@ -322,39 +322,7 @@
         "richtext_pTwT64": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ein Barfußschuh ist mehr als nur ein Trend – er soll die Fußgesundheit langfristig fördern. Doch das funktioniert nur, wenn er richtig entwickelt wurde.</p><p>Wird ein Barfußschuh <strong>nicht von OrthopädInnen mitentwickelt</strong>, fehlt es oft an Stabilität. Das kann zu Fehlhaltungen, Überlastungen oder sogar Schmerzen führen.</p><p>Ohne das nötige Fachwissen entstehen zudem Schuhe mit <strong>falscher Druckverteilung</strong>, die den Fuß unnötig belasten, anstatt ihn zu entlasten.</p><p>Im schlimmsten Fall führt das zu Fehlentwicklungen, die mehr schaden als nutzen.</p>"
-          }
-        },
-        "heading_tpUfCM": {
-          "type": "heading",
-          "settings": {
-            "text": "Barfußschuhe im Test: Die 5 beliebtesten im Vergleich",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_Nk8MJk": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Ich habe die fünf meistverkauften Barfußschuhe am Markt genauer angesehen und anhand entscheidender Kriterien bewertet.</p>"
-          }
-        },
-        "image_8EhWBV": {
-          "type": "image",
-          "settings": {
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "heading_fLFFaz": {
-          "type": "heading",
-          "settings": {
-            "text": "1. Platz & Testsieger: Freiluftkind",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
+            "content": "<p>Ein Barfußschuh ist mehr als nur ein Trend – er soll die Fußgesundheit langfristig fördern. Doch das funktioniert nur, wenn er richtig entwickelt wurde.</p><p>Wird ein Barfußschuh <strong>nicht von OrthopädInnen mitentwickelt</strong>, fehlt es oft an Stabilität. Das kann zu Fehlhaltungen, Überlastungen oder sogar Schmerzen führen.</p><p>Ohne das nötige Fachwissen entstehen zudem Schuhe mit <strong>falscher Druckverteilung</strong>, die den Fuß unnötig belasten, anstatt ihn zu entlasten.</p><p>Im schlimmsten Fall führt das zu Fehlentwicklungen, die mehr schaden als nutzen.</p><h4>Barfußschuhe im Test: Die 5 beliebtesten im Vergleich</h4><p>Ich habe die fünf meistverkauften Barfußschuhe am Markt genauer angesehen und anhand entscheidender Kriterien bewertet.</p><h3>1. Platz & Testsieger: Freiluftkind</h3>"
           }
         },
         "image_3eJUcd": {
@@ -491,10 +459,6 @@
         "heading_RxUxKm",
         "image_q3aYWc",
         "richtext_pTwT64",
-        "heading_tpUfCM",
-        "richtext_Nk8MJk",
-        "image_8EhWBV",
-        "heading_fLFFaz",
         "image_3eJUcd",
         "richtext_BpJ8UM",
         "button_WCgG78",
