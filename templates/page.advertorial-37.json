@@ -383,6 +383,12 @@
             "text_color": ""
           }
         },
+        "liquid_eydMMG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin: 10px\"></div>"
+          }
+        },
         "heading_9Y6Afi": {
           "type": "heading",
           "settings": {
@@ -459,6 +465,7 @@
         "image_3eJUcd",
         "richtext_BpJ8UM",
         "button_WCgG78",
+        "liquid_eydMMG",
         "heading_9Y6Afi",
         "image_rU9RLf",
         "richtext_myqUJA",
