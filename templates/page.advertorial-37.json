@@ -247,6 +247,12 @@
             "mobile_max_width": 600
           }
         },
+        "richtext_pEUmGQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein Barfußschuh bringt nur dann einen Vorteil, wenn die Sohle wirklich flexibel ist und dem Fuß uneingeschränkte Bewegung ermöglicht.</p><p>Das heißt, sie muss sich bei jedem Schritt natürlich mitbewegen und abrollen – fast wie barfuß laufen.</p><p>Ein guter Barfußschuh hat daher eine <strong>dünne, flexible TPU-Sohle</strong>, die den Boden spürbar macht und die Fußmuskulatur aktiv hält.</p><p>Viele günstige Marken setzen dagegen auf steife oder dicke Sohlen, die kaum nachgeben – und sich eher wie herkömmliche Sneaker anfühlen.</p><p>Andere wiederum nutzen minderwertige, zu dünne Sohlen, durch die man jeden Stein unangenehm spürt.</p>"
+          }
+        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
@@ -284,6 +290,7 @@
         "richtext_r4kJgR",
         "heading_NC9xrp",
         "image_htkihh",
+        "richtext_pEUmGQ",
         "button_WCgG78"
       ],
       "settings": {
