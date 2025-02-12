@@ -352,7 +352,7 @@
           "type": "heading",
           "settings": {
             "text": "1. Platz & Testsieger: Freiluftkind",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -406,6 +406,15 @@
           "settings": {
             "content": "<p>Outdoorheld positioniert sich als Hersteller hochwertiger Barfußschuhe und wirbt mit exzellenten Materialien und einer angenehmen Passform.</p><p>Doch in der Praxis zeigt sich, dass die Qualität nicht mit den Erwartungen mithalten kann.</p><p>Besonders die <strong>Sohle nutzt sich schnell ab</strong>, was nicht nur die Haltbarkeit, sondern auch den Laufkomfort beeinträchtigt. Außerdem berichten einige Nutzer von Problemen mit den Nähten, die nach wenigen Monaten <strong>erste Risse</strong> zeigen.</p><p>Ein weiteres Problem: Die Schuhe sind nicht optimal imprägniert, sodass <strong>Feuchtigkeit schnell eindringt</strong> – und die Füße nass und kalt werden.</p><p>Besonders im Herbst und Winter kann das unangenehm werden, da <strong>nasse Füße</strong> die Muskeln auskühlen, die natürliche Fußfunktion stören und das Risiko für Fehlbelastungen erhöhen.</p><p>Preislich liegt es fast auf dem Niveau von Freiluftkind, bietet aber deutlich weniger Haltbarkeit.</p>"
           }
+        },
+        "heading_WHGnJD": {
+          "type": "heading",
+          "settings": {
+            "text": "3. Platz: Feldluft",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
@@ -452,7 +461,8 @@
         "button_WCgG78",
         "heading_9Y6Afi",
         "image_rU9RLf",
-        "richtext_myqUJA"
+        "richtext_myqUJA",
+        "heading_WHGnJD"
       ],
       "settings": {
         "full_width": true,
