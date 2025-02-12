@@ -319,6 +319,12 @@
             "mobile_max_width": 600
           }
         },
+        "richtext_pTwT64": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein Barfußschuh ist mehr als nur ein Trend – er soll die Fußgesundheit langfristig fördern. Doch das funktioniert nur, wenn er richtig entwickelt wurde.</p><p>Wird ein Barfußschuh <strong>nicht von OrthopädInnen mitentwickelt</strong>, fehlt es oft an Stabilität. Das kann zu Fehlhaltungen, Überlastungen oder sogar Schmerzen führen.</p><p>Ohne das nötige Fachwissen entstehen zudem Schuhe mit <strong>falscher Druckverteilung</strong>, die den Fuß unnötig belasten, anstatt ihn zu entlasten.</p><p>Im schlimmsten Fall führt das zu Fehlentwicklungen, die mehr schaden als nutzen.</p>"
+          }
+        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
@@ -365,6 +371,7 @@
         "richtext_MgB6GR",
         "heading_RxUxKm",
         "image_q3aYWc",
+        "richtext_pTwT64",
         "button_WCgG78"
       ],
       "settings": {
