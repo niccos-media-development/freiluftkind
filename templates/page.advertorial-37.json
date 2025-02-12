@@ -517,11 +517,11 @@
         "sidebar_KzbggL": {
           "type": "sidebar",
           "settings": {
-            "title": "",
-            "bullet_points": "",
-            "cta_button_text": "",
-            "cta_button_link": "",
-            "cta_subtext": "",
+            "title": "<p><strong>🏆 Der Testsieger</strong></p>",
+            "bullet_points": "<ul><li>Wasserabweisend und gefüttert</li><li>Komfortabel und bequem</li><li>Mit Orthopäden entwickelt</li><li>Das deutsche Original</li></ul>",
+            "cta_button_text": "Zur Website des Testsiegers",
+            "cta_button_link": "https://freiluftkind.de/collections/barfussschuhe",
+            "cta_subtext": "Test",
             "bullet_bg_color": "",
             "bullet_text_color": ""
           }
