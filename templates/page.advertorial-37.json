@@ -409,75 +409,13 @@
         "text_color": "#000000"
       }
     },
-    "freiluftkind_testimonials_RyQMEJ": {
-      "type": "freiluftkind-testimonials",
-      "blocks": {
-        "testimonial_gcP4XV": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/roman_heibling2.jpg",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Klaus H.",
-            "content": "<p>Die rutschfeste Grip-Sohle der Freiluftkind-Schuhe hat mich wirklich überzeugt. Ich wohne in einer bergigen Gegend, und bei Schnee und Eis bin ich jetzt sicher unterwegs, ohne Angst vor Stürzen. Die Passform ist fantastisch, und meine Zehen haben endlich genug Platz – keine Druckstellen mehr! Diese Schuhe sind jeden Cent wert.</p>"
-          }
-        },
-        "testimonial_6xrFic": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/kepler_2.jpg",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Petra M.",
-            "content": "<p>Ich habe die Winterschuhe bestellt, weil ich im Winter ständig mit kalten Füßen kämpfe. Die isolierende Sohle und das kuschelige Innenfutter sind ein Gamechanger! Meine Füße bleiben angenehm warm, selbst bei langen Spaziergängen. Ich liebe, wie leicht sie sich anfühlen – ich vergesse manchmal, dass ich Schuhe trage. Absolute Kaufempfehlung!</p>"
-          }
-        },
-        "testimonial_NxXK99": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/ronny_helling.jpg",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Jürgen G.",
-            "content": "<p>Ich war skeptisch, ob die Schuhe wirklich wasserabweisend sind, aber sie haben mich bei Regen und Schneematsch komplett überzeugt. Kein Nässegefühl mehr, und meine Füße bleiben den ganzen Tag trocken. Dazu kommen der unglaubliche Komfort und das leichte An- und Ausziehen – ich bin begeistert! Freiluftkind hat meine Erwartungen übertroffen.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_gcP4XV",
-        "testimonial_6xrFic",
-        "testimonial_NxXK99"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": true,
-        "subheading": "",
-        "title": "Über 350.000 zufriedene Kunden",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
-      }
-    },
     "rich_text_z66jka": {
       "type": "rich-text",
       "blocks": {
         "richtext_y6BNWJ": {
           "type": "richtext",
           "settings": {
-            "content": "<p><a href=\"https://freiluftkind.de/policies/legal-notice\" title=\"https://freiluftkind.de/policies/legal-notice\">Impressum</a> | <a href=\"https://freiluftkind.de/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutz</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
+            "content": "<p><a href=\"https://dailyrituals.news/impressum/\" title=\"https://dailyrituals.news/impressum/\">Impressum</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
           }
         }
       },
@@ -503,7 +441,6 @@
     "freiluftkind_adv_controls_QDaFVC",
     "rich_text_cTKqUt",
     "freiluftkind_adv_text_kytcNe",
-    "freiluftkind_testimonials_RyQMEJ",
     "rich_text_z66jka"
   ]
 }
