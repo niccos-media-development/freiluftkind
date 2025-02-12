@@ -223,6 +223,21 @@
             "mobile_max_width": 600
           }
         },
+        "richtext_r4kJgR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Hauptzweck eines Barfußschuhs ist es, dem Fuß seine natürliche Bewegungsfreiheit zurückzugeben.</p><p>Ein wirklich guter Barfußschuh muss eine <strong>anatomisch geformte Zehenbox</strong> haben, die genug Platz bietet, damit die Zehen sich frei entfalten können – so wie beim natürlichen Gehen.</p><p>Problem vieler Marken: Viele Hersteller übernehmen die Form klassischer Schuhe mit spitz zulaufender Zehenbox – dadurch werden die Zehen eingequetscht.</p><p>Das kann zu Fehlstellungen wie Hallux Valgus führen und die Fußmuskulatur schwächen.</p>"
+          }
+        },
+        "heading_NC9xrp": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Kriterium: Flexible, dünne Sohle für maximalen Bodenkontakt",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
@@ -257,6 +272,8 @@
         "richtext_XftrzX",
         "heading_xDadNi",
         "image_ghNRfi",
+        "richtext_r4kJgR",
+        "heading_NC9xrp",
         "button_WCgG78"
       ],
       "settings": {
