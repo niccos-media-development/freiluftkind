@@ -136,19 +136,10 @@
             "mobile_max_width": 600
           }
         },
-        "heading_n3fEBY": {
-          "type": "heading",
-          "settings": {
-            "text": "Die versteckten Probleme: Warum herkömmliche Schuhe deine Füße langfristig schädigen",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_rJ3nh3": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Mal ehrlich: Die meisten von uns tragen Schuhe, ohne groß darüber nachzudenken.</p><p>Doch genau hier liegt das Problem.</p><p>Herkömmliche Schuhe sind oft viel zu eng, haben eine unnatürliche Dämpfung und eine starre Sohle – mit weitreichenden Folgen für unsere Füße und unseren gesamten Bewegungsapparat.</p>"
+            "content": "<h4>Die versteckten Probleme: Warum herkömmliche Schuhe deine Füße langfristig schädigen</h4><p>Mal ehrlich: Die meisten von uns tragen Schuhe, ohne groß darüber nachzudenken.</p><p>Doch genau hier liegt das Problem.</p><p>Herkömmliche Schuhe sind oft viel zu eng, haben eine unnatürliche Dämpfung und eine starre Sohle – mit weitreichenden Folgen für unsere Füße und unseren gesamten Bewegungsapparat.</p>"
           }
         },
         "image_VTr3gb": {
@@ -435,7 +426,6 @@
         "image_Fjc3nH",
         "richtext_XBTJC7",
         "image_9btQ6y",
-        "heading_n3fEBY",
         "richtext_rJ3nh3",
         "image_VTr3gb",
         "richtext_qz3Hkf",
