@@ -382,6 +382,15 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "heading_9Y6Afi": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Platz: Outdoorheld",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
@@ -425,7 +434,8 @@
         "heading_fLFFaz",
         "image_3eJUcd",
         "richtext_BpJ8UM",
-        "button_WCgG78"
+        "button_WCgG78",
+        "heading_9Y6Afi"
       ],
       "settings": {
         "full_width": true,
