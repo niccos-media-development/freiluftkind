@@ -166,6 +166,14 @@
             "content": "<p>Studien zeigen, dass <strong>über 70 % aller Erwachsenen Fußfehlstellungen</strong> haben, die langfristig zu Knie-, Hüft- oder Rückenschmerzen führen können.</p><p>Warum? Weil unsere Füße in ungeeigneten Schuhen ihre natürliche Bewegungsfreiheit verlieren und die Muskulatur nach und nach abbaut.</p><p><strong>Die Folge:</strong></p><ul><li>Fehlstellungen wie Hallux Valgus, Senk-Spreizfuß oder Plattfuß</li><li>Eingeschränkte Durchblutung und kalte Füße</li><li>Verspannungen in Waden, Knien und Rücken</li><li>Erhöhtes Risiko für Gelenkverschleiß und Haltungsschäden</li></ul>"
           }
         },
+        "image_E3qVLC": {
+          "type": "image",
+          "settings": {
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_tgTNGL": {
           "type": "heading",
           "settings": {
@@ -223,6 +231,7 @@
         "richtext_rJ3nh3",
         "image_VTr3gb",
         "richtext_qz3Hkf",
+        "image_E3qVLC",
         "heading_tgTNGL",
         "richtext_ycMgUk",
         "heading_6bR4LQ",
