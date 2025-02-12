@@ -181,6 +181,15 @@
             "content": "<p>Viele dieser Beschwerden sind <strong>direkte Folgen ungeeigneten Schuhwerks.</strong></p><p>Dennoch tragen die meisten Menschen weiterhin Modelle, die ihre Fußgesundheit Tag für Tag belasten.</p><p><strong>Hier setzen Barfußschuhe an.</strong> Sie bieten eine natürliche Alternative, indem sie den Fuß so arbeiten lassen, wie es die Natur vorgesehen hat.</p><p>Ganz ohne enge Zehenboxen, starre Sohlen oder erhöhte Absätze, die die Haltung verändern.</p><p>Statt die Füße in unnatürliche Positionen zu zwängen, ermöglichen Barfußschuhe volle Bewegungsfreiheit.</p><p>Das trainiert die Muskulatur, verbessert die Balance und entlastet Gelenke sowie Rücken – und fühlt sich dabei überraschend leicht und angenehm an.</p><p>Ein hochwertiger Barfußschuh gibt deinen Füßen den nötigen Freiraum für entspanntes, natürliches Gehen – ohne Kompromisse bei Komfort oder Qualität.</p>"
           }
         },
+        "image_XhXRYq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_6.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_6bR4LQ": {
           "type": "heading",
           "settings": {
@@ -225,6 +234,7 @@
         "richtext_qz3Hkf",
         "image_E3qVLC",
         "richtext_ycMgUk",
+        "image_XhXRYq",
         "heading_6bR4LQ",
         "richtext_XftrzX",
         "button_WCgG78"
