@@ -139,7 +139,7 @@
         "heading_n3fEBY": {
           "type": "heading",
           "settings": {
-            "text": "3. Kuschelig komfortabel und leicht",
+            "text": "Die versteckten Probleme: Warum herkömmliche Schuhe deine Füße langfristig schädigen",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -148,7 +148,16 @@
         "richtext_rJ3nh3": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Mit ihrer extra-breiten Zehenbox schaffen diese Barfuß-Winterschuhe ausreichend Platz für Ihre Zehen und ermöglichen eine natürliche Fußstellung. Keine einengenden Druckstellen, keine Blasen – einfach purer Komfort. Das Barfußgefühl bleibt auch in der kalten Jahreszeit erhalten, während Ihre Füße optimal geschützt werden.</p>"
+            "content": "<p>Mal ehrlich: Die meisten von uns tragen Schuhe, ohne groß darüber nachzudenken.</p><p>Doch genau hier liegt das Problem.</p><p>Herkömmliche Schuhe sind oft viel zu eng, haben eine unnatürliche Dämpfung und eine starre Sohle – mit weitreichenden Folgen für unsere Füße und unseren gesamten Bewegungsapparat.</p>"
+          }
+        },
+        "image_VTr3gb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_4.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
           }
         },
         "heading_kChkyk": {
@@ -221,6 +230,7 @@
         "image_9btQ6y",
         "heading_n3fEBY",
         "richtext_rJ3nh3",
+        "image_VTr3gb",
         "heading_kChkyk",
         "richtext_qz3Hkf",
         "heading_tgTNGL",
