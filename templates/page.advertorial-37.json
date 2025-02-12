@@ -106,19 +106,19 @@
             "mobile_max_width": 600
           }
         },
-        "heading_GB6aVn": {
-          "type": "heading",
-          "settings": {
-            "text": "1. Wasserabweisend und zuverlässig",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_JztaFz": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Die „Kepler“-Winterschuhe bestehen aus einem speziell entwickelten, wasserabweisenden Obermaterial, das Regen, Schnee und Matsch effektiv abhält. Durch die hochwertige Verarbeitung bleiben Ihre Füße trocken und angenehm warm – perfekt für nasse Wintertage oder Spaziergänge bei unbeständigem Wetter.</p>"
+            "content": "<p>Barfußschuhe sind längst kein Nischenprodukt mehr. Denn immer mehr Menschen setzen auf die natürliche Art des Gehens. Kein Wunder, denn sie versprechen eine bessere Haltung, weniger Fuß- und Beinschmerzen und ein natürlicheres bzw. gesünderes Laufgefühl.</p><p>Doch die Wahrheit ist: Nicht jeder Schuh, der als „Barfußschuh“ verkauft wird, hält dieses Versprechen.</p>"
+          }
+        },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kepler_adv_2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
           }
         },
         "heading_BEkBjE": {
@@ -134,15 +134,6 @@
           "type": "richtext",
           "settings": {
             "content": "<p>Dank des hochwertigen, veganen Fleece-Innenfutters halten die Winterschuhe Ihre Füße auch bei niedrigen Temperaturen angenehm warm. Sie sind ideal für typische Wintertage und bieten Ihnen den Komfort, den Sie für lange Spaziergänge oder alltägliche Wege benötigen – ohne kalte Zehen!</p>"
-          }
-        },
-        "image_Fjc3nH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/kepler_adv_2.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
           }
         },
         "heading_n3fEBY": {
@@ -233,11 +224,10 @@
         "author_6PYk8k",
         "richtext_dhyW8e",
         "image_AF7UjR",
-        "heading_GB6aVn",
         "richtext_JztaFz",
+        "image_Fjc3nH",
         "heading_BEkBjE",
         "richtext_XBTJC7",
-        "image_Fjc3nH",
         "heading_n3fEBY",
         "richtext_rJ3nh3",
         "heading_kChkyk",
