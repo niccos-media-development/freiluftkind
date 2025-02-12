@@ -437,19 +437,10 @@
             "mobile_max_width": 600
           }
         },
-        "heading_ckDpMk": {
-          "type": "heading",
-          "settings": {
-            "text": "Gesamtfazit zu den 5 getesteten Barfußschuhen",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_XzhWbV": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Barfußschuhe sind eine echte Revolution für gesunde Füße.</p><p>Allerdings <strong>nicht jedes Modell hält, was es verspricht.</strong></p><p><strong>Das Problem?</strong> Viele Barfußschuhe sind entweder zu steif, minderwertig verarbeitet oder nutzen sich nach wenigen Monaten ab.</p><p>Nach einem umfassenden Vergleich ist <strong>Freiluftkind mein klarer Favorit.</strong></p><p>Er schneidet in allen 5 Kategorien deutlich besser ab als der Rest.</p><p>✅ <strong>Bester Tragekomfort:</strong> Entwickelt mit Orthopäden für eine natürliche Fußstellung</p><p>✅ <strong>Beste Sohle:</strong> Dünn & flexibel für echtes Barfußgefühl</p><p>✅ <strong>Beste Materialqualität:</strong> Atmungsaktive Stoffe – kein Schwitzen, keine Gerüche</p><p>✅ <strong>Langlebig & hochwertig:</strong> Ein Schuh für Jahre, nicht Monate</p><p>✅ <strong>Modernes Design:</strong> Manche Modelle sehen aus wie stylishe Sneaker</p><p>Während Outdoorheld, Feldluft, Röck Performance und Podomax in entscheidenden Kategorien Schwächen zeigen, überzeugt <strong>Freiluftkind</strong> in allen Bereichen mit <strong>höchster Qualität</strong>.</p><p>Auch die positiven Kundenbewertungen (<strong>über 350.000</strong>) sprechen für sich: Weniger Schmerzen, mehr Tragekomfort – dazu begeistern Haltbarkeit und Design immer wieder.</p><p>Ich finde man merkt, dass Freiluftkind von Anfang an mit einem klaren Anspruch entwickelt wurde: <strong>keine Kompromisse bei Qualität, Passform und Funktionalität!</strong></p><p>Für mich eine klare Empfehlung!</p>"
+            "content": "<h4>Gesamtfazit zu den 5 getesteten Barfußschuhen</h4><p>Barfußschuhe sind eine echte Revolution für gesunde Füße.</p><p>Allerdings <strong>nicht jedes Modell hält, was es verspricht.</strong></p><p><strong>Das Problem?</strong> Viele Barfußschuhe sind entweder zu steif, minderwertig verarbeitet oder nutzen sich nach wenigen Monaten ab.</p><p>Nach einem umfassenden Vergleich ist <strong>Freiluftkind mein klarer Favorit.</strong></p><p>Er schneidet in allen 5 Kategorien deutlich besser ab als der Rest.</p><p>✅ <strong>Bester Tragekomfort:</strong> Entwickelt mit Orthopäden für eine natürliche Fußstellung</p><p>✅ <strong>Beste Sohle:</strong> Dünn & flexibel für echtes Barfußgefühl</p><p>✅ <strong>Beste Materialqualität:</strong> Atmungsaktive Stoffe – kein Schwitzen, keine Gerüche</p><p>✅ <strong>Langlebig & hochwertig:</strong> Ein Schuh für Jahre, nicht Monate</p><p>✅ <strong>Modernes Design:</strong> Manche Modelle sehen aus wie stylishe Sneaker</p><p>Während Outdoorheld, Feldluft, Röck Performance und Podomax in entscheidenden Kategorien Schwächen zeigen, überzeugt <strong>Freiluftkind</strong> in allen Bereichen mit <strong>höchster Qualität</strong>.</p><p>Auch die positiven Kundenbewertungen (<strong>über 350.000</strong>) sprechen für sich: Weniger Schmerzen, mehr Tragekomfort – dazu begeistern Haltbarkeit und Design immer wieder.</p><p>Ich finde man merkt, dass Freiluftkind von Anfang an mit einem klaren Anspruch entwickelt wurde: <strong>keine Kompromisse bei Qualität, Passform und Funktionalität!</strong></p><p>Für mich eine klare Empfehlung!</p>"
           }
         }
       },
@@ -502,7 +493,6 @@
         "heading_4Gke3L",
         "image_xmyg8p",
         "image_VC6fUi",
-        "heading_ckDpMk",
         "richtext_XzhWbV"
       ],
       "settings": {
