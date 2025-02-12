@@ -295,6 +295,12 @@
             "mobile_max_width": 600
           }
         },
+        "richtext_MgB6GR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Barfußschuhe müssen flexibel sein, aber das bedeutet nicht, dass sie nach wenigen Monaten auseinanderfallen sollten. Ein wirklich hochwertiger Barfußschuh hält selbst bei <strong>täglicher Nutzung mehrere Jahre</strong>, ohne dass sich Nähte lösen oder die Sohle sich abnutzt.</p><p>Viele günstige Modelle zeigen bereits nach wenigen Monaten erste Schäden: Nähte reißen, die Sohle löst sich – und der Schuh wird zur Fehlinvestition.</p>"
+          }
+        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
@@ -338,6 +344,7 @@
         "richtext_e6DXf6",
         "heading_P8WaUK",
         "image_BPmqxz",
+        "richtext_MgB6GR",
         "button_WCgG78"
       ],
       "settings": {
