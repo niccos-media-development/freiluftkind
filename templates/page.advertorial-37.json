@@ -160,19 +160,10 @@
             "mobile_max_width": 600
           }
         },
-        "heading_kChkyk": {
-          "type": "heading",
-          "settings": {
-            "text": "4. Unglaubliche Flexibilität",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_qz3Hkf": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Das innovative Obermaterial und die speziell konzipierte Barfußsohle sorgen für unvergleichliche Flexibilität. Die Schuhe passen sich individuell Ihrem Fuß und Ihrer natürlichen Gehbewegung an. Das Ergebnis: Ein dynamisches Laufgefühl, das nicht nur bequem ist, sondern auch Ihre Fußmuskulatur stärkt und die Blutzirkulation verbessert.</p>"
+            "content": "<p>Studien zeigen, dass <strong>über 70 % aller Erwachsenen Fußfehlstellungen</strong> haben, die langfristig zu Knie-, Hüft- oder Rückenschmerzen führen können.</p><p>Warum? Weil unsere Füße in ungeeigneten Schuhen ihre natürliche Bewegungsfreiheit verlieren und die Muskulatur nach und nach abbaut.</p><p><strong>Die Folge:</strong></p><ul><li>Fehlstellungen wie Hallux Valgus, Senk-Spreizfuß oder Plattfuß</li><li>Eingeschränkte Durchblutung und kalte Füße</li><li>Verspannungen in Waden, Knien und Rücken</li><li>Erhöhtes Risiko für Gelenkverschleiß und Haltungsschäden</li></ul>"
           }
         },
         "heading_tgTNGL": {
@@ -231,7 +222,6 @@
         "heading_n3fEBY",
         "richtext_rJ3nh3",
         "image_VTr3gb",
-        "heading_kChkyk",
         "richtext_qz3Hkf",
         "heading_tgTNGL",
         "richtext_ycMgUk",
