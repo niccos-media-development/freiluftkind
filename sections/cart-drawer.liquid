@@ -369,7 +369,7 @@
         {% assign finalprice = checkoutPrice %}
 
         <div class="h-stack gap-4 justify-between">
-          <span class="h5">{{ 'cart.general.total' | t }}</span>
+          <span class="h5" style="font-size: calc(var(--text-h5) - 2px);">{{ 'cart.general.total' | t }}</span>
           <div class="total_price_cart_drawer {{ savings }}-{{ total_uvp }}">
 
             <span class="h5 small_text">{{- finalprice | money_with_currency -}}</span>

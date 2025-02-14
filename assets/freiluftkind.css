@@ -347,10 +347,10 @@ video-media[loaded]::part(play-buttonafter) {
 }
 .total_price_cart_drawer .small_text {
   color: rgb(var(--on-sale-text));
-  font-size: calc(var(--text-h5) - 1px);
+  font-size: calc(var(--text-h5) - 2px);
 }
 .total_price_cart_drawer .original_price {
-  font-size: calc(var(--text-h5) - 2px);
+  font-size: calc(var(--text-h5) - 3px);
   text-decoration: line-through;
   font-weight: 500;
 }
