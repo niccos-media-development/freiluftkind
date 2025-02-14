@@ -1,0 +1,594 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "freiluftkind_adv_controls_QDaFVC": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": true,
+        "remove_footer": true,
+        "hide_product_info": false
+      }
+    },
+    "rich_text_cTKqUt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtU6dx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kategorie: Gesundheit</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtU6dx"
+      ],
+      "custom_css": [
+        ".section-full {padding: 8px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#242424",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "freiluftkind_adv_text_kytcNe": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "sidebar_hK7Qeb": {
+          "type": "sidebar",
+          "settings": {
+            "title": "<p><strong>🏆 Der Testsieger</strong></p>",
+            "bullet_points": "<ul><li>Mit Orthopäden entwickelt</li><li>Das deutsche Original</li><li>12 Monate Garantie</li><li>Kostenloser Versand</li><li>Aktuell 50% Rabatt</li></ul>",
+            "sidebar_image": "shopify://shop_images/freiluftkind_barfussschuh_khaki_bronze.jpg",
+            "cta_button_text": "Zur Website des Testsiegers",
+            "cta_button_link": "https://freiluftkind.de/collections/barfussschuhe",
+            "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
+            "bullet_icon": "shopify://shop_images/Icon.svg",
+            "bullet_bg_color": "#242424",
+            "bullet_text_color": "#ffffff"
+          }
+        },
+        "logo_cCfFMm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_barfuss_ratgeber_v2.png",
+            "width_mode": "custom",
+            "max_width": 400,
+            "mobile_max_width": 280
+          }
+        },
+        "heading_Pgwxz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Top 5: Die besten Barfußschuhe 2025 gegen Schmerzen im Test",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "author_6PYk8k": {
+          "type": "author",
+          "settings": {
+            "imageadvheadimg": "shopify://shop_images/adv_doktor_dr_weber.jpg",
+            "imageadvheadtext": "<p>Beitrag von Dr. Markus Weber</p>"
+          }
+        },
+        "richtext_dhyW8e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Orthopäde testet: </strong>Welche Barfußschuhe lindern Fußschmerzen, stärken die Muskulatur, verbessern die Haltung – und bieten wirklich echten Tragekomfort?</p>"
+          }
+        },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_1.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_JztaFz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Barfußschuhe sind längst kein Nischenprodukt mehr. Denn immer mehr Menschen setzen auf die natürliche Art des Gehens. Kein Wunder, denn sie versprechen eine bessere Haltung, weniger Fuß- und Beinschmerzen und ein natürlicheres bzw. gesünderes Laufgefühl.</p><p>Doch die Wahrheit ist: Nicht jeder Schuh, der als „Barfußschuh“ verkauft wird, hält dieses Versprechen.</p>"
+          }
+        },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_2.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_XBTJC7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mein Name ist Dr. Markus Weber. Als Orthopäde mit über 20 Jahren Erfahrung habe ich bereits tausenden Menschen geholfen, wieder schmerzfreier zu gehen.</p><p>Doch viele meiner PatientInnen klagen über müde, verspannte Füße am Morgen oder Schmerzen in Knien und Rücken nach einem langen Tag oder Spaziergang.</p><p>Ein häufiger Grund? Die <strong>falschen Schuhe</strong>.</p><p>Viele hoffen, mit Barfußschuhen eine Lösung zu finden – doch stattdessen erleben sie Druckstellen, schwitzende Füße oder schnell abgenutzte Modelle.</p><p><strong>Denn nicht jeder Barfußschuh ist wirklich gesund für die Füße.</strong></p><p>Warum? Weil viele Hersteller den Trend nutzen, aber minderwertige Produkte verkaufen, die mit echtem Barfußlaufen nichts zu tun haben.</p><p>Deshalb habe ich als Orthopäde die fünf bekanntesten Barfußschuh-Marken genauer unter die Lupe genommen:</p><p><strong>Welche Barfußschuhe fördern wirklich die Fußgesundheit? Welche halten, was sie versprechen – und welcher ist 2025 der beste?</strong></p>"
+          }
+        },
+        "image_9btQ6y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_3_wide.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_rJ3nh3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Die versteckten Probleme: Warum herkömmliche Schuhe deine Füße langfristig schädigen</h4><p>Mal ehrlich: Die meisten von uns tragen Schuhe, ohne groß darüber nachzudenken.</p><p>Doch genau hier liegt das Problem.</p><p>Herkömmliche Schuhe sind oft viel zu eng, haben eine unnatürliche Dämpfung und eine starre Sohle – mit weitreichenden Folgen für unsere Füße und unseren gesamten Bewegungsapparat.</p>"
+          }
+        },
+        "image_VTr3gb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_4.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_qz3Hkf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Studien zeigen, dass <strong>über 70% aller Erwachsenen Fußfehlstellungen</strong> haben, die langfristig zu Knie-, Hüft- oder Rückenschmerzen führen können.</p><p>Warum? Weil unsere Füße in ungeeigneten Schuhen ihre natürliche Bewegungsfreiheit verlieren und die Muskulatur nach und nach abbaut.</p><p><strong>Die Folge:</strong></p><ul><li>Fehlstellungen wie Hallux Valgus, Senk-Spreizfuß oder Plattfuß</li><li>Eingeschränkte Durchblutung und kalte Füße</li><li>Verspannungen in Waden, Knien und Rücken</li><li>Erhöhtes Risiko für Gelenkverschleiß und Haltungsschäden</li></ul>"
+          }
+        },
+        "image_E3qVLC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_5.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_ycMgUk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Viele dieser Beschwerden sind <strong>direkte Folgen ungeeigneten Schuhwerks.</strong></p><p>Dennoch tragen die meisten Menschen weiterhin Modelle, die ihre Fußgesundheit Tag für Tag belasten.</p><p><strong>Hier setzen Barfußschuhe an.</strong> Sie bieten eine natürliche Alternative, indem sie den Fuß so arbeiten lassen, wie es die Natur vorgesehen hat.</p><p>Ganz ohne enge Zehenboxen, starre Sohlen oder erhöhte Absätze, die die Haltung verändern.</p><p>Statt die Füße in unnatürliche Positionen zu zwängen, ermöglichen Barfußschuhe volle Bewegungsfreiheit.</p><p>Das trainiert die Muskulatur, verbessert die Balance und entlastet Gelenke sowie Rücken – und fühlt sich dabei überraschend leicht und angenehm an.</p><p>Ein hochwertiger Barfußschuh gibt deinen Füßen den nötigen Freiraum für entspanntes, natürliches Gehen – ohne Kompromisse bei Komfort oder Qualität.</p>"
+          }
+        },
+        "image_XhXRYq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_6.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_XftrzX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Die Kriterien: Darauf kommt es bei Barfußschuhen wirklich an</h4><p>Als Orthopäde weiß ich: Nicht jeder Barfußschuh ist eine echte Alternative zu herkömmlichem Schuhwerk.</p><p>Viele Modelle bieten nicht die notwendige Flexibilität, sind aus minderwertigen Materialien gefertigt oder haben eine Form, die die natürliche Fußbewegung einschränkt – mit den gleichen negativen Folgen wie normale Schuhe.</p><p><strong>Meine 5 Kriterien für einen wirklich guten Barfußschuh:</strong></p>"
+          }
+        },
+        "heading_xDadNi": {
+          "type": "heading",
+          "settings": {
+            "text": "1. Kriterium: Anatomisch korrekte Passform – Zehenfreiheit statt Einengung",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_ghNRfi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_7_upscale.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_r4kJgR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Hauptzweck eines Barfußschuhs ist es, dem Fuß seine natürliche Bewegungsfreiheit zurückzugeben.</p><p>Ein wirklich guter Barfußschuh muss eine <strong>anatomisch geformte Zehenbox</strong> haben, die genug Platz bietet, damit die Zehen sich frei entfalten können – so wie beim natürlichen Gehen.</p><p>Problem vieler Marken: Viele Hersteller übernehmen die Form klassischer Schuhe mit spitz zulaufender Zehenbox – dadurch werden die Zehen eingequetscht.</p><p>Das kann zu Fehlstellungen wie Hallux Valgus führen und die Fußmuskulatur schwächen.</p>"
+          }
+        },
+        "heading_NC9xrp": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Kriterium: Flexible, dünne Sohle für maximalen Bodenkontakt",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_htkihh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_8.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_pEUmGQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein Barfußschuh bringt nur dann einen Vorteil, wenn die Sohle wirklich flexibel ist und dem Fuß uneingeschränkte Bewegung ermöglicht.</p><p>Das heißt, sie muss sich bei jedem Schritt natürlich mitbewegen und abrollen – fast wie barfuß laufen.</p><p>Ein guter Barfußschuh hat daher eine <strong>dünne, flexible TPU-Sohle</strong>, die den Boden spürbar macht und die Fußmuskulatur aktiv hält.</p><p>Viele günstige Marken setzen dagegen auf steife oder dicke Sohlen, die kaum nachgeben – und sich eher wie herkömmliche Sneaker anfühlen.</p><p>Andere wiederum nutzen minderwertige, zu dünne Sohlen, durch die man jeden Stein unangenehm spürt.</p>"
+          }
+        },
+        "heading_PFkaeD": {
+          "type": "heading",
+          "settings": {
+            "text": "3. Kriterium: Hochwertige, atmungsaktive Materialien",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_XjA7aE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_9.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_e6DXf6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein Barfußschuh muss sich anfühlen, als würde man gar keinen Schuh tragen.</p><p>Dazu gehört auch ein angenehmes Fußklima.</p><p>Ein guter Barfußschuh besteht aus <strong>atmungsaktiven Naturmaterialien</strong> oder High-Tech-Stoffen, die Feuchtigkeit regulieren, Schweiß vorbeugen und geruchsneutral bleiben.</p><p>Gleichzeitig sollte er <strong>wasserabweisend</strong> sein, um die Füße bei Regen und Kälte zu schützen.</p><p>Billige Modelle setzen auf Kunstleder oder synthetische Materialien, die kaum Luft durchlassen.  Dadurch staut sich Feuchtigkeit, die Füße beginnen zu schwitzen, und unangenehme Gerüche können sich schnell entwickeln.</p>"
+          }
+        },
+        "heading_P8WaUK": {
+          "type": "heading",
+          "settings": {
+            "text": "4. Kriterium: Langlebigkeit & hochwertige Verarbeitung",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_BPmqxz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_10.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_MgB6GR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Barfußschuhe müssen flexibel sein, aber das bedeutet nicht, dass sie nach wenigen Monaten auseinanderfallen sollten. Ein wirklich hochwertiger Barfußschuh hält selbst bei <strong>täglicher Nutzung mehrere Jahre</strong>, ohne dass sich Nähte lösen oder die Sohle sich abnutzt.</p><p>Viele günstige Modelle zeigen bereits nach wenigen Monaten erste Schäden: Nähte reißen, die Sohle löst sich – und der Schuh wird zur Fehlinvestition.</p>"
+          }
+        },
+        "heading_RxUxKm": {
+          "type": "heading",
+          "settings": {
+            "text": "5. Kriterium: Orthopädisch sinnvolles Design",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_q3aYWc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_11.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_pTwT64": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein Barfußschuh ist mehr als nur ein Trend – er soll die Fußgesundheit langfristig fördern. Doch das funktioniert nur, wenn er richtig entwickelt wurde.</p><p>Wird ein Barfußschuh <strong>nicht von OrthopädInnen mitentwickelt</strong>, fehlt es oft an Stabilität. Das kann zu Fehlhaltungen, Überlastungen oder sogar Schmerzen führen.</p><p>Ohne das nötige Fachwissen entstehen zudem Schuhe mit <strong>falscher Druckverteilung</strong>, die den Fuß unnötig belasten, anstatt ihn zu entlasten.</p><p>Im schlimmsten Fall führt das zu Fehlentwicklungen, die mehr schaden als nutzen.</p><h4>Barfußschuhe im Test: Die 5 beliebtesten im Vergleich</h4><p>Ich habe die fünf meistverkauften Barfußschuhe am Markt genauer angesehen und anhand entscheidender Kriterien bewertet.</p><h3>1. Platz & Testsieger: Freiluftkind</h3>"
+          }
+        },
+        "image_3eJUcd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_12.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_BpJ8UM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Freiluftkind setzt neue Maßstäbe in Sachen Barfußschuhe.</p><p>Während viele Marken nur optisch nachziehen, steckt bei Freiluftkind echte <strong>orthopädische Expertise</strong> dahinter. Gemeinsam mit <strong>Dr. Lothar Krüger</strong> entwickelt, sorgt die <strong>ergonomische Passform</strong> für eine natürliche Fußstellung und maximale Bewegungsfreiheit.</p><p>Dank der <strong>extra-breiten Zehenbox</strong> haben deine Füße endlich den Platz, den sie brauchen – statt eingequetscht zu werden wie bei vielen anderen „Barfußschuhen“.</p><p>Die <strong>flexible TPU-Sohle</strong> ermöglicht echtes Barfußgefühl, ohne die Schutzfunktion zu vernachlässigen.</p><p><strong>Atmungsaktive Materialien</strong> verhindern Schwitzen und Gerüche – ein häufiges Problem bei günstigen Modellen.</p><p>Und während andere Schuhe nach Monaten auseinanderfallen, überzeugt Freiluftkind mit <strong>robuster Verarbeitung, die jahrelang hält</strong> – das bestätigen auch viele NutzerInnen in meiner Praxis.</p><p>Modelle wie der Everest ähneln optisch klassischen Sneakern, bieten aber alle Vorteile eines echten Barfußschuhs.</p><p>Pluspunkt: Dank des Lagers in Braunschweig erfolgt der Versand besonders schnell – und auch Retouren sind unkompliziert.</p><p>Aktuell gibt es ein exklusives Angebot, bei dem man sogar bis zu <strong>50%</strong> sparen kann.</p>"
+          }
+        },
+        "button_WCgG78": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Zur Website von Freiluftkind",
+            "url": "https://freiluftkind.de/collections/barfussschuhe",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "liquid_myithW": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin: 15px;\"></div>"
+          }
+        },
+        "heading_9Y6Afi": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Platz: Outdoorheld",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_rU9RLf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_13.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_myqUJA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Outdoorheld positioniert sich als Hersteller hochwertiger Barfußschuhe und wirbt mit exzellenten Materialien und einer angenehmen Passform.</p><p>Doch in der Praxis zeigt sich, dass die Qualität nicht mit den Erwartungen mithalten kann.</p><p>Besonders die <strong>Sohle nutzt sich schnell ab</strong>, was nicht nur die Haltbarkeit, sondern auch den Laufkomfort beeinträchtigt. Außerdem berichten einige Nutzer von Problemen mit den Nähten, die nach wenigen Monaten <strong>erste Risse</strong> zeigen.</p><p>Ein weiteres Problem: Die Schuhe sind nicht optimal imprägniert, sodass <strong>Feuchtigkeit schnell eindringt</strong> – und die Füße nass und kalt werden.</p><p>Besonders im Herbst und Winter kann das unangenehm werden, da <strong>nasse Füße</strong> die Muskeln auskühlen, die natürliche Fußfunktion stören und das Risiko für Fehlbelastungen erhöhen.</p><p>Preislich liegt es fast auf dem Niveau von Freiluftkind, bietet aber deutlich weniger Haltbarkeit.</p>"
+          }
+        },
+        "heading_WHGnJD": {
+          "type": "heading",
+          "settings": {
+            "text": "3. Platz: Feldluft",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_tPGRgd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_14.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_Tk4yXR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Feldluft bewirbt seine Schuhe als „perfekte Barfußerfahrung“, doch aus orthopädischer Sicht erfüllt das Modell diese Versprechen nur bedingt.</p><p>Die Sohle ist <strong>zu dick und unflexibel</strong>, sodass das Barfußgefühl fast komplett verloren geht. Am Ende fühlt es sich eher wie ein normaler Sneaker an – <strong>und dann kann man es auch gleich lassen.</strong></p><p>Außerdem fällt die <strong>Passform schmal</strong> aus, was seitlich drückt und die natürliche Zehenspreizung einschränkt.</p><p>Auch das Material ist nicht optimal gewählt: Viele Modelle sind <strong>wenig atmungsaktiv</strong>, was zu starkem Schwitzen führen kann. Ein häufiger Auslöser für Hautreizungen und Fußpilz.</p><p>Insgesamt fehlt es Feldluft-Schuhen an Flexibilität, Ergonomie und Komfort – wer ein echtes Barfußgefühl sucht, wird enttäuscht.</p>"
+          }
+        },
+        "heading_6bFdKp": {
+          "type": "heading",
+          "settings": {
+            "text": "4. Platz: Röck Performance",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_whyDXX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_16.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_TfAhEy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Röck Performance vermarktet sich als Premium-Marke, doch das Preis-Leistungs-Verhältnis überzeugt nicht.</p><p>Aus orthopädischer Sicht sind die Schuhe zwar optisch ansprechend und bieten eine gewisse Bewegungsfreiheit, doch es gibt einige Schwachstellen.</p><p>Besonders die Haltbarkeit sorgt für Kritik: Die Sohle zeigt bereits nach wenigen Monaten <strong>Abnutzungserscheinungen</strong>, vor allem im Fersenbereich.</p><p>Das ist problematisch, denn eine <strong>abgenutzte Sohle</strong> kann den Fuß in eine unnatürliche Stellung zwingen und <strong>Fehlbelastungen</strong> hervorrufen.</p><p>Zudem fühlen sich viele Nutzer von der Materialqualität enttäuscht.</p><p>Gerade bei einem hochpreisigen Modell sollte die Verarbeitung hochwertig sein, doch hier berichten einige von frühzeitig reißenden Nähten und Druckstellen durch mangelnde Polsterung.</p><p>Wer Wert auf Langlebigkeit legt, ist mit Freiluftkind deutlich besser beraten.</p>"
+          }
+        },
+        "heading_4Gke3L": {
+          "type": "heading",
+          "settings": {
+            "text": "5. Platz: Podomax",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_xmyg8p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_17.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_AcYb8w": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Podomax ist die größte Enttäuschung im Test und zeigt, dass ein niedriger Preis oft auf Kosten der Qualität geht.</p><p>Die <strong>Sohle ist viel zu steif</strong> und verhindert jegliches Barfußgefühl, während die <strong>künstlichen Materialien</strong> kaum Atmungsaktivität bieten – die Füße schwitzen stark, und unangenehme Gerüche sind vorprogrammiert.</p><p>Hinzu kommt die <strong>miserable Verarbeitung</strong>: Bereits nach wenigen Wochen zeigen sich Risse und Abnutzungserscheinungen.</p><p>Podomax verkauft <strong>billige Massenware</strong> mit einem Barfuß-Label, doch mit echtem Barfußlaufen hat das nichts zu tun.</p><p>Definitiv keine Empfehlung!</p>"
+          }
+        },
+        "image_VC6fUi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_15.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_XzhWbV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Gesamtfazit zu den 5 getesteten Barfußschuhen</h4><p>Barfußschuhe sind eine echte Revolution für gesunde Füße.</p><p>Allerdings <strong>nicht jedes Modell hält, was es verspricht.</strong></p><p><strong>Das Problem?</strong> Viele Barfußschuhe sind entweder zu steif, minderwertig verarbeitet oder nutzen sich nach wenigen Monaten ab.</p><p>Nach einem umfassenden Vergleich ist <strong>Freiluftkind mein klarer Favorit.</strong></p><p>Er schneidet in allen 5 Kategorien deutlich besser ab als der Rest.</p><p>✅ <strong>Bester Tragekomfort:</strong> Entwickelt mit Orthopäden für eine natürliche Fußstellung</p><p>✅ <strong>Beste Sohle:</strong> Dünn & flexibel für echtes Barfußgefühl</p><p>✅ <strong>Beste Materialqualität:</strong> Atmungsaktive Stoffe – kein Schwitzen, keine Gerüche</p><p>✅ <strong>Langlebig & hochwertig:</strong> Ein Schuh für Jahre, nicht Monate</p><p>✅ <strong>Modernes Design:</strong> Manche Modelle sehen aus wie stylishe Sneaker</p><p>Während Outdoorheld, Feldluft, Röck Performance und Podomax in entscheidenden Kategorien Schwächen zeigen, überzeugt <strong>Freiluftkind</strong> in allen Bereichen mit <strong>höchster Qualität</strong>.</p><p>Auch die positiven Kundenbewertungen (<strong>über 350.000</strong>) sprechen für sich: Weniger Schmerzen, mehr Tragekomfort – dazu begeistern Haltbarkeit und Design immer wieder.</p><p>Ich finde man merkt, dass Freiluftkind von Anfang an mit einem klaren Anspruch entwickelt wurde: <strong>keine Kompromisse bei Qualität, Passform und Funktionalität!</strong></p><p>Für mich eine klare Empfehlung!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_hK7Qeb",
+        "logo_cCfFMm",
+        "heading_Pgwxz9",
+        "author_6PYk8k",
+        "richtext_dhyW8e",
+        "image_AF7UjR",
+        "richtext_JztaFz",
+        "image_Fjc3nH",
+        "richtext_XBTJC7",
+        "image_9btQ6y",
+        "richtext_rJ3nh3",
+        "image_VTr3gb",
+        "richtext_qz3Hkf",
+        "image_E3qVLC",
+        "richtext_ycMgUk",
+        "image_XhXRYq",
+        "richtext_XftrzX",
+        "heading_xDadNi",
+        "image_ghNRfi",
+        "richtext_r4kJgR",
+        "heading_NC9xrp",
+        "image_htkihh",
+        "richtext_pEUmGQ",
+        "heading_PFkaeD",
+        "image_XjA7aE",
+        "richtext_e6DXf6",
+        "heading_P8WaUK",
+        "image_BPmqxz",
+        "richtext_MgB6GR",
+        "heading_RxUxKm",
+        "image_q3aYWc",
+        "richtext_pTwT64",
+        "image_3eJUcd",
+        "richtext_BpJ8UM",
+        "button_WCgG78",
+        "liquid_myithW",
+        "heading_9Y6Afi",
+        "image_rU9RLf",
+        "richtext_myqUJA",
+        "heading_WHGnJD",
+        "image_tPGRgd",
+        "richtext_Tk4yXR",
+        "heading_6bFdKp",
+        "image_whyDXX",
+        "richtext_TfAhEy",
+        "heading_4Gke3L",
+        "image_xmyg8p",
+        "richtext_AcYb8w",
+        "image_VC6fUi",
+        "richtext_XzhWbV"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "rich_text_pz64Qa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fWi6Ni": {
+          "type": "heading",
+          "settings": {
+            "text": "Exklusives Angebot",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NMytck": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Freiluftkind bietet ein exklusives Angebot, das keine Wünsche offen lässt:</p><p><strong>1 Paar Freiluftkind Barfußschuhe</strong> – maximaler Komfort & Fußgesundheit</p><p><strong>12 Monate Garantie</strong> – risikofrei testen und selbst überzeugen</p><p><strong>Bis zu 50 % sparen</strong> – aber nur für kurze Zeit verfügbar!</p><p><strong>Gratis Versand & einfache Retouren</strong></p>"
+          }
+        },
+        "button_TAizMM": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Jetzt sichern – bevor das Angebot endet!",
+            "url": "https://freiluftkind.de/collections/barfussschuhe",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fWi6Ni",
+        "richtext_NMytck",
+        "button_TAizMM"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#242424",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_z66jka": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_y6BNWJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://dailyrituals.news/impressum/\" title=\"https://dailyrituals.news/impressum/\">Impressum</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y6BNWJ"
+      ],
+      "custom_css": [
+        "p {font-size: 12px;}",
+        ".section-full {padding-top: 32px; padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "freiluftkind_adv_controls_QDaFVC",
+    "rich_text_cTKqUt",
+    "freiluftkind_adv_text_kytcNe",
+    "rich_text_pz64Qa",
+    "rich_text_z66jka"
+  ]
+}
