@@ -149,12 +149,13 @@ Supported variables
 
 {% if product != blank and product.selected_variant == blank %}
 <script>
-
+  var abix = 0;
   var abId = setInterval(() => {
-    console.log(window.varify.loaded)
-    if(!window.varify.loaded) return;
+    if(++abix > 20) return clearInterval(abId);
+    if(document.querySelector('.header__logo').style.verticalAlign !== "middle") return;
+    
     clearInterval(abId);
-    if(document.querySelector('.header__logo').style.verticalAlign === "middle") {
+    
     document.querySelector('#{{ popover_id }}-selected-value').textContent = "40";
     document.querySelector('[data-size-label]').textContent = "40";
 
@@ -172,7 +173,6 @@ Supported variables
         document.querySelector('variant-picker').selectCombination({ optionValues: [ opts[0], size40.value ]})
       }
     })
-  }
 }, [50])
 </script>
 {% endif %}
