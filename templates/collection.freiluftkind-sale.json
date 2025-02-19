@@ -198,7 +198,7 @@
         "heading_fmcUUX": {
           "type": "heading",
           "settings": {
-            "text": "Bis zu 70% Rabatt zum Valentinstag",
+            "text": "Für unvergessliche Waldspaziergänge",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -207,7 +207,7 @@
         "richtext_FXRTbj": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Zeige deinen Liebsten, wie sehr du sie schätzt – mit einem Geschenk, das wirklich zählt: <strong>mehr Wohlbefinden bei jedem Schritt!</strong> Barfußschuhe fördern eine natürliche Fußbewegung, entlasten Gelenke und sorgen für ein unvergleichliches Tragegefühl.</p><p><strong>Nur für kurze Zeit: Bis zu 70% auf alles!<br/></strong>Nutze den Code <strong>LIEBE</strong> an der Kasse und sichere dir 20% Rabatt auf alle bereits reduzierten Artikel!</p>"
+            "content": "<p>Entdecke unsere <strong>Winter-Barfußschuhe</strong> für warme, gesunde Füße bei jedem Schritt – kombiniert mit unseren <strong>Kompressionssocken</strong> für optimale Durchblutung und extra Komfort. Ideal für lange Spaziergänge durch winterliche Wälder.</p>"
           }
         }
       },
