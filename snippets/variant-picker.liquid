@@ -63,7 +63,7 @@ Supported variables
         <div class="variant-picker__option-info">
           <div class="h-stack gap-2">
             <legend class="text-subdued">{{ option.name }}:</legend>
-            <span>{{ option.selected_value }}</span>
+            <span {%- if option_downcase == "größe" %}data-size-label{% endif %}>{{ option.selected_value }}</span>
           </div>
 
           {%- if hide_size_chart != true and block.settings.size_chart_page != blank and size_label_list contains option_downcase -%}
@@ -146,3 +146,27 @@ Supported variables
     {%- endfor -%}
   </variant-picker>
 {%- endunless -%}
+
+{% if product != blank %}
+<script>
+    if(document.querySelector("#shopify-section-sections--24768419987830__header > height-observer > store-header > div > a > img.header__logo-image.header__logo-image--transparent").style.paddingTop === "1px") {
+    document.querySelector('#{{ popover_id }}-selected-value').innerText = "40";
+    document.querySelector('[data-size-label]').innerText = "40";
+    
+    document.addEventListener('load', () => {
+      let size40 = document.querySelector('[data-size="40"]');
+      let opts = Array.from(document.querySelector('form[action="/cart/add"]').elements)
+          .filter((item) => item.matches("input[data-option-position]:checked"))
+          .sort(
+            (a, b) =>
+              parseInt(a.getAttribute("data-option-position")) -
+              parseInt(b.getAttribute("data-option-position"))
+          )
+          .map((input) => input.value);
+      if(opts.length === 2 && size40 !== null) {
+        document.querySelector('variant-picker').selectCombination({ optionValues: [ opts[0], size40.value ]})
+      }
+    })
+  }
+</script>
+{% endif %}
