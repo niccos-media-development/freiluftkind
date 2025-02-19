@@ -267,13 +267,14 @@
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "linear-gradient(89deg, rgba(115, 11, 28, 1) 7%, rgba(170, 31, 46, 1) 94%)",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
         "product_card_background": "",
         "product_card_text_color": ""
       }
     },
     "featured_collection_D6CHVM": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}",
         "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
@@ -304,6 +305,7 @@
     },
     "featured_collection_pKiXAR": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}",
         "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
