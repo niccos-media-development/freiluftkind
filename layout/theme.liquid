@@ -195,26 +195,6 @@ body {
 
     <main role="main" id="main" class="anchor">
       {{ content_for_layout }}
-    {% if product != blank %}
-    <script>
-        if(document.querySelector("#shopify-section-sections--24768419987830__header > height-observer > store-header > div > a > img.header__logo-image.header__logo-image--transparent").style.paddingTop === "1px") {
-        let size40 = document.querySelector('[data-size="40"]');
-        let opts = Array.from(document.querySelector('form[action="/cart/add"]').elements)
-            .filter((item) => item.matches("input[data-option-position]:checked"))
-            .sort(
-              (a, b) =>
-                parseInt(a.getAttribute("data-option-position")) -
-                parseInt(b.getAttribute("data-option-position"))
-            )
-            .map((input) => input.value);
-        if(opts.length === 2 && size40 !== null) {
-          debugger;
-          document.querySelector('variant-picker').selectCombination({ optionValues: [ opts[0], size40.value ]})
-        }
-      }
-    </script>
-    {% endif %}
-
       {%- comment -%}
       IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
       added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
