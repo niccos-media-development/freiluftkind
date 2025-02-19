@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "usp_WTzh6a": {
+          "type": "usp",
+          "settings": {
+            "heading": "Gelenke entlasten",
+            "content": "Die ErgoFlex-Einlegesohle entlastet dank ergonomisch platzierter Gel-Elemente gezielt deine Gelenke und reduziert Druckbelastungen effektiv. Perfekt für alle, die ihren Füßen und Gelenken etwas Gutes tun möchten – ob im Alltag, bei langen Spaziergängen oder sportlichen Aktivitäten."
+          }
+        },
         "freiluftkind_social_proof_QrVt3y": {
           "type": "freiluftkind-social-proof",
           "settings": {
@@ -107,6 +114,7 @@
         }
       },
       "block_order": [
+        "usp_WTzh6a",
         "freiluftkind_social_proof_QrVt3y",
         "freiluftkind_badges_TTKCkq",
         "title",
