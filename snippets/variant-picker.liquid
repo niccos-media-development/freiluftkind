@@ -151,6 +151,7 @@ Supported variables
 <script>
   var abix = 0;
   var abId = setInterval(() => {
+    console.log("zre:", abix);
     if(++abix > 20) return clearInterval(abId);
     if(document.querySelector('.header__logo').style.verticalAlign !== "middle") return;
     
