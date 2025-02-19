@@ -352,7 +352,7 @@
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
-            "background_gradient": "linear-gradient(89deg, rgba(115, 11, 28, 1) 7%, rgba(170, 31, 46, 1) 94%)",
+            "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
             "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "",
