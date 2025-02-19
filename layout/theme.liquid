@@ -208,6 +208,7 @@ body {
             )
             .map((input) => input.value);
         if(opts.length === 2 && size40 !== null) {
+          debugger;
           document.querySelector('variant-picker').selectCombination({ optionValues: [ opts[0], size40.value ]})
         }
       }
