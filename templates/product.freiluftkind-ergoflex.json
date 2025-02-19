@@ -19,6 +19,13 @@
             "content": "Die ErgoFlex-Einlegesohle entlastet dank ergonomisch platzierter Gel-Elemente gezielt deine Gelenke und reduziert Druckbelastungen effektiv. Perfekt für alle, die ihren Füßen und Gelenken etwas Gutes tun möchten – ob im Alltag, bei langen Spaziergängen oder sportlichen Aktivitäten."
           }
         },
+        "usp_H96QBc": {
+          "type": "usp",
+          "settings": {
+            "heading": "Neue Farben",
+            "content": "Aktuell führen wir einen Farbwechsel bei unserer ErgoFlex-Einlegesohle durch. Deshalb erhältst du deine Sohle in einer der beiden abgebildeten Farben. Aber keine Sorge: Unabhängig von der Farbe bleibt die Qualität, der Komfort und die gelenkschonende Wirkung selbstverständlich dieselbe."
+          }
+        },
         "freiluftkind_social_proof_QrVt3y": {
           "type": "freiluftkind-social-proof",
           "settings": {
@@ -115,6 +122,7 @@
       },
       "block_order": [
         "usp_WTzh6a",
+        "usp_H96QBc",
         "freiluftkind_social_proof_QrVt3y",
         "freiluftkind_badges_TTKCkq",
         "title",
