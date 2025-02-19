@@ -149,6 +149,8 @@ Supported variables
 
 {% if product != blank and product.selected_variant == blank %}
 <script>
+    setTimeout(() => {
+
     if(document.querySelector('.header__logo').style.verticalAlign === "middle") {
     document.querySelector('#{{ popover_id }}-selected-value').textContent = "40";
     document.querySelector('[data-size-label]').textContent = "40";
@@ -170,5 +172,6 @@ Supported variables
       }
     })
   }
+}, [700])
 </script>
 {% endif %}
