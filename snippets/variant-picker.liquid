@@ -153,7 +153,7 @@ Supported variables
     document.querySelector('#{{ popover_id }}-selected-value').innerText = "40";
     document.querySelector('[data-size-label]').innerText = "40";
     
-    document.addEventListener('load', () => {
+    window.addEventListener('load', () => {
       let size40 = document.querySelector('[data-size="40"]');
       let opts = Array.from(document.querySelector('form[action="/cart/add"]').elements)
           .filter((item) => item.matches("input[data-option-position]:checked"))
