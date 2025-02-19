@@ -150,8 +150,8 @@ Supported variables
 {% if product != blank and product.selected_variant == blank %}
 <script>
     if(document.querySelector('.header__logo').style.verticalAlign === "middle") {
-    document.querySelector('#{{ popover_id }}-selected-value').innerText = "40";
-    document.querySelector('[data-size-label]').innerText = "40";
+    document.querySelector('#{{ popover_id }}-selected-value').textContent = "40";
+    document.querySelector('[data-size-label]').textContent = "40";
     
     window.addEventListener('load', () => {
       let size40 = document.querySelector('[data-size="40"]');
