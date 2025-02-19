@@ -44,7 +44,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {% endif %}
 
     {%- render 'funny-code' -%}
-{{ content_for_header }}
+
     <!-- Varify.io® code for Freiluftkind-->
 <script>
   window.varify = window.varify || {};
@@ -168,7 +168,7 @@ body {
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
 
-    
+    {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'freiluftkind.css' | asset_url | stylesheet_tag: preload: true -}}
