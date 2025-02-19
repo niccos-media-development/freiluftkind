@@ -189,7 +189,7 @@
         "image_RVw6eP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/header_valentinstag.png",
+            "image": "shopify://shop_images/wald_freiluftkind_sale.jpg",
             "width_mode": "custom",
             "max_width": 500,
             "mobile_max_width": 400
@@ -223,8 +223,8 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "",
-        "background_gradient": "linear-gradient(89deg, rgba(115, 11, 28, 1) 7%, rgba(170, 31, 46, 1) 94%)",
+        "background": "#57664d",
+        "background_gradient": "",
         "text_color": "#ffffff"
       }
     },
