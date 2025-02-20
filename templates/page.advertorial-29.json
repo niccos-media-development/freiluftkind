@@ -91,19 +91,19 @@
             "imageadvheadtext": "<p>Erfahrungsbericht von Robert Oelke</p>"
           }
         },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-29.1.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "richtext_dhyW8e": {
           "type": "richtext",
           "settings": {
             "content": "<p>Sind Sie auch auf das Versprechen von „gesunden Barfußschuhen“ für unglaublich niedrige Preise hereingefallen oder fragen Sie sich, wie das möglich ist? Sie dachten, Sie tun Ihrem Körper etwas Gutes, sparen sogar noch Geld – und am Ende zahlen Sie doppelt.</p><p><strong>Vielleicht kennen Sie dieses Szenario: </strong>Ihre Schuhe fallen schon nach wenigen Wochen auseinander; die Schuhe brauchen Monate, bis sie ankommen; statt Linderung spüren Sie noch mehr Schmerzen und wenn es um eine Rückgabe geht, hängen Sie in endlosen Prozessen fest.</p><p>Genau diese Probleme höre ich täglich von Menschen aus meinem Bekanntenkreis, die mir davon berichten, nachdem sie enttäuscht wurden. Sie merken oft gar nicht, dass Sie auf einen Anbieter hereingefallen sind, der sich hinter einer Marke im Ausland versteckt, billig produzierte Ware aus China verkauft und bei Problemen oder Fragen keinen erreichbaren Kundensupport anbietet.</p>"
-          }
-        },
-        "image_AF7UjR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/adv-17-3.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
           }
         },
         "heading_GB6aVn": {
@@ -258,8 +258,8 @@
         "logo_cCfFMm",
         "heading_Pgwxz9",
         "author_6PYk8k",
-        "richtext_dhyW8e",
         "image_AF7UjR",
+        "richtext_dhyW8e",
         "heading_GB6aVn",
         "richtext_JztaFz",
         "image_FxQWfC",
