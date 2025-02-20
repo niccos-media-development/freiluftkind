@@ -59,7 +59,7 @@
             "bullet_points": "<ul><li>Das deutsche Original</li><li>Mit Orthopäden entwickelt</li><li>Schmerzlinderung für den Körper</li><li>Komfortabel und bequem</li><li>Kundenservice per Mail & Telefon</li></ul>",
             "sidebar_image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_schwarz_v2.jpg",
             "cta_button_text": "JETZT VERFÜGBARKEIT PRÜFEN",
-            "cta_button_link": "shopify://products/kepler-winter",
+            "cta_button_link": "shopify://collections/barfussschuhe",
             "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
             "bullet_icon": "shopify://shop_images/Icon.svg",
             "bullet_bg_color": "#242424",
@@ -277,7 +277,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Jetzt 50% Rabatt sichern!",
-            "url": "shopify://products/kepler-winter",
+            "url": "shopify://collections/barfussschuhe",
             "background": "",
             "text_color": ""
           }
