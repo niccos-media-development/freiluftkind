@@ -130,6 +130,15 @@
             "content": "<p>Wussten Sie, dass<strong> jeder sechste Erwachsene in Deutschland unter Kniebeschwerden leidet</strong>? Dabei spielen weder das Alter noch das Gewicht die Hauptrolle, selbst junge, sportliche Menschen sind betroffen. Unsere Knie sind eines der komplexesten Gelenke im Körper. Sie bestehen aus zwei Gelenken, dem Kniekehlengelenk und dem Kniescheibengelenk, die gemeinsam die Beweglichkeit unserer Beine gewährleisten.</p><p>Doch genau diese Gelenke sind auch anfällig für Probleme. Die häufigsten Ursachen für Schmerzen sind:</p><ul><li><strong>Druckschmerzen an der Innenseite</strong> durch das Pes-anserinus-Syndrom.</li><li><strong>Arthrose</strong>, der schleichende Verschleiß der Gelenke, der Schmerzen überall im Knie verursachen kann.</li><li><strong>Läuferknie</strong>, ein Schmerz an der Außenseite, der häufig durch eine Überlastung der Bänder entsteht.</li><li><strong>Quadrizepssehnenentzündung</strong>, Schmerzen oberhalb der Kniescheibe, die beim Beugen des Knies auftreten.</li></ul><p>Diese Beschwerden sind nicht nur schmerzhaft, sie schränken auch die Lebensqualität massiv ein.</p>"
           }
         },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flk-adv-28-2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_BEkBjE": {
           "type": "heading",
           "settings": {
@@ -143,15 +152,6 @@
           "type": "richtext",
           "settings": {
             "content": "<p>Die Sohle hat sich gelöst, und das Material hat meine Haut gerieben, bis ich Blasen hatte. Meine Zehen fühlten sich zusammengedrückt an und nach nur einem kurzen Spaziergang hatte ich sogar noch zusätzliche Blasen an den Zehen. Ich dachte, ich könnte die Schuhe zurückschicken – aber der Shop war nicht erreichbar. Der Kundendienst kam aus Hongkong, und ich hätte fast 20 Euro für die Retoure bezahlen müssen. Ich fühlte mich betrogen und war enttäuscht.</p><p>Stellen Sie sich vor: Anstatt Probleme zu lösen, verstärken diese billigen „Barfußschuhe“ gesundheitliche Beschwerden und <strong>rauben Ihnen Zeit und Nerven</strong>.</p>"
-          }
-        },
-        "image_Fjc3nH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/kepler_adv_2.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
           }
         },
         "heading_n3fEBY": {
@@ -263,9 +263,9 @@
         "heading_GB6aVn",
         "image_FxQWfC",
         "richtext_JztaFz",
+        "image_Fjc3nH",
         "heading_BEkBjE",
         "richtext_XBTJC7",
-        "image_Fjc3nH",
         "heading_n3fEBY",
         "richtext_rJ3nh3",
         "image_fMWpAM",
