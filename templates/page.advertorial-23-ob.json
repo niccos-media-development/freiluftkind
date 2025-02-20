@@ -11,12 +11,447 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "80ch"
+      }
+    },
+    "freiluftkind_adv_controls_QDaFVC": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": true,
+        "remove_footer": true,
+        "hide_product_info": false
+      }
+    },
+    "rich_text_cTKqUt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtU6dx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kategorie: Gesunde Schuhe</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtU6dx"
+      ],
+      "custom_css": [
+        ".section-full {padding: 8px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#242424",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "freiluftkind_adv_text_kytcNe": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "sidebar_hK7Qeb": {
+          "type": "sidebar",
+          "settings": {
+            "title": "<p><strong>Experten empfehlen:</strong></p>",
+            "bullet_points": "<ul><li>Vermindern Wassereinlagerungen</li><li>Mit Orthopäden entwickelt</li><li>Komfortabel und bequem</li><li>Das deutsche Original</li><li>Kundenservice per Mail & Telefon</li></ul>",
+            "sidebar_image": "shopify://shop_images/freiluftkind_everest_all.jpg",
+            "cta_button_text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "cta_button_link": "shopify://collections/barfussschuhe",
+            "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
+            "bullet_icon": "shopify://shop_images/Icon.svg",
+            "bullet_bg_color": "#242424",
+            "bullet_text_color": "#ffffff"
+          }
+        },
+        "logo_cCfFMm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/gesundheitsmagazin.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 250
+          }
+        },
+        "heading_Pgwxz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Neueste Forschungen zu Wassereinlagerungen zeigen: So machen Sie Schluss mit geschwollenen Beinen und Füßen!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "author_6PYk8k": {
+          "type": "author",
+          "settings": {
+            "imageadvheadimg": "shopify://shop_images/kalorienschuh_review_1.jpg",
+            "imageadvheadtext": "<p>Beitrag von Heike Berger | 20.02.2025</p>"
+          }
+        },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-23-1.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_GB6aVn": {
+          "type": "heading",
+          "settings": {
+            "text": "Wie ich nach 2 Jahren endlich meinen Körper nachhaltig entwässert und 5kg an Wasser verloren habe – völlig natürlich und ohne chemische Wassertabletten!",
+            "heading_tag": "h6",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_dhyW8e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Menschen, die unter Wassereinlagerungen (oft auch als Ödeme bezeichnet) leiden, wissen, wie vielschichtig und hartnäckig dieses Problem sein kann.</p><p>Bei einigen beginnen die Wassereinlagerungen nach einer Schwangerschaft oder durch <strong>hormonelle Veränderungen</strong>. Andere wiederum kämpfen aufgrund von <strong>Übergewicht</strong> und mangelnder Bewegung damit. Manchmal trifft es Menschen aber auch völlig unerwartet, und der Körper beginnt ohne erkennbaren Grund, Wasser einzulagern.</p><p>Das Frustrierende an Wassereinlagerungen ist, dass sie sowohl das äußere Erscheinungsbild als auch die Gesundheit beeinträchtigen. Plötzlich schämt man sich für die <strong>geschwollenen Beine</strong>, die eigentlich gar nicht so dick sein sollten. Für die Füße, an denen man die<strong> Knöchel kaum noch erkennen kann</strong>. Oder für die Finger, die ihr ganzes Leben lang normal ausgesehen haben, sich nun aber in dicke Wurstfinger verwandeln.</p><p>Besonders unangenehm wird es im Sommer, wenn man Sandalen oder leichte Sommerkleider trägt und die Blicke anderer Menschen auf sich zieht. Doch damit nicht genug: Wassereinlagerungen stellen auch ein ernsthaftes <strong>gesundheitliches Problem</strong> dar. Unternehmen Sie nichts dagegen, treten nach einigen Monaten oft <strong>Gelenkbeschwerden</strong> auf. Denn das zusätzliche Gewicht durch die Wassereinlagerungen belastet die Gelenke erheblich.</p><p>Das Schlimmste daran: Es scheint, als gäbe es keine echte Lösung. <strong>Wassertabletten</strong> bringen oft <strong>nur kurzfristige Erleichterung</strong> und sind vollgepackt mit Chemie und unangenehmen Nebenwirkungen. Ich selbst habe fast zwei Jahre lang mit Wassereinlagerungen gekämpft. Bis ich schließlich die Nase voll hatte und das Problem selbst in die Hand genommen habe.</p><p>Nach monatelanger Recherche habe ich eine Entdeckung gemacht, die es mir ermöglichte, meinen Körper innerhalb weniger Wochen vollständig von den Wassereinlagerungen zu befreien – und das ganz ohne Nebenwirkungen oder chemische Wassertabletten.</p><p><strong>Neueste Forschungen belegen:</strong> Die richtige Fußgesundheit und das passende Schuhwerk können entscheidend dazu beitragen, Wassereinlagerungen zu verhindern und sogar zu reduzieren.</p>"
+          }
+        },
+        "image_FxQWfC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-23-2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_NERUax": {
+          "type": "heading",
+          "settings": {
+            "text": "Meine Geschichte mit Wassereinlagerungen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JztaFz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hallo, ich bin Heike Berger und habe selbst fast 2 Jahre lang mit hartnäckigen Wassereinlagerungen gekämpft. Besonders betroffen waren meine Beine, Füße und Hände – das Resultat war nicht nur ein unästhetisches Erscheinungsbild, sondern auch <strong>gesundheitliche</strong> <strong>Beschwerden</strong>.</p><p>Die geschwollenen Beine führten zu Gelenkschmerzen und meine Füße fühlten sich oft so schwer an, dass jeder Schritt eine Qual war. Ich probierte alles Mögliche aus: <strong>Wassertabletten</strong>,<strong> Brennnesseltee </strong>und<strong> Lymphdrainagen</strong>. Doch nichts davon brachte langfristigen Erfolg. Die Tabletten <strong>wirkten nur kurzfristig</strong> und kamen mit einer Reihe von <strong>Nebenwirkungen</strong>, wie Kopfschmerzen und Muskelkrämpfen.</p><p>Als dann auch noch der Sommer nahte, wurde mir klar: Ich brauche eine nachhaltige, natürliche Lösung, um meine Wassereinlagerungen endlich loszuwerden.</p>"
+          }
+        },
+        "heading_NAWMi9": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Wassertabletten nicht die Lösung sind",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6Rjiti": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ich möchte Ihnen ehrlich sagen, dass ich in der Vergangenheit selbst auf Wassertabletten gesetzt habe, doch langfristig erwiesen sie sich als <strong>ineffektiv</strong>. Sie entwässern den Körper zwar kurzfristig, kommen jedoch oft mit <strong>starken Nebenwirkungen</strong> und bekämpfen nicht die Ursache der Wassereinlagerungen.</p><p>Stattdessen musste ich immer <strong>höhere Dosen</strong> nehmen, was zu einer Abwärtsspirale führte. Meine Entdeckung bietet hingegen eine nachhaltige Lösung, die das <strong>Problem an der Wurzel bekämpft</strong>, indem sie die Venen stärkt und die Durchblutung anregt.</p>"
+          }
+        },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-17-5.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_BEkBjE": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Entdeckung der Freiluftkind Barfußschuhe",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XBTJC7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Während meiner Recherche stieß ich auf die innovativen <a href=\"/collections/barfussschuhe\" title=\"Alle Barfußschuhe\">Barfußschuhe von Freiluftkind</a>. Diese Schuhe, so erfuhr ich, fördern durch ihre besondere Sohle die natürliche Fußbewegung und <strong>unterstützen </strong>damit<strong> </strong>die<strong> Blutzirkulation</strong> – ein entscheidender Faktor im Kampf gegen Wassereinlagerungen.</p><p>Ich entschied mich, es auszuprobieren, und bestellte mein erstes Paar. Nach nur wenigen Wochen bemerkte ich bereits eine <strong>deutliche Verbesserung</strong>: Meine Beine fühlten sich leichter an, die <strong>Schwellungen gingen zurück</strong>, und ich konnte mich endlich wieder schmerzfrei bewegen.</p>"
+          }
+        },
+        "heading_n3fEBY": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Freiluftkind Barfußschuhe so effektiv gegen Wassereinlagerungen wirken:",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rJ3nh3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Förderung der Blutzirkulation: </strong>Die Freiluftkind Barfußschuhe fördern eine natürliche Fußbewegung, die die Durchblutung in den Beinen und Füßen aktiv unterstützt. Diese verstärkte Zirkulation hilft dabei, Flüssigkeitsansammlungen abzutransportieren und Schwellungen effektiv zu reduzieren.</p><p><strong>Natürliche Fußbewegung für gesunde Venen: </strong>Durch die flexible Sohle und die breite Zehenbox ermöglichen die Freiluftkind-Schuhe eine freie Bewegung des Fußes. Diese Bewegungsfreiheit stimuliert nicht nur die Fußmuskulatur, sondern entlastet auch die Venen, die für den Abtransport von überschüssiger Flüssigkeit aus dem Gewebe verantwortlich sind.</p><p><strong>Druckentlastung und Komfort: </strong>Enge Schuhe verschlimmern häufig das Problem der Wassereinlagerungen, indem sie Druck auf die Venen ausüben. Die Barfußschuhe von Freiluftkind hingegen bieten großzügigen Raum für Ihre Füße und unterstützen den natürlichen Abrollvorgang. Dies sorgt für eine optimale Druckverteilung und lindert die Symptome.</p><p><strong>Natürliche Unterstützung der Entwässerung: </strong>Die Aktivierung der Muskulatur und die Anregung der Blutzirkulation durch die Barfußschuhe tragen dazu bei, dass Ihr Körper überschüssiges Wasser schneller ausscheidet. So wirken diese Schuhe wie eine natürliche Entwässerung – ganz ohne chemische Zusätze.</p><p><strong>Experten und Orthopäden sind sich einig: </strong>Die innovative Sohlenkonstruktion der Freiluftkind Barfußschuhe ist ein Gamechanger. Studien zeigen, dass Barfußlaufen die Blutzirkulation um bis zu 20 % verbessern und damit <strong>Schwellungen deutlich reduzieren </strong>kann. Durch das regelmäßige Tragen dieser Schuhe können Sie Ihre Wassereinlagerungen dauerhaft in den Griff bekommen – <strong>ohne</strong> auf <strong>Medikamente</strong> zurückgreifen zu müssen.</p>"
+          }
+        },
+        "image_fMWpAM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-23-3.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_kChkyk": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Sie jetzt handeln sollten - Ihre natürliche Lösung gegen Wassereinlagerungen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qz3Hkf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Warten Sie nicht länger! Lassen Sie sich nicht von Wassereinlagerungen und geschwollenen Beinen, Füßen oder Händen den Alltag verderben. Die Barfußschuhe bieten Ihnen eine natürliche und nachhaltige Lösung.</p><p>Holen Sie sich jetzt Ihr eigenes Paar Barfußschuhe und spüren Sie, wie Ihr Körper leichter, Ihre Schritte beschwerdefreier und Ihre Füße gesünder werden. <strong>Ein kleiner Tipp: Sichern Sie sich jetzt 50% Rabatt auf Ihr erstes Paar Barfußschuhe!</strong></p>"
+          }
+        },
+        "button_WCgG78": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Jetzt 50% Rabatt sichern!",
+            "url": "shopify://collections/barfussschuhe",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_hK7Qeb",
+        "logo_cCfFMm",
+        "heading_Pgwxz9",
+        "author_6PYk8k",
+        "image_AF7UjR",
+        "heading_GB6aVn",
+        "richtext_dhyW8e",
+        "image_FxQWfC",
+        "heading_NERUax",
+        "richtext_JztaFz",
+        "heading_NAWMi9",
+        "richtext_6Rjiti",
+        "image_Fjc3nH",
+        "heading_BEkBjE",
+        "richtext_XBTJC7",
+        "heading_n3fEBY",
+        "richtext_rJ3nh3",
+        "image_fMWpAM",
+        "heading_kChkyk",
+        "richtext_qz3Hkf",
+        "button_WCgG78"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "freiluftkind_testimonials_RyQMEJ": {
+      "type": "freiluftkind-testimonials",
+      "blocks": {
+        "testimonial_gcP4XV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/roman_heibling2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Klaus H.",
+            "content": "<p>„Barfußschuhe haben mir geholfen, wieder schmerzfrei zu gehen. Meine Knie danken es mir täglich!“</p>"
+          }
+        },
+        "testimonial_6xrFic": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kepler_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Petra M.",
+            "content": "<p>„Ich habe endlich keine Rückenschmerzen mehr. Ich wünschte, ich hätte sie früher ausprobiert!“</p>"
+          }
+        },
+        "testimonial_NxXK99": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ronny_helling.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Jürgen G.",
+            "content": "<p>\"Wir haben die Schuhe mittlerweile für alle Familienmitglieder gekauft - Gesundheit ist so wichtig!\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_gcP4XV",
+        "testimonial_6xrFic",
+        "testimonial_NxXK99"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Tausende zufriedene Kunden berichten von ihrem „Aha-Moment“, nachdem sie den Schritt zu Barfußschuhen gewagt haben:</h3>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "rich_text_8XY4wJ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3QDdEC": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3QDdEC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-full {padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_4r6XYQ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_d94FJz": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Kostenloser Versand",
+            "content": ""
+          }
+        },
+        "item_HDwz9T": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Geld-Zurück-Garantie",
+            "content": ""
+          }
+        },
+        "item_JfEbiM": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "350.000+ Kunden",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_d94FJz",
+        "item_HDwz9T",
+        "item_JfEbiM"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "select_dot_or_arrow": "arrow"
+      }
+    },
+    "rich_text_z66jka": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_y6BNWJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://freiluftkind.de/policies/legal-notice\" title=\"https://freiluftkind.de/policies/legal-notice\">Impressum</a> | <a href=\"https://freiluftkind.de/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutz</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y6BNWJ"
+      ],
+      "custom_css": [
+        "p {font-size: 12px;}",
+        ".section-full {padding-top: 32px; padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "freiluftkind_adv_controls_QDaFVC",
+    "rich_text_cTKqUt",
+    "freiluftkind_adv_text_kytcNe",
+    "freiluftkind_testimonials_RyQMEJ",
+    "rich_text_8XY4wJ",
+    "text_with_icons_4r6XYQ",
+    "rich_text_z66jka"
   ]
 }
