@@ -196,7 +196,7 @@
         "image_9btQ6y": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/taboola_new_261bbc88-9fc9-4f15-bebf-00b71324df33.png",
+            "image": "shopify://shop_images/adv_24_4.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -205,7 +205,7 @@
         "heading_tgTNGL": {
           "type": "heading",
           "settings": {
-            "text": "Vergleich mit anderen, weniger wirksamen Lösungen",
+            "text": "Die Expertenmeinung",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -214,7 +214,22 @@
         "richtext_ycMgUk": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Im Gegensatz zu billigen Dropshipper-Schuhen steht Freiluftkind für:</p><p>✅ Langlebigkeit: Kein Auseinanderfallen nach wenigen Wochen – dafür Garantie auf Qualität.</p><p>✅ Transparenz: Sitz in Deutschland, mit echtem Kundenservice und einfacher Rückgabemöglichkeit.</p><p>✅ Sicherheit: Schadstofffrei und ohne toxische Materialien, die Ihre Gesundheit gefährden.</p><p>Die billigen Schuhe, die ich gekauft habe, sahen nur gut aus. Nach einer Woche liefen sie sich bereits kaputt. Die Kepler von Freiluftkind fühlen sich dagegen wie eine Wohltat an und halten ihr Qualitätsversprechen. Ihr schlichtes Design gefällt mir gut und integriert sich gut in meinen Alltag.</p>"
+            "content": "<p>Der Sportwissenschaftler erklärte mir: „Knieschmerzen entstehen häufig durch eine muskuläre Schwäche im Hüftbereich. Wenn Sie diese Muskulatur stärken und gleichzeitig durch die richtigen Schuhe, wie die<strong> </strong>Barfußschuhe, das Knie entlasten, können <strong>viele Schmerzen gelindert oder sogar beseitigt werden</strong>.“</p><p>Diese Kombination aus Training und den passenden Schuhen hat mein eigenes Leben verändert. Ich hätte nie gedacht, dass so eine einfache Maßnahme so einen großen Unterschied machen könnte.</p>"
+          }
+        },
+        "heading_GAMCjy": {
+          "type": "heading",
+          "settings": {
+            "text": "Die positiven Effekte von Bewegung und Freiluftkind Schuhen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_RbGBpd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mit der Zeit merkte ich, wie meine Knie immer stärker wurden. Die <strong>Schmerzen</strong>, die mich über Jahre hinweg begleitet hatten, <strong>verschwanden</strong> nach und nach. Doch das Beste daran? Ich <strong>fühlte mich insgesamt fitter</strong> und beweglicher beim spielen mit meinen Söhnen. Die tägliche Bewegung, unterstützt durch gezielte Übungen und das Tragen der Freiluftkind Barfußschuhe, hatte nicht nur mein Knie entlastet, sondern auch meinen Rücken und meine Hüfte gestärkt um mit den anderen Vätern beim Fußball Turnier mithalten zu können.</p>"
           }
         },
         "image_P9wiEk": {
@@ -274,6 +289,8 @@
         "image_9btQ6y",
         "heading_tgTNGL",
         "richtext_ycMgUk",
+        "heading_GAMCjy",
+        "richtext_RbGBpd",
         "image_P9wiEk",
         "heading_6bR4LQ",
         "richtext_XftrzX",
