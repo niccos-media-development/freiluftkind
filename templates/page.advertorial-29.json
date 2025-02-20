@@ -241,10 +241,25 @@
             "mobile_max_width": 600
           }
         },
+        "heading_3dapLa": {
+          "type": "heading",
+          "settings": {
+            "text": "Fazit: Schmerzen im Knie müssen nicht sein",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kNPyDV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Knieschmerzen sind kein Schicksal, mit dem Sie sich abfinden müssen.</strong> Es gibt einfache, natürliche Wege, um die Beschwerden zu lindern und wieder beweglich zu werden. Ein gezieltes Muskeltraining, das die gesamte Bein- und Gesäßmuskulatur stärkt, in Kombination mit den Freiluftkind Barfußschuhen, kann den entscheidenden Unterschied machen.</p><p>Ich weiß, wie frustrierend und schmerzhaft Knieprobleme sein können. Aber ich habe auch erlebt, wie diese einfache Kombination aus Training und <strong>den richtigen Schuhen mein Leben verändert</strong> hat. Wenn auch Sie unter Knieschmerzen leiden, sollten Sie diesen Weg ausprobieren. Es könnte der Schlüssel zu einem schmerzfreien Leben sein.</p>"
+          }
+        },
         "heading_6bR4LQ": {
           "type": "heading",
           "settings": {
-            "text": "Jetzt risikofrei Testen oder Geld zurück!",
+            "text": "Der Geheimtipp",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -292,6 +307,8 @@
         "heading_GAMCjy",
         "richtext_RbGBpd",
         "image_P9wiEk",
+        "heading_3dapLa",
+        "richtext_kNPyDV",
         "heading_6bR4LQ",
         "richtext_XftrzX",
         "button_WCgG78"
