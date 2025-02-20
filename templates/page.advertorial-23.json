@@ -124,10 +124,19 @@
             "mobile_max_width": 600
           }
         },
+        "heading_NERUax": {
+          "type": "heading",
+          "settings": {
+            "text": "Meine Geschichte mit Wassereinlagerungen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_JztaFz": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Wussten Sie, dass<strong> jeder sechste Erwachsene in Deutschland unter Kniebeschwerden leidet</strong>? Dabei spielen weder das Alter noch das Gewicht die Hauptrolle, selbst junge, sportliche Menschen sind betroffen. Unsere Knie sind eines der komplexesten Gelenke im Körper. Sie bestehen aus zwei Gelenken, dem Kniekehlengelenk und dem Kniescheibengelenk, die gemeinsam die Beweglichkeit unserer Beine gewährleisten.</p><p>Doch genau diese Gelenke sind auch anfällig für Probleme. Die häufigsten Ursachen für Schmerzen sind:</p><ul><li><strong>Druckschmerzen an der Innenseite</strong> durch das Pes-anserinus-Syndrom.</li><li><strong>Arthrose</strong>, der schleichende Verschleiß der Gelenke, der Schmerzen überall im Knie verursachen kann.</li><li><strong>Läuferknie</strong>, ein Schmerz an der Außenseite, der häufig durch eine Überlastung der Bänder entsteht.</li><li><strong>Quadrizepssehnenentzündung</strong>, Schmerzen oberhalb der Kniescheibe, die beim Beugen des Knies auftreten.</li></ul><p>Diese Beschwerden sind nicht nur schmerzhaft, sie schränken auch die Lebensqualität massiv ein.</p>"
+            "content": "<p>Hallo, ich bin Anna Berger und habe selbst fast 2 Jahre lang mit <strong>hartnäckigen Wassereinlagerungen gekämpft</strong>. Besonders betroffen waren meine Beine, Füße und Hände – das Resultat war nicht nur ein <strong>unästhetisches Erscheinungsbild</strong>, sondern auch <strong>gesundheitliche</strong> <strong>Beschwerden</strong>.</p><p>Die geschwollenen Beine führten zu Gelenkschmerzen und meine Füße fühlten sich oft so schwer an, dass jeder Schritt eine Qual war. Ich probierte alles Mögliche aus: <strong>Wassertabletten, Brennnesseltee und Lymphdrainagen</strong>. Doch nichts davon brachte langfristigen Erfolg. Die Tabletten <strong>wirkten nur kurzfristig</strong> und kamen mit einer Reihe von <strong>Nebenwirkungen</strong>, wie Kopfschmerzen und Muskelkrämpfen.</p><p>Als dann auch noch der Sommer nahte, wurde mir klar: Ich brauche eine <strong>nachhaltige, natürliche Lösung</strong>, um meine Wassereinlagerungen endlich loszuwerden.</p><h3><strong>Warum Wassertabletten oft nicht die Lösung sind</strong></h3><p>Ich möchte Ihnen ehrlich sagen, dass ich in der Vergangenheit selbst auf Wassertabletten gesetzt habe, doch langfristig erwiesen sie sich als <strong>ineffektiv</strong>. Sie entwässern den Körper zwar kurzfristig, kommen jedoch oft mit <strong>starken Nebenwirkungen</strong> und bekämpfen nicht die Ursache der Wassereinlagerungen.</p><p>Stattdessen musste ich immer <strong>höhere Dosen</strong> nehmen, was zu einer Abwärtsspirale führte. Meine Entdeckung bietet hingegen eine nachhaltige Lösung, die das <strong>Problem an der Wurzel bekämpft</strong>, indem sie die Venen stärkt und die Durchblutung anregt.</p>"
           }
         },
         "image_Fjc3nH": {
@@ -292,6 +301,7 @@
         "heading_GB6aVn",
         "richtext_dhyW8e",
         "image_FxQWfC",
+        "heading_NERUax",
         "richtext_JztaFz",
         "image_Fjc3nH",
         "heading_BEkBjE",
