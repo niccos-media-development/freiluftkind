@@ -136,7 +136,22 @@
         "richtext_JztaFz": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Hallo, ich bin Anna Berger und habe selbst fast 2 Jahre lang mit <strong>hartnäckigen Wassereinlagerungen gekämpft</strong>. Besonders betroffen waren meine Beine, Füße und Hände – das Resultat war nicht nur ein <strong>unästhetisches Erscheinungsbild</strong>, sondern auch <strong>gesundheitliche</strong> <strong>Beschwerden</strong>.</p><p>Die geschwollenen Beine führten zu Gelenkschmerzen und meine Füße fühlten sich oft so schwer an, dass jeder Schritt eine Qual war. Ich probierte alles Mögliche aus: <strong>Wassertabletten, Brennnesseltee und Lymphdrainagen</strong>. Doch nichts davon brachte langfristigen Erfolg. Die Tabletten <strong>wirkten nur kurzfristig</strong> und kamen mit einer Reihe von <strong>Nebenwirkungen</strong>, wie Kopfschmerzen und Muskelkrämpfen.</p><p>Als dann auch noch der Sommer nahte, wurde mir klar: Ich brauche eine <strong>nachhaltige, natürliche Lösung</strong>, um meine Wassereinlagerungen endlich loszuwerden.</p><h3><strong>Warum Wassertabletten oft nicht die Lösung sind</strong></h3><p>Ich möchte Ihnen ehrlich sagen, dass ich in der Vergangenheit selbst auf Wassertabletten gesetzt habe, doch langfristig erwiesen sie sich als <strong>ineffektiv</strong>. Sie entwässern den Körper zwar kurzfristig, kommen jedoch oft mit <strong>starken Nebenwirkungen</strong> und bekämpfen nicht die Ursache der Wassereinlagerungen.</p><p>Stattdessen musste ich immer <strong>höhere Dosen</strong> nehmen, was zu einer Abwärtsspirale führte. Meine Entdeckung bietet hingegen eine nachhaltige Lösung, die das <strong>Problem an der Wurzel bekämpft</strong>, indem sie die Venen stärkt und die Durchblutung anregt.</p>"
+            "content": "<p>Hallo, ich bin Anna Berger und habe selbst fast 2 Jahre lang mit <strong>hartnäckigen Wassereinlagerungen gekämpft</strong>. Besonders betroffen waren meine Beine, Füße und Hände – das Resultat war nicht nur ein <strong>unästhetisches Erscheinungsbild</strong>, sondern auch <strong>gesundheitliche</strong> <strong>Beschwerden</strong>.</p><p>Die geschwollenen Beine führten zu Gelenkschmerzen und meine Füße fühlten sich oft so schwer an, dass jeder Schritt eine Qual war. Ich probierte alles Mögliche aus: <strong>Wassertabletten, Brennnesseltee und Lymphdrainagen</strong>. Doch nichts davon brachte langfristigen Erfolg. Die Tabletten <strong>wirkten nur kurzfristig</strong> und kamen mit einer Reihe von <strong>Nebenwirkungen</strong>, wie Kopfschmerzen und Muskelkrämpfen.</p><p>Als dann auch noch der Sommer nahte, wurde mir klar: Ich brauche eine <strong>nachhaltige, natürliche Lösung</strong>, um meine Wassereinlagerungen endlich loszuwerden.</p>"
+          }
+        },
+        "heading_NAWMi9": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Wassertabletten oft nicht die Lösung sind",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6Rjiti": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ich möchte Ihnen ehrlich sagen, dass ich in der Vergangenheit selbst auf Wassertabletten gesetzt habe, doch langfristig erwiesen sie sich als <strong>ineffektiv</strong>. Sie entwässern den Körper zwar kurzfristig, kommen jedoch oft mit <strong>starken Nebenwirkungen</strong> und bekämpfen nicht die Ursache der Wassereinlagerungen.</p><p>Stattdessen musste ich immer <strong>höhere Dosen</strong> nehmen, was zu einer Abwärtsspirale führte. Meine Entdeckung bietet hingegen eine nachhaltige Lösung, die das <strong>Problem an der Wurzel bekämpft</strong>, indem sie die Venen stärkt und die Durchblutung anregt.</p>"
           }
         },
         "image_Fjc3nH": {
@@ -303,6 +318,8 @@
         "image_FxQWfC",
         "heading_NERUax",
         "richtext_JztaFz",
+        "heading_NAWMi9",
+        "richtext_6Rjiti",
         "image_Fjc3nH",
         "heading_BEkBjE",
         "richtext_XBTJC7",
