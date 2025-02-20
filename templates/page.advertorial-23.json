@@ -11,12 +11,508 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "80ch"
+      }
+    },
+    "freiluftkind_adv_controls_QDaFVC": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": true,
+        "remove_footer": true,
+        "hide_product_info": false
+      }
+    },
+    "rich_text_cTKqUt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtU6dx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kategorie: Gesunde Schuhe</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtU6dx"
+      ],
+      "custom_css": [
+        ".section-full {padding: 8px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#242424",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "freiluftkind_adv_text_kytcNe": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "sidebar_hK7Qeb": {
+          "type": "sidebar",
+          "settings": {
+            "title": "<p><strong>Ich und 350.000 Kunden empfehlen:</strong></p>",
+            "bullet_points": "<ul><li>Das deutsche Original</li><li>Mit Orthopäden entwickelt</li><li>Schmerzlinderung für den Körper</li><li>Komfortabel und bequem</li><li>Kundenservice per Mail & Telefon</li></ul>",
+            "sidebar_image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_schwarz_v2.jpg",
+            "cta_button_text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "cta_button_link": "shopify://collections/barfussschuhe",
+            "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
+            "bullet_icon": "shopify://shop_images/Icon.svg",
+            "bullet_bg_color": "#242424",
+            "bullet_text_color": "#ffffff"
+          }
+        },
+        "logo_cCfFMm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/gesundheitsmagazin.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 250
+          }
+        },
+        "heading_Pgwxz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Schmerzfrei in Rekordzeit! So habe ich meine Knieprobleme  mit diesen Schuhen geknackt!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "author_6PYk8k": {
+          "type": "author",
+          "settings": {
+            "imageadvheadimg": "shopify://shop_images/freiluftkind_adv_18_rev_1.jpg",
+            "imageadvheadtext": "<p>Erfahrungsbericht von Robert Oelke</p>"
+          }
+        },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-29.1.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_dhyW8e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Knieschmerzen sind weit verbreitet und können<strong> jede Bewegung zur Qual machen</strong>, sei es beim <strong>Aufstehen</strong>, <strong>Treppensteigen </strong>oder nach einem langen <strong>Spaziergang</strong>. Aber was wäre, wenn es eine einfache, <strong>natürliche Lösung</strong> gäbe, um Ihre Kniebeschwerden nachhaltig zu lindern?</p><p>Ich heiße Robert Oelke, 44 Jahre alt, berufstätig und Vater von zwei kleinen Fußball spielenden Jungs. Jahrelang habe ich mich mit stechenden Schmerzen in meinem rechten Knie geplagt. Anfangs dachte ich, es sei nur eine vorübergehende Überlastung, aber die Beschwerden wurden immer schlimmer. Besonders an der Innenseite des Knies trat der Schmerz beim spielen mit meinen Kindern auf, oft begleitet von einem diffusen Stechen unterhalb der Kniescheibe.</p><p>Die Diagnose lautete: <strong>Pes-anserinus-Syndrom</strong>, eine Reizung des Sehnenansatzes.</p>"
+          }
+        },
+        "heading_GB6aVn": {
+          "type": "heading",
+          "settings": {
+            "text": "Knieprobleme: Mehr als nur Alterserscheinungen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_FxQWfC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flk-adv-28-5.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "richtext_JztaFz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wussten Sie, dass<strong> jeder sechste Erwachsene in Deutschland unter Kniebeschwerden leidet</strong>? Dabei spielen weder das Alter noch das Gewicht die Hauptrolle, selbst junge, sportliche Menschen sind betroffen. Unsere Knie sind eines der komplexesten Gelenke im Körper. Sie bestehen aus zwei Gelenken, dem Kniekehlengelenk und dem Kniescheibengelenk, die gemeinsam die Beweglichkeit unserer Beine gewährleisten.</p><p>Doch genau diese Gelenke sind auch anfällig für Probleme. Die häufigsten Ursachen für Schmerzen sind:</p><ul><li><strong>Druckschmerzen an der Innenseite</strong> durch das Pes-anserinus-Syndrom.</li><li><strong>Arthrose</strong>, der schleichende Verschleiß der Gelenke, der Schmerzen überall im Knie verursachen kann.</li><li><strong>Läuferknie</strong>, ein Schmerz an der Außenseite, der häufig durch eine Überlastung der Bänder entsteht.</li><li><strong>Quadrizepssehnenentzündung</strong>, Schmerzen oberhalb der Kniescheibe, die beim Beugen des Knies auftreten.</li></ul><p>Diese Beschwerden sind nicht nur schmerzhaft, sie schränken auch die Lebensqualität massiv ein.</p>"
+          }
+        },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flk-adv-28-2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_BEkBjE": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Suche nach einer Lösung",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XBTJC7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wie viele von Ihnen habe auch ich zahlreiche Methoden ausprobiert, um meine Kniebeschwerden in den Griff zu bekommen: Physiotherapie, Cremes, Bandagen, aber nichts schien wirklich zu helfen. Der <strong>Schmerz kam immer wieder</strong>, und ich begann, mich damit abzufinden, dass er Teil meines Lebens bleibt.</p><p>Doch dann hörte ich von einer Lösung, die so simpel klang, dass ich kaum glauben konnte, dass sie funktioniert: Die <strong>richtige Kräftigung der Muskulatur</strong>.</p>"
+          }
+        },
+        "heading_n3fEBY": {
+          "type": "heading",
+          "settings": {
+            "text": "Die wahre Ursache meiner Knieschmerzen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rJ3nh3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Während eines Beratungsgesprächs mit dem <strong>Sportwissenschaftler Jonas Schaerk</strong> erfuhr ich, dass viele Knieprobleme auf eine Schwäche der Gesäßmuskulatur zurückzuführen sind. Besonders der kleine und mittlere Gesäßmuskel sind oft zu schwach und können das Kniegelenk nicht richtig stabilisieren.</p><p><strong>Jonas Schaerk erklärte mir:</strong> „Wenn Sie die richtigen Muskeln trainieren, vor allem den Gesäßbereich, können viele Knieschmerzen langfristig verschwinden.“ Ich war erstaunt, bisher hatte ich nie daran gedacht, dass meine Knieschmerzen von einer Schwäche in der Hüfte kommen könnten.</p>"
+          }
+        },
+        "image_fMWpAM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flk-adv-28-v2-3.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_kChkyk": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Lösung: Gezieltes Training, Bewegung und eine überraschende Empfehlung",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qz3Hkf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Neben gezieltem Muskeltraining empfahl mir Jonas Schaerk eine einfache, aber effektive Ergänzung: <strong>Freiluftkind Barfußschuhe</strong>. Diese Schuhe, so erklärte er, fördern das natürliche Gehen und aktivieren die Fuß- und Beinmuskulatur, was das Kniegelenk enorm entlasten kann. Er meinte, dass das Tragen solcher Schuhe in Kombination mit gezielten Übungen dazu beitragen könnte, meine Knie langfristig zu stabilisieren und die Schmerzen zu lindern.</p><p><strong>„Die Freiluftkind Barfußschuhe unterstützen den gesamten Bewegungsapparat, weil sie die natürlichen Bewegungsabläufe fördern und die Muskulatur aktivieren“</strong>, sagte er. Besonders für Menschen wie mich, die unter chronischen Knieschmerzen leiden, seien sie ideal, um den Druck auf das Gelenk zu mindern.</p><p><strong>Was mich besonders überzeugte: Es gibt sie auch gefüttert für den Winter! </strong>Jonas Schaerk wies mich darauf hin, dass es die Freiluftkind<strong> </strong>Barfußschuhe auch in einer speziell gefütterten Version für die kalte Jahreszeit gibt. So bleiben die Gelenke warm, was besonders bei kalten Temperaturen wichtig ist, da die Kälte die Schmerzen oft verstärkt.</p>"
+          }
+        },
+        "image_9btQ6y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_24_4.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_tgTNGL": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Expertenmeinung",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ycMgUk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Sportwissenschaftler erklärte mir: „Knieschmerzen entstehen häufig durch eine muskuläre Schwäche im Hüftbereich. Wenn Sie diese Muskulatur stärken und gleichzeitig durch die richtigen Schuhe, wie die<strong> </strong>Barfußschuhe, das Knie entlasten, können <strong>viele Schmerzen gelindert oder sogar beseitigt werden</strong>.“</p><p>Diese Kombination aus Training und den passenden Schuhen hat mein eigenes Leben verändert. Ich hätte nie gedacht, dass so eine einfache Maßnahme so einen großen Unterschied machen könnte.</p>"
+          }
+        },
+        "heading_GAMCjy": {
+          "type": "heading",
+          "settings": {
+            "text": "Die positiven Effekte",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_RbGBpd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mit der Zeit merkte ich, wie meine Knie immer stärker wurden. Die <strong>Schmerzen</strong>, die mich über Jahre hinweg begleitet hatten, <strong>verschwanden</strong> nach und nach. Doch das Beste daran? Ich <strong>fühlte mich insgesamt fitter</strong> und beweglicher beim spielen mit meinen Söhnen. Die tägliche Bewegung, unterstützt durch gezielte Übungen und das Tragen der Freiluftkind Barfußschuhe, hatte nicht nur mein Knie entlastet, sondern auch meinen Rücken und meine Hüfte gestärkt um mit den anderen Vätern beim Fußball Turnier mithalten zu können.</p>"
+          }
+        },
+        "image_P9wiEk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv-29.2.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_3dapLa": {
+          "type": "heading",
+          "settings": {
+            "text": "Fazit: Schmerzen im Knie müssen nicht sein",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kNPyDV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Knieschmerzen sind kein Schicksal, mit dem Sie sich abfinden müssen.</strong> Es gibt einfache, natürliche Wege, um die Beschwerden zu lindern und wieder beweglich zu werden. Ein gezieltes Muskeltraining, das die gesamte Bein- und Gesäßmuskulatur stärkt, in Kombination mit den Freiluftkind Barfußschuhen, kann den entscheidenden Unterschied machen.</p><p>Ich weiß, wie frustrierend und schmerzhaft Knieprobleme sein können. Aber ich habe auch erlebt, wie diese einfache Kombination aus Training und <strong>den richtigen Schuhen mein Leben verändert</strong> hat. Wenn auch Sie unter Knieschmerzen leiden, sollten Sie diesen Weg ausprobieren. Es könnte der Schlüssel zu einem schmerzfreien Leben sein.</p>"
+          }
+        },
+        "heading_6bR4LQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Der Geheimtipp",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XftrzX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Seit der Einführung von Freiluftkind Schuhen im Internet hat das Produkt eine enorme Nachfrage ausgelöst, und inzwischen wurden bereits über 500.000 Paare verkauft. Aufgrund der großen Beliebtheit und des positiven Kundenfeedbacks bietet das Unternehmen nun eine <strong>Geld-Zurück-Garantie</strong> an.</p><p>Außerdem gibt es aktuell einen <strong>Rabatt von 50% auf alle Modelle</strong>, solange der Vorrat reicht. Um zu prüfen, ob sie noch verfügbar sind, klicken Sie auf den unten stehenden Button.</p>"
+          }
+        },
+        "button_WCgG78": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Jetzt 50% Rabatt sichern!",
+            "url": "shopify://collections/barfussschuhe",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_hK7Qeb",
+        "logo_cCfFMm",
+        "heading_Pgwxz9",
+        "author_6PYk8k",
+        "image_AF7UjR",
+        "richtext_dhyW8e",
+        "heading_GB6aVn",
+        "image_FxQWfC",
+        "richtext_JztaFz",
+        "image_Fjc3nH",
+        "heading_BEkBjE",
+        "richtext_XBTJC7",
+        "heading_n3fEBY",
+        "richtext_rJ3nh3",
+        "image_fMWpAM",
+        "heading_kChkyk",
+        "richtext_qz3Hkf",
+        "image_9btQ6y",
+        "heading_tgTNGL",
+        "richtext_ycMgUk",
+        "heading_GAMCjy",
+        "richtext_RbGBpd",
+        "image_P9wiEk",
+        "heading_3dapLa",
+        "richtext_kNPyDV",
+        "heading_6bR4LQ",
+        "richtext_XftrzX",
+        "button_WCgG78"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "freiluftkind_testimonials_RyQMEJ": {
+      "type": "freiluftkind-testimonials",
+      "blocks": {
+        "testimonial_gcP4XV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/roman_heibling2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Klaus H.",
+            "content": "<p>„Barfußschuhe haben mir geholfen, wieder schmerzfrei zu gehen. Meine Knie danken es mir täglich!“</p>"
+          }
+        },
+        "testimonial_6xrFic": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kepler_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Petra M.",
+            "content": "<p>„Ich habe endlich keine Rückenschmerzen mehr. Ich wünschte, ich hätte sie früher ausprobiert!“</p>"
+          }
+        },
+        "testimonial_NxXK99": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ronny_helling.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Jürgen G.",
+            "content": "<p>\"Wir haben die Schuhe mittlerweile für alle Familienmitglieder gekauft - Gesundheit ist so wichtig!\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_gcP4XV",
+        "testimonial_6xrFic",
+        "testimonial_NxXK99"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Tausende zufriedene Kunden berichten von ihrem „Aha-Moment“, nachdem sie den Schritt zu Barfußschuhen gewagt haben:</h3>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "rich_text_8XY4wJ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3QDdEC": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3QDdEC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-full {padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_4r6XYQ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_d94FJz": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Kostenloser Versand",
+            "content": ""
+          }
+        },
+        "item_HDwz9T": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Geld-Zurück-Garantie",
+            "content": ""
+          }
+        },
+        "item_JfEbiM": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "350.000+ Kunden",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_d94FJz",
+        "item_HDwz9T",
+        "item_JfEbiM"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "select_dot_or_arrow": "arrow"
+      }
+    },
+    "rich_text_z66jka": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_y6BNWJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://freiluftkind.de/policies/legal-notice\" title=\"https://freiluftkind.de/policies/legal-notice\">Impressum</a> | <a href=\"https://freiluftkind.de/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutz</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y6BNWJ"
+      ],
+      "custom_css": [
+        "p {font-size: 12px;}",
+        ".section-full {padding-top: 32px; padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "freiluftkind_adv_controls_QDaFVC",
+    "rich_text_cTKqUt",
+    "freiluftkind_adv_text_kytcNe",
+    "freiluftkind_testimonials_RyQMEJ",
+    "rich_text_8XY4wJ",
+    "text_with_icons_4r6XYQ",
+    "rich_text_z66jka"
   ]
 }
