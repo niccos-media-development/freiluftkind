@@ -217,84 +217,6 @@
             "content": "<p>Warten Sie nicht länger! Lassen Sie sich nicht von Wassereinlagerungen und geschwollenen Beinen, Füßen oder Händen den Alltag verderben. Die Barfußschuhe bieten Ihnen eine natürliche und nachhaltige Lösung.</p><p>Holen Sie sich jetzt Ihr eigenes Paar Barfußschuhe und spüren Sie, wie Ihr Körper leichter, Ihre Schritte beschwerdefreier und Ihre Füße gesünder werden. <strong>Ein kleiner Tipp: Sichern Sie sich jetzt 50% Rabatt auf Ihr erstes Paar Barfußschuhe!</strong></p>"
           }
         },
-        "image_9btQ6y": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/adv_24_4.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        },
-        "heading_tgTNGL": {
-          "type": "heading",
-          "settings": {
-            "text": "Die Expertenmeinung",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_ycMgUk": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Der Sportwissenschaftler erklärte mir: „Knieschmerzen entstehen häufig durch eine muskuläre Schwäche im Hüftbereich. Wenn Sie diese Muskulatur stärken und gleichzeitig durch die richtigen Schuhe, wie die<strong> </strong>Barfußschuhe, das Knie entlasten, können <strong>viele Schmerzen gelindert oder sogar beseitigt werden</strong>.“</p><p>Diese Kombination aus Training und den passenden Schuhen hat mein eigenes Leben verändert. Ich hätte nie gedacht, dass so eine einfache Maßnahme so einen großen Unterschied machen könnte.</p>"
-          }
-        },
-        "heading_GAMCjy": {
-          "type": "heading",
-          "settings": {
-            "text": "Die positiven Effekte",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_RbGBpd": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Mit der Zeit merkte ich, wie meine Knie immer stärker wurden. Die <strong>Schmerzen</strong>, die mich über Jahre hinweg begleitet hatten, <strong>verschwanden</strong> nach und nach. Doch das Beste daran? Ich <strong>fühlte mich insgesamt fitter</strong> und beweglicher beim spielen mit meinen Söhnen. Die tägliche Bewegung, unterstützt durch gezielte Übungen und das Tragen der Freiluftkind Barfußschuhe, hatte nicht nur mein Knie entlastet, sondern auch meinen Rücken und meine Hüfte gestärkt um mit den anderen Vätern beim Fußball Turnier mithalten zu können.</p>"
-          }
-        },
-        "image_P9wiEk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/adv-29.2.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        },
-        "heading_3dapLa": {
-          "type": "heading",
-          "settings": {
-            "text": "Fazit: Schmerzen im Knie müssen nicht sein",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_kNPyDV": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Knieschmerzen sind kein Schicksal, mit dem Sie sich abfinden müssen.</strong> Es gibt einfache, natürliche Wege, um die Beschwerden zu lindern und wieder beweglich zu werden. Ein gezieltes Muskeltraining, das die gesamte Bein- und Gesäßmuskulatur stärkt, in Kombination mit den Freiluftkind Barfußschuhen, kann den entscheidenden Unterschied machen.</p><p>Ich weiß, wie frustrierend und schmerzhaft Knieprobleme sein können. Aber ich habe auch erlebt, wie diese einfache Kombination aus Training und <strong>den richtigen Schuhen mein Leben verändert</strong> hat. Wenn auch Sie unter Knieschmerzen leiden, sollten Sie diesen Weg ausprobieren. Es könnte der Schlüssel zu einem schmerzfreien Leben sein.</p>"
-          }
-        },
-        "heading_6bR4LQ": {
-          "type": "heading",
-          "settings": {
-            "text": "Der Geheimtipp",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_XftrzX": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Seit der Einführung von Freiluftkind Schuhen im Internet hat das Produkt eine enorme Nachfrage ausgelöst, und inzwischen wurden bereits über 500.000 Paare verkauft. Aufgrund der großen Beliebtheit und des positiven Kundenfeedbacks bietet das Unternehmen nun eine <strong>Geld-Zurück-Garantie</strong> an.</p><p>Außerdem gibt es aktuell einen <strong>Rabatt von 50% auf alle Modelle</strong>, solange der Vorrat reicht. Um zu prüfen, ob sie noch verfügbar sind, klicken Sie auf den unten stehenden Button.</p>"
-          }
-        },
         "button_WCgG78": {
           "type": "button",
           "settings": {
@@ -328,16 +250,6 @@
         "image_fMWpAM",
         "heading_kChkyk",
         "richtext_qz3Hkf",
-        "image_9btQ6y",
-        "heading_tgTNGL",
-        "richtext_ycMgUk",
-        "heading_GAMCjy",
-        "richtext_RbGBpd",
-        "image_P9wiEk",
-        "heading_3dapLa",
-        "richtext_kNPyDV",
-        "heading_6bR4LQ",
-        "richtext_XftrzX",
         "button_WCgG78"
       ],
       "settings": {
