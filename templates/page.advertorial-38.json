@@ -330,6 +330,15 @@
             "content": "<p>Ob eisige Temperaturen, hektischer Alltag oder Outdoor-Abenteuer – das richtige Schuhwerk macht den Unterschied für deine Fußgesundheit.</p><p>Deshalb möchte ich dir heute <strong>drei Barfußschuhe von Freiluftkind</strong> vorstellen, die nicht nur bequem, sondern auch <strong>orthopädisch sinnvoll</strong> sind – mit allen Vorteilen für Muskulatur, Gelenke und eine gesunde Fußhaltung.</p>"
           }
         },
+        "image_GyUedn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_38_5.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_pUah9A": {
           "type": "heading",
           "settings": {
@@ -339,13 +348,10 @@
             "gradient": ""
           }
         },
-        "image_GyUedn": {
-          "type": "image",
+        "richtext_cNBY9e": {
+          "type": "richtext",
           "settings": {
-            "image": "shopify://shop_images/adv_38_5.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
+            "content": "<p>Der <strong>Kepler</strong> ist der ideale Barfußschuh für den Winter.</p><p>Viele denken: Gefütterte Schuhe sind schlecht für die Fußgesundheit. Aber genau hier zeigt sich die Stärke des Keplers: Sein <strong>kuscheliges Innenfutter</strong> hält die Füße angenehm warm, ohne sie zu überhitzen.</p><p>Das <strong>wasserabweisende Material</strong> schützt zuverlässig vor Schnee und Matsch.</p><p>Die <strong>rutschfeste Sohle</strong> sorgt für sicheren Halt auf glatten Untergründen – ein Muss für eine gesunde, gelenkschonende Laufbewegung im Winter.</p>"
           }
         }
       },
@@ -384,8 +390,9 @@
         "liquid_UbJCLE",
         "heading_QEpdFV",
         "richtext_ekzDBN",
+        "image_GyUedn",
         "heading_pUah9A",
-        "image_GyUedn"
+        "richtext_cNBY9e"
       ],
       "settings": {
         "full_width": true,
