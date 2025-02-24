@@ -362,6 +362,21 @@
             "max_width": 1000,
             "mobile_max_width": 600
           }
+        },
+        "heading_qKahDz": {
+          "type": "heading",
+          "settings": {
+            "text": "Everest",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kVF4Wb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Für den Herbst und die Übergangszeit ist der <strong>Everest</strong> die perfekte Wahl.</p><p>Er sieht zwar aus wie ein Sneaker, bietet aber die volle Funktion eines Barfußschuhs.</p><p>Seine <strong>leichte Fütterung</strong> hält die Füße warm, ohne dass sie überhitzen.</p><p>Das <strong>wasserabweisende</strong> Material schützt vor Regen und Nässe, während die flexible Sohle für natürliche Bewegungsfreiheit sorgt.</p><p>Ob für lange Spaziergänge oder den Alltag – mit dem Everest bist du bestens ausgerüstet.</p>"
+          }
         }
       },
       "block_order": [
@@ -402,7 +417,9 @@
         "image_GyUedn",
         "heading_pUah9A",
         "richtext_cNBY9e",
-        "image_apwQHP"
+        "image_apwQHP",
+        "heading_qKahDz",
+        "richtext_kVF4Wb"
       ],
       "settings": {
         "full_width": true,
