@@ -130,6 +130,15 @@
             "content": "<p>Die meisten Menschen denken, dass bequeme, gut gepolsterte Schuhe ihren Füßen etwas Gutes tun.</p><p>Doch genau hier liegt das Problem: <strong>Unsere normalen Alltagsschuhe, über die wir kaum nachdenken, sind oft die eigentliche Ursache für Fußprobleme.</strong></p><p>Warum? Viele herkömmliche Schuhe sind <strong>nicht an die natürliche Anatomie des Fußes angepasst</strong>. Dadurch kann der Fuß nicht mehr so funktionieren, wie er eigentlich sollte.</p><p>Die Folgen bleiben oft jahrelang unbemerkt – bis Schmerzen, Fehlstellungen und Verspannungen auftreten, die nicht nur die Füße, sondern auch den gesamten Körper betreffen.</p>"
           }
         },
+        "heading_T9Wp8b": {
+          "type": "heading",
+          "settings": {
+            "text": "3 Kernprobleme normaler Schuhe:",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "image_FxQWfC": {
           "type": "image",
           "settings": {
@@ -254,6 +263,7 @@
         "richtext_dhyW8e",
         "heading_HLkHWb",
         "richtext_b8AQRy",
+        "heading_T9Wp8b",
         "image_FxQWfC",
         "heading_NERUax",
         "richtext_JztaFz",
