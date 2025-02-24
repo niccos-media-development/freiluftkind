@@ -196,6 +196,15 @@
             "gradient": ""
           }
         },
+        "image_RMreaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_8.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
         "heading_NAWMi9": {
           "type": "heading",
           "settings": {
@@ -304,6 +313,7 @@
         "image_FxQWfC",
         "richtext_JztaFz",
         "heading_NERUax",
+        "image_RMreaf",
         "heading_NAWMi9",
         "richtext_6Rjiti",
         "image_Fjc3nH",
