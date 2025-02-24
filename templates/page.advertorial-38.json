@@ -329,6 +329,15 @@
           "settings": {
             "content": "<p>Ob eisige Temperaturen, hektischer Alltag oder Outdoor-Abenteuer – das richtige Schuhwerk macht den Unterschied für deine Fußgesundheit.</p><p>Deshalb möchte ich dir heute <strong>drei Barfußschuhe von Freiluftkind</strong> vorstellen, die nicht nur bequem, sondern auch <strong>orthopädisch sinnvoll</strong> sind – mit allen Vorteilen für Muskulatur, Gelenke und eine gesunde Fußhaltung.</p>"
           }
+        },
+        "heading_pUah9A": {
+          "type": "heading",
+          "settings": {
+            "text": "Kepler",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
@@ -365,7 +374,8 @@
         "button_WCgG78",
         "liquid_UbJCLE",
         "heading_QEpdFV",
-        "richtext_ekzDBN"
+        "richtext_ekzDBN",
+        "heading_pUah9A"
       ],
       "settings": {
         "full_width": true,
