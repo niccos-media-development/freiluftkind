@@ -139,6 +139,15 @@
             "gradient": ""
           }
         },
+        "image_c88pke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_37_7.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_864hhW": {
           "type": "heading",
           "settings": {
@@ -146,6 +155,12 @@
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
+          }
+        },
+        "richtext_ndWm3G": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Unsere Zehen sind von Natur aus beweglich und breit gefächert – ähnlich wie unsere Finger, wenn wir sie ausstrecken. Diese natürliche Form sorgt dafür, dass das Körpergewicht optimal abgestützt wird und wir stabil stehen können.</p><p>Doch die meisten herkömmlichen Schuhe laufen zu spitz zu und sind zu schmal geschnitten. Die Zehen werden dadurch zusammengequetscht und dauerhaft in eine unnatürliche Position gedrückt.</p><p>Mit der Zeit entstehen schmerzhafte Fehlstellungen wie <strong>Hallux Valgus, Plattfüße oder Senk-Spreizfüße</strong>, die nicht nur die Füße betreffen, sondern auch Knie und Rücken belasten.</p>"
           }
         },
         "image_FxQWfC": {
@@ -273,7 +288,9 @@
         "heading_HLkHWb",
         "richtext_b8AQRy",
         "heading_T9Wp8b",
+        "image_c88pke",
         "heading_864hhW",
+        "richtext_ndWm3G",
         "image_FxQWfC",
         "heading_NERUax",
         "richtext_JztaFz",
