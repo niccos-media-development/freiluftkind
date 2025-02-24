@@ -211,6 +211,21 @@
             "content": "<p>Der Fuß ist ein komplexes System aus 26 Knochen, 33 Gelenken und über 100 Muskeln, das sich flexibel an den Untergrund anpassen kann.</p><p>Auch Sneaker haben oft eine <strong>steife Sohle</strong>, die den natürlichen Bewegungsablauf blockiert. Statt sich dynamisch abzurollen, bleibt der Fuß in einer festen Position gefangen.</p><p>Dadurch wird die Muskulatur schwächer, die stützende Funktion nimmt ab – und mit der Zeit verliert der Fuß seine natürliche Stoßdämpfung.</p><p>Die Belastung verteilt sich ungleichmäßig auf Gelenke und Sehnen – und selbst kurze Wege können schmerzhaft werden.</p>"
           }
         },
+        "heading_YK4Qhr": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Folge: Schmerzen und Fehlhaltungen im ganzen Körper",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qhecRA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3></h3><p>Viele spüren die Auswirkungen erst, wenn sich die Beschwerden schleichend bemerkbar machen.</p><p>Zuerst ein leichtes Ziehen in den Füßen am Abend. Dann beginnen die Ballen zu brennen, die Fersen schmerzen.</p><p>Die Knie melden sich nach einem langen Tag, und selbst entspanntes Stehen wird unangenehm. Irgendwann zieht es im Rücken – erst gelegentlich, dann dauerhaft.</p><p>Kein Wunder, dass <strong>über 70 % aller Erwachsenen bereits Fußfehlstellungen haben</strong> – oft, ohne es zu merken.</p><p>Viele halten die Schmerzen für normal, weil sie sich langsam einschleichen. Andere glauben, es liege einfach am Alter.</p><p><strong>Doch die Wahrheit ist: Deine Schuhe sind der Auslöser.</strong></p><p>Trotzdem tragen die meisten Menschen weiterhin Modelle, die ihre Füße Tag für Tag falsch belasten – nicht, weil sie es wollen, sondern weil sie die wahre Ursache ihrer Beschwerden nicht kennen.</p><p>Aber selbst wenn die Schmerzen längst Alltag sind – du musst dich nicht damit abfinden.</p><p><strong>Genau hier setzen Barfußschuhe an.</strong> Sie geben deinen Füßen den Raum und die Bewegungsfreiheit zurück, die sie brauchen, um wieder natürlich zu arbeiten – so, wie es von Natur aus vorgesehen ist.</p>"
+          }
+        },
         "image_Fjc3nH": {
           "type": "image",
           "settings": {
@@ -306,6 +321,8 @@
         "heading_NERUax",
         "image_RMreaf",
         "richtext_6Rjiti",
+        "heading_YK4Qhr",
+        "richtext_qhecRA",
         "image_Fjc3nH",
         "heading_BEkBjE",
         "richtext_XBTJC7",
