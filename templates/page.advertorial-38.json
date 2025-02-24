@@ -181,19 +181,19 @@
             "mobile_max_width": 600
           }
         },
-        "heading_NERUax": {
-          "type": "heading",
-          "settings": {
-            "text": "Meine Geschichte mit Wassereinlagerungen",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_JztaFz": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Hallo, ich bin Heike Berger und habe selbst fast 2 Jahre lang mit hartnäckigen Wassereinlagerungen gekämpft. Besonders betroffen waren meine Beine, Füße und Hände – das Resultat war nicht nur ein unästhetisches Erscheinungsbild, sondern auch <strong>gesundheitliche</strong> <strong>Beschwerden</strong>.</p><p>Die geschwollenen Beine führten zu Gelenkschmerzen und meine Füße fühlten sich oft so schwer an, dass jeder Schritt eine Qual war. Ich probierte alles Mögliche aus: <strong>Wassertabletten</strong>,<strong> Brennnesseltee </strong>und<strong> Lymphdrainagen</strong>. Doch nichts davon brachte langfristigen Erfolg. Die Tabletten <strong>wirkten nur kurzfristig</strong> und kamen mit einer Reihe von <strong>Nebenwirkungen</strong>, wie Kopfschmerzen und Muskelkrämpfen.</p><p>Als dann auch noch der Sommer nahte, wurde mir klar: Ich brauche eine nachhaltige, natürliche Lösung, um meine Wassereinlagerungen endlich loszuwerden.</p>"
+            "content": "<p>Viele glauben, dass eine dicke, gepolsterte Sohle oder ein leichter Absatz den Fuß besser stützt und für mehr Komfort sorgt. Doch genau das Gegenteil ist der Fall!</p><p>Denn nicht nur High Heels haben Absätze – auch viele Alltagsschuhe, selbst Sneakers, heben die Ferse leicht an.</p><p>Dein Fuß setzt beim Gehen nicht mehr gerade auf, sondern dein Gewicht verlagert sich nach vorne – das zwingt deine Waden in Dauerspannung und belastet gleichzeitig deine Knie, die die Fehlhaltung ausgleichen müssen.</p><p>Mit der Zeit summieren sich diese Belastungen und können zu Verspannungen, Fehlstellungen und Schmerzen führen – nicht nur in den Beinen, sondern bis hoch in den unteren Rücken.</p>"
+          }
+        },
+        "heading_NERUax": {
+          "type": "heading",
+          "settings": {
+            "text": "3. Geschwächte Muskulatur & höhere Gelenkbelastung durch starre Sohlen",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
           }
         },
         "heading_NAWMi9": {
@@ -302,8 +302,8 @@
         "richtext_ndWm3G",
         "heading_TX3BEU",
         "image_FxQWfC",
-        "heading_NERUax",
         "richtext_JztaFz",
+        "heading_NERUax",
         "heading_NAWMi9",
         "richtext_6Rjiti",
         "image_Fjc3nH",
