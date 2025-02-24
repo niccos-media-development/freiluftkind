@@ -460,22 +460,26 @@
     "rich_text_8XY4wJ": {
       "type": "rich-text",
       "blocks": {
-        "button_3QDdEC": {
-          "type": "button",
+        "heading_P9Dq88": {
+          "type": "heading",
           "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "JETZT VERFÜGBARKEIT PRÜFEN",
-            "url": "shopify://products/kepler-winter",
-            "background": "",
-            "text_color": ""
+            "text": "Exklusives Angebot",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_GwFKtP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Freiluftkind bietet ein exklusives Angebot, das keine Wünsche offen lässt:</p><p><strong>1 Paar Freiluftkind Barfußschuhe</strong> – maximaler Komfort & Fußgesundheit</p><p><strong>12 Monate Garantie</strong> – risikofrei testen und selbst überzeugen</p><p><strong>Bis zu 50 % sparen</strong> – aber nur für kurze Zeit verfügbar!</p><p><strong>Gratis Versand & einfache Retouren</strong></p>"
           }
         }
       },
       "block_order": [
-        "button_3QDdEC"
+        "heading_P9Dq88",
+        "richtext_GwFKtP"
       ],
-      "disabled": true,
       "custom_css": [
         ".section-full {padding-bottom: 32px;}"
       ],
@@ -483,9 +487,9 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#242424",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#ffffff"
       }
     },
     "rich_text_z66jka": {
