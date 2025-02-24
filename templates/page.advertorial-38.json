@@ -139,6 +139,15 @@
             "gradient": ""
           }
         },
+        "heading_864hhW": {
+          "type": "heading",
+          "settings": {
+            "text": "1. Gequetschte Zehen wegen zu enger Zehenbox",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "image_FxQWfC": {
           "type": "image",
           "settings": {
@@ -264,6 +273,7 @@
         "heading_HLkHWb",
         "richtext_b8AQRy",
         "heading_T9Wp8b",
+        "heading_864hhW",
         "image_FxQWfC",
         "heading_NERUax",
         "richtext_JztaFz",
