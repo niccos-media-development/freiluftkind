@@ -205,19 +205,10 @@
             "mobile_max_width": 400
           }
         },
-        "heading_NAWMi9": {
-          "type": "heading",
-          "settings": {
-            "text": "Warum Wassertabletten nicht die Lösung sind",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_6Rjiti": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ich möchte Ihnen ehrlich sagen, dass ich in der Vergangenheit selbst auf Wassertabletten gesetzt habe, doch langfristig erwiesen sie sich als <strong>ineffektiv</strong>. Sie entwässern den Körper zwar kurzfristig, kommen jedoch oft mit <strong>starken Nebenwirkungen</strong> und bekämpfen nicht die Ursache der Wassereinlagerungen.</p><p>Stattdessen musste ich immer <strong>höhere Dosen</strong> nehmen, was zu einer Abwärtsspirale führte. Meine Entdeckung bietet hingegen eine nachhaltige Lösung, die das <strong>Problem an der Wurzel bekämpft</strong>, indem sie die Venen stärkt und die Durchblutung anregt.</p>"
+            "content": "<p>Der Fuß ist ein komplexes System aus 26 Knochen, 33 Gelenken und über 100 Muskeln, das sich flexibel an den Untergrund anpassen kann.</p><p>Auch Sneaker haben oft eine <strong>steife Sohle</strong>, die den natürlichen Bewegungsablauf blockiert. Statt sich dynamisch abzurollen, bleibt der Fuß in einer festen Position gefangen.</p><p>Dadurch wird die Muskulatur schwächer, die stützende Funktion nimmt ab – und mit der Zeit verliert der Fuß seine natürliche Stoßdämpfung.</p><p>Die Belastung verteilt sich ungleichmäßig auf Gelenke und Sehnen – und selbst kurze Wege können schmerzhaft werden.</p>"
           }
         },
         "image_Fjc3nH": {
@@ -314,7 +305,6 @@
         "richtext_JztaFz",
         "heading_NERUax",
         "image_RMreaf",
-        "heading_NAWMi9",
         "richtext_6Rjiti",
         "image_Fjc3nH",
         "heading_BEkBjE",
