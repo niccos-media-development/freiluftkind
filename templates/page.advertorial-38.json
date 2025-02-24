@@ -323,6 +323,12 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "richtext_ekzDBN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ob eisige Temperaturen, hektischer Alltag oder Outdoor-Abenteuer – das richtige Schuhwerk macht den Unterschied für deine Fußgesundheit.</p><p>Deshalb möchte ich dir heute <strong>drei Barfußschuhe von Freiluftkind</strong> vorstellen, die nicht nur bequem, sondern auch <strong>orthopädisch sinnvoll</strong> sind – mit allen Vorteilen für Muskulatur, Gelenke und eine gesunde Fußhaltung.</p>"
+          }
         }
       },
       "block_order": [
@@ -358,7 +364,8 @@
         "richtext_qz3Hkf",
         "button_WCgG78",
         "liquid_UbJCLE",
-        "heading_QEpdFV"
+        "heading_QEpdFV",
+        "richtext_ekzDBN"
       ],
       "settings": {
         "full_width": true,
@@ -367,69 +374,6 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#000000"
-      }
-    },
-    "freiluftkind_testimonials_RyQMEJ": {
-      "type": "freiluftkind-testimonials",
-      "blocks": {
-        "testimonial_gcP4XV": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/roman_heibling2.jpg",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Klaus H.",
-            "content": "<p>„Barfußschuhe haben mir geholfen, wieder schmerzfrei zu gehen. Meine Knie danken es mir täglich!“</p>"
-          }
-        },
-        "testimonial_6xrFic": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/kepler_2.jpg",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Petra M.",
-            "content": "<p>„Ich habe endlich keine Rückenschmerzen mehr. Ich wünschte, ich hätte sie früher ausprobiert!“</p>"
-          }
-        },
-        "testimonial_NxXK99": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/ronny_helling.jpg",
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Jürgen G.",
-            "content": "<p>\"Wir haben die Schuhe mittlerweile für alle Familienmitglieder gekauft - Gesundheit ist so wichtig!\"</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_gcP4XV",
-        "testimonial_6xrFic",
-        "testimonial_NxXK99"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": true,
-        "subheading": "",
-        "title": "",
-        "content": "<h3>Tausende zufriedene Kunden berichten von ihrem „Aha-Moment“, nachdem sie den Schritt zu Barfußschuhen gewagt haben:</h3>",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
       }
     },
     "rich_text_8XY4wJ": {
@@ -461,68 +405,6 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "text_with_icons_4r6XYQ": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_d94FJz": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Kostenloser Versand",
-            "content": ""
-          }
-        },
-        "item_HDwz9T": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Geld-Zurück-Garantie",
-            "content": ""
-          }
-        },
-        "item_JfEbiM": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-love",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "350.000+ Kunden",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_d94FJz",
-        "item_HDwz9T",
-        "item_JfEbiM"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "select_dot_or_arrow": "arrow"
       }
     },
     "rich_text_z66jka": {
@@ -557,9 +439,7 @@
     "freiluftkind_adv_controls_QDaFVC",
     "rich_text_cTKqUt",
     "freiluftkind_adv_text_kytcNe",
-    "freiluftkind_testimonials_RyQMEJ",
     "rich_text_8XY4wJ",
-    "text_with_icons_4r6XYQ",
     "rich_text_z66jka"
   ]
 }
