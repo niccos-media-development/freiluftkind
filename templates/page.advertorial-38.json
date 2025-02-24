@@ -338,6 +338,14 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "image_GyUedn": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
@@ -375,7 +383,8 @@
         "liquid_UbJCLE",
         "heading_QEpdFV",
         "richtext_ekzDBN",
-        "heading_pUah9A"
+        "heading_pUah9A",
+        "image_GyUedn"
       ],
       "settings": {
         "full_width": true,
