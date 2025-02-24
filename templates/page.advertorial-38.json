@@ -353,6 +353,15 @@
           "settings": {
             "content": "<p>Der <strong>Kepler</strong> ist der ideale Barfußschuh für den Winter.</p><p>Viele denken: Gefütterte Schuhe sind schlecht für die Fußgesundheit. Aber genau hier zeigt sich die Stärke des Keplers: Sein <strong>kuscheliges Innenfutter</strong> hält die Füße angenehm warm, ohne sie zu überhitzen.</p><p>Das <strong>wasserabweisende Material</strong> schützt zuverlässig vor Schnee und Matsch.</p><p>Die <strong>rutschfeste Sohle</strong> sorgt für sicheren Halt auf glatten Untergründen – ein Muss für eine gesunde, gelenkschonende Laufbewegung im Winter.</p>"
           }
+        },
+        "image_apwQHP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/adv_38_6.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
         }
       },
       "block_order": [
@@ -392,7 +401,8 @@
         "richtext_ekzDBN",
         "image_GyUedn",
         "heading_pUah9A",
-        "richtext_cNBY9e"
+        "richtext_cNBY9e",
+        "image_apwQHP"
       ],
       "settings": {
         "full_width": true,
