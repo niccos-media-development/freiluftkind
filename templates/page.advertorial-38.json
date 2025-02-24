@@ -308,6 +308,21 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "liquid_UbJCLE": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin: 20px\"></div>"
+          }
+        },
+        "heading_QEpdFV": {
+          "type": "heading",
+          "settings": {
+            "text": "Als Orthopäde empfehle ich: 3 Barfußschuh-Modelle für unterschiedliche Anlässe",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
@@ -341,7 +356,9 @@
         "image_eHP4eh",
         "heading_kChkyk",
         "richtext_qz3Hkf",
-        "button_WCgG78"
+        "button_WCgG78",
+        "liquid_UbJCLE",
+        "heading_QEpdFV"
       ],
       "settings": {
         "full_width": true,
