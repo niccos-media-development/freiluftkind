@@ -91,6 +91,15 @@
             "imageadvheadtext": "<p>von Dr. Martin Berger, Orthopäde</p>"
           }
         },
+        "heading_WKehWJ": {
+          "type": "heading",
+          "settings": {
+            "text": "5 gesundheitliche Vorteile, die Barfußschuhe zur echten Alternative machen",
+            "heading_tag": "h6",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "image_AF7UjR": {
           "type": "image",
           "settings": {
@@ -234,6 +243,7 @@
         "logo_cCfFMm",
         "heading_Pgwxz9",
         "author_6PYk8k",
+        "heading_WKehWJ",
         "image_AF7UjR",
         "heading_GB6aVn",
         "richtext_dhyW8e",
