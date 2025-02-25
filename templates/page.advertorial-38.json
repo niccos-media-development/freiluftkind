@@ -93,6 +93,7 @@
         },
         "heading_WKehWJ": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "5 gesundheitliche Vorteile, die Barfußschuhe zur echten Alternative machen",
             "heading_tag": "h6",
