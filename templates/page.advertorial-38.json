@@ -185,7 +185,7 @@
         "richtext_JztaFz": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Viele glauben, dass eine dicke, gepolsterte Sohle oder ein leichter Absatz den Fuß besser stützt und für mehr Komfort sorgt. Doch genau das Gegenteil ist der Fall!</p><p>Denn nicht nur High Heels haben Absätze – auch viele Alltagsschuhe, selbst Sneakers, heben die Ferse leicht an.</p><p>Dein Fuß setzt beim Gehen nicht mehr gerade auf, sondern dein Gewicht verlagert sich nach vorne – das zwingt deine Waden in Dauerspannung und belastet gleichzeitig deine Knie, die die Fehlhaltung ausgleichen müssen.</p><p>Mit der Zeit summieren sich diese Belastungen und können zu Verspannungen, Fehlstellungen und Schmerzen führen – nicht nur in den Beinen, sondern bis hoch in den unteren Rücken.</p><p></p>"
+            "content": "<p>Viele glauben, dass eine dicke, gepolsterte Sohle oder ein leichter Absatz den Fuß besser stützt und für mehr Komfort sorgt. Doch <strong>genau das Gegenteil</strong> ist der Fall!</p><p>Denn nicht nur High Heels haben <strong>Absätze</strong> – auch viele Alltagsschuhe, selbst <strong>Sneakers, heben die Ferse leicht</strong> an.</p><p>Dein Fuß setzt beim Gehen nicht mehr gerade auf, sondern dein <strong>Gewicht verlagert sich nach vorne</strong> – das zwingt deine Waden in Dauerspannung und belastet gleichzeitig deine <strong>Knie</strong>, die die <strong>Fehlhaltung</strong> ausgleichen müssen.</p><p>Mit der Zeit summieren sich diese Belastungen und können zu <strong>Verspannungen</strong>, <strong>Fehlstellungen</strong> und <strong>Schmerzen</strong> führen – nicht nur in den Beinen, sondern bis hoch in den unteren Rücken.</p><p></p>"
           }
         },
         "heading_NERUax": {
