@@ -59,7 +59,7 @@
             "bullet_points": "<ul><li>Mit Orthopäden entwickelt</li><li>Das deutsche Original</li><li>12 Monate Garantie</li><li>Kostenloser Versand</li><li>Aktuell 50% Rabatt</li></ul>",
             "sidebar_image": "shopify://shop_images/freiluftkind_everest_all.jpg",
             "cta_button_text": "JETZT VERFÜGBARKEIT PRÜFEN",
-            "cta_button_link": "shopify://collections/barfussschuhe",
+            "cta_button_link": "https://freiluftkind.de/collections/barfussschuhe",
             "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
             "bullet_icon": "shopify://shop_images/Icon.svg",
             "bullet_bg_color": "#242424",
@@ -481,7 +481,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Jetzt sichern – bevor das Angebot endet!",
-            "url": "shopify://collections/barfussschuhe",
+            "url": "https://freiluftkind.de/collections/barfussschuhe",
             "background": "",
             "text_color": ""
           }
