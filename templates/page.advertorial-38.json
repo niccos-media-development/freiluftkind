@@ -209,7 +209,7 @@
         "richtext_6Rjiti": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Der Fuß ist ein komplexes System aus 26 Knochen, 33 Gelenken und über 100 Muskeln, das sich flexibel an den Untergrund anpassen kann.</p><p>Auch Sneaker haben oft eine <strong>steife Sohle</strong>, die den natürlichen Bewegungsablauf blockiert. Statt sich dynamisch abzurollen, bleibt der Fuß in einer festen Position gefangen.</p><p>Dadurch wird die Muskulatur schwächer, die stützende Funktion nimmt ab – und mit der Zeit verliert der Fuß seine natürliche Stoßdämpfung.</p><p>Die Belastung verteilt sich ungleichmäßig auf Gelenke und Sehnen – und selbst kurze Wege können schmerzhaft werden.</p><p></p>"
+            "content": "<p>Der Fuß ist ein komplexes System aus 26 Knochen, 33 Gelenken und über 100 Muskeln, das sich flexibel an den Untergrund anpassen kann.</p><p>Auch Sneaker haben oft eine <strong>steife Sohle</strong>, die den natürlichen Bewegungsablauf <strong>blockiert</strong>. Statt sich dynamisch abzurollen, bleibt der Fuß in einer <strong>festen Position gefangen</strong>.</p><p>Dadurch wird die <strong>Muskulatur schwächer</strong>, die stützende Funktion nimmt ab – und mit der Zeit <strong>verliert</strong> der Fuß seine natürliche Stoßdämpfung.</p><p>Die Belastung verteilt sich ungleichmäßig auf Gelenke und Sehnen – und selbst kurze Wege können schmerzhaft werden.</p><p></p>"
           }
         },
         "heading_YK4Qhr": {
