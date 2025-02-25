@@ -48,6 +48,20 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     {%- render 'funny-code' -%}
 
+    <!-- Advertorial URL Redirect Code -->
+    <script>
+      (function() {
+        var hostname = window.location.hostname;
+        var pathname = window.location.pathname;
+    
+        var allowedPathPattern = /^\/pages\/adv-\d+/;
+    
+        if (hostname === 'barfuss-ratgeber.de' && !allowedPathPattern.test(pathname)) {
+          window.location.href = 'https://freiluftkind.de' + pathname + window.location.search + window.location.hash;
+        }
+      })();
+    </script>
+
     <!-- Varify.io® code for Freiluftkind-->
     <script>
       window.varify = window.varify || {};
