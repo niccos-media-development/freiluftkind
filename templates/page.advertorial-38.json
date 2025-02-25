@@ -402,6 +402,17 @@
           "settings": {
             "content": "<p>Wenn die Temperaturen steigen, ist der <strong>Baker</strong> der perfekte Begleiter.</p><p>Sein <strong>atmungsaktives</strong> Material hält deine Füße trocken und sorgt für ein frisches Fußklima – ideal für warme Frühlingstage oder heiße Sommermonate.</p><p>Dabei sieht er aus wie ein klassischer Sneaker, bietet aber alle <strong>ergonomischen Vorteile eines Barfußschuhs</strong>.</p><p>Egal ob im Büro, beim Stadtbummel oder beim Abendessen mit Freunden – der Baker kombiniert Komfort mit Stil.</p><p><strong>Freiluftkind bietet noch viele weitere Modelle</strong>, die perfekt auf unterschiedliche Bedürfnisse und Aktivitäten abgestimmt sind.</p><p>Ob sportlich, elegant oder besonders robust – alle Schuhe gibt es in <strong>verschiedenen Farben</strong>, damit du nicht nur gesund, sondern auch stilbewusst unterwegs bist.</p><p>Auch die positiven Kundenbewertungen (<strong>über 350.000</strong>) sprechen für sich: Weniger Schmerzen, mehr Tragekomfort – dazu begeistern Haltbarkeit und Design immer wieder.</p><p>Ich finde man merkt, dass <strong>Freiluftkind</strong> von Anfang an mit einem klaren Anspruch entwickelt wurde: <strong>keine Kompromisse bei Qualität, Passform und Funktionalität!</strong></p><p>Für mich eine klare Empfehlung!</p>"
           }
+        },
+        "button_AFCtXg": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zum offiziellen Shop",
+            "url": "https://freiluftkind.de/collections/barfussschuhe",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
@@ -447,7 +458,8 @@
         "richtext_kVF4Wb",
         "image_jdCMTp",
         "heading_UPyRLy",
-        "richtext_EyhYzn"
+        "richtext_EyhYzn",
+        "button_AFCtXg"
       ],
       "settings": {
         "full_width": true,
