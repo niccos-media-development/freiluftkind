@@ -392,12 +392,20 @@
         "text_color": "",
         "select_dot_or_arrow": "arrow"
       }
+    },
+    "freiluftkind_timer_wdEjmY": {
+      "type": "freiluftkind-timer",
+      "settings": {
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
     }
   },
   "order": [
     "banner",
     "main",
     "rich_text_FWmBRV",
+    "freiluftkind_timer_wdEjmY",
     "featured_collection_hRctb6",
     "featured_collection_D6CHVM",
     "featured_collection_pKiXAR",
