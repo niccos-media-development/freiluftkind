@@ -126,7 +126,7 @@
         ".subheading {font-size: 20px;}"
       ],
       "settings": {
-        "collection": "sale",
+        "collection": "barfussschuhe",
         "products": [],
         "full_width": true,
         "stack_products": true,
@@ -135,7 +135,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Warm. Bequem. Natürlich.",
+        "title": "Bis zu 65% Rabatt sichern",
         "content": "",
         "link_url": "",
         "link_text": "",
