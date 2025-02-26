@@ -30,118 +30,6 @@
         "overlay_opacity": 30
       }
     },
-    "freiluftkind_collection_selector_VNDNTm": {
-      "type": "freiluftkind-collection-selector",
-      "blocks": {
-        "item_cztNzt": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/freiluftkind_linkblock_alle.jpg",
-            "stretch_image": false,
-            "freiluftkind-colsel-highlight": true,
-            "link_text": "Alle Modelle",
-            "link_url": "",
-            "background": "#ffffff",
-            "text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_pVFxyh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/freiluftkind_linkblock_sneaker_v2.jpg",
-            "stretch_image": false,
-            "freiluftkind-colsel-highlight": false,
-            "link_text": "Sneaker",
-            "link_url": "shopify://collections/barfussschuhe-sneaker",
-            "background": "#ffffff",
-            "text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_6xAWBV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/freiluftkind_linkblock_allwetterjpg.jpg",
-            "stretch_image": false,
-            "freiluftkind-colsel-highlight": false,
-            "link_text": "Allwetter",
-            "link_url": "shopify://collections/barfussschuhe-allwetter",
-            "background": "#ffffff",
-            "text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_bpyHxk": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/freiluftkind_linkblock_sport.jpg",
-            "stretch_image": false,
-            "freiluftkind-colsel-highlight": false,
-            "link_text": "Sport",
-            "link_url": "shopify://collections/barfussschuhe-sport-freizeit",
-            "background": "#ffffff",
-            "text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_QrpUfm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/freiluftkind_linkblock_kids.jpg",
-            "stretch_image": false,
-            "freiluftkind-colsel-highlight": false,
-            "link_text": "Kinder",
-            "link_url": "shopify://collections/kinder-barfussschuhe",
-            "background": "#ffffff",
-            "text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_tjJ4Ly": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/freiluftkind_linkblock_zubehoer.jpg",
-            "stretch_image": false,
-            "freiluftkind-colsel-highlight": false,
-            "link_text": "Zubehör",
-            "link_url": "shopify://collections/zubehoer-pflege",
-            "background": "#ffffff",
-            "text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_cztNzt",
-        "item_pVFxyh",
-        "item_6xAWBV",
-        "item_bpyHxk",
-        "item_QrpUfm",
-        "item_tjJ4Ly"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -531,7 +419,6 @@
   },
   "order": [
     "banner",
-    "freiluftkind_collection_selector_VNDNTm",
     "main",
     "rich_text_FWmBRV",
     "custom_html_hQGmAm",
