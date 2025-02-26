@@ -6,7 +6,6 @@
     width: fit-content;
     padding: 0px 10px; 
     font-weight: 600; 
-    font-size: 15px;
     margin-left: auto;
     margin-right: auto;
   ">00:00:00</div>
@@ -38,16 +37,18 @@
     background: {{ section.settings.background }};
     padding: 20px 0px;
   }
+
+  @media screen and (min-width: 700px) {
+    .freiluftkind_timer {
+
+    }
+  }
 </style>
 
 {% schema %}
 {
   "name": "Freiluftkind Timer",
   "settings": [
-    {
-      "type": "header",
-      "content": "Colors",
-    },
     {
       "type": "color",
       "id": "background",
