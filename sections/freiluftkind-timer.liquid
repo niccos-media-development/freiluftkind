@@ -29,13 +29,11 @@
     const endDateStr = "{{ section.settings.end_date }}";
     const endTimeStr = "{{ section.settings.end_time }}" || "23:59:59";
 
-    // Überprüfen, ob Enddatum korrekt eingegeben wurde
     const targetDate = new Date(endDateStr + 'T' + endTimeStr);
 
     const diff = targetDate - now;
 
     if (diff <= 0) {
-      // Timer abgelaufen: Text ändern und Timer ausblenden
       document.getElementById("flk_timer").style.display = 'none';
       document.querySelector(".flk_timer_active_text").style.display = 'none';
       document.getElementById("flk_timer_expired_text").style.display = 'block';
