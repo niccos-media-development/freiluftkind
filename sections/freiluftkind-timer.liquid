@@ -1,15 +1,6 @@
 <div class="freiluftkind_timer {% if section.settings.hide_mobile %}hide-mobile{% endif %} {% if section.settings.hide_desktop %}hide-desktop{% endif %}">
   <div class="freiluftkind_timer_container">
-    <div id="flk_timer" style="
-      border: solid 1px;
-      color: #fff;
-      border-radius: 50px;
-      width: fit-content;
-      padding: 0px 10px; 
-      font-weight: 600; 
-      font-size: 15px;
-      margin-left: 15px;
-    ">00:00:00</div>
+    <div id="flk_timer">00:00:00</div>
   </div> 
 </div>
 
@@ -35,7 +26,16 @@
 </script>
 
 <style>
- 
+  .flk_timer {
+    border: solid 1px;
+    color: #fff;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 0px 10px; 
+    font-weight: 600; 
+    font-size: 15px;
+    margin-left: 15px;
+  } 
 </style>
 
 {% schema %}
