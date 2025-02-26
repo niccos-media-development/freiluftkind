@@ -74,19 +74,10 @@
     "rich_text_FWmBRV": {
       "type": "rich-text",
       "blocks": {
-        "image_RVw6eP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/wald_freiluftkind_sale.jpg",
-            "width_mode": "custom",
-            "max_width": 500,
-            "mobile_max_width": 400
-          }
-        },
         "heading_fmcUUX": {
           "type": "heading",
           "settings": {
-            "text": "Für unvergessliche Waldspaziergänge",
+            "text": "Afterwork Rabatt 🎉",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -100,7 +91,6 @@
         }
       },
       "block_order": [
-        "image_RVw6eP",
         "heading_fmcUUX",
         "richtext_FXRTbj"
       ],
