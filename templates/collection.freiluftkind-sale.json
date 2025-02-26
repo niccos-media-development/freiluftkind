@@ -148,6 +148,36 @@
         "product_card_text_color": ""
       }
     },
+    "featured_collection_pKiXAR": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}",
+        "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
+        ".subheading {font-size: 20px;}"
+      ],
+      "settings": {
+        "collection": "kinder-barfussschuhe",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Für die kleinen Freiluftkinder",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "featured_collection_D6CHVM": {
       "type": "featured-collection",
       "disabled": true,
@@ -167,37 +197,6 @@
         "products_per_row_desktop": 4,
         "subheading": "Rabattcode LIEBE für 20%",
         "title": "Die zugehörigen Accessoires",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "linear-gradient(89deg, rgba(115, 11, 28, 1) 7%, rgba(170, 31, 46, 1) 94%)",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "featured_collection_pKiXAR": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 699px) {.scroll-area {padding-left: 8px; padding-right: 8px; } .product-list .product-card__badge-list .badge:not(:first-child) {display: none; }}",
-        "@media screen and (min-width: 1150px) {.section-header {grid-template-columns: 90%; }}",
-        ".subheading {font-size: 20px;}"
-      ],
-      "settings": {
-        "collection": "kinder-barfussschuhe",
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Für die kleinen Herzen",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -411,8 +410,8 @@
     "rich_text_FWmBRV",
     "freiluftkind_timer_wdEjmY",
     "featured_collection_hRctb6",
-    "featured_collection_D6CHVM",
     "featured_collection_pKiXAR",
+    "featured_collection_D6CHVM",
     "media_with_text_ifLGUc",
     "press_dam4Bt",
     "text_with_icons_ndbitQ"
