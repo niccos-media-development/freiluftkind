@@ -112,7 +112,7 @@
         "background": "#333828",
         "text_color": "#ffffff",
         "text": "Angebot endet in",
-        "expired_text": "Die Aktion ist leider vorbei.",
+        "expired_text": "Die Aktion ist leider vorbei",
         "end_date": "2025-02-27",
         "end_time": "23:59:59"
       }
