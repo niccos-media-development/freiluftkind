@@ -111,7 +111,10 @@
       "settings": {
         "background": "#333828",
         "text_color": "#ffffff",
-        "text": "Angebot endet in"
+        "text": "Angebot endet in",
+        "expired_text": "Die Aktion ist leider vorbei.",
+        "end_date": "2025-11-31",
+        "end_time": "23:59:59"
       }
     },
     "featured_collection_hRctb6": {
