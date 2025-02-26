@@ -109,8 +109,8 @@
     "freiluftkind_timer_wdEjmY": {
       "type": "freiluftkind-timer",
       "settings": {
-        "background": "#f9ca4f",
-        "text_color": "#1a1a1a",
+        "background": "#333828",
+        "text_color": "#ffffff",
         "text": "Angebot endet in"
       }
     },
