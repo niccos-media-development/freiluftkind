@@ -1,7 +1,7 @@
 <div class="freiluftkind_timer">
   
   {% if section.settings.text != blank %}
-    <div class="flk_timer_text">
+    <div class="flk_timer_text flk_timer_active_text">
       {{ section.settings.text }}
     </div>
   {% endif %}
@@ -17,24 +17,37 @@
     margin-right: auto;
   ">00:00:00</div>
   
+  <div id="flk_timer_expired_text" style="display: none; text-align: center; color: {{ section.settings.text_color }};">
+    {{ section.settings.expired_text }}
+  </div>
+  
 </div>
 
 <script>
   function updateTimer() {
     const now = new Date();
-    const midnight = new Date();
-    midnight.setHours(24, 0, 0, 0);
+    const endDateStr = "{{ section.settings.end_date }}";
+    const endTimeStr = "{{ section.settings.end_time }}" || "23:59:59";
 
-    const diff = midnight - now;
+    // Überprüfen, ob Enddatum korrekt eingegeben wurde
+    const targetDate = new Date(endDateStr + 'T' + endTimeStr);
 
-    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    const diff = targetDate - now;
 
-    document.getElementById("flk_timer").innerHTML = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    if (diff <= 0) {
+      // Timer abgelaufen: Text ändern und Timer ausblenden
+      document.getElementById("flk_timer").style.display = 'none';
+      document.querySelector(".flk_timer_active_text").style.display = 'none';
+      document.getElementById("flk_timer_expired_text").style.display = 'block';
+    } else {
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    if (diff > 0) {
-        setTimeout(updateTimer, 1000);
+      document.getElementById("flk_timer").innerHTML = 
+        `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+      setTimeout(updateTimer, 1000);
     }
   }
   updateTimer();
@@ -47,7 +60,7 @@
     font-size: 20px;
   }
 
-  .flk_timer_text {
+  .flk_timer_text, #flk_timer_expired_text {
     text-transform: uppercase;
     text-align: center;
     font-size: 14px;
@@ -60,7 +73,7 @@
       font-size: 24px;
     }
 
-    .flk_timer_text {
+    .flk_timer_text, #flk_timer_expired_text {
       font-size: 18px;
     }
   }
@@ -83,7 +96,25 @@
     {
       "type": "text",
       "id": "text",
-      "label": "Text"
+      "label": "Text vor Ablauf"
+    },
+    {
+      "type": "text",
+      "id": "expired_text",
+      "label": "Text nach Ablauf",
+      "default": "Die Aktion ist leider vorbei."
+    },
+    {
+      "type": "text",
+      "id": "end_date",
+      "label": "Enddatum (Format: YYYY-MM-DD)",
+      "default": "2025-12-31"
+    },
+    {
+      "type": "text",
+      "id": "end_time",
+      "label": "Endzeit (Format: HH:MM:SS, 24-Stunden-Format)",
+      "default": "23:59:59"
     }
   ],
   "presets": [
