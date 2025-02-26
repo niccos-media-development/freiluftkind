@@ -1,6 +1,62 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="freiluftkind_timer {% if section.settings.hide_mobile %}hide-mobile{% endif %} {% if section.settings.hide_desktop %}hide-desktop{% endif %}">
+  <div class="BF_An_Timer_Container">
+    <div id="bfcm_timer" style="
+      border: solid 1px;
+      color: #fff;
+      border-radius: 50px;
+      width: fit-content;
+      padding: 0px 10px; 
+      font-weight: 600; 
+      font-size: 15px;
+      margin-left: 15px;
+    ">00:00:00</div>
+  </div> 
+</div>
+
+<script>
+  function updateTimer() {
+    const now = new Date();
+    const midnight = new Date();
+    midnight.setHours(24, 0, 0, 0);
+
+    const diff = midnight - now;
+
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById("bfcm_timer").innerHTML = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+    if (diff > 0) {
+        setTimeout(updateTimer, 1000);
+    }
   }
+  updateTimer();
+</script>
+
+<style>
+ 
+</style>
+
+{% schema %}
+{
+  "name": "Freiluftkind Timer",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "hide_mobile",
+      "label": "Hide on Mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_desktop",
+      "label": "Hide on Desktop"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Freiluftkind Timer"
+    }
+  ]
+}
 {% endschema %}

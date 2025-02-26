@@ -106,18 +106,6 @@
         "text_color": "#ffffff"
       }
     },
-    "custom_html_hQGmAm": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "html": "",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_collection_hRctb6": {
       "type": "featured-collection",
       "custom_css": [
@@ -410,7 +398,6 @@
     "banner",
     "main",
     "rich_text_FWmBRV",
-    "custom_html_hQGmAm",
     "featured_collection_hRctb6",
     "featured_collection_D6CHVM",
     "featured_collection_pKiXAR",
