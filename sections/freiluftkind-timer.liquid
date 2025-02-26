@@ -1,6 +1,6 @@
 <div class="freiluftkind_timer">
   <div class="flk_timer_text">
-    
+    {{ section.settings.text }}
   </div>
   <div id="flk_timer" style="
     border: solid 1px;
@@ -56,11 +56,16 @@
     {
       "type": "color",
       "id": "background",
-      "label": "Background"
+      "label": "Background Color"
     },
     {
       "type": "color",
       "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "text",
+      "id": "text",
       "label": "Text"
     }
   ],
