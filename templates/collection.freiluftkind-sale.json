@@ -106,6 +106,13 @@
         "text_color": "#ffffff"
       }
     },
+    "freiluftkind_timer_wdEjmY": {
+      "type": "freiluftkind-timer",
+      "settings": {
+        "background": "#f9ca4f",
+        "text_color": ""
+      }
+    },
     "featured_collection_hRctb6": {
       "type": "featured-collection",
       "custom_css": [
@@ -391,13 +398,6 @@
         "background_gradient": "",
         "text_color": "",
         "select_dot_or_arrow": "arrow"
-      }
-    },
-    "freiluftkind_timer_wdEjmY": {
-      "type": "freiluftkind-timer",
-      "settings": {
-        "hide_mobile": false,
-        "hide_desktop": false
       }
     }
   },
