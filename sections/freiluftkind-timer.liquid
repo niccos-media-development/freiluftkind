@@ -1,6 +1,6 @@
 <div class="freiluftkind_timer {% if section.settings.hide_mobile %}hide-mobile{% endif %} {% if section.settings.hide_desktop %}hide-desktop{% endif %}">
-  <div class="BF_An_Timer_Container">
-    <div id="bfcm_timer" style="
+  <div class="freiluftkind_timer_container">
+    <div id="flk_timer" style="
       border: solid 1px;
       color: #fff;
       border-radius: 50px;
@@ -25,7 +25,7 @@
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    document.getElementById("bfcm_timer").innerHTML = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    document.getElementById("flk_timer").innerHTML = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 
     if (diff > 0) {
         setTimeout(updateTimer, 1000);
