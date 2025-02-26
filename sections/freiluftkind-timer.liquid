@@ -1,7 +1,11 @@
 <div class="freiluftkind_timer">
-  <div class="flk_timer_text">
-    {{ section.settings.text }}
-  </div>
+  
+  {% if section.settings.text != blank %}
+    <div class="flk_timer_text">
+      {{ section.settings.text }}
+    </div>
+  {% endif %}
+  
   <div id="flk_timer" style="
     border: solid 1px;
     color: {{ section.settings.text_color }};
@@ -12,6 +16,7 @@
     margin-left: auto;
     margin-right: auto;
   ">00:00:00</div>
+  
 </div>
 
 <script>
