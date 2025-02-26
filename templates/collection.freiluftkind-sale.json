@@ -101,8 +101,8 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#57664d",
-        "background_gradient": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(127deg, rgba(66, 74, 48, 1) 11%, rgba(138, 157, 123, 1) 100%)",
         "text_color": "#ffffff"
       }
     },
