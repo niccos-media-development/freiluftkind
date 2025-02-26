@@ -110,7 +110,8 @@
       "type": "freiluftkind-timer",
       "settings": {
         "background": "#f9ca4f",
-        "text_color": "#1a1a1a"
+        "text_color": "#1a1a1a",
+        "text": "Angebot endet in"
       }
     },
     "featured_collection_hRctb6": {
