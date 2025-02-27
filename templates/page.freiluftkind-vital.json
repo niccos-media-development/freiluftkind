@@ -19,6 +19,12 @@
     "rich_text_dMWfhc": {
       "type": "rich-text",
       "blocks": {
+        "subheading_ApT4zG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Der Kurs von Dr. Lothar Krüger"
+          }
+        },
         "image_Ec9W3G": {
           "type": "image",
           "settings": {
@@ -26,13 +32,6 @@
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 300
-          }
-        },
-        "subheading_ApT4zG": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
           }
         },
         "heading_iP3dYh": {
@@ -49,13 +48,25 @@
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
+        },
+        "button_pqGFfR": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_Ec9W3G",
         "subheading_ApT4zG",
+        "image_Ec9W3G",
         "heading_iP3dYh",
-        "richtext_zhkrwh"
+        "richtext_zhkrwh",
+        "button_pqGFfR"
       ],
       "settings": {
         "full_width": false,
