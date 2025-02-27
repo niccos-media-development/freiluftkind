@@ -37,10 +37,9 @@
         },
         "heading_iP3dYh": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
+            "text": "Dein einfacher und effektiver Schritt-für-Schritt Plan für ein schmerzfreies & aktives Leben!",
+            "heading_tag": "h5",
             "text_color": "",
             "gradient": ""
           }
@@ -62,7 +61,7 @@
         "full_width": false,
         "content_width": "small",
         "text_position": "center",
-        "background": "rgba(0,0,0,0)",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
