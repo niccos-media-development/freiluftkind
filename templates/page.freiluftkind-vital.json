@@ -46,7 +46,7 @@
         "richtext_zhkrwh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>✅ Einfacher Schritt-für-Schritt Plan zum Erfolg<br/>✅ Gezielte Linderung bei spezifischen Beschwerden<br/>✅ Steigerung der allgemeinen Lebensqualität </p><p><strong>Nur wenige Minuten Aufwand pro Tag!</strong></p>"
           }
         },
         "button_pqGFfR": {
@@ -54,7 +54,7 @@
           "settings": {
             "style": "fill",
             "size": "xl",
-            "text": "Button text",
+            "text": "Jetzt schmerzfrei werden!",
             "url": "",
             "background": "",
             "text_color": ""
