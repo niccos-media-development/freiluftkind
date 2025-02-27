@@ -133,6 +133,7 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
+        "usp_max_width": 100,
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
@@ -158,7 +159,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Warnhinweise",
+            "title": "Warnhinweise & Inhaltsstoffe",
             "content": "<p>Gesundheitsschäden durch Einatmen möglich! Nur im Freien und bei einer guten Belüftung verwenden! Nur wenige Sekunden sprühen! Großflächige Leder - und Textilerzeugnisse nur im Freien besprühen und gut auslüften lassen! Personen mit Atemwegserkrankungen (z.B. Asthma) bitten wir um besondere Vorsicht.</p><p>Enthält: n-Butylacetat; Kohlenwasserstoffe, C7, n-Alkane, Isoalkane, cyclische. Extrem entzündbares Aerosol. Behälter steht unter Druck: Kann bei Erwärmung bersten. Verursacht Hautreizungen. Kann Schläfrigkeit und Benommenheit verursachen. Schädlich für Wasserorganismen, mit langfristiger Wirkung.</p><p>Darf nicht in die Hände von Kindern gelangen.</p><p>Von Hitze, heißen Oberflächen, Funken, offene Flammen oder Zündquellen fernhalten. Vor Sonnenbestrahlung schützen. Nicht Temperaturen über 50°C/122°F aussetzen. Nicht rauchen. Nicht gegen offene Flammen oder anderen Zündquellen sprühen. Nicht durchstechen oder verbrennen, auch nicht nach Gebrauch.</p><p>Einatmen von Aerosol vermeiden. Bei Unwohlsein Giftinformationszentrum/Arzt anrufen. Inhalt/Behälter einer anerkannten Abfallentsorgungsanlage zuführen.</p>",
             "page": ""
           }
