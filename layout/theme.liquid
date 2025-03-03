@@ -49,6 +49,16 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     {%- render 'funny-code' -%}
 
+    <script>
+      window.addEventListener('scroll', e => {
+        if(document.documentElement.classList.contains('lock')) {
+          e.preventDefault();
+          e.stopPropagation();
+          return false;
+        }
+      }, { passive: false })
+    </script>
+
     <!-- Advertorial URL Redirect Code -->
     <script>
       (function() {

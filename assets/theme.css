@@ -5183,6 +5183,10 @@ tfoot td {
   overflow: hidden;
 }
 
+html.lock {
+  overflow: visible;
+}
+
 .text-with-icon {
   gap: var(--spacing-3);
   align-items: center;
