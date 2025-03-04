@@ -1,0 +1,363 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "freiluftkind_adv_controls_QDaFVC": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": true,
+        "remove_footer": true,
+        "hide_product_info": false
+      }
+    },
+    "rich_text_cTKqUt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtU6dx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kategorie: Gesundheit</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtU6dx"
+      ],
+      "custom_css": [
+        ".section-full {padding: 8px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#242424",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "freiluftkind_adv_text_kytcNe": {
+      "type": "freiluftkind-adv-text",
+      "blocks": {
+        "sidebar_hK7Qeb": {
+          "type": "sidebar",
+          "settings": {
+            "title": "<p><strong>Ich und 350.000 Kunden empfehlen:</strong></p>",
+            "bullet_points": "<ul><li>Das deutsche Original</li><li>Kundenservice per Mail & Telefon</li><li>Mit Orthopäden entwickelt</li><li>Schmerzlinderung für den Körper</li><li>Wasserabweisend und gefüttert</li><li>Komfortabel und bequem</li></ul>",
+            "sidebar_image": "shopify://shop_images/freiluftkind_barfussschuh_kepler_schwarz_v2.jpg",
+            "cta_button_text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "cta_button_link": "shopify://products/kepler-winter",
+            "cta_subtext": "✔️ Risikofreie Geld-Zurück-Garantie",
+            "bullet_icon": "shopify://shop_images/Icon.svg",
+            "bullet_bg_color": "#242424",
+            "bullet_text_color": "#ffffff"
+          }
+        },
+        "logo_cCfFMm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/gesundheitsmagazin.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 250
+          }
+        },
+        "heading_Pgwxz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Schützen Sie Ihre Füße im Frühjahr mit diesem revolutionären und wasserabweisendem Schuh!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "author_6PYk8k": {
+          "type": "author",
+          "settings": {
+            "imageadvheadimg": "shopify://shop_images/freiluftkind_lothar_krueger.jpg",
+            "imageadvheadtext": "<p><strong>vom Orthopäden Lothar Krüger</strong></p>"
+          }
+        },
+        "richtext_dhyW8e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mit jedem Frühling kommt die bekannte Herausforderung: Wechselhaftes Wetter und die Kälte die in unsere Schuhe kriecht und Schmerzen sowie Unbehagen in unseren Füßen verursacht. Ein falsch gewähltes Schuhwerk in diesen Monaten kann Ihre gesamte Gesundheit beeinträchtigen – aber der <a href=\"/products/kepler-winter\" title=\"Kepler - wasserabweisende & gefütterte Barfußschuhe\">Kepler-Übergangsschuh</a> von Freiluftkind ist die Lösung, auf die Ihre Füße gewartet haben!</p><p><strong>\"Gehen wie auf Wolken\" - das versprechen diese Frühjahrsschuhe</strong></p><p>Ihre Füße verdienen jeden Tag die beste Unterstützung und Wärme. Diese Schuhe wurden speziell entwickelt, um Ihnen sofortige Schmerzlinderung, angenehme Wärme und Atmungsaktivität zu bieten – zusätzlich sind sie wasserabweisend!</p>"
+          }
+        },
+        "image_AF7UjR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ad5_-_kepler.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_GB6aVn": {
+          "type": "heading",
+          "settings": {
+            "text": "Aber was macht den Kepler-Schuh so einzigartig?",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JztaFz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Das ergonomische Design, gepaart mit seiner gesunden Sohle für maximale Entlastung und einem wärmenden Innenfutter, sorgen für höchsten Komfort. Hinzu kommt die Anti-Rutsch-Sohle, die sicheren Halt auf glatten Oberflächen garantiert.</p><p><strong>Gesundheit und Wohlbefinden beginnen bei Ihren Füßen</strong></p><p>Egal, ob Sie den ganzen Tag auf den Beinen sind oder einfach nur nach ultimativem Komfort suchen, die <a href=\"/products/kepler-winter\" title=\"Kepler - wasserabweisende & gefütterte Barfußschuhe\">Kepler-Übergangsschuhe</a> sind Ihre ideale Wahl für wechselhafte Tage und den Start in das Frühjahr 2025. Dank dem wasserabweisendem Obermaterial bleiben Ihre Füße stets trocken und warm.</p>"
+          }
+        },
+        "image_FxQWfC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/taboola3.1png.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_BEkBjE": {
+          "type": "heading",
+          "settings": {
+            "text": "Für schmerzfreies Gehen und sicheren Halt bei jedem Schritt.",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XBTJC7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Frühling stellt Ihre Füße vor viele Herausforderungen. Mit  geeigneten Schuhen sind Sie jedoch für jedes Abenteuer bestens gerüstet. Wollen Sie das Risiko von Fußschmerzen und Unbehagen in der wechselhaften Jahreszeit minimieren? Diese Übergangsschuhe sind Ihre perfekte Unterstützung.</p><p><strong>Reduzieren Sie Fußschmerzen und steigern Sie Ihr Wohlbefinden!</strong></p>"
+          }
+        },
+        "image_Fjc3nH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/taboola_new_261bbc88-9fc9-4f15-bebf-00b71324df33.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_n3fEBY": {
+          "type": "heading",
+          "settings": {
+            "text": "Die wichtigsten Vorteile auf einen Blick:",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rJ3nh3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>✅ <strong>Schmerzlinderung<br/></strong>Über 350.000 zufriedene Kunden berichten bereits von einer signifikanten Schmerzlinderung.</p><p>✅ <strong>Wärme und Schutz<br/></strong>Unabhängig von der Außentemperatur bleiben Ihre Füße bei jedem Wetter stets warm und geschützt.</p><p>✅ <strong>Optimale Fußgesundheit<br/></strong>Entwickelt mit Orthopäden zur Förderung der Fußgesundheit und Vorbeugung von Fußproblemen.</p><p>Die Sohle mit Nullabsatz reguliert und mindert die Belastung auf Fuß-, Knie- und Hüftgelenke sowie den unteren Rücken.</p><p>Die <a href=\"https://freiluftkind.myshopify.com/products/kepler-winter\" title=\"Kepler - wasserabweisende & gefütterte Barfußschuhe\">Kepler-Barfußschuhe</a>, empfohlen von führenden Orthopäden und Podologen, sind das Ergebnis intensiver Forschung und Zusammenarbeit zur Bekämpfung von Fußschmerzen und Unbehagen während der kalten Monate.</p><p><strong>Nehmen Sie Ihre Fußgesundheit in die Hand – Schritt für Schritt!</strong></p>"
+          }
+        },
+        "image_fMWpAM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kepler_01.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "heading_6bR4LQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Jetzt risikofrei Testen oder Geld zurück!",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XftrzX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Hersteller ist so überzeugt von der Qualität dieser Übergangsschuhe und möchte, dass Sie es auch sind! Testen Sie Ihre neuen Schuhe ganz ohne Risiko. Sollten Sie aus irgendeinem Grund nicht zufrieden sein, erhalten Sie Ihr Geld zurück – unkompliziert und ohne Fragen. So gehen Sie sicher, dass Sie die perfekte Wahl für Ihre Füße getroffen haben.</p><p><strong>Aktuell erhalten Sie die Schuhe sogar mit einem exklusiven Rabatt von 50%, aber nur solange der Vorrat reicht!</strong></p>"
+          }
+        },
+        "button_WCgG78": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Nur heute 50% Rabatt sichern!",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "sidebar_hK7Qeb",
+        "logo_cCfFMm",
+        "heading_Pgwxz9",
+        "author_6PYk8k",
+        "richtext_dhyW8e",
+        "image_AF7UjR",
+        "heading_GB6aVn",
+        "richtext_JztaFz",
+        "image_FxQWfC",
+        "heading_BEkBjE",
+        "richtext_XBTJC7",
+        "image_Fjc3nH",
+        "heading_n3fEBY",
+        "richtext_rJ3nh3",
+        "image_fMWpAM",
+        "heading_6bR4LQ",
+        "richtext_XftrzX",
+        "button_WCgG78"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "freiluftkind_testimonials_RyQMEJ": {
+      "type": "freiluftkind-testimonials",
+      "blocks": {
+        "testimonial_gcP4XV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/adv_kunde_3_da779b4f-9560-4441-9e31-e23874ce322e.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Helga (63 Jahre)",
+            "content": "<p>Nach Jahren chronischer Fußschmerzen und unzähligen Versuchen mit verschiedenen Schuhmodellen entdeckte ich durch meinen Orthopäden Freiluftkind. Seitdem ich diese Barfußschuhe trage, habe ich eine deutliche Erleichterung meiner Beschwerden festgestellt. Mein Gang ist sicherer und ich genieße wieder lange Spaziergänge ohne Schmerzen.</p>"
+          }
+        },
+        "testimonial_6xrFic": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/kepler_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Anna (42 Jahre)",
+            "content": "<p>Als berufstätige Mutter bin ich ständig auf den Beinen. Die Freiluftkind-Barfußschuhe sind für mich der ideale Begleiter im Alltag geworden. Sie sind nicht nur bequem und stilvoll, sondern unterstützen auch meine Fußgesundheit. Ich fühle mich den ganzen Tag über aktiv und energiegeladen.</p>"
+          }
+        },
+        "testimonial_NxXK99": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/adv_kunde_1_52a7f54c-48cb-4b33-af44-1ba5a73c7ca3.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Markus (54 Jahre)",
+            "content": "<p>Ich bin begeisterter Wanderer, aber meine Knieprobleme haben mir fast den Spaß daran genommen. Die Empfehlung meines Orthopäden, Freiluftkind-Schuhe zu probieren, war ein Wendepunkt. Diese Schuhe bieten nicht nur hervorragenden Komfort und Halt auf unebenem Gelände, sondern haben auch meine Kniebeschwerden merklich verringert.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_gcP4XV",
+        "testimonial_6xrFic",
+        "testimonial_NxXK99"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Das sagen die Kunden:",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "rich_text_8XY4wJ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3QDdEC": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "JETZT VERFÜGBARKEIT PRÜFEN",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3QDdEC"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_z66jka": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_y6BNWJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://freiluftkind.de/policies/legal-notice\" title=\"https://freiluftkind.de/policies/legal-notice\">Impressum</a> | <a href=\"https://freiluftkind.de/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutz</a></p><p>Die Informationen auf diesen Seiten sind allgemeine Hinweise, die mit Unterstützung von Orthopäden und Experten nach bestem Wissen und Gewissen sorgfältig recherchiert und aufgearbeitet worden sind. Sie können und sollten aber keine ärztliche Untersuchung und Diagnose ersetzen. Bitte kontaktieren Sie einen Arzt, falls eine Voraussetzung dafür besteht. Aussagen zur besseren Belastung des Körpers beziehen sich auf eine aktuelle<strong> </strong><a href=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0632/5282/4281/files/minimalschuh_studie.pdf?v=1705418255\">Studie aus dem Jahre 2022</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_y6BNWJ"
+      ],
+      "custom_css": [
+        "p {font-size: 12px;}",
+        ".section-full {padding-top: 32px; padding-bottom: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "freiluftkind_adv_controls_QDaFVC",
+    "rich_text_cTKqUt",
+    "freiluftkind_adv_text_kytcNe",
+    "freiluftkind_testimonials_RyQMEJ",
+    "rich_text_8XY4wJ",
+    "rich_text_z66jka"
+  ]
+}
