@@ -279,13 +279,12 @@
         "testimonial_6xrFic",
         "testimonial_NxXK99"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_testimonials": true,
         "subheading": "",
-        "title": "",
-        "content": "<h3>Tausende zufriedene Kunden berichten von ihrem „Aha-Moment“, nachdem sie den Schritt zu Barfußschuhen gewagt haben:</h3>",
+        "title": "Das sagen die Kunden:",
+        "content": "",
         "link_url": "",
         "link_text": "",
         "background": "",
