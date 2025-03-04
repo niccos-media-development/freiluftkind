@@ -72,6 +72,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
+        "video": "shopify://files/videos/Euer Loft Film - FWG E-Commerce (Freiluftkind Barfußschuhe).mp4",
         "external_video_url": "",
         "poster": "shopify://shop_images/adv_36_6.jpg",
         "text_color": "#ffffff",
