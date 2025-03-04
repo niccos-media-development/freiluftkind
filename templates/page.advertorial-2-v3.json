@@ -203,54 +203,6 @@
             "background": "",
             "text_color": ""
           }
-        },
-        "heading_kChkyk": {
-          "type": "heading",
-          "settings": {
-            "text": "Wissenschaftliche Belege und Expertenmeinungen",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_qz3Hkf": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Die Freiluftkind Kepler wurden <strong>mit deutschen Orthopäden entwickelt</strong>, um gesunde Fußbewegungen zu fördern und den gesamten Körper zu entlasten. Jede Sohle ist patentiert, die Materialien sind schadstofffrei und entsprechen höchsten EU-Standards.</p><p>Studien zeigen, dass Schuhe wie der Kepler:</p><p>✅ Die natürliche Fußmuskulatur aktivieren.</p><p>✅ Knie- und Gelenkbeschwerden reduzieren.</p><p>✅ Rückenschmerzen durch bessere Haltung lindern.</p><p>Experten sind begeistert: „Barfußschuhe wie die von Freiluftkind stellen das Fundament unserer Bewegung wieder her und fördern eine gesunde Körperausrichtung.\"</p>"
-          }
-        },
-        "image_9btQ6y": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/taboola_new_261bbc88-9fc9-4f15-bebf-00b71324df33.png",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        },
-        "heading_tgTNGL": {
-          "type": "heading",
-          "settings": {
-            "text": "Vergleich mit anderen, weniger wirksamen Lösungen",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_ycMgUk": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Im Gegensatz zu billigen Dropshipper-Schuhen steht Freiluftkind für:</p><p>✅ Langlebigkeit: Kein Auseinanderfallen nach wenigen Wochen – dafür Garantie auf Qualität.</p><p>✅ Transparenz: Sitz in Deutschland, mit echtem Kundenservice und einfacher Rückgabemöglichkeit.</p><p>✅ Sicherheit: Schadstofffrei und ohne toxische Materialien, die Ihre Gesundheit gefährden.</p><p>Die billigen Schuhe, die ich gekauft habe, sahen nur gut aus. Nach einer Woche liefen sie sich bereits kaputt. Die Kepler von Freiluftkind fühlen sich dagegen wie eine Wohltat an und halten ihr Qualitätsversprechen. Ihr schlichtes Design gefällt mir gut und integriert sich gut in meinen Alltag.</p>"
-          }
-        },
-        "image_P9wiEk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/taboola3.1png.png",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
         }
       },
       "block_order": [
@@ -271,13 +223,7 @@
         "image_fMWpAM",
         "heading_6bR4LQ",
         "richtext_XftrzX",
-        "button_WCgG78",
-        "heading_kChkyk",
-        "richtext_qz3Hkf",
-        "image_9btQ6y",
-        "heading_tgTNGL",
-        "richtext_ycMgUk",
-        "image_P9wiEk"
+        "button_WCgG78"
       ],
       "settings": {
         "full_width": true,
