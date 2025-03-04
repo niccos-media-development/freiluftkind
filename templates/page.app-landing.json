@@ -41,11 +41,23 @@
           "settings": {
             "content": "<p>Du möchtest wissen, was dich in der App erwartet und auf welche Vorteile du dich freuen kannst? Dann <strong>klicke </strong>einfach unten <strong>aufs Video </strong>und lass es dir persönlich von uns erklären.</p>"
           }
+        },
+        "button_Qx6i9L": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Jetzt sichern",
+            "url": "#",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_y9BNYc",
-        "richtext_HNXEGp"
+        "richtext_HNXEGp",
+        "button_Qx6i9L"
       ],
       "settings": {
         "full_width": true,
@@ -66,8 +78,8 @@
         "heading_fiVQ4U": {
           "type": "heading",
           "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
+            "text": "Abspielen",
+            "heading_tag": "h6"
           }
         }
       },
