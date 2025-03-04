@@ -5184,7 +5184,7 @@ tfoot td {
 }
 
 html.lock {
-  overflow: visible;
+  overflow: hidden;
 }
 
 .text-with-icon {
