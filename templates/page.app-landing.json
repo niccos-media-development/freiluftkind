@@ -15,9 +15,73 @@
       "settings": {
         "content_width": "80ch"
       }
+    },
+    "rich_text_Fet3wG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_y9BNYc": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum den Freiluftkind Kurs?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_HNXEGp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du möchtest wissen, was dich in der App erwartet und auf welche Vorteile du dich freuen kannst? Dann <strong>klicke </strong>einfach unten <strong>aufs Video </strong>und lass es dir persönlich von uns erklären.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_y9BNYc",
+        "richtext_HNXEGp"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_C6qTBh": {
+      "type": "video",
+      "blocks": {
+        "play_JBBkry": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_fiVQ4U": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_JBBkry",
+        "heading_fiVQ4U"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_Fet3wG",
+    "video_C6qTBh"
   ]
 }
