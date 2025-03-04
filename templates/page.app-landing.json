@@ -151,6 +151,9 @@
         "item_UPHXjE",
         "item_qbpmVn"
       ],
+      "custom_css": [
+        ".multi-column__item img {max-width: 250px; margin-left: auto; margin-right: auto;}"
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
