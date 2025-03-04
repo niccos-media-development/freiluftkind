@@ -67,6 +67,9 @@
         "play_JBBkry",
         "heading_fiVQ4U"
       ],
+      "custom_css": [
+        ".text-custom {max-width:750px; margin-left:auto; margin-right:auto;}"
+      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
