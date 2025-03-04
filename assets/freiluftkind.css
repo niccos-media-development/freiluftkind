@@ -5,6 +5,12 @@
   display: none !important;
 }
 
+@media screen and (max-width: 1149px) {
+  html.lock .overlay {
+    pointer-events: none;
+  }
+}
+
 /*! Padding Drawer */
 @media screen and (max-width: 699px) {
   .navigation-drawer {
