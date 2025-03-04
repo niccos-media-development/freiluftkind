@@ -178,6 +178,32 @@
             "mobile_max_width": 600
           }
         },
+        "heading_6bR4LQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Jetzt risikofrei Testen oder Geld zurück!",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XftrzX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Hersteller ist so überzeugt von der Qualität dieser Übergangsschuhe und möchte, dass Sie es auch sind! Testen Sie Ihre neuen Schuhe ganz ohne Risiko. Sollten Sie aus irgendeinem Grund nicht zufrieden sein, erhalten Sie Ihr Geld zurück – unkompliziert und ohne Fragen. So gehen Sie sicher, dass Sie die perfekte Wahl für Ihre Füße getroffen haben.</p><p><strong>Aktuell erhalten Sie die Schuhe sogar mit einem exklusiven Rabatt von 50%, aber nur solange der Vorrat reicht!</strong></p>"
+          }
+        },
+        "button_WCgG78": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Nur heute 50% Rabatt sichern!",
+            "url": "shopify://products/kepler-winter",
+            "background": "",
+            "text_color": ""
+          }
+        },
         "heading_kChkyk": {
           "type": "heading",
           "settings": {
@@ -225,32 +251,6 @@
             "max_width": 1000,
             "mobile_max_width": 600
           }
-        },
-        "heading_6bR4LQ": {
-          "type": "heading",
-          "settings": {
-            "text": "Jetzt risikofrei Testen oder Geld zurück!",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_XftrzX": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Der Hersteller ist so überzeugt von der Qualität dieser Winterschuhe und möchte, dass Sie es auch sind! Testen Sie Ihre neuen Schuhe ganz ohne Risiko. Sollten Sie aus irgendeinem Grund nicht zufrieden sein, erhalten Sie Ihr Geld zurück – unkompliziert und ohne Fragen. So gehen Sie sicher, dass Sie die perfekte Wahl für Ihre Füße getroffen haben.</p><p><strong>Aktuell erhalten Sie die Winterschuhe sogar mit einem exklusiven Rabatt von 50%, aber nur solange der Vorrat reicht!</strong></p>"
-          }
-        },
-        "button_WCgG78": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Heute 50% Rabatt sichern!",
-            "url": "shopify://products/kepler-winter",
-            "background": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
@@ -269,15 +269,15 @@
         "heading_n3fEBY",
         "richtext_rJ3nh3",
         "image_fMWpAM",
+        "heading_6bR4LQ",
+        "richtext_XftrzX",
+        "button_WCgG78",
         "heading_kChkyk",
         "richtext_qz3Hkf",
         "image_9btQ6y",
         "heading_tgTNGL",
         "richtext_ycMgUk",
-        "image_P9wiEk",
-        "heading_6bR4LQ",
-        "richtext_XftrzX",
-        "button_WCgG78"
+        "image_P9wiEk"
       ],
       "settings": {
         "full_width": true,
