@@ -40,19 +40,19 @@
         "feature_Amar9U": {
           "type": "feature",
           "settings": {
-            "text": "🎁 The Perfect Gift"
+            "text": "✅ Lass dich täglich von Roland motivieren "
           }
         },
         "feature_pK7kxk": {
           "type": "feature",
           "settings": {
-            "text": "🔃 Reversible Design"
+            "text": "✅ Finde schnell und unkompliziert die passenden Übungen "
           }
         },
         "feature_L6Ejnt": {
           "type": "feature",
           "settings": {
-            "text": "💦 Machine Washable"
+            "text": "✅ Erfahrene Therapeuten stehen dir zur Seite "
           }
         }
       },
@@ -114,7 +114,7 @@
         "stars_size": 20,
         "stars_size_mobile": 20,
         "stars_mt": 16,
-        "rate_text": "<p>Rated <strong>4.4/5</strong> based on <strong>+1475</strong> reviews</p>",
+        "rate_text": "<p><strong>4.4/5</strong> basierend auf <strong>+1475</strong> Bewertungen</p>",
         "rate_text_custom": false,
         "rate_text_font": "josefin_sans_n4",
         "rate_text_size": 14,
@@ -136,17 +136,18 @@
         "badge_align": "start",
         "badge_align_mobile": "center",
         "badge_mt_mobile": 10,
+        "image": "shopify://shop_images/adv_37_11.jpg",
         "image_radius": 0,
         "image_border_thickness": 0,
         "image_blur_desktop": true,
         "absolute_image_width": 400,
         "absolute_image_radius": 0,
         "absolute_image_border_thickness": 0,
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
-        "button_other_color": "#FF75B8",
-        "button_hover_other_color": "#FF75B8",
-        "button_bg_color": "#000000",
+        "button_color": "#000000",
+        "button_hover_color": "#000000",
+        "button_other_color": "#000000",
+        "button_hover_other_color": "#000000",
+        "button_bg_color": "#f9ca4f",
         "button_bg_hover_color": "#000000",
         "button_border_color": "#000000",
         "button_border_hover_color": "#000000",
@@ -157,9 +158,9 @@
         "stars_color": "#000000",
         "rate_text_color": "#000000",
         "image_border_color": "#000000",
-        "image_blur_color": "#FFDAEC",
+        "image_blur_color": "#464f34",
         "absolute_image_border_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#f0f0f0",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
