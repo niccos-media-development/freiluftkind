@@ -16,6 +16,14 @@
         "content_width": "80ch"
       }
     },
+    "freiluftkind_adv_controls_VzkDyE": {
+      "type": "freiluftkind-adv-controls",
+      "settings": {
+        "remove_header": false,
+        "remove_footer": false,
+        "hide_product_info": true
+      }
+    },
     "rich_text_Fet3wG": {
       "type": "rich-text",
       "blocks": {
@@ -68,7 +76,7 @@
         "heading_fiVQ4U"
       ],
       "custom_css": [
-        ".text-custom {max-width:750px; margin-left:auto; margin-right:auto;}"
+        ".text-custom {max-width: 750px; margin-left: auto; margin-right: auto;}"
       ],
       "settings": {
         "full_width": true,
@@ -86,6 +94,7 @@
   },
   "order": [
     "main",
+    "freiluftkind_adv_controls_VzkDyE",
     "rich_text_Fet3wG",
     "video_C6qTBh"
   ]
