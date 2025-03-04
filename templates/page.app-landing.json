@@ -102,12 +102,74 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "multi_column_DA7JtN": {
+      "type": "multi-column",
+      "blocks": {
+        "item_T9tcbF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1-download.png",
+            "column_size": "3",
+            "title": "1. Registrieren",
+            "heading_tag": "h4",
+            "content": "<p>Einfach hier registrieren und <strong>30 Tage komplett kostenfrei</strong> testen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UPHXjE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2-download.png",
+            "column_size": "3",
+            "title": "2. App herunterladen",
+            "heading_tag": "h4",
+            "content": "<p><strong>App</strong> oder <strong>Web-Version</strong> nutzen und mit den passenden <strong>Übungen </strong>starten.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qbpmVn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3-painfree.png",
+            "column_size": "3",
+            "title": "3. Motiviert üben ",
+            "heading_tag": "h4",
+            "content": "<p>Wir unterstützen dich dabei, <strong>täglich </strong>etwas gegen deine Schmerzen zu tun.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_T9tcbF",
+        "item_UPHXjE",
+        "item_qbpmVn"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Starte jetzt mit der App — So einfach geht’s",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "freiluftkind_adv_controls_VzkDyE",
     "rich_text_Fet3wG",
-    "video_C6qTBh"
+    "video_C6qTBh",
+    "multi_column_DA7JtN"
   ]
 }
