@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1149px) {
-  html.lock .overlay {
+  html.lock [part="overlay"] {
     pointer-events: none;
   }
 }
