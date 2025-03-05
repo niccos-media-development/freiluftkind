@@ -339,8 +339,8 @@ Supported variables
           <payment-terms class="product-info__payment-terms">
             {%- capture product_installment_form_id -%}{{ product_form_id }}-product-installment-form{%- endcapture -%}
 
-            {%- form 'product', product, id: product_installment_form_id -%}
-              <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+            {%- form 'product', product, data-productid: product.id, id: product_installment_form_id -%}
+              <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
               {{- form | payment_terms -}}
             {%- endform -%}
           </payment-terms>
@@ -659,8 +659,8 @@ Supported variables
   {%- endcomment -%}
 
   {%- unless main_form_exists -%}
-    {%- form 'product', product, id: product_form_id, hidden: true -%}
-      <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
+    {%- form 'product', product, data-productid: product.id, id: product_form_id, hidden: true -%}
+      <input type="hidden" disabled name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>

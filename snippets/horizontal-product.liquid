@@ -46,9 +46,9 @@ Supported variables
           {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
             {%- capture product_form_id -%}complementary-product-{{ unique_id }}{%- endcapture -%}
 
-            {%- form 'product', product, id: product_form_id, is: 'product-form' -%}
+            {%- form 'product', product, data-productid: product.id, id: product_form_id, is: 'product-form' -%}
               <input type="hidden" name="quantity" value="1">
-              <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+              <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
               {%- render 'button', content: button_content, type: 'submit', size: 'sm', subdued: true -%}
             {%- endform -%}
           {%- else -%}

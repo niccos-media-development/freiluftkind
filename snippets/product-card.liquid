@@ -154,10 +154,10 @@
           {%- if product.variants.size == 1
             and product.selling_plan_groups.size == 0
           -%}
-            {%- form 'product', product, is: 'product-form' -%}
+            {%- form 'product', product, data-productid: product.id, is: 'product-form' -%}
               <input
                 type="hidden"
-                name="id"
+                name="id" data-productid="{{ product.id }}"
                 value="{{ product.selected_or_first_available_variant.id }}"
               >
 
